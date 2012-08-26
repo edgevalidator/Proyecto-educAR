@@ -3,12 +3,13 @@
         <configuration name="@Home|All Platforms" exportFolder="" />
         <configuration name="@Home|windows" exportFolder="" />
         <configuration name="mobile|All Platforms" exportFolder="" />
-        <configuration name="mobile|android" exportFolder="C:\Users\duter\Desktop\export_1" />
+        <configuration name="mobile|android" exportFolder="C:\Users\duter\Desktop\export_7" />
     </configurations>
     <LuaEditor>
         <files>
             <file absolutePath="C:\Users\duter\Documents\D&apos;Fusion\Giroscopo\init.lua" />
             <file absolutePath="C:\Users\duter\Documents\D&apos;Fusion\Giroscopo\touch.lua" />
+            <file absolutePath="C:\Users\duter\Documents\D&apos;Fusion\Giroscopo\functions.lua" />
         </files>
         <watch />
     </LuaEditor>
