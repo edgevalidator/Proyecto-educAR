@@ -1,0 +1,495 @@
+<dfusion version="3.20.20164">
+    <configurations>
+        <configuration name="@Home|All Platforms" encryption="none" />
+        <configuration name="@Home|windows" encryption="none" />
+        <configuration name="mobile|All Platforms" encryption="none" />
+        <configuration name="mobile|android" active="true" encryption="none" />
+    </configurations>
+    <settings>
+        <application applicationid="mobile|android:com.educar.giroscopo" title="" icon="" />
+        <rendering fullscreen="false" vsync="true" antialiasing="0" width="800" height="600" renderer="Platform Default" fullscreenrefreshrate="0" />
+    </settings>
+    <resources>
+        <files>
+            <file relativePath=".\Giroscopo.dpd">
+                <configuration name="@Home|windows" excludeFromBuild="true" />
+            </file>
+            <file relativePath=".\boton\boton.material">
+                <configuration name="@Home|All Platforms" excludeFromBuild="true" />
+                <configuration name="@Home|windows" excludeFromBuild="true" />
+                <configuration name="mobile|All Platforms" excludeFromBuild="true" />
+            </file>
+            <file relativePath=".\boton\boton.scene">
+                <configuration name="@Home|All Platforms" excludeFromBuild="true" />
+                <configuration name="@Home|windows" excludeFromBuild="true" />
+                <configuration name="mobile|All Platforms" excludeFromBuild="true" />
+            </file>
+            <file relativePath=".\boton\boton_Cylinder01_mesh.mesh">
+                <configuration name="@Home|All Platforms" excludeFromBuild="true" />
+                <configuration name="@Home|windows" excludeFromBuild="true" />
+                <configuration name="mobile|All Platforms" excludeFromBuild="true" />
+            </file>
+            <file relativePath=".\boton\boton_Cylinder02_mesh.mesh">
+                <configuration name="@Home|All Platforms" excludeFromBuild="true" />
+                <configuration name="@Home|windows" excludeFromBuild="true" />
+                <configuration name="mobile|All Platforms" excludeFromBuild="true" />
+            </file>
+            <file relativePath=".\boton\gris.png">
+                <configuration name="@Home|All Platforms" excludeFromBuild="true" />
+                <configuration name="@Home|windows" excludeFromBuild="true" />
+                <configuration name="mobile|All Platforms" excludeFromBuild="true" />
+            </file>
+            <file relativePath=".\boton\rojo.png">
+                <configuration name="@Home|All Platforms" excludeFromBuild="true" />
+                <configuration name="@Home|windows" excludeFromBuild="true" />
+                <configuration name="mobile|All Platforms" excludeFromBuild="true" />
+            </file>
+            <file relativePath=".\giroscopo_01\Lakerem2.jpg">
+                <configuration name="@Home|All Platforms" excludeFromBuild="true" />
+                <configuration name="@Home|windows" excludeFromBuild="true" />
+                <configuration name="mobile|All Platforms" excludeFromBuild="true" />
+            </file>
+            <file relativePath=".\giroscopo_01\factory_reflection_bw1.jpg">
+                <configuration name="@Home|All Platforms" excludeFromBuild="true" />
+                <configuration name="@Home|windows" excludeFromBuild="true" />
+                <configuration name="mobile|All Platforms" excludeFromBuild="true" />
+            </file>
+            <file relativePath=".\giroscopo_01\giroscopo_01.material">
+                <configuration name="@Home|All Platforms" excludeFromBuild="true" />
+                <configuration name="@Home|windows" excludeFromBuild="true" />
+                <configuration name="mobile|All Platforms" excludeFromBuild="true" />
+            </file>
+            <file relativePath=".\giroscopo_01\giroscopo_01.scene">
+                <configuration name="@Home|All Platforms" excludeFromBuild="true" />
+                <configuration name="@Home|windows" excludeFromBuild="true" />
+                <configuration name="mobile|All Platforms" excludeFromBuild="true" />
+            </file>
+            <file relativePath=".\giroscopo_01\giroscopo_01_Cylinder02_mesh.mesh">
+                <configuration name="@Home|All Platforms" excludeFromBuild="true" />
+                <configuration name="@Home|windows" excludeFromBuild="true" />
+                <configuration name="mobile|All Platforms" excludeFromBuild="true" />
+            </file>
+            <file relativePath=".\giroscopo_01\giroscopo_01_Torus01_mesh.mesh">
+                <configuration name="@Home|All Platforms" excludeFromBuild="true" />
+                <configuration name="@Home|windows" excludeFromBuild="true" />
+                <configuration name="mobile|All Platforms" excludeFromBuild="true" />
+            </file>
+            <file relativePath=".\giroscopo_01\giroscopo_01_Torus02_mesh.mesh">
+                <configuration name="@Home|All Platforms" excludeFromBuild="true" />
+                <configuration name="@Home|windows" excludeFromBuild="true" />
+                <configuration name="mobile|All Platforms" excludeFromBuild="true" />
+            </file>
+            <file relativePath=".\giroscopo_01\giroscopo_01_Torus03_mesh.mesh">
+                <configuration name="@Home|All Platforms" excludeFromBuild="true" />
+                <configuration name="@Home|windows" excludeFromBuild="true" />
+                <configuration name="mobile|All Platforms" excludeFromBuild="true" />
+            </file>
+            <file relativePath=".\giroscopo_01\giroscopo_01_Tube01_mesh.mesh">
+                <configuration name="@Home|All Platforms" excludeFromBuild="true" />
+                <configuration name="@Home|windows" excludeFromBuild="true" />
+                <configuration name="mobile|All Platforms" excludeFromBuild="true" />
+            </file>
+            <file relativePath=".\giroscopo_01\giroscopo_01_Tube02_mesh.mesh">
+                <configuration name="@Home|All Platforms" excludeFromBuild="true" />
+                <configuration name="@Home|windows" excludeFromBuild="true" />
+                <configuration name="mobile|All Platforms" excludeFromBuild="true" />
+            </file>
+            <file relativePath=".\giroscopo_01\giroscopo_01_Tube03_mesh.mesh">
+                <configuration name="@Home|All Platforms" excludeFromBuild="true" />
+                <configuration name="@Home|windows" excludeFromBuild="true" />
+                <configuration name="mobile|All Platforms" excludeFromBuild="true" />
+            </file>
+            <file relativePath=".\giroscopo_01\giroscopo_01_Tube04_mesh.mesh">
+                <configuration name="@Home|All Platforms" excludeFromBuild="true" />
+                <configuration name="@Home|windows" excludeFromBuild="true" />
+                <configuration name="mobile|All Platforms" excludeFromBuild="true" />
+            </file>
+            <file relativePath=".\giroscopo_01\giroscopo_01_Tube05_mesh.mesh">
+                <configuration name="@Home|All Platforms" excludeFromBuild="true" />
+                <configuration name="@Home|windows" excludeFromBuild="true" />
+                <configuration name="mobile|All Platforms" excludeFromBuild="true" />
+            </file>
+            <file relativePath=".\giroscopo_01\giroscopo_01_Tube06_mesh.mesh">
+                <configuration name="@Home|All Platforms" excludeFromBuild="true" />
+                <configuration name="@Home|windows" excludeFromBuild="true" />
+                <configuration name="mobile|All Platforms" excludeFromBuild="true" />
+            </file>
+            <file relativePath=".\giroscopo_01\giroscopo_01_Tube08_mesh.mesh">
+                <configuration name="@Home|All Platforms" excludeFromBuild="true" />
+                <configuration name="@Home|windows" excludeFromBuild="true" />
+                <configuration name="mobile|All Platforms" excludeFromBuild="true" />
+            </file>
+            <file relativePath=".\giroscopo_01\giroscopo_01_Tube09_mesh.mesh">
+                <configuration name="@Home|All Platforms" excludeFromBuild="true" />
+                <configuration name="@Home|windows" excludeFromBuild="true" />
+                <configuration name="mobile|All Platforms" excludeFromBuild="true" />
+            </file>
+            <file relativePath=".\giroscopo_01\giroscopo_01_Tube10_mesh.mesh">
+                <configuration name="@Home|All Platforms" excludeFromBuild="true" />
+                <configuration name="@Home|windows" excludeFromBuild="true" />
+                <configuration name="mobile|All Platforms" excludeFromBuild="true" />
+            </file>
+            <file relativePath=".\giroscopo_01\giroscopo_01_Tube12_mesh.mesh">
+                <configuration name="@Home|All Platforms" excludeFromBuild="true" />
+                <configuration name="@Home|windows" excludeFromBuild="true" />
+                <configuration name="mobile|All Platforms" excludeFromBuild="true" />
+            </file>
+            <file relativePath=".\giroscopo_01\giroscopo_01_Tube13_mesh.mesh">
+                <configuration name="@Home|All Platforms" excludeFromBuild="true" />
+                <configuration name="@Home|windows" excludeFromBuild="true" />
+                <configuration name="mobile|All Platforms" excludeFromBuild="true" />
+            </file>
+            <file relativePath=".\giroscopo_02\Lakerem2.jpg">
+                <configuration name="@Home|All Platforms" excludeFromBuild="true" />
+                <configuration name="@Home|windows" excludeFromBuild="true" />
+                <configuration name="mobile|All Platforms" excludeFromBuild="true" />
+            </file>
+            <file relativePath=".\giroscopo_02\factory_reflection_bw1.jpg">
+                <configuration name="@Home|All Platforms" excludeFromBuild="true" />
+                <configuration name="@Home|windows" excludeFromBuild="true" />
+                <configuration name="mobile|All Platforms" excludeFromBuild="true" />
+            </file>
+            <file relativePath=".\giroscopo_02\giroscopo_02.material">
+                <configuration name="@Home|All Platforms" excludeFromBuild="true" />
+                <configuration name="@Home|windows" excludeFromBuild="true" />
+                <configuration name="mobile|All Platforms" excludeFromBuild="true" />
+            </file>
+            <file relativePath=".\giroscopo_02\giroscopo_02.scene">
+                <configuration name="@Home|All Platforms" excludeFromBuild="true" />
+                <configuration name="@Home|windows" excludeFromBuild="true" />
+                <configuration name="mobile|All Platforms" excludeFromBuild="true" />
+            </file>
+            <file relativePath=".\giroscopo_02\giroscopo_02_Cylinder02_mesh.mesh">
+                <configuration name="@Home|All Platforms" excludeFromBuild="true" />
+                <configuration name="@Home|windows" excludeFromBuild="true" />
+                <configuration name="mobile|All Platforms" excludeFromBuild="true" />
+            </file>
+            <file relativePath=".\giroscopo_02\giroscopo_02_Torus01_mesh.mesh">
+                <configuration name="@Home|All Platforms" excludeFromBuild="true" />
+                <configuration name="@Home|windows" excludeFromBuild="true" />
+                <configuration name="mobile|All Platforms" excludeFromBuild="true" />
+            </file>
+            <file relativePath=".\giroscopo_02\giroscopo_02_Torus02_mesh.mesh">
+                <configuration name="@Home|All Platforms" excludeFromBuild="true" />
+                <configuration name="@Home|windows" excludeFromBuild="true" />
+                <configuration name="mobile|All Platforms" excludeFromBuild="true" />
+            </file>
+            <file relativePath=".\giroscopo_02\giroscopo_02_Torus03_mesh.mesh">
+                <configuration name="@Home|All Platforms" excludeFromBuild="true" />
+                <configuration name="@Home|windows" excludeFromBuild="true" />
+                <configuration name="mobile|All Platforms" excludeFromBuild="true" />
+            </file>
+            <file relativePath=".\giroscopo_02\giroscopo_02_Tube01_mesh.mesh">
+                <configuration name="@Home|All Platforms" excludeFromBuild="true" />
+                <configuration name="@Home|windows" excludeFromBuild="true" />
+                <configuration name="mobile|All Platforms" excludeFromBuild="true" />
+            </file>
+            <file relativePath=".\giroscopo_02\giroscopo_02_Tube02_mesh.mesh">
+                <configuration name="@Home|All Platforms" excludeFromBuild="true" />
+                <configuration name="@Home|windows" excludeFromBuild="true" />
+                <configuration name="mobile|All Platforms" excludeFromBuild="true" />
+            </file>
+            <file relativePath=".\giroscopo_02\giroscopo_02_Tube03_mesh.mesh">
+                <configuration name="@Home|All Platforms" excludeFromBuild="true" />
+                <configuration name="@Home|windows" excludeFromBuild="true" />
+                <configuration name="mobile|All Platforms" excludeFromBuild="true" />
+            </file>
+            <file relativePath=".\giroscopo_02\giroscopo_02_Tube04_mesh.mesh">
+                <configuration name="@Home|All Platforms" excludeFromBuild="true" />
+                <configuration name="@Home|windows" excludeFromBuild="true" />
+                <configuration name="mobile|All Platforms" excludeFromBuild="true" />
+            </file>
+            <file relativePath=".\giroscopo_02\giroscopo_02_Tube05_mesh.mesh">
+                <configuration name="@Home|All Platforms" excludeFromBuild="true" />
+                <configuration name="@Home|windows" excludeFromBuild="true" />
+                <configuration name="mobile|All Platforms" excludeFromBuild="true" />
+            </file>
+            <file relativePath=".\giroscopo_02\giroscopo_02_Tube06_mesh.mesh">
+                <configuration name="@Home|All Platforms" excludeFromBuild="true" />
+                <configuration name="@Home|windows" excludeFromBuild="true" />
+                <configuration name="mobile|All Platforms" excludeFromBuild="true" />
+            </file>
+            <file relativePath=".\giroscopo_02\giroscopo_02_Tube08_mesh.mesh">
+                <configuration name="@Home|All Platforms" excludeFromBuild="true" />
+                <configuration name="@Home|windows" excludeFromBuild="true" />
+                <configuration name="mobile|All Platforms" excludeFromBuild="true" />
+            </file>
+            <file relativePath=".\giroscopo_02\giroscopo_02_Tube09_mesh.mesh">
+                <configuration name="@Home|All Platforms" excludeFromBuild="true" />
+                <configuration name="@Home|windows" excludeFromBuild="true" />
+                <configuration name="mobile|All Platforms" excludeFromBuild="true" />
+            </file>
+            <file relativePath=".\giroscopo_02\giroscopo_02_Tube10_mesh.mesh">
+                <configuration name="@Home|All Platforms" excludeFromBuild="true" />
+                <configuration name="@Home|windows" excludeFromBuild="true" />
+                <configuration name="mobile|All Platforms" excludeFromBuild="true" />
+            </file>
+            <file relativePath=".\giroscopo_02\giroscopo_02_Tube12_mesh.mesh">
+                <configuration name="@Home|All Platforms" excludeFromBuild="true" />
+                <configuration name="@Home|windows" excludeFromBuild="true" />
+                <configuration name="mobile|All Platforms" excludeFromBuild="true" />
+            </file>
+            <file relativePath=".\giroscopo_02\giroscopo_02_Tube13_mesh.mesh">
+                <configuration name="@Home|All Platforms" excludeFromBuild="true" />
+                <configuration name="@Home|windows" excludeFromBuild="true" />
+                <configuration name="mobile|All Platforms" excludeFromBuild="true" />
+            </file>
+            <file relativePath=".\giroscopo_04\Lakerem2.jpg">
+                <configuration name="@Home|All Platforms" excludeFromBuild="true" />
+                <configuration name="@Home|windows" excludeFromBuild="true" />
+                <configuration name="mobile|All Platforms" excludeFromBuild="true" />
+            </file>
+            <file relativePath=".\giroscopo_04\factory_reflection_bw1.jpg">
+                <configuration name="@Home|All Platforms" excludeFromBuild="true" />
+                <configuration name="@Home|windows" excludeFromBuild="true" />
+                <configuration name="mobile|All Platforms" excludeFromBuild="true" />
+            </file>
+            <file relativePath=".\giroscopo_04\giroscopo_04.material">
+                <configuration name="@Home|All Platforms" excludeFromBuild="true" />
+                <configuration name="@Home|windows" excludeFromBuild="true" />
+                <configuration name="mobile|All Platforms" excludeFromBuild="true" />
+            </file>
+            <file relativePath=".\giroscopo_04\giroscopo_04.scene">
+                <configuration name="@Home|All Platforms" excludeFromBuild="true" />
+                <configuration name="@Home|windows" excludeFromBuild="true" />
+                <configuration name="mobile|All Platforms" excludeFromBuild="true" />
+            </file>
+            <file relativePath=".\giroscopo_04\giroscopo_04_Cylinder01_mesh.mesh">
+                <configuration name="@Home|All Platforms" excludeFromBuild="true" />
+                <configuration name="@Home|windows" excludeFromBuild="true" />
+                <configuration name="mobile|All Platforms" excludeFromBuild="true" />
+            </file>
+            <file relativePath=".\giroscopo_04\giroscopo_04_Cylinder02_mesh.mesh">
+                <configuration name="@Home|All Platforms" excludeFromBuild="true" />
+                <configuration name="@Home|windows" excludeFromBuild="true" />
+                <configuration name="mobile|All Platforms" excludeFromBuild="true" />
+            </file>
+            <file relativePath=".\giroscopo_04\giroscopo_04_Torus01_mesh.mesh">
+                <configuration name="@Home|All Platforms" excludeFromBuild="true" />
+                <configuration name="@Home|windows" excludeFromBuild="true" />
+                <configuration name="mobile|All Platforms" excludeFromBuild="true" />
+            </file>
+            <file relativePath=".\giroscopo_04\giroscopo_04_Torus02_mesh.mesh">
+                <configuration name="@Home|All Platforms" excludeFromBuild="true" />
+                <configuration name="@Home|windows" excludeFromBuild="true" />
+                <configuration name="mobile|All Platforms" excludeFromBuild="true" />
+            </file>
+            <file relativePath=".\giroscopo_04\giroscopo_04_Torus03_mesh.mesh">
+                <configuration name="@Home|All Platforms" excludeFromBuild="true" />
+                <configuration name="@Home|windows" excludeFromBuild="true" />
+                <configuration name="mobile|All Platforms" excludeFromBuild="true" />
+            </file>
+            <file relativePath=".\giroscopo_04\giroscopo_04_Torus04_mesh.mesh">
+                <configuration name="@Home|All Platforms" excludeFromBuild="true" />
+                <configuration name="@Home|windows" excludeFromBuild="true" />
+                <configuration name="mobile|All Platforms" excludeFromBuild="true" />
+            </file>
+            <file relativePath=".\giroscopo_04\giroscopo_04_Tube01_mesh.mesh">
+                <configuration name="@Home|All Platforms" excludeFromBuild="true" />
+                <configuration name="@Home|windows" excludeFromBuild="true" />
+                <configuration name="mobile|All Platforms" excludeFromBuild="true" />
+            </file>
+            <file relativePath=".\giroscopo_04\giroscopo_04_Tube02_mesh.mesh">
+                <configuration name="@Home|All Platforms" excludeFromBuild="true" />
+                <configuration name="@Home|windows" excludeFromBuild="true" />
+                <configuration name="mobile|All Platforms" excludeFromBuild="true" />
+            </file>
+            <file relativePath=".\giroscopo_04\giroscopo_04_Tube03_mesh.mesh">
+                <configuration name="@Home|All Platforms" excludeFromBuild="true" />
+                <configuration name="@Home|windows" excludeFromBuild="true" />
+                <configuration name="mobile|All Platforms" excludeFromBuild="true" />
+            </file>
+            <file relativePath=".\giroscopo_04\giroscopo_04_Tube04_mesh.mesh">
+                <configuration name="@Home|All Platforms" excludeFromBuild="true" />
+                <configuration name="@Home|windows" excludeFromBuild="true" />
+                <configuration name="mobile|All Platforms" excludeFromBuild="true" />
+            </file>
+            <file relativePath=".\giroscopo_04\giroscopo_04_Tube05_mesh.mesh">
+                <configuration name="@Home|All Platforms" excludeFromBuild="true" />
+                <configuration name="@Home|windows" excludeFromBuild="true" />
+                <configuration name="mobile|All Platforms" excludeFromBuild="true" />
+            </file>
+            <file relativePath=".\giroscopo_04\giroscopo_04_Tube06_mesh.mesh">
+                <configuration name="@Home|All Platforms" excludeFromBuild="true" />
+                <configuration name="@Home|windows" excludeFromBuild="true" />
+                <configuration name="mobile|All Platforms" excludeFromBuild="true" />
+            </file>
+            <file relativePath=".\giroscopo_04\giroscopo_04_Tube08_mesh.mesh">
+                <configuration name="@Home|All Platforms" excludeFromBuild="true" />
+                <configuration name="@Home|windows" excludeFromBuild="true" />
+                <configuration name="mobile|All Platforms" excludeFromBuild="true" />
+            </file>
+            <file relativePath=".\giroscopo_04\giroscopo_04_Tube09_mesh.mesh">
+                <configuration name="@Home|All Platforms" excludeFromBuild="true" />
+                <configuration name="@Home|windows" excludeFromBuild="true" />
+                <configuration name="mobile|All Platforms" excludeFromBuild="true" />
+            </file>
+            <file relativePath=".\giroscopo_04\giroscopo_04_Tube10_mesh.mesh">
+                <configuration name="@Home|All Platforms" excludeFromBuild="true" />
+                <configuration name="@Home|windows" excludeFromBuild="true" />
+                <configuration name="mobile|All Platforms" excludeFromBuild="true" />
+            </file>
+            <file relativePath=".\giroscopo_04\giroscopo_04_Tube12_mesh.mesh">
+                <configuration name="@Home|All Platforms" excludeFromBuild="true" />
+                <configuration name="@Home|windows" excludeFromBuild="true" />
+                <configuration name="mobile|All Platforms" excludeFromBuild="true" />
+            </file>
+            <file relativePath=".\giroscopo_04\giroscopo_04_Tube13_mesh.mesh">
+                <configuration name="@Home|All Platforms" excludeFromBuild="true" />
+                <configuration name="@Home|windows" excludeFromBuild="true" />
+                <configuration name="mobile|All Platforms" excludeFromBuild="true" />
+            </file>
+            <file relativePath=".\init.lua">
+                <configuration name="@Home|All Platforms" excludeFromBuild="true" />
+                <configuration name="@Home|windows" excludeFromBuild="true" />
+                <configuration name="mobile|All Platforms" excludeFromBuild="true" />
+            </file>
+            <file relativePath=".\touch.lua">
+                <configuration name="@Home|All Platforms" excludeFromBuild="true" />
+                <configuration name="@Home|windows" excludeFromBuild="true" />
+                <configuration name="mobile|All Platforms" excludeFromBuild="true" />
+            </file>
+            <file relativePath=".\tracker\cameraCalib.xml">
+                <configuration name="@Home|All Platforms" excludeFromBuild="true" />
+                <configuration name="@Home|windows" excludeFromBuild="true" />
+                <configuration name="mobile|All Platforms" excludeFromBuild="true" />
+            </file>
+            <file relativePath=".\tracker\cameraCalib_android_320x240.xml">
+                <configuration name="@Home|All Platforms" excludeFromBuild="true" />
+                <configuration name="@Home|windows" excludeFromBuild="true" />
+                <configuration name="mobile|All Platforms" excludeFromBuild="true" />
+            </file>
+            <file relativePath=".\tracker\lune.jpg">
+                <configuration name="@Home|All Platforms" excludeFromBuild="true" />
+                <configuration name="@Home|windows" excludeFromBuild="true" />
+                <configuration name="mobile|All Platforms" excludeFromBuild="true" />
+            </file>
+            <file relativePath=".\tracker\object_1.0.bin">
+                <configuration name="@Home|All Platforms" excludeFromBuild="true" />
+                <configuration name="@Home|windows" excludeFromBuild="true" />
+                <configuration name="mobile|All Platforms" excludeFromBuild="true" />
+            </file>
+            <file relativePath=".\tracker\tracker.xml">
+                <configuration name="@Home|All Platforms" excludeFromBuild="true" />
+                <configuration name="@Home|windows" excludeFromBuild="true" />
+                <configuration name="mobile|All Platforms" excludeFromBuild="true" />
+            </file>
+            <file relativePath=".\tracker\videoConfig.xml">
+                <configuration name="@Home|All Platforms" excludeFromBuild="true" />
+                <configuration name="@Home|windows" excludeFromBuild="true" />
+                <configuration name="mobile|All Platforms" excludeFromBuild="true" />
+            </file>
+            <file relativePath=".\tracker\videoConfig_android_backcam_320x240_15fps.xml">
+                <configuration name="@Home|All Platforms" excludeFromBuild="true" />
+                <configuration name="@Home|windows" excludeFromBuild="true" />
+                <configuration name="mobile|All Platforms" excludeFromBuild="true" />
+            </file>
+        </files>
+    </resources>
+    <userfilefilters>
+        <file relativePath="boton/boton.material" />
+        <file relativePath="boton/boton.scene" />
+        <file relativePath="boton/boton_Cylinder01_mesh.mesh" />
+        <file relativePath="boton/boton_Cylinder02_mesh.mesh" />
+        <file relativePath="boton/gris.png" />
+        <file relativePath="boton/rojo.png" />
+        <file relativePath="Giroscopo.dfs" />
+        <file relativePath="Giroscopo.dpd" />
+        <file relativePath="giroscopo_01/factory_reflection_bw1.jpg" />
+        <file relativePath="giroscopo_01/giroscopo_01.material" />
+        <file relativePath="giroscopo_01/giroscopo_01.scene" />
+        <file relativePath="giroscopo_01/giroscopo_01_Cylinder02_mesh.mesh" />
+        <file relativePath="giroscopo_01/giroscopo_01_Torus01_mesh.mesh" />
+        <file relativePath="giroscopo_01/giroscopo_01_Torus02_mesh.mesh" />
+        <file relativePath="giroscopo_01/giroscopo_01_Torus03_mesh.mesh" />
+        <file relativePath="giroscopo_01/giroscopo_01_Tube01_mesh.mesh" />
+        <file relativePath="giroscopo_01/giroscopo_01_Tube02_mesh.mesh" />
+        <file relativePath="giroscopo_01/giroscopo_01_Tube03_mesh.mesh" />
+        <file relativePath="giroscopo_01/giroscopo_01_Tube04_mesh.mesh" />
+        <file relativePath="giroscopo_01/giroscopo_01_Tube05_mesh.mesh" />
+        <file relativePath="giroscopo_01/giroscopo_01_Tube06_mesh.mesh" />
+        <file relativePath="giroscopo_01/giroscopo_01_Tube08_mesh.mesh" />
+        <file relativePath="giroscopo_01/giroscopo_01_Tube09_mesh.mesh" />
+        <file relativePath="giroscopo_01/giroscopo_01_Tube10_mesh.mesh" />
+        <file relativePath="giroscopo_01/giroscopo_01_Tube12_mesh.mesh" />
+        <file relativePath="giroscopo_01/giroscopo_01_Tube13_mesh.mesh" />
+        <file relativePath="giroscopo_01/Lakerem2.jpg" />
+        <file relativePath="giroscopo_02/factory_reflection_bw1.jpg" />
+        <file relativePath="giroscopo_02/giroscopo_02.material" />
+        <file relativePath="giroscopo_02/giroscopo_02.scene" />
+        <file relativePath="giroscopo_02/giroscopo_02_Cylinder02_mesh.mesh" />
+        <file relativePath="giroscopo_02/giroscopo_02_Torus01_mesh.mesh" />
+        <file relativePath="giroscopo_02/giroscopo_02_Torus02_mesh.mesh" />
+        <file relativePath="giroscopo_02/giroscopo_02_Torus03_mesh.mesh" />
+        <file relativePath="giroscopo_02/giroscopo_02_Tube01_mesh.mesh" />
+        <file relativePath="giroscopo_02/giroscopo_02_Tube02_mesh.mesh" />
+        <file relativePath="giroscopo_02/giroscopo_02_Tube03_mesh.mesh" />
+        <file relativePath="giroscopo_02/giroscopo_02_Tube04_mesh.mesh" />
+        <file relativePath="giroscopo_02/giroscopo_02_Tube05_mesh.mesh" />
+        <file relativePath="giroscopo_02/giroscopo_02_Tube06_mesh.mesh" />
+        <file relativePath="giroscopo_02/giroscopo_02_Tube08_mesh.mesh" />
+        <file relativePath="giroscopo_02/giroscopo_02_Tube09_mesh.mesh" />
+        <file relativePath="giroscopo_02/giroscopo_02_Tube10_mesh.mesh" />
+        <file relativePath="giroscopo_02/giroscopo_02_Tube12_mesh.mesh" />
+        <file relativePath="giroscopo_02/giroscopo_02_Tube13_mesh.mesh" />
+        <file relativePath="giroscopo_02/Lakerem2.jpg" />
+        <file relativePath="giroscopo_04/factory_reflection_bw1.jpg" />
+        <file relativePath="giroscopo_04/giroscopo_04.material" />
+        <file relativePath="giroscopo_04/giroscopo_04.scene" />
+        <file relativePath="giroscopo_04/giroscopo_04_Cylinder01_mesh.mesh" />
+        <file relativePath="giroscopo_04/giroscopo_04_Cylinder02_mesh.mesh" />
+        <file relativePath="giroscopo_04/giroscopo_04_Torus01_mesh.mesh" />
+        <file relativePath="giroscopo_04/giroscopo_04_Torus02_mesh.mesh" />
+        <file relativePath="giroscopo_04/giroscopo_04_Torus03_mesh.mesh" />
+        <file relativePath="giroscopo_04/giroscopo_04_Torus04_mesh.mesh" />
+        <file relativePath="giroscopo_04/giroscopo_04_Tube01_mesh.mesh" />
+        <file relativePath="giroscopo_04/giroscopo_04_Tube02_mesh.mesh" />
+        <file relativePath="giroscopo_04/giroscopo_04_Tube03_mesh.mesh" />
+        <file relativePath="giroscopo_04/giroscopo_04_Tube04_mesh.mesh" />
+        <file relativePath="giroscopo_04/giroscopo_04_Tube05_mesh.mesh" />
+        <file relativePath="giroscopo_04/giroscopo_04_Tube06_mesh.mesh" />
+        <file relativePath="giroscopo_04/giroscopo_04_Tube08_mesh.mesh" />
+        <file relativePath="giroscopo_04/giroscopo_04_Tube09_mesh.mesh" />
+        <file relativePath="giroscopo_04/giroscopo_04_Tube10_mesh.mesh" />
+        <file relativePath="giroscopo_04/giroscopo_04_Tube12_mesh.mesh" />
+        <file relativePath="giroscopo_04/giroscopo_04_Tube13_mesh.mesh" />
+        <file relativePath="giroscopo_04/Lakerem2.jpg" />
+        <file relativePath="init.lua" />
+        <file relativePath="touch.lua" />
+        <file relativePath="tracker/cameraCalib.xml" />
+        <file relativePath="tracker/cameraCalib_android_320x240.xml" />
+        <file relativePath="tracker/lune.jpg" />
+        <file relativePath="tracker/object_1.0.bin" />
+        <file relativePath="tracker/tracker.xml" />
+        <file relativePath="tracker/videoConfig.xml" />
+        <file relativePath="tracker/videoConfig_android_backcam_320x240_15fps.xml" />
+    </userfilefilters>
+    <scene name="scene_0" position="{0.000000, 0.000000, 0.000000}" orientation="{1.000000, 0.000000, 0.000000, 0.000000}" visible="true" rendergroup="50" scale="{1.000000, 1.000000, 1.000000}" visibilitymask="-1" ambient="{0.200000, 0.200000, 0.200000}" shadowtechnique="none">
+        <timeline name="timeline" />
+        <platform target="windows">
+            <camera name="camera" file="tracker\cameraCalib.xml" position="{0.000000, 0.000000, 0.000000}" orientation="{1.000000, 0.000000, 0.000000, 0.000000}" visible="true" rendergroup="50" scale="{1.000000, 1.000000, 1.000000}" visibilitymask="-1" fovy="0.785398" nearclip="0.010000" farclip="10000.000000" aspectratio="1.333333" />
+        </platform>
+        <platform target="android">
+            <camera name="camera" file="tracker\cameraCalib_android_320x240.xml" position="{0.000000, 0.000000, 0.000000}" orientation="{1.000000, 0.000000, 0.000000, 0.000000}" visible="true" rendergroup="50" scale="{1.000000, 1.000000, 1.000000}" visibilitymask="-1" fovy="0.785398" nearclip="0.010000" farclip="10000.000000" aspectratio="1.333333" />
+        </platform>
+        <platform target="windows">
+            <videocapture name="vidCap" file="tracker\videoConfig.xml" master="true" loop="false" speed="1.000000" autoplay="true" selectdialog="true" compactdialog="true" save="false" />
+        </platform>
+        <platform target="android">
+            <videocapture name="vidCap" file="tracker\videoConfig_android_backcam_320x240_15fps.xml" master="true" loop="false" speed="1.000000" autoplay="true" selectdialog="true" compactdialog="true" save="false" />
+        </platform>
+        <videotexture name="background" videocapture="vidCap" />
+        <viewport name="viewport" dimensions="{0.000000, 0.000000, 1.000000, 1.000000}" background="background" visibilitymask="-1" bgvideorect="{0.000000, 0.000000, 1.000000, 1.000000}" backgroundcolor="{0.000000, 0.000000, 0.000000, 1.000000}" camera="camera" scheme="Default" />
+        <light name="light" position="{0.000000, 0.000000, 0.000000}" orientation="{1.000000, 0.000000, 0.000000, 0.000000}" visible="true" rendergroup="50" scale="{0.100000, 0.100000, 0.100000}" visibilitymask="-1" type="point" enabled="true" diffuse="{1.000000, 1.000000, 1.000000}" specular="{0.000000, 0.000000, 0.000000}" powerscale="1.000000" attenuation="{100000.000000, 1.000000, 0.000000, 0.000000}" castshadows="true" shadowcamerasetup="default" />
+        <object3d name="ref" position="{0.000000, 0.000000, 0.000000}" orientation="{1.000000, 0.000000, 0.000000, 0.000000}" visible="true" rendergroup="50" scale="{1.000000, 1.000000, 1.000000}" visibilitymask="-1">
+            <scenette name="boton_01" file="boton\boton.scene" position="{-3.500000, -5.500000, -1.000000}" orientation="{0.763129, 0.640342, 0.056023, -0.066765}" visible="true" rendergroup="50" scale="{0.100000, 0.100000, 0.100000}" visibilitymask="-1" />
+            <scenette name="boton_02" file="boton\boton.scene" position="{-1.000000, -5.500000, -1.000000}" orientation="{0.763129, 0.640342, 0.056023, -0.066765}" visible="true" rendergroup="50" scale="{0.100000, 0.100000, 0.100000}" visibilitymask="-1" />
+            <scenette name="giroscopo_01" file="giroscopo_01\giroscopo_01.scene" position="{0.000000, 0.000000, 0.000000}" orientation="{0.707107, 0.707107, 0.000000, 0.000000}" visible="false" rendergroup="50" scale="{1.000000, 1.000000, 1.000000}" visibilitymask="-1" />
+            <scenette name="giroscopo_02" file="giroscopo_02\giroscopo_02.scene" position="{0.000000, 0.000000, 0.000000}" orientation="{0.707107, 0.707107, 0.000000, 0.000000}" visible="false" rendergroup="50" scale="{1.000000, 1.000000, 1.000000}" visibilitymask="-1" />
+            <scenette name="boton_04" file="boton\boton.scene" position="{1.500000, -5.500000, -1.000000}" orientation="{0.763129, 0.640342, 0.056023, -0.066765}" visible="true" rendergroup="50" scale="{0.100000, 0.100000, 0.100000}" visibilitymask="-1" />
+            <scenette name="giroscopo_04" file="giroscopo_04\giroscopo_04.scene" position="{0.000000, 0.000000, 0.000000}" orientation="{0.707107, 0.707107, 0.000000, 0.000000}" visible="false" rendergroup="50" scale="{1.000000, 1.000000, 1.000000}" visibilitymask="-1" />
+        </object3d>
+        <luascript name="init" file="init.lua" enabled="true" framerate="0.000000" priority="0" trigger="true" pause="false" />
+        <luascript name="menu" file="touch.lua" enabled="true" framerate="0.000000" priority="0" trigger="true" pause="false" />
+    </scene>
+</dfusion>

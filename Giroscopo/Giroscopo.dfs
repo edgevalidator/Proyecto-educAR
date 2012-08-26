@@ -1,0 +1,17 @@
+<dfusion version="3.20.20164">
+    <configurations>
+        <configuration name="@Home|All Platforms" exportFolder="" />
+        <configuration name="@Home|windows" exportFolder="" />
+        <configuration name="mobile|All Platforms" exportFolder="" />
+        <configuration name="mobile|android" exportFolder="C:\Users\duter\Desktop\export_1" />
+    </configurations>
+    <LuaEditor>
+        <files>
+            <file absolutePath="C:\Users\duter\Documents\D&apos;Fusion\Giroscopo\init.lua" />
+            <file absolutePath="C:\Users\duter\Documents\D&apos;Fusion\Giroscopo\touch.lua" />
+        </files>
+        <watch />
+    </LuaEditor>
+    <macros />
+    <commands />
+</dfusion>
