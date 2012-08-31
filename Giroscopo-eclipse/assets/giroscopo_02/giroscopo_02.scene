@@ -1,0 +1,132 @@
+<scene version="0.2">
+	<info source="C:\Users\Matias\Desktop\gyro_1.1_rotando.max" profile="public" shared_geometry="false" build_edges="false" build_tangents="false" exporter="Exporter 3DSMax3.20.22766"/>
+	<settings>
+		<environment ambient="0 0 0" background="0 0 0" camera=""/>
+		<shadow color="0 0 0" distance="10000" self="false" setup="uniform" size="1024 1" technique="none"/>
+	</settings>
+	<animations>
+		<animation name="Timeline" loop="false" length="-1" priority="0">
+			<bind target="Tube04" attribute="orientation" track="Tube04_Timeline_orientationTrack" loop="false" mode="absolute" reset="true" short="true" weight="1"/>
+			<bind target="Torus03" attribute="orientation" track="Torus03_Timeline_orientationTrack" loop="false" mode="absolute" reset="true" short="true" weight="1"/>
+			<bind target="Cylinder02" attribute="orientation" track="Cylinder02_Timeline_orientationTrack" loop="false" mode="absolute" reset="true" short="true" weight="1"/>
+			<bind target="Tube02" attribute="orientation" track="Tube02_Timeline_orientationTrack" loop="false" mode="absolute" reset="true" short="true" weight="1"/>
+			<bind target="Tube01" attribute="orientation" track="Tube01_Timeline_orientationTrack" loop="false" mode="absolute" reset="true" short="true" weight="1"/>
+			<bind target="Tube03" attribute="orientation" track="Tube03_Timeline_orientationTrack" loop="false" mode="absolute" reset="true" short="true" weight="1"/>
+			<bind target="Tube08" attribute="orientation" track="Tube08_Timeline_orientationTrack" loop="false" mode="absolute" reset="true" short="true" weight="1"/>
+		</animation>
+	</animations>
+	<tracks>
+		<track name="Cylinder02_Timeline_orientationTrack">
+			<key time="0" value="-0.50044 0.499559 0.499568 0.500432"/>
+			<key time="0.0333333" value="-0.588304 0.392349 0.392319 0.588257"/>
+			<key time="0.0666667" value="-0.653559 0.270062 0.269994 0.653476"/>
+			<key time="0.1" value="-0.693698 0.137396 0.137293 0.693582"/>
+			<key time="0.133333" value="-0.707179 -0.000550579 -0.000683552 0.707034"/>
+			<key time="0.166667" value="-0.693483 -0.138476 -0.138634 0.693315"/>
+			<key time="0.2" value="-0.653137 -0.271079 -0.271257 0.652953"/>
+		</track>
+		<track name="Torus03_Timeline_orientationTrack">
+			<key time="0" value="-0.707107 -0.000617112 -0.000617112 0.707106"/>
+			<key time="0.0333333" value="-0.693399 -0.138555 -0.138555 0.693399"/>
+			<key time="0.0666667" value="-0.653045 -0.271168 -0.271168 0.653045"/>
+			<key time="0.1" value="-0.587595 -0.39336 -0.393361 0.587595"/>
+			<key time="0.133333" value="0.499564 0.500436 0.500436 -0.499563"/>
+			<key time="0.166667" value="0.392334 0.58828 0.588281 -0.392334"/>
+			<key time="0.2" value="0.270028 0.653517 0.653518 -0.270028"/>
+		</track>
+		<track name="Tube01_Timeline_orientationTrack">
+			<key time="0" value="4.12821e-005 0.707107 0.707106 -4.08832e-005"/>
+			<key time="0.0333333" value="0.13799 0.693512 0.693528 0.13791"/>
+			<key time="0.0666667" value="0.270636 0.653266 0.653297 0.27056"/>
+			<key time="0.1" value="0.392882 0.587915 0.58796 0.392813"/>
+			<key time="0.133333" value="0.500029 0.499971 0.500029 0.499971"/>
+			<key time="0.166667" value="0.587961 0.392813 0.392881 0.587915"/>
+			<key time="0.2" value="0.653298 0.27056 0.270636 0.653266"/>
+		</track>
+		<track name="Tube02_Timeline_orientationTrack">
+			<key time="0" value="0.500407 -0.499534 -0.499592 0.500465"/>
+			<key time="0.0333333" value="-0.393338 0.587561 0.587629 -0.393383"/>
+			<key time="0.0666667" value="-0.271152 0.653007 0.653083 -0.271184"/>
+			<key time="0.1" value="-0.138547 0.693359 0.693439 -0.138563"/>
+			<key time="0.133333" value="-0.000617216 0.707066 0.707147 -0.000617288"/>
+			<key time="0.166667" value="0.137336 0.6936 0.69368 0.137352"/>
+			<key time="0.2" value="0.270012 0.65348 0.653555 0.270043"/>
+		</track>
+		<track name="Tube03_Timeline_orientationTrack">
+			<key time="0" value="-0.27056 0.653266 0.653297 -0.270636"/>
+			<key time="0.0333333" value="-0.137916 0.693497 0.693543 -0.137984"/>
+			<key time="0.0666667" value="2.89448e-005 0.707078 0.707136 -2.90492e-005"/>
+			<key time="0.1" value="0.137972 0.693486 0.693554 0.137927"/>
+			<key time="0.133333" value="0.270614 0.653244 0.65332 0.270582"/>
+			<key time="0.166667" value="0.392855 0.587898 0.587978 0.392839"/>
+			<key time="0.2" value="0.5 0.499959 0.500041 0.5"/>
+		</track>
+		<track name="Tube04_Timeline_orientationTrack">
+			<key time="0" value="0.263266 0.656301 0.656271 0.263189"/>
+			<key time="0.0333333" value="0.386245 0.59233 0.592315 0.386164"/>
+			<key time="0.0666667" value="0.494382 0.505596 0.505597 0.494299"/>
+			<key time="0.1" value="0.583519 0.399432 0.399449 0.583438"/>
+			<key time="0.133333" value="0.650232 0.277918 0.277951 0.650156"/>
+			<key time="0.166667" value="0.691957 0.145724 0.145771 0.691889"/>
+			<key time="0.2" value="0.707091 0.00792994 0.00798897 0.707033"/>
+		</track>
+		<track name="Tube08_Timeline_orientationTrack">
+			<key time="0" value="0 5.81294e-005 0 1"/>
+			<key time="0.0333333" value="1.13405e-005 5.70125e-005 -0.19509 0.980785"/>
+			<key time="0.0666667" value="2.22452e-005 5.37046e-005 -0.382683 0.92388"/>
+			<key time="0.1" value="3.2295e-005 4.83329e-005 -0.55557 0.83147"/>
+			<key time="0.133333" value="4.11037e-005 4.11037e-005 -0.707107 0.707107"/>
+			<key time="0.166667" value="4.83329e-005 3.2295e-005 -0.83147 0.55557"/>
+			<key time="0.2" value="-5.37046e-005 -2.22452e-005 0.92388 -0.382683"/>
+		</track>
+	</tracks>
+	<nodes>
+		<node name="fixUp" orientation="-0.707107 0 0 0.707107" position="0 0 0" priority="0" scale="1 1 1" show_box="false" visible="true">
+			<node name="Torus01" orientation="0 5.81294e-005 0 1" position="0.0181758 -2.4066e-005 9.95674" priority="0" scale="0.134212 0.134212 0.134212" show_box="false" visible="true">
+				<entity name="Torus01_mesh" aab="0 0 0 0 0 0" blend="average" mesh="giroscopo_02_Torus01_mesh.mesh" priority="0" shadow="false true" visible="true"/>
+			</node>
+			<node name="Torus02" orientation="0.707107 4.11037e-005 -4.11037e-005 0.707107" position="0.0181758 -2.4066e-005 9.95674" priority="0" scale="0.134212 0.134212 0.134212" show_box="false" visible="true">
+				<entity name="Torus02_mesh" aab="0 0 0 0 0 0" blend="average" mesh="giroscopo_02_Torus02_mesh.mesh" priority="0" shadow="false true" visible="true"/>
+			</node>
+			<node name="Tube01" orientation="4.12821e-005 0.707107 0.707106 -4.08832e-005" position="0.0181751 -2.4066e-005 9.94921" priority="0" scale="0.440131 0.440131 0.440131" show_box="false" visible="true">
+				<entity name="Tube01_mesh" aab="0 0 0 0 0 0" blend="average" mesh="giroscopo_02_Tube01_mesh.mesh" priority="0" shadow="false true" visible="true"/>
+			</node>
+			<node name="Tube02" orientation="0.500407 -0.499534 -0.499592 0.500465" position="0.0181751 -2.4066e-005 9.94921" priority="0" scale="0.440131 0.440131 0.440131" show_box="false" visible="true">
+				<node name="Cylinder02" orientation="-0.50044 0.499559 0.499568 0.500432" position="0 20.7056 -3.8147e-006" priority="0" scale="0.747035 0.747035 0.747035" show_box="false" visible="true">
+					<entity name="Cylinder02_mesh" aab="0 0 0 0 0 0" blend="average" mesh="giroscopo_02_Cylinder02_mesh.mesh" priority="0" shadow="false true" visible="true"/>
+				</node>
+				<node name="Torus03" orientation="-0.707107 -0.000617112 -0.000617112 0.707106" position="7.55042e-005 -0.0631256 -6.27525e-005" priority="0" scale="0.253852 0.253852 0.253852" show_box="false" visible="true">
+					<entity name="Torus03_mesh" aab="0 0 0 0 0 0" blend="average" mesh="giroscopo_02_Torus03_mesh.mesh" priority="0" shadow="false true" visible="true"/>
+				</node>
+				<entity name="Tube02_mesh" aab="0 0 0 0 0 0" blend="average" mesh="giroscopo_02_Tube02_mesh.mesh" priority="0" shadow="false true" visible="true"/>
+			</node>
+			<node name="Tube03" orientation="-0.27056 0.653266 0.653297 -0.270636" position="0.0181751 -2.4066e-005 9.94921" priority="0" scale="0.440131 0.440131 0.440131" show_box="false" visible="true">
+				<entity name="Tube03_mesh" aab="0 0 0 0 0 0" blend="average" mesh="giroscopo_02_Tube03_mesh.mesh" priority="0" shadow="false true" visible="true"/>
+			</node>
+			<node name="Tube04" orientation="0.263266 0.656301 0.656271 0.263189" position="0.0181751 -2.4066e-005 9.94921" priority="0" scale="0.440131 0.440131 0.440131" show_box="false" visible="true">
+				<entity name="Tube04_mesh" aab="0 0 0 0 0 0" blend="average" mesh="giroscopo_02_Tube04_mesh.mesh" priority="0" shadow="false true" visible="true"/>
+			</node>
+			<node name="Tube05" orientation="0 5.81294e-005 0 1" position="0.0173783 -2.4066e-005 0.935508" priority="0" scale="0.328793 0.328793 0.328793" show_box="false" visible="true">
+				<entity name="Tube05_mesh" aab="0 0 0 0 0 0" blend="average" mesh="giroscopo_02_Tube05_mesh.mesh" priority="0" shadow="false true" visible="true"/>
+			</node>
+			<node name="Tube06" orientation="0 5.81294e-005 0 1" position="0.0188286 -2.4066e-005 15.7823" priority="0" scale="0.328793 0.328793 0.328793" show_box="false" visible="true">
+				<entity name="Tube06_mesh" aab="0 0 0 0 0 0" blend="average" mesh="giroscopo_02_Tube06_mesh.mesh" priority="0" shadow="false true" visible="true"/>
+			</node>
+			<node name="Tube08" orientation="0 5.81294e-005 0 1" position="0.0275173 -2.40654e-005 9.3304" priority="0" scale="0.328793 0.328793 0.328793" show_box="false" visible="true">
+				<entity name="Tube08_mesh" aab="0 0 0 0 0 0" blend="average" mesh="giroscopo_02_Tube08_mesh.mesh" priority="0" shadow="false true" visible="true"/>
+			</node>
+			<node name="Tube09" orientation="0 5.81294e-005 0 1" position="0.019082 -2.40654e-005 17.5677" priority="0" scale="0.328793 0.328793 0.328793" show_box="false" visible="true">
+				<entity name="Tube09_mesh" aab="0 0 0 0 0 0" blend="average" mesh="giroscopo_02_Tube09_mesh.mesh" priority="0" shadow="false true" visible="true"/>
+			</node>
+			<node name="Tube10" orientation="0 5.81294e-005 0 1" position="0.0191776 -2.40654e-005 18.5787" priority="0" scale="0.328793 0.328793 0.328793" show_box="false" visible="true">
+				<entity name="Tube10_mesh" aab="0 0 0 0 0 0" blend="average" mesh="giroscopo_02_Tube10_mesh.mesh" priority="0" shadow="false true" visible="true"/>
+			</node>
+			<node name="Tube12" orientation="0 5.81294e-005 0 1" position="0.0171184 -2.40654e-005 1.91737" priority="0" scale="0.328793 0.328793 0.328793" show_box="false" visible="true">
+				<entity name="Tube12_mesh" aab="0 0 0 0 0 0" blend="average" mesh="giroscopo_02_Tube12_mesh.mesh" priority="0" shadow="false true" visible="true"/>
+			</node>
+			<node name="Tube13" orientation="0 5.81294e-005 0 1" position="0.0170226 -2.40654e-005 0.934184" priority="0" scale="0.328793 0.328793 0.328793" show_box="false" visible="true">
+				<entity name="Tube13_mesh" aab="0 0 0 0 0 0" blend="average" mesh="giroscopo_02_Tube13_mesh.mesh" priority="0" shadow="false true" visible="true"/>
+			</node>
+		</node>
+	</nodes>
+</scene>
