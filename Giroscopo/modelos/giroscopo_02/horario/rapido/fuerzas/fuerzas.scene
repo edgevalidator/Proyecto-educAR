@@ -1,0 +1,56 @@
+<scene version="0.2">
+	<info source="C:\Users\Matias Cuadrado\Desktop\exportados 20-08\02-rapido-horario\giroscopo_02.max" profile="public" shared_geometry="false" build_edges="false" build_tangents="false" exporter="Exporter 3DSMax3.20.22766"/>
+	<settings>
+		<environment ambient="0 0 0" background="0 0 0" camera=""/>
+		<shadow color="0 0 0" distance="10000" self="false" setup="uniform" size="1024 1" technique="none"/>
+	</settings>
+	<nodes>
+		<node name="fixUp" orientation="-0.707107 0 0 0.707107" position="0 0 0" priority="0" scale="1 1 1" show_box="false" visible="true">
+			<node name="Cylinder01" orientation="8.58307e-006 -8.56992e-006 2.33885e-008 1" position="-8.3235e-008 -0.7 -1.20163e-005" priority="0" scale="1 1 1" show_box="false" visible="true">
+				<node name="Cone01" orientation="9.09495e-013 -9.09495e-013 1.38778e-017 1" position="-2.47269e-012 0 2" priority="0" scale="1 1 1" show_box="false" visible="true">
+					<entity name="Cone01_mesh" aab="0 0 0 0 0 0" blend="average" mesh="fuerzas_Cone01_mesh.mesh" priority="0" shadow="false true" visible="true"/>
+				</node>
+				<node name="Text01" orientation="0.707107 -6.43031e-013 6.43188e-013 0.707107" position="0.0846308 -1.78814e-007 4.28375" priority="0" scale="1 1 1" show_box="false" visible="true">
+					<node name="Cylinder03" orientation="-0.5 0.5 0.5 -0.5" position="-0.00043416 0.578176 -5.96046e-008" priority="0" scale="1 1 1" show_box="false" visible="true">
+						<node name="Cylinder04" orientation="-2.10397e-013 -0.422618 -9.18357e-013 0.906308" position="0 5.96046e-008 -0.35" priority="0" scale="1 1 1" show_box="false" visible="true">
+							<entity name="Cylinder04_mesh" aab="0 0 0 0 0 0" blend="average" mesh="fuerzas_Cylinder04_mesh.mesh" priority="0" shadow="false true" visible="true"/>
+						</node>
+						<entity name="Cylinder03_mesh" aab="0 0 0 0 0 0" blend="average" mesh="fuerzas_Cylinder03_mesh.mesh" priority="0" shadow="false true" visible="true"/>
+					</node>
+					<entity name="Text01_mesh" aab="0 0 0 0 0 0" blend="average" mesh="fuerzas_Text01_mesh.mesh" priority="0" shadow="false true" visible="true"/>
+				</node>
+				<entity name="Cylinder01_mesh" aab="0 0 0 0 0 0" blend="average" mesh="fuerzas_Cylinder01_mesh.mesh" priority="0" shadow="false true" visible="true"/>
+			</node>
+			<node name="Cylinder07" orientation="2.11408e-007 1 8.62447e-006 8.65319e-006" position="3.09387 -0.700143 8.29753" priority="0" scale="1 1 1" show_box="false" visible="true">
+				<node name="Cone02" orientation="9.09495e-013 9.09495e-013 7.06379e-015 1" position="0 0 2" priority="0" scale="1 1 1" show_box="false" visible="true">
+					<entity name="Cone02_mesh" aab="0 0 0 0 0 0" blend="average" mesh="fuerzas_Cone02_mesh.mesh" priority="0" shadow="false true" visible="true"/>
+				</node>
+				<node name="Text02" orientation="-3.0908e-008 -0.707107 0.707107 3.09093e-008" position="-0.831088 -1.19209e-007 3.04007" priority="0" scale="1 1 1" show_box="false" visible="true">
+					<node name="Cylinder05" orientation="-0.5 0.5 0.5 -0.5" position="0.000380278 0.528873 0" priority="0" scale="1 1 1" show_box="false" visible="true">
+						<node name="Cylinder06" orientation="4.0111e-013 -0.422618 5.06902e-013 0.906308" position="-4.76837e-007 -5.96046e-008 -0.349999" priority="0" scale="1 1 1" show_box="false" visible="true">
+							<entity name="Cylinder06_mesh" aab="0 0 0 0 0 0" blend="average" mesh="fuerzas_Cylinder06_mesh.mesh" priority="0" shadow="false true" visible="true"/>
+						</node>
+						<entity name="Cylinder05_mesh" aab="0 0 0 0 0 0" blend="average" mesh="fuerzas_Cylinder05_mesh.mesh" priority="0" shadow="false true" visible="true"/>
+					</node>
+					<entity name="Text02_mesh" aab="0 0 0 0 0 0" blend="average" mesh="fuerzas_Text02_mesh.mesh" priority="0" shadow="false true" visible="true"/>
+				</node>
+				<entity name="Cylinder07_mesh" aab="0 0 0 0 0 0" blend="average" mesh="fuerzas_Cylinder07_mesh.mesh" priority="0" shadow="false true" visible="true"/>
+			</node>
+			<node name="Cylinder08" orientation="6.1369e-006 0.707101 6.00139e-006 0.707113" position="-8.3235e-008 -0.7 -1.20163e-005" priority="0" scale="1 1 1" show_box="false" visible="true">
+				<node name="Cone03" orientation="3.5319e-015 0 0 1" position="0 0 2" priority="0" scale="1 1 1" show_box="false" visible="true">
+					<entity name="Cone03_mesh" aab="0 0 0 0 0 0" blend="average" mesh="fuerzas_Cone03_mesh.mesh" priority="0" shadow="false true" visible="true"/>
+				</node>
+				<node name="Text03" orientation="0.5 -0.5 0.5 0.5" position="-0.562203 0 4.5014" priority="0" scale="1 1 1" show_box="false" visible="true">
+					<node name="Cylinder09" orientation="-0.5 0.5 0.5 -0.5" position="-0.000400543 0.613045 -5.96046e-008" priority="0" scale="1 1 1" show_box="false" visible="true">
+						<node name="Cylinder10" orientation="6.02841e-013 -0.422618 6.05018e-013 0.906308" position="0 5.96046e-008 -0.35" priority="0" scale="1 1 1" show_box="false" visible="true">
+							<entity name="Cylinder10_mesh" aab="0 0 0 0 0 0" blend="average" mesh="fuerzas_Cylinder10_mesh.mesh" priority="0" shadow="false true" visible="true"/>
+						</node>
+						<entity name="Cylinder09_mesh" aab="0 0 0 0 0 0" blend="average" mesh="fuerzas_Cylinder09_mesh.mesh" priority="0" shadow="false true" visible="true"/>
+					</node>
+					<entity name="Text03_mesh" aab="0 0 0 0 0 0" blend="average" mesh="fuerzas_Text03_mesh.mesh" priority="0" shadow="false true" visible="true"/>
+				</node>
+				<entity name="Cylinder08_mesh" aab="0 0 0 0 0 0" blend="average" mesh="fuerzas_Cylinder08_mesh.mesh" priority="0" shadow="false true" visible="true"/>
+			</node>
+		</node>
+	</nodes>
+</scene>

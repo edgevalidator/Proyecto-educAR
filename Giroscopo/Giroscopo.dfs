@@ -9,7 +9,7 @@
         <files>
             <file absolutePath="C:\Users\duter\Documents\D&apos;Fusion\Giroscopo\init.lua" />
             <file absolutePath="C:\Users\duter\Documents\D&apos;Fusion\Giroscopo\touch.lua" />
-            <file absolutePath="C:\Users\duter\Documents\D&apos;Fusion\Giroscopo\functions.lua" />
+            <file absolutePath="C:\Users\duter\Documents\D&apos;Fusion\Giroscopo\giroscopo.lua" />
         </files>
         <watch />
     </LuaEditor>

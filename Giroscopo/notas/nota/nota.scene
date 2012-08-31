@@ -1,0 +1,14 @@
+<scene version="0.2">
+	<info profile="public" shared_geometry="false" build_edges="false" build_tangents="false" exporter="Exporter 3DSMax3.20.22766"/>
+	<settings>
+		<environment ambient="0 0 0" background="0 0 0" camera=""/>
+		<shadow color="0 0 0" distance="10000" self="false" setup="uniform" size="1024 1" technique="none"/>
+	</settings>
+	<nodes>
+		<node name="fixUp" orientation="-0.707107 0 0 0.707107" position="0 0 0" priority="0" scale="1 1 1" show_box="false" visible="true">
+			<node name="Plane01" orientation="0 0 0 1" position="0 0 0" priority="0" scale="1 1 1" show_box="false" visible="true">
+				<entity name="Plane01_mesh" aab="0 0 0 0 0 0" blend="average" mesh="nota_Plane01_mesh.mesh" priority="0" shadow="false true" visible="true"/>
+			</node>
+		</node>
+	</nodes>
+</scene>

@@ -34,6 +34,7 @@ repeat
 		else
 		
 			if mouse:wasButtonReleased(TIMOUSE_RIGHTBUTTON) then
+				LOG("rel")
 				err, RWX, RWY = window:getLocalCursorCoordinates()
 				obj = viewport:pick(RWX, RWY)
 			end
@@ -42,23 +43,29 @@ repeat
 		
 		if obj and not obj:isNull() then
 			if obj:getName() == 'boton_01' then
-				load_model(1)
+				show_model(1)
 			elseif obj:getName() == 'boton_02' then
-				load_model(2)
+				show_model(2)
 			elseif obj:getName() == 'boton_04' then
-				load_model(4)
-			elseif obj:getName() == 'boton_animaciones' then
-				toggle_animations()
-			elseif obj:getName() == 'boton_vectores' then
-				toggle_vectors()
+				show_model(4)
+			elseif obj:getName() == 'boton_notas' then
+				show_notes()
 			elseif obj:getName() == 'boton_velocidadangular' then
-				toggle_vector_group('velocidad_angular')
+				toggle_vector_group('velocidadangular')
 			elseif obj:getName() == 'boton_momentoangular' then
-				toggle_vector_group('momento_angular')
+				toggle_vector_group('momentoangular')
 			elseif obj:getName() == 'boton_torque' then
 				toggle_vector_group('torque')
 			elseif obj:getName() == 'boton_fuerzas' then
 				toggle_vector_group('fuerzas')
+			elseif obj:getName() == 'boton_erre' then
+				toggle_vector_group('erre')
+			elseif obj:getName() == 'boton_vectores' then
+				toggle_vectors()
+			elseif obj:getName() == 'boton_animaciones' then
+				toggle_animations()
+			elseif obj:getName() == 'boton_direccion' then
+				toggle_animation_direction()
 			end
 		end
 		

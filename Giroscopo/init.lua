@@ -33,6 +33,7 @@ errorStatus, trackingIndex = MLTPlugin:startTracking("tracker/tracker.xml", vidC
 
 -- if the tracking has correctly started, we can proceed to an infinite loop
 if errorStatus == eOk then
+	
 	repeat
 
 	    errorStatus, gtrackingStatus = MLTPlugin:getTargetStatus(trackingIndex, trackingObjectIndex)

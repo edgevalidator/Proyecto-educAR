@@ -1,0 +1,26 @@
+<scene version="0.2">
+	<info source="C:\Users\Matias Cuadrado\Desktop\exportados 20-08\02-rapido-horario\giroscopo_02.max" profile="public" shared_geometry="false" build_edges="false" build_tangents="false" exporter="Exporter 3DSMax3.20.22766"/>
+	<settings>
+		<environment ambient="0 0 0" background="0 0 0" camera=""/>
+		<shadow color="0 0 0" distance="10000" self="false" setup="uniform" size="1024 1" technique="none"/>
+	</settings>
+	<nodes>
+		<node name="fixUp" orientation="-0.707107 0 0 0.707107" position="0 0 0" priority="0" scale="1 1 1" show_box="false" visible="true">
+			<node name="Cylinder20" orientation="-0.5 0.499991 0.5 0.500008" position="3.41881 0.49282 9.22461" priority="0" scale="1 1 1" show_box="false" visible="true">
+				<node name="Cone07" orientation="7.11931e-015 0 0 1" position="0 0 2" priority="0" scale="1 1 1" show_box="false" visible="true">
+					<entity name="Cone07_mesh" aab="0 0 0 0 0 0" blend="average" mesh="torque_Cone07_mesh.mesh" priority="0" shadow="false true" visible="true"/>
+				</node>
+				<node name="Text07" orientation="-0.5 0.5 -0.5 -0.5" position="-1.08523 -3.29018e-005 2.55177" priority="0" scale="1 1 1" show_box="false" visible="true">
+					<node name="Cylinder21" orientation="-0.5 0.5 0.5 -0.5" position="3.98159e-005 0.372417 2.38419e-007" priority="0" scale="1 1 1" show_box="false" visible="true">
+						<node name="Cylinder22" orientation="4.12267e-013 -0.422618 1.01641e-012 0.906308" position="9.53674e-007 0 -0.35" priority="0" scale="1 1 1" show_box="false" visible="true">
+							<entity name="Cylinder22_mesh" aab="0 0 0 0 0 0" blend="average" mesh="torque_Cylinder22_mesh.mesh" priority="0" shadow="false true" visible="true"/>
+						</node>
+						<entity name="Cylinder21_mesh" aab="0 0 0 0 0 0" blend="average" mesh="torque_Cylinder21_mesh.mesh" priority="0" shadow="false true" visible="true"/>
+					</node>
+					<entity name="Text07_mesh" aab="0 0 0 0 0 0" blend="average" mesh="torque_Text07_mesh.mesh" priority="0" shadow="false true" visible="true"/>
+				</node>
+				<entity name="Cylinder20_mesh" aab="0 0 0 0 0 0" blend="average" mesh="torque_Cylinder20_mesh.mesh" priority="0" shadow="false true" visible="true"/>
+			</node>
+		</node>
+	</nodes>
+</scene>
