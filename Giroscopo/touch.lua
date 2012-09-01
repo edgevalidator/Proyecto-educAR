@@ -51,9 +51,9 @@ repeat
 			elseif obj:getName() == 'boton_notas' then
 				show_notes()
 			elseif obj:getName() == 'boton_velocidadangular' then
-				toggle_vector_group('velocidadangular')
+				toggle_vector_group('velocidad_angular')
 			elseif obj:getName() == 'boton_momentoangular' then
-				toggle_vector_group('momentoangular')
+				toggle_vector_group('momento_angular')
 			elseif obj:getName() == 'boton_torque' then
 				toggle_vector_group('torque')
 			elseif obj:getName() == 'boton_fuerzas' then

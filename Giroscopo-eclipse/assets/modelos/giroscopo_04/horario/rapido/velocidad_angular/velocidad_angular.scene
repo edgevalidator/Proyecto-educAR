@@ -1,0 +1,41 @@
+<scene version="0.2">
+	<info source="C:\Users\Matias Cuadrado\Desktop\exportados 20-08\04-rapido-horario\giroscopo_04.max" profile="public" shared_geometry="false" build_edges="false" build_tangents="false" exporter="Exporter 3DSMax3.20.22766"/>
+	<settings>
+		<environment ambient="0 0 0" background="0 0 0" camera=""/>
+		<shadow color="0 0 0" distance="10000" self="false" setup="uniform" size="1024 1" technique="none"/>
+	</settings>
+	<nodes>
+		<node name="fixUp" orientation="-0.707107 0 0 0.707107" position="0 0 0" priority="0" scale="1 1 1" show_box="false" visible="true">
+			<node name="Cylinder17" orientation="0.707107 1.52236e-007 0.707107 4.72213e-009" position="16.4312 -0.766936 9.59738" priority="0" scale="1 1 1" show_box="false" visible="true">
+				<node name="Cone05" orientation="1 3.55271e-015 -3.55271e-015 7.54979e-008" position="-9.53674e-007 -1.78814e-007 -1" priority="0" scale="1 1 1" show_box="false" visible="true">
+					<entity name="Cone05_mesh" aab="0 0 0 0 0 0" blend="average" mesh="velocidad_angular_Cone05_mesh.mesh" priority="0" shadow="false true" visible="true"/>
+				</node>
+				<node name="Text05" orientation="-0.5 -0.5 -0.5 0.5" position="-0.863342 -5.96046e-008 -1.70888" priority="0" scale="1 1 1" show_box="false" visible="true">
+					<node name="Cylinder15" orientation="0.5 -0.5 -0.5 0.5" position="-1.90735e-005 0.236905 2.38419e-007" priority="0" scale="1 1 1" show_box="false" visible="true">
+						<node name="Cylinder16" orientation="4.55204e-014 -0.422618 1.48081e-014 0.906308" position="0 5.96046e-008 -0.35" priority="0" scale="1 1 1" show_box="false" visible="true">
+							<entity name="Cylinder16_mesh" aab="0 0 0 0 0 0" blend="average" mesh="velocidad_angular_Cylinder16_mesh.mesh" priority="0" shadow="false true" visible="true"/>
+						</node>
+						<entity name="Cylinder15_mesh" aab="0 0 0 0 0 0" blend="average" mesh="velocidad_angular_Cylinder15_mesh.mesh" priority="0" shadow="false true" visible="true"/>
+					</node>
+					<entity name="Text05_mesh" aab="0 0 0 0 0 0" blend="average" mesh="velocidad_angular_Text05_mesh.mesh" priority="0" shadow="false true" visible="true"/>
+				</node>
+				<entity name="Cylinder17_mesh" aab="0 0 0 0 0 0" blend="average" mesh="velocidad_angular_Cylinder17_mesh.mesh" priority="0" shadow="false true" visible="true"/>
+			</node>
+			<node name="Cylinder20" orientation="0 0 2.14167e-008 1" position="-0.375 1.52068e-007 9.964" priority="0" scale="1 1 1" show_box="false" visible="true">
+				<node name="Cone06" orientation="1 7.99365e-030 1.05879e-022 7.54979e-008" position="0 -3.83926e-007 -2.54263" priority="0" scale="1 1 1" show_box="false" visible="true">
+					<entity name="Cone06_mesh" aab="0 0 0 0 0 0" blend="average" mesh="velocidad_angular_Cone06_mesh.mesh" priority="0" shadow="false true" visible="true"/>
+				</node>
+				<node name="Text06" orientation="0.707107 0 0 0.707107" position="0.982838 2.12847e-007 -3.309" priority="0" scale="1 1 1" show_box="false" visible="true">
+					<node name="Cylinder18" orientation="0.5 -0.5 -0.5 0.5" position="-0.000491977 0.507464 2.30809e-008" priority="0" scale="1 1 1" show_box="false" visible="true">
+						<node name="Cylinder19" orientation="3.64549e-015 -0.422618 1.30296e-015 0.906308" position="0 1.86265e-009 -0.35" priority="0" scale="1 1 1" show_box="false" visible="true">
+							<entity name="Cylinder19_mesh" aab="0 0 0 0 0 0" blend="average" mesh="velocidad_angular_Cylinder19_mesh.mesh" priority="0" shadow="false true" visible="true"/>
+						</node>
+						<entity name="Cylinder18_mesh" aab="0 0 0 0 0 0" blend="average" mesh="velocidad_angular_Cylinder18_mesh.mesh" priority="0" shadow="false true" visible="true"/>
+					</node>
+					<entity name="Text06_mesh" aab="0 0 0 0 0 0" blend="average" mesh="velocidad_angular_Text06_mesh.mesh" priority="0" shadow="false true" visible="true"/>
+				</node>
+				<entity name="Cylinder20_mesh" aab="0 0 0 0 0 0" blend="average" mesh="velocidad_angular_Cylinder20_mesh.mesh" priority="0" shadow="false true" visible="true"/>
+			</node>
+		</node>
+	</nodes>
+</scene>

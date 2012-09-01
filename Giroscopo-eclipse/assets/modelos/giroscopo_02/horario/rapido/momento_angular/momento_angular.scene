@@ -1,0 +1,26 @@
+<scene version="0.2">
+	<info source="C:\Users\Matias Cuadrado\Desktop\exportados 20-08\02-rapido-horario\giroscopo_02.max" profile="public" shared_geometry="false" build_edges="false" build_tangents="false" exporter="Exporter 3DSMax3.20.22766"/>
+	<settings>
+		<environment ambient="0 0 0" background="0 0 0" camera=""/>
+		<shadow color="0 0 0" distance="10000" self="false" setup="uniform" size="1024 1" technique="none"/>
+	</settings>
+	<nodes>
+		<node name="fixUp" orientation="-0.707107 0 0 0.707107" position="0 0 0" priority="0" scale="1 1 1" show_box="false" visible="true">
+			<node name="Cylinder14" orientation="0.984809 1.52658e-006 -0.17364 -8.37426e-006" position="5.50483 -0.674914 16.2388" priority="0" scale="1 1 1" show_box="false" visible="true">
+				<node name="Cone05" orientation="4.54747e-013 0 1.13687e-013 1" position="4.76837e-007 0 0.999998" priority="0" scale="1 1 1" show_box="false" visible="true">
+					<entity name="Cone05_mesh" aab="0 0 0 0 0 0" blend="average" mesh="momento_angular_Cone05_mesh.mesh" priority="0" shadow="false true" visible="true"/>
+				</node>
+				<node name="Text05" orientation="-0.696364 0.122788 0.122788 0.696364" position="-0.810247 0.000109673 1.79165" priority="0" scale="1 1 1" show_box="false" visible="true">
+					<node name="Cylinder15" orientation="-0.5 0.5 0.5 -0.5" position="0.000104904 0.578176 0" priority="0" scale="1 1 1" show_box="false" visible="true">
+						<node name="Cylinder16" orientation="9.63061e-014 -0.422618 6.18112e-013 0.906308" position="0 0 -0.35" priority="0" scale="1 1 1" show_box="false" visible="true">
+							<entity name="Cylinder16_mesh" aab="0 0 0 0 0 0" blend="average" mesh="momento_angular_Cylinder16_mesh.mesh" priority="0" shadow="false true" visible="true"/>
+						</node>
+						<entity name="Cylinder15_mesh" aab="0 0 0 0 0 0" blend="average" mesh="momento_angular_Cylinder15_mesh.mesh" priority="0" shadow="false true" visible="true"/>
+					</node>
+					<entity name="Text05_mesh" aab="0 0 0 0 0 0" blend="average" mesh="momento_angular_Text05_mesh.mesh" priority="0" shadow="false true" visible="true"/>
+				</node>
+				<entity name="Cylinder14_mesh" aab="0 0 0 0 0 0" blend="average" mesh="momento_angular_Cylinder14_mesh.mesh" priority="0" shadow="false true" visible="true"/>
+			</node>
+		</node>
+	</nodes>
+</scene>
