@@ -2169,187 +2169,12 @@
                 <configuration name="@Home|windows" excludeFromBuild="true" />
                 <configuration name="mobile|All Platforms" excludeFromBuild="true" />
             </file>
-            <file relativePath=".\modelos\giroscopo_04\horario\rapido\giroscopo_04\giroscopo_04_Cone01_mesh.mesh">
-                <configuration name="@Home|All Platforms" excludeFromBuild="true" />
-                <configuration name="@Home|windows" excludeFromBuild="true" />
-                <configuration name="mobile|All Platforms" excludeFromBuild="true" />
-            </file>
-            <file relativePath=".\modelos\giroscopo_04\horario\rapido\giroscopo_04\giroscopo_04_Cone02_mesh.mesh">
-                <configuration name="@Home|All Platforms" excludeFromBuild="true" />
-                <configuration name="@Home|windows" excludeFromBuild="true" />
-                <configuration name="mobile|All Platforms" excludeFromBuild="true" />
-            </file>
-            <file relativePath=".\modelos\giroscopo_04\horario\rapido\giroscopo_04\giroscopo_04_Cone03_mesh.mesh">
-                <configuration name="@Home|All Platforms" excludeFromBuild="true" />
-                <configuration name="@Home|windows" excludeFromBuild="true" />
-                <configuration name="mobile|All Platforms" excludeFromBuild="true" />
-            </file>
-            <file relativePath=".\modelos\giroscopo_04\horario\rapido\giroscopo_04\giroscopo_04_Cone04_mesh.mesh">
-                <configuration name="@Home|All Platforms" excludeFromBuild="true" />
-                <configuration name="@Home|windows" excludeFromBuild="true" />
-                <configuration name="mobile|All Platforms" excludeFromBuild="true" />
-            </file>
-            <file relativePath=".\modelos\giroscopo_04\horario\rapido\giroscopo_04\giroscopo_04_Cone05_mesh.mesh">
-                <configuration name="@Home|All Platforms" excludeFromBuild="true" />
-                <configuration name="@Home|windows" excludeFromBuild="true" />
-                <configuration name="mobile|All Platforms" excludeFromBuild="true" />
-            </file>
-            <file relativePath=".\modelos\giroscopo_04\horario\rapido\giroscopo_04\giroscopo_04_Cone06_mesh.mesh">
-                <configuration name="@Home|All Platforms" excludeFromBuild="true" />
-                <configuration name="@Home|windows" excludeFromBuild="true" />
-                <configuration name="mobile|All Platforms" excludeFromBuild="true" />
-            </file>
-            <file relativePath=".\modelos\giroscopo_04\horario\rapido\giroscopo_04\giroscopo_04_Cone07_mesh.mesh">
-                <configuration name="@Home|All Platforms" excludeFromBuild="true" />
-                <configuration name="@Home|windows" excludeFromBuild="true" />
-                <configuration name="mobile|All Platforms" excludeFromBuild="true" />
-            </file>
             <file relativePath=".\modelos\giroscopo_04\horario\rapido\giroscopo_04\giroscopo_04_Cylinder01_mesh.mesh">
                 <configuration name="@Home|All Platforms" excludeFromBuild="true" />
                 <configuration name="@Home|windows" excludeFromBuild="true" />
                 <configuration name="mobile|All Platforms" excludeFromBuild="true" />
             </file>
             <file relativePath=".\modelos\giroscopo_04\horario\rapido\giroscopo_04\giroscopo_04_Cylinder02_mesh.mesh">
-                <configuration name="@Home|All Platforms" excludeFromBuild="true" />
-                <configuration name="@Home|windows" excludeFromBuild="true" />
-                <configuration name="mobile|All Platforms" excludeFromBuild="true" />
-            </file>
-            <file relativePath=".\modelos\giroscopo_04\horario\rapido\giroscopo_04\giroscopo_04_Cylinder03_mesh.mesh">
-                <configuration name="@Home|All Platforms" excludeFromBuild="true" />
-                <configuration name="@Home|windows" excludeFromBuild="true" />
-                <configuration name="mobile|All Platforms" excludeFromBuild="true" />
-            </file>
-            <file relativePath=".\modelos\giroscopo_04\horario\rapido\giroscopo_04\giroscopo_04_Cylinder04_mesh.mesh">
-                <configuration name="@Home|All Platforms" excludeFromBuild="true" />
-                <configuration name="@Home|windows" excludeFromBuild="true" />
-                <configuration name="mobile|All Platforms" excludeFromBuild="true" />
-            </file>
-            <file relativePath=".\modelos\giroscopo_04\horario\rapido\giroscopo_04\giroscopo_04_Cylinder05_mesh.mesh">
-                <configuration name="@Home|All Platforms" excludeFromBuild="true" />
-                <configuration name="@Home|windows" excludeFromBuild="true" />
-                <configuration name="mobile|All Platforms" excludeFromBuild="true" />
-            </file>
-            <file relativePath=".\modelos\giroscopo_04\horario\rapido\giroscopo_04\giroscopo_04_Cylinder06_mesh.mesh">
-                <configuration name="@Home|All Platforms" excludeFromBuild="true" />
-                <configuration name="@Home|windows" excludeFromBuild="true" />
-                <configuration name="mobile|All Platforms" excludeFromBuild="true" />
-            </file>
-            <file relativePath=".\modelos\giroscopo_04\horario\rapido\giroscopo_04\giroscopo_04_Cylinder07_mesh.mesh">
-                <configuration name="@Home|All Platforms" excludeFromBuild="true" />
-                <configuration name="@Home|windows" excludeFromBuild="true" />
-                <configuration name="mobile|All Platforms" excludeFromBuild="true" />
-            </file>
-            <file relativePath=".\modelos\giroscopo_04\horario\rapido\giroscopo_04\giroscopo_04_Cylinder08_mesh.mesh">
-                <configuration name="@Home|All Platforms" excludeFromBuild="true" />
-                <configuration name="@Home|windows" excludeFromBuild="true" />
-                <configuration name="mobile|All Platforms" excludeFromBuild="true" />
-            </file>
-            <file relativePath=".\modelos\giroscopo_04\horario\rapido\giroscopo_04\giroscopo_04_Cylinder09_mesh.mesh">
-                <configuration name="@Home|All Platforms" excludeFromBuild="true" />
-                <configuration name="@Home|windows" excludeFromBuild="true" />
-                <configuration name="mobile|All Platforms" excludeFromBuild="true" />
-            </file>
-            <file relativePath=".\modelos\giroscopo_04\horario\rapido\giroscopo_04\giroscopo_04_Cylinder10_mesh.mesh">
-                <configuration name="@Home|All Platforms" excludeFromBuild="true" />
-                <configuration name="@Home|windows" excludeFromBuild="true" />
-                <configuration name="mobile|All Platforms" excludeFromBuild="true" />
-            </file>
-            <file relativePath=".\modelos\giroscopo_04\horario\rapido\giroscopo_04\giroscopo_04_Cylinder11_mesh.mesh">
-                <configuration name="@Home|All Platforms" excludeFromBuild="true" />
-                <configuration name="@Home|windows" excludeFromBuild="true" />
-                <configuration name="mobile|All Platforms" excludeFromBuild="true" />
-            </file>
-            <file relativePath=".\modelos\giroscopo_04\horario\rapido\giroscopo_04\giroscopo_04_Cylinder12_mesh.mesh">
-                <configuration name="@Home|All Platforms" excludeFromBuild="true" />
-                <configuration name="@Home|windows" excludeFromBuild="true" />
-                <configuration name="mobile|All Platforms" excludeFromBuild="true" />
-            </file>
-            <file relativePath=".\modelos\giroscopo_04\horario\rapido\giroscopo_04\giroscopo_04_Cylinder13_mesh.mesh">
-                <configuration name="@Home|All Platforms" excludeFromBuild="true" />
-                <configuration name="@Home|windows" excludeFromBuild="true" />
-                <configuration name="mobile|All Platforms" excludeFromBuild="true" />
-            </file>
-            <file relativePath=".\modelos\giroscopo_04\horario\rapido\giroscopo_04\giroscopo_04_Cylinder14_mesh.mesh">
-                <configuration name="@Home|All Platforms" excludeFromBuild="true" />
-                <configuration name="@Home|windows" excludeFromBuild="true" />
-                <configuration name="mobile|All Platforms" excludeFromBuild="true" />
-            </file>
-            <file relativePath=".\modelos\giroscopo_04\horario\rapido\giroscopo_04\giroscopo_04_Cylinder15_mesh.mesh">
-                <configuration name="@Home|All Platforms" excludeFromBuild="true" />
-                <configuration name="@Home|windows" excludeFromBuild="true" />
-                <configuration name="mobile|All Platforms" excludeFromBuild="true" />
-            </file>
-            <file relativePath=".\modelos\giroscopo_04\horario\rapido\giroscopo_04\giroscopo_04_Cylinder16_mesh.mesh">
-                <configuration name="@Home|All Platforms" excludeFromBuild="true" />
-                <configuration name="@Home|windows" excludeFromBuild="true" />
-                <configuration name="mobile|All Platforms" excludeFromBuild="true" />
-            </file>
-            <file relativePath=".\modelos\giroscopo_04\horario\rapido\giroscopo_04\giroscopo_04_Cylinder17_mesh.mesh">
-                <configuration name="@Home|All Platforms" excludeFromBuild="true" />
-                <configuration name="@Home|windows" excludeFromBuild="true" />
-                <configuration name="mobile|All Platforms" excludeFromBuild="true" />
-            </file>
-            <file relativePath=".\modelos\giroscopo_04\horario\rapido\giroscopo_04\giroscopo_04_Cylinder18_mesh.mesh">
-                <configuration name="@Home|All Platforms" excludeFromBuild="true" />
-                <configuration name="@Home|windows" excludeFromBuild="true" />
-                <configuration name="mobile|All Platforms" excludeFromBuild="true" />
-            </file>
-            <file relativePath=".\modelos\giroscopo_04\horario\rapido\giroscopo_04\giroscopo_04_Cylinder19_mesh.mesh">
-                <configuration name="@Home|All Platforms" excludeFromBuild="true" />
-                <configuration name="@Home|windows" excludeFromBuild="true" />
-                <configuration name="mobile|All Platforms" excludeFromBuild="true" />
-            </file>
-            <file relativePath=".\modelos\giroscopo_04\horario\rapido\giroscopo_04\giroscopo_04_Cylinder20_mesh.mesh">
-                <configuration name="@Home|All Platforms" excludeFromBuild="true" />
-                <configuration name="@Home|windows" excludeFromBuild="true" />
-                <configuration name="mobile|All Platforms" excludeFromBuild="true" />
-            </file>
-            <file relativePath=".\modelos\giroscopo_04\horario\rapido\giroscopo_04\giroscopo_04_Cylinder21_mesh.mesh">
-                <configuration name="@Home|All Platforms" excludeFromBuild="true" />
-                <configuration name="@Home|windows" excludeFromBuild="true" />
-                <configuration name="mobile|All Platforms" excludeFromBuild="true" />
-            </file>
-            <file relativePath=".\modelos\giroscopo_04\horario\rapido\giroscopo_04\giroscopo_04_Cylinder22_mesh.mesh">
-                <configuration name="@Home|All Platforms" excludeFromBuild="true" />
-                <configuration name="@Home|windows" excludeFromBuild="true" />
-                <configuration name="mobile|All Platforms" excludeFromBuild="true" />
-            </file>
-            <file relativePath=".\modelos\giroscopo_04\horario\rapido\giroscopo_04\giroscopo_04_Cylinder23_mesh.mesh">
-                <configuration name="@Home|All Platforms" excludeFromBuild="true" />
-                <configuration name="@Home|windows" excludeFromBuild="true" />
-                <configuration name="mobile|All Platforms" excludeFromBuild="true" />
-            </file>
-            <file relativePath=".\modelos\giroscopo_04\horario\rapido\giroscopo_04\giroscopo_04_Text01_mesh.mesh">
-                <configuration name="@Home|All Platforms" excludeFromBuild="true" />
-                <configuration name="@Home|windows" excludeFromBuild="true" />
-                <configuration name="mobile|All Platforms" excludeFromBuild="true" />
-            </file>
-            <file relativePath=".\modelos\giroscopo_04\horario\rapido\giroscopo_04\giroscopo_04_Text02_mesh.mesh">
-                <configuration name="@Home|All Platforms" excludeFromBuild="true" />
-                <configuration name="@Home|windows" excludeFromBuild="true" />
-                <configuration name="mobile|All Platforms" excludeFromBuild="true" />
-            </file>
-            <file relativePath=".\modelos\giroscopo_04\horario\rapido\giroscopo_04\giroscopo_04_Text03_mesh.mesh">
-                <configuration name="@Home|All Platforms" excludeFromBuild="true" />
-                <configuration name="@Home|windows" excludeFromBuild="true" />
-                <configuration name="mobile|All Platforms" excludeFromBuild="true" />
-            </file>
-            <file relativePath=".\modelos\giroscopo_04\horario\rapido\giroscopo_04\giroscopo_04_Text04_mesh.mesh">
-                <configuration name="@Home|All Platforms" excludeFromBuild="true" />
-                <configuration name="@Home|windows" excludeFromBuild="true" />
-                <configuration name="mobile|All Platforms" excludeFromBuild="true" />
-            </file>
-            <file relativePath=".\modelos\giroscopo_04\horario\rapido\giroscopo_04\giroscopo_04_Text05_mesh.mesh">
-                <configuration name="@Home|All Platforms" excludeFromBuild="true" />
-                <configuration name="@Home|windows" excludeFromBuild="true" />
-                <configuration name="mobile|All Platforms" excludeFromBuild="true" />
-            </file>
-            <file relativePath=".\modelos\giroscopo_04\horario\rapido\giroscopo_04\giroscopo_04_Text06_mesh.mesh">
-                <configuration name="@Home|All Platforms" excludeFromBuild="true" />
-                <configuration name="@Home|windows" excludeFromBuild="true" />
-                <configuration name="mobile|All Platforms" excludeFromBuild="true" />
-            </file>
-            <file relativePath=".\modelos\giroscopo_04\horario\rapido\giroscopo_04\giroscopo_04_Text07_mesh.mesh">
                 <configuration name="@Home|All Platforms" excludeFromBuild="true" />
                 <configuration name="@Home|windows" excludeFromBuild="true" />
                 <configuration name="mobile|All Platforms" excludeFromBuild="true" />
@@ -2425,11 +2250,6 @@
                 <configuration name="mobile|All Platforms" excludeFromBuild="true" />
             </file>
             <file relativePath=".\modelos\giroscopo_04\horario\rapido\giroscopo_04\giroscopo_04_Tube13_mesh.mesh">
-                <configuration name="@Home|All Platforms" excludeFromBuild="true" />
-                <configuration name="@Home|windows" excludeFromBuild="true" />
-                <configuration name="mobile|All Platforms" excludeFromBuild="true" />
-            </file>
-            <file relativePath=".\modelos\giroscopo_04\horario\rapido\giroscopo_04\naranja.png">
                 <configuration name="@Home|All Platforms" excludeFromBuild="true" />
                 <configuration name="@Home|windows" excludeFromBuild="true" />
                 <configuration name="mobile|All Platforms" excludeFromBuild="true" />
