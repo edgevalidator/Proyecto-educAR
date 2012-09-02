@@ -1,3 +1,6 @@
+-- touch.lua
+-- 18:24
+
 local im = getInputManager()
 local scene = getCurrentScene()
 local viewport = Viewport(scene:getObjectByName("viewport"))
@@ -66,6 +69,8 @@ repeat
 				toggle_animations()
 			elseif obj:getName() == 'boton_direccion' then
 				toggle_animation_direction()
+			elseif obj:getName() == 'boton_precesion' then
+				toggle_precesion()
 			end
 		end
 		
