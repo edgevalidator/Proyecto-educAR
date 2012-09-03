@@ -6,10 +6,7 @@
         <configuration name="mobile|android" exportFolder="C:\Users\Matias Cuadrado\Desktop\build" />
     </configurations>
     <LuaEditor>
-        <files>
-            <file absolutePath="C:\Users\duter\Documents\GitHub\Proyecto-educAR\Giroscopo\giroscopo.lua" />
-            <file absolutePath="C:\Users\duter\Documents\GitHub\Proyecto-educAR\Giroscopo\touch.lua" />
-        </files>
+        <files />
         <watch />
     </LuaEditor>
     <macros />

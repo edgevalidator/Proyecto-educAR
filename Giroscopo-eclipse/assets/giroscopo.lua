@@ -1,7 +1,7 @@
 -- giroscopo.lua
--- 18:24
+-- 23:00
 
-Giroscopo = { name = '' , animated = false, direction = 'clockwise', precesion = 'quick' }
+Giroscopo = { name = '' , animated = false, direction = 'counterclockwise', precesion = 'quick' }
 
 function Giroscopo:new(o)
 	o = o or {}
@@ -154,8 +154,8 @@ function Giroscopo:switchAnimationState()
 	f(self:getNameForAnimatedModel(false, true))
 	f(self:getNameForAnimatedModel(false, false))
 	
-	local aux = { "momento_angular", "velocidad_angular", "fuerzas", "torque", "erre" }
-	for i = 1, 5 do
+	local aux = { "momento_angular", "velocidad_angular", "fuerzas", "torque" }
+	for i = 1, 4 do
 		f(self:getNameForVectorGroup(true, true, aux[i]))
 		f(self:getNameForVectorGroup(false, true, aux[i]))
 		f(self:getNameForVectorGroup(false, false, aux[i]))
@@ -251,7 +251,7 @@ function Giroscopo:loadModel()
 		end
 		resource = resource .. self:getName() .. "/" .. self:getName() .. ".scene"
 		animated_model:setResource(resource)
-		animated_model:setVisible(clockwise and self:getDirection() == 'clockwise' and quick and self:getPrecesion() == 'quick')
+		animated_model:setVisible(((clockwise and self:getDirection() == 'clockwise') or (not clockwise and self:getDirection() == 'counterclockwise')) and ((quick and self:getPrecesion() == 'quick') or (not quick and self:getPrecesion() == 'slow')))
 		
 		-- Load vectors
 		local vectors = Object3D(scene:createObject(CID_OBJECT3D))
@@ -261,8 +261,8 @@ function Giroscopo:loadModel()
 		vectors:setOrientationEuler(90.0, 0.0, 0.0)
 		
 		-- Load vector groups
-		local aux = { "momento_angular", "velocidad_angular", "fuerzas", "torque", "erre" }
-		for i = 1, 5 do
+		local aux = { "momento_angular", "velocidad_angular", "fuerzas", "torque" }
+		for i = 1, 4 do
 			local vector_group = Scenette(scene:createObject(CID_SCENETTE))
 			vectors:addChild(vector_group)
 			vector_group:setName(self:getNameForVectorGroup(clockwise, quick, aux[i]))

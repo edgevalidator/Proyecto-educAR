@@ -1,5 +1,5 @@
 <scene version="0.2">
-	<info source="C:\Users\Matias Cuadrado\Desktop\exportados 20-08\02-rapido-horario (US 13)\giroscopo_02.max" profile="public" shared_geometry="false" build_edges="false" build_tangents="false" exporter="Exporter 3DSMax3.20.22766"/>
+	<info source="C:\Users\Matias Cuadrado\Desktop\exportados 02-09\02-rapido-horario (US 13)\giroscopo_02.max" profile="public" shared_geometry="false" build_edges="false" build_tangents="false" exporter="Exporter 3DSMax3.20.22766"/>
 	<settings>
 		<environment ambient="0 0 0" background="0 0 0" camera=""/>
 		<shadow color="0 0 0" distance="10000" self="false" setup="uniform" size="1024 1" technique="none"/>
@@ -1126,6 +1126,12 @@
 				<entity name="Cylinder02_mesh" aab="0 0 0 0 0 0" blend="average" mesh="giroscopo_02_Cylinder02_mesh.mesh" priority="0" shadow="false true" visible="true"/>
 			</node>
 			<node name="Torus02" orientation="8.55244e-006 -0.0871643 -7.24764e-007 0.996194" position="0 0 0" priority="0" scale="0.134212 0.134212 0.134212" show_box="false" visible="true">
+				<node name="Cylinder26" orientation="-8.5504e-006 0.0871643 7.48137e-007 0.996194" position="-2.93508 1.39849e-007 0.517585" priority="0" scale="7.45092 7.45092 7.45092" show_box="false" visible="true">
+					<node name="Text09" orientation="0.707107 1.25607e-015 1.25607e-015 0.707107" position="0.994 0 5.184" priority="0" scale="1 1 1" show_box="false" visible="true">
+						<entity name="Text09_mesh" aab="0 0 0 0 0 0" blend="average" mesh="giroscopo_02_Text09_mesh.mesh" priority="0" shadow="false true" visible="true"/>
+					</node>
+					<entity name="Cylinder26_mesh" aab="0 0 0 0 0 0" blend="average" mesh="giroscopo_02_Cylinder26_mesh.mesh" priority="0" shadow="false true" visible="true"/>
+				</node>
 				<node name="Torus01" orientation="-2.30291e-007 0.258875 6.17207e-008 0.965911" position="33.6412 2.32831e-010 58.2683" priority="0" scale="1 1 1" show_box="false" visible="true">
 					<entity name="Torus01_mesh" aab="0 0 0 0 0 0" blend="average" mesh="giroscopo_02_Torus01_mesh.mesh" priority="0" shadow="false true" visible="true"/>
 				</node>

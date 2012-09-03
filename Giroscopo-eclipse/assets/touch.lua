@@ -1,5 +1,5 @@
 -- touch.lua
--- 18:24
+-- 22:51
 
 local im = getInputManager()
 local scene = getCurrentScene()
@@ -61,8 +61,6 @@ repeat
 				toggle_vector_group('torque')
 			elseif obj:getName() == 'boton_fuerzas' then
 				toggle_vector_group('fuerzas')
-			elseif obj:getName() == 'boton_erre' then
-				toggle_vector_group('erre')
 			elseif obj:getName() == 'boton_vectores' then
 				toggle_vectors()
 			elseif obj:getName() == 'boton_animaciones' then
