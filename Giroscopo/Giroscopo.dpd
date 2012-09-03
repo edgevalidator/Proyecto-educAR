@@ -149,46 +149,6 @@
                 <configuration name="@Home|windows" excludeFromBuild="true" />
                 <configuration name="mobile|All Platforms" excludeFromBuild="true" />
             </file>
-            <file relativePath=".\modelos\giroscopo_02\antihorario\lento\erre\erre.material">
-                <configuration name="@Home|All Platforms" excludeFromBuild="true" />
-                <configuration name="@Home|windows" excludeFromBuild="true" />
-                <configuration name="mobile|All Platforms" excludeFromBuild="true" />
-            </file>
-            <file relativePath=".\modelos\giroscopo_02\antihorario\lento\erre\erre.scene">
-                <configuration name="@Home|All Platforms" excludeFromBuild="true" />
-                <configuration name="@Home|windows" excludeFromBuild="true" />
-                <configuration name="mobile|All Platforms" excludeFromBuild="true" />
-            </file>
-            <file relativePath=".\modelos\giroscopo_02\antihorario\lento\erre\erre_Cone04_mesh.mesh">
-                <configuration name="@Home|All Platforms" excludeFromBuild="true" />
-                <configuration name="@Home|windows" excludeFromBuild="true" />
-                <configuration name="mobile|All Platforms" excludeFromBuild="true" />
-            </file>
-            <file relativePath=".\modelos\giroscopo_02\antihorario\lento\erre\erre_Cylinder11_mesh.mesh">
-                <configuration name="@Home|All Platforms" excludeFromBuild="true" />
-                <configuration name="@Home|windows" excludeFromBuild="true" />
-                <configuration name="mobile|All Platforms" excludeFromBuild="true" />
-            </file>
-            <file relativePath=".\modelos\giroscopo_02\antihorario\lento\erre\erre_Cylinder12_mesh.mesh">
-                <configuration name="@Home|All Platforms" excludeFromBuild="true" />
-                <configuration name="@Home|windows" excludeFromBuild="true" />
-                <configuration name="mobile|All Platforms" excludeFromBuild="true" />
-            </file>
-            <file relativePath=".\modelos\giroscopo_02\antihorario\lento\erre\erre_Cylinder13_mesh.mesh">
-                <configuration name="@Home|All Platforms" excludeFromBuild="true" />
-                <configuration name="@Home|windows" excludeFromBuild="true" />
-                <configuration name="mobile|All Platforms" excludeFromBuild="true" />
-            </file>
-            <file relativePath=".\modelos\giroscopo_02\antihorario\lento\erre\erre_Text04_mesh.mesh">
-                <configuration name="@Home|All Platforms" excludeFromBuild="true" />
-                <configuration name="@Home|windows" excludeFromBuild="true" />
-                <configuration name="mobile|All Platforms" excludeFromBuild="true" />
-            </file>
-            <file relativePath=".\modelos\giroscopo_02\antihorario\lento\erre\naranja.png">
-                <configuration name="@Home|All Platforms" excludeFromBuild="true" />
-                <configuration name="@Home|windows" excludeFromBuild="true" />
-                <configuration name="mobile|All Platforms" excludeFromBuild="true" />
-            </file>
             <file relativePath=".\modelos\giroscopo_02\antihorario\lento\fuerzas\fuerzas.material">
                 <configuration name="@Home|All Platforms" excludeFromBuild="true" />
                 <configuration name="@Home|windows" excludeFromBuild="true" />
@@ -530,46 +490,6 @@
                 <configuration name="mobile|All Platforms" excludeFromBuild="true" />
             </file>
             <file relativePath=".\modelos\giroscopo_02\antihorario\lento\velocidad_angular\velocidad_angular_Text08_mesh.mesh">
-                <configuration name="@Home|All Platforms" excludeFromBuild="true" />
-                <configuration name="@Home|windows" excludeFromBuild="true" />
-                <configuration name="mobile|All Platforms" excludeFromBuild="true" />
-            </file>
-            <file relativePath=".\modelos\giroscopo_02\antihorario\rapido\erre\erre.material">
-                <configuration name="@Home|All Platforms" excludeFromBuild="true" />
-                <configuration name="@Home|windows" excludeFromBuild="true" />
-                <configuration name="mobile|All Platforms" excludeFromBuild="true" />
-            </file>
-            <file relativePath=".\modelos\giroscopo_02\antihorario\rapido\erre\erre.scene">
-                <configuration name="@Home|All Platforms" excludeFromBuild="true" />
-                <configuration name="@Home|windows" excludeFromBuild="true" />
-                <configuration name="mobile|All Platforms" excludeFromBuild="true" />
-            </file>
-            <file relativePath=".\modelos\giroscopo_02\antihorario\rapido\erre\erre_Cone04_mesh.mesh">
-                <configuration name="@Home|All Platforms" excludeFromBuild="true" />
-                <configuration name="@Home|windows" excludeFromBuild="true" />
-                <configuration name="mobile|All Platforms" excludeFromBuild="true" />
-            </file>
-            <file relativePath=".\modelos\giroscopo_02\antihorario\rapido\erre\erre_Cylinder11_mesh.mesh">
-                <configuration name="@Home|All Platforms" excludeFromBuild="true" />
-                <configuration name="@Home|windows" excludeFromBuild="true" />
-                <configuration name="mobile|All Platforms" excludeFromBuild="true" />
-            </file>
-            <file relativePath=".\modelos\giroscopo_02\antihorario\rapido\erre\erre_Cylinder12_mesh.mesh">
-                <configuration name="@Home|All Platforms" excludeFromBuild="true" />
-                <configuration name="@Home|windows" excludeFromBuild="true" />
-                <configuration name="mobile|All Platforms" excludeFromBuild="true" />
-            </file>
-            <file relativePath=".\modelos\giroscopo_02\antihorario\rapido\erre\erre_Cylinder13_mesh.mesh">
-                <configuration name="@Home|All Platforms" excludeFromBuild="true" />
-                <configuration name="@Home|windows" excludeFromBuild="true" />
-                <configuration name="mobile|All Platforms" excludeFromBuild="true" />
-            </file>
-            <file relativePath=".\modelos\giroscopo_02\antihorario\rapido\erre\erre_Text04_mesh.mesh">
-                <configuration name="@Home|All Platforms" excludeFromBuild="true" />
-                <configuration name="@Home|windows" excludeFromBuild="true" />
-                <configuration name="mobile|All Platforms" excludeFromBuild="true" />
-            </file>
-            <file relativePath=".\modelos\giroscopo_02\antihorario\rapido\erre\naranja.png">
                 <configuration name="@Home|All Platforms" excludeFromBuild="true" />
                 <configuration name="@Home|windows" excludeFromBuild="true" />
                 <configuration name="mobile|All Platforms" excludeFromBuild="true" />
@@ -949,46 +869,6 @@
                 <configuration name="@Home|windows" excludeFromBuild="true" />
                 <configuration name="mobile|All Platforms" excludeFromBuild="true" />
             </file>
-            <file relativePath=".\modelos\giroscopo_02\horario\rapido\erre\erre.material">
-                <configuration name="@Home|All Platforms" excludeFromBuild="true" />
-                <configuration name="@Home|windows" excludeFromBuild="true" />
-                <configuration name="mobile|All Platforms" excludeFromBuild="true" />
-            </file>
-            <file relativePath=".\modelos\giroscopo_02\horario\rapido\erre\erre.scene">
-                <configuration name="@Home|All Platforms" excludeFromBuild="true" />
-                <configuration name="@Home|windows" excludeFromBuild="true" />
-                <configuration name="mobile|All Platforms" excludeFromBuild="true" />
-            </file>
-            <file relativePath=".\modelos\giroscopo_02\horario\rapido\erre\erre_Cone04_mesh.mesh">
-                <configuration name="@Home|All Platforms" excludeFromBuild="true" />
-                <configuration name="@Home|windows" excludeFromBuild="true" />
-                <configuration name="mobile|All Platforms" excludeFromBuild="true" />
-            </file>
-            <file relativePath=".\modelos\giroscopo_02\horario\rapido\erre\erre_Cylinder11_mesh.mesh">
-                <configuration name="@Home|All Platforms" excludeFromBuild="true" />
-                <configuration name="@Home|windows" excludeFromBuild="true" />
-                <configuration name="mobile|All Platforms" excludeFromBuild="true" />
-            </file>
-            <file relativePath=".\modelos\giroscopo_02\horario\rapido\erre\erre_Cylinder12_mesh.mesh">
-                <configuration name="@Home|All Platforms" excludeFromBuild="true" />
-                <configuration name="@Home|windows" excludeFromBuild="true" />
-                <configuration name="mobile|All Platforms" excludeFromBuild="true" />
-            </file>
-            <file relativePath=".\modelos\giroscopo_02\horario\rapido\erre\erre_Cylinder13_mesh.mesh">
-                <configuration name="@Home|All Platforms" excludeFromBuild="true" />
-                <configuration name="@Home|windows" excludeFromBuild="true" />
-                <configuration name="mobile|All Platforms" excludeFromBuild="true" />
-            </file>
-            <file relativePath=".\modelos\giroscopo_02\horario\rapido\erre\erre_Text04_mesh.mesh">
-                <configuration name="@Home|All Platforms" excludeFromBuild="true" />
-                <configuration name="@Home|windows" excludeFromBuild="true" />
-                <configuration name="mobile|All Platforms" excludeFromBuild="true" />
-            </file>
-            <file relativePath=".\modelos\giroscopo_02\horario\rapido\erre\naranja.png">
-                <configuration name="@Home|All Platforms" excludeFromBuild="true" />
-                <configuration name="@Home|windows" excludeFromBuild="true" />
-                <configuration name="mobile|All Platforms" excludeFromBuild="true" />
-            </file>
             <file relativePath=".\modelos\giroscopo_02\horario\rapido\fuerzas\fuerzas.material">
                 <configuration name="@Home|All Platforms" excludeFromBuild="true" />
                 <configuration name="@Home|windows" excludeFromBuild="true" />
@@ -1319,46 +1199,6 @@
                 <configuration name="@Home|windows" excludeFromBuild="true" />
                 <configuration name="mobile|All Platforms" excludeFromBuild="true" />
             </file>
-            <file relativePath=".\modelos\giroscopo_04\antihorario\lento\erre\erre.material">
-                <configuration name="@Home|All Platforms" excludeFromBuild="true" />
-                <configuration name="@Home|windows" excludeFromBuild="true" />
-                <configuration name="mobile|All Platforms" excludeFromBuild="true" />
-            </file>
-            <file relativePath=".\modelos\giroscopo_04\antihorario\lento\erre\erre.scene">
-                <configuration name="@Home|All Platforms" excludeFromBuild="true" />
-                <configuration name="@Home|windows" excludeFromBuild="true" />
-                <configuration name="mobile|All Platforms" excludeFromBuild="true" />
-            </file>
-            <file relativePath=".\modelos\giroscopo_04\antihorario\lento\erre\erre_Cone07_mesh.mesh">
-                <configuration name="@Home|All Platforms" excludeFromBuild="true" />
-                <configuration name="@Home|windows" excludeFromBuild="true" />
-                <configuration name="mobile|All Platforms" excludeFromBuild="true" />
-            </file>
-            <file relativePath=".\modelos\giroscopo_04\antihorario\lento\erre\erre_Cylinder21_mesh.mesh">
-                <configuration name="@Home|All Platforms" excludeFromBuild="true" />
-                <configuration name="@Home|windows" excludeFromBuild="true" />
-                <configuration name="mobile|All Platforms" excludeFromBuild="true" />
-            </file>
-            <file relativePath=".\modelos\giroscopo_04\antihorario\lento\erre\erre_Cylinder22_mesh.mesh">
-                <configuration name="@Home|All Platforms" excludeFromBuild="true" />
-                <configuration name="@Home|windows" excludeFromBuild="true" />
-                <configuration name="mobile|All Platforms" excludeFromBuild="true" />
-            </file>
-            <file relativePath=".\modelos\giroscopo_04\antihorario\lento\erre\erre_Cylinder23_mesh.mesh">
-                <configuration name="@Home|All Platforms" excludeFromBuild="true" />
-                <configuration name="@Home|windows" excludeFromBuild="true" />
-                <configuration name="mobile|All Platforms" excludeFromBuild="true" />
-            </file>
-            <file relativePath=".\modelos\giroscopo_04\antihorario\lento\erre\erre_Text07_mesh.mesh">
-                <configuration name="@Home|All Platforms" excludeFromBuild="true" />
-                <configuration name="@Home|windows" excludeFromBuild="true" />
-                <configuration name="mobile|All Platforms" excludeFromBuild="true" />
-            </file>
-            <file relativePath=".\modelos\giroscopo_04\antihorario\lento\erre\naranja.png">
-                <configuration name="@Home|All Platforms" excludeFromBuild="true" />
-                <configuration name="@Home|windows" excludeFromBuild="true" />
-                <configuration name="mobile|All Platforms" excludeFromBuild="true" />
-            </file>
             <file relativePath=".\modelos\giroscopo_04\antihorario\lento\fuerzas\fuerzas.material">
                 <configuration name="@Home|All Platforms" excludeFromBuild="true" />
                 <configuration name="@Home|windows" excludeFromBuild="true" />
@@ -1670,46 +1510,6 @@
                 <configuration name="mobile|All Platforms" excludeFromBuild="true" />
             </file>
             <file relativePath=".\modelos\giroscopo_04\antihorario\lento\velocidad_angular\velocidad_angular_Text06_mesh.mesh">
-                <configuration name="@Home|All Platforms" excludeFromBuild="true" />
-                <configuration name="@Home|windows" excludeFromBuild="true" />
-                <configuration name="mobile|All Platforms" excludeFromBuild="true" />
-            </file>
-            <file relativePath=".\modelos\giroscopo_04\antihorario\rapido\erre\erre.material">
-                <configuration name="@Home|All Platforms" excludeFromBuild="true" />
-                <configuration name="@Home|windows" excludeFromBuild="true" />
-                <configuration name="mobile|All Platforms" excludeFromBuild="true" />
-            </file>
-            <file relativePath=".\modelos\giroscopo_04\antihorario\rapido\erre\erre.scene">
-                <configuration name="@Home|All Platforms" excludeFromBuild="true" />
-                <configuration name="@Home|windows" excludeFromBuild="true" />
-                <configuration name="mobile|All Platforms" excludeFromBuild="true" />
-            </file>
-            <file relativePath=".\modelos\giroscopo_04\antihorario\rapido\erre\erre_Cone07_mesh.mesh">
-                <configuration name="@Home|All Platforms" excludeFromBuild="true" />
-                <configuration name="@Home|windows" excludeFromBuild="true" />
-                <configuration name="mobile|All Platforms" excludeFromBuild="true" />
-            </file>
-            <file relativePath=".\modelos\giroscopo_04\antihorario\rapido\erre\erre_Cylinder21_mesh.mesh">
-                <configuration name="@Home|All Platforms" excludeFromBuild="true" />
-                <configuration name="@Home|windows" excludeFromBuild="true" />
-                <configuration name="mobile|All Platforms" excludeFromBuild="true" />
-            </file>
-            <file relativePath=".\modelos\giroscopo_04\antihorario\rapido\erre\erre_Cylinder22_mesh.mesh">
-                <configuration name="@Home|All Platforms" excludeFromBuild="true" />
-                <configuration name="@Home|windows" excludeFromBuild="true" />
-                <configuration name="mobile|All Platforms" excludeFromBuild="true" />
-            </file>
-            <file relativePath=".\modelos\giroscopo_04\antihorario\rapido\erre\erre_Cylinder23_mesh.mesh">
-                <configuration name="@Home|All Platforms" excludeFromBuild="true" />
-                <configuration name="@Home|windows" excludeFromBuild="true" />
-                <configuration name="mobile|All Platforms" excludeFromBuild="true" />
-            </file>
-            <file relativePath=".\modelos\giroscopo_04\antihorario\rapido\erre\erre_Text07_mesh.mesh">
-                <configuration name="@Home|All Platforms" excludeFromBuild="true" />
-                <configuration name="@Home|windows" excludeFromBuild="true" />
-                <configuration name="mobile|All Platforms" excludeFromBuild="true" />
-            </file>
-            <file relativePath=".\modelos\giroscopo_04\antihorario\rapido\erre\naranja.png">
                 <configuration name="@Home|All Platforms" excludeFromBuild="true" />
                 <configuration name="@Home|windows" excludeFromBuild="true" />
                 <configuration name="mobile|All Platforms" excludeFromBuild="true" />
@@ -2040,46 +1840,6 @@
                 <configuration name="mobile|All Platforms" excludeFromBuild="true" />
             </file>
             <file relativePath=".\modelos\giroscopo_04\antihorario\rapido\velocidad_angular\velocidad_angular_Text06_mesh.mesh">
-                <configuration name="@Home|All Platforms" excludeFromBuild="true" />
-                <configuration name="@Home|windows" excludeFromBuild="true" />
-                <configuration name="mobile|All Platforms" excludeFromBuild="true" />
-            </file>
-            <file relativePath=".\modelos\giroscopo_04\horario\rapido\erre\erre.material">
-                <configuration name="@Home|All Platforms" excludeFromBuild="true" />
-                <configuration name="@Home|windows" excludeFromBuild="true" />
-                <configuration name="mobile|All Platforms" excludeFromBuild="true" />
-            </file>
-            <file relativePath=".\modelos\giroscopo_04\horario\rapido\erre\erre.scene">
-                <configuration name="@Home|All Platforms" excludeFromBuild="true" />
-                <configuration name="@Home|windows" excludeFromBuild="true" />
-                <configuration name="mobile|All Platforms" excludeFromBuild="true" />
-            </file>
-            <file relativePath=".\modelos\giroscopo_04\horario\rapido\erre\erre_Cone07_mesh.mesh">
-                <configuration name="@Home|All Platforms" excludeFromBuild="true" />
-                <configuration name="@Home|windows" excludeFromBuild="true" />
-                <configuration name="mobile|All Platforms" excludeFromBuild="true" />
-            </file>
-            <file relativePath=".\modelos\giroscopo_04\horario\rapido\erre\erre_Cylinder21_mesh.mesh">
-                <configuration name="@Home|All Platforms" excludeFromBuild="true" />
-                <configuration name="@Home|windows" excludeFromBuild="true" />
-                <configuration name="mobile|All Platforms" excludeFromBuild="true" />
-            </file>
-            <file relativePath=".\modelos\giroscopo_04\horario\rapido\erre\erre_Cylinder22_mesh.mesh">
-                <configuration name="@Home|All Platforms" excludeFromBuild="true" />
-                <configuration name="@Home|windows" excludeFromBuild="true" />
-                <configuration name="mobile|All Platforms" excludeFromBuild="true" />
-            </file>
-            <file relativePath=".\modelos\giroscopo_04\horario\rapido\erre\erre_Cylinder23_mesh.mesh">
-                <configuration name="@Home|All Platforms" excludeFromBuild="true" />
-                <configuration name="@Home|windows" excludeFromBuild="true" />
-                <configuration name="mobile|All Platforms" excludeFromBuild="true" />
-            </file>
-            <file relativePath=".\modelos\giroscopo_04\horario\rapido\erre\erre_Text07_mesh.mesh">
-                <configuration name="@Home|All Platforms" excludeFromBuild="true" />
-                <configuration name="@Home|windows" excludeFromBuild="true" />
-                <configuration name="mobile|All Platforms" excludeFromBuild="true" />
-            </file>
-            <file relativePath=".\modelos\giroscopo_04\horario\rapido\erre\naranja.png">
                 <configuration name="@Home|All Platforms" excludeFromBuild="true" />
                 <configuration name="@Home|windows" excludeFromBuild="true" />
                 <configuration name="mobile|All Platforms" excludeFromBuild="true" />
@@ -2491,14 +2251,6 @@
         <file relativePath="modelos/giroscopo_01/giroscopo_01_Tube12_mesh.mesh" />
         <file relativePath="modelos/giroscopo_01/giroscopo_01_Tube13_mesh.mesh" />
         <file relativePath="modelos/giroscopo_01/Lakerem2.jpg" />
-        <file relativePath="modelos/giroscopo_02/antihorario/lento/erre/erre.material" />
-        <file relativePath="modelos/giroscopo_02/antihorario/lento/erre/erre.scene" />
-        <file relativePath="modelos/giroscopo_02/antihorario/lento/erre/erre_Cone04_mesh.mesh" />
-        <file relativePath="modelos/giroscopo_02/antihorario/lento/erre/erre_Cylinder11_mesh.mesh" />
-        <file relativePath="modelos/giroscopo_02/antihorario/lento/erre/erre_Cylinder12_mesh.mesh" />
-        <file relativePath="modelos/giroscopo_02/antihorario/lento/erre/erre_Cylinder13_mesh.mesh" />
-        <file relativePath="modelos/giroscopo_02/antihorario/lento/erre/erre_Text04_mesh.mesh" />
-        <file relativePath="modelos/giroscopo_02/antihorario/lento/erre/naranja.png" />
         <file relativePath="modelos/giroscopo_02/antihorario/lento/fuerzas/fuerzas.material" />
         <file relativePath="modelos/giroscopo_02/antihorario/lento/fuerzas/fuerzas.scene" />
         <file relativePath="modelos/giroscopo_02/antihorario/lento/fuerzas/fuerzas_Cone01_mesh.mesh" />
@@ -2568,14 +2320,6 @@
         <file relativePath="modelos/giroscopo_02/antihorario/lento/velocidad_angular/velocidad_angular_Cylinder25_mesh.mesh" />
         <file relativePath="modelos/giroscopo_02/antihorario/lento/velocidad_angular/velocidad_angular_Text06_mesh.mesh" />
         <file relativePath="modelos/giroscopo_02/antihorario/lento/velocidad_angular/velocidad_angular_Text08_mesh.mesh" />
-        <file relativePath="modelos/giroscopo_02/antihorario/rapido/erre/erre.material" />
-        <file relativePath="modelos/giroscopo_02/antihorario/rapido/erre/erre.scene" />
-        <file relativePath="modelos/giroscopo_02/antihorario/rapido/erre/erre_Cone04_mesh.mesh" />
-        <file relativePath="modelos/giroscopo_02/antihorario/rapido/erre/erre_Cylinder11_mesh.mesh" />
-        <file relativePath="modelos/giroscopo_02/antihorario/rapido/erre/erre_Cylinder12_mesh.mesh" />
-        <file relativePath="modelos/giroscopo_02/antihorario/rapido/erre/erre_Cylinder13_mesh.mesh" />
-        <file relativePath="modelos/giroscopo_02/antihorario/rapido/erre/erre_Text04_mesh.mesh" />
-        <file relativePath="modelos/giroscopo_02/antihorario/rapido/erre/naranja.png" />
         <file relativePath="modelos/giroscopo_02/antihorario/rapido/fuerzas/fuerzas.material" />
         <file relativePath="modelos/giroscopo_02/antihorario/rapido/fuerzas/fuerzas.scene" />
         <file relativePath="modelos/giroscopo_02/antihorario/rapido/fuerzas/fuerzas_Cone01_mesh.mesh" />
@@ -2651,14 +2395,6 @@
         <file relativePath="modelos/giroscopo_02/antihorario/rapido/velocidad_angular/velocidad_angular_Cylinder25_mesh.mesh" />
         <file relativePath="modelos/giroscopo_02/antihorario/rapido/velocidad_angular/velocidad_angular_Text06_mesh.mesh" />
         <file relativePath="modelos/giroscopo_02/antihorario/rapido/velocidad_angular/velocidad_angular_Text08_mesh.mesh" />
-        <file relativePath="modelos/giroscopo_02/horario/rapido/erre/erre.material" />
-        <file relativePath="modelos/giroscopo_02/horario/rapido/erre/erre.scene" />
-        <file relativePath="modelos/giroscopo_02/horario/rapido/erre/erre_Cone04_mesh.mesh" />
-        <file relativePath="modelos/giroscopo_02/horario/rapido/erre/erre_Cylinder11_mesh.mesh" />
-        <file relativePath="modelos/giroscopo_02/horario/rapido/erre/erre_Cylinder12_mesh.mesh" />
-        <file relativePath="modelos/giroscopo_02/horario/rapido/erre/erre_Cylinder13_mesh.mesh" />
-        <file relativePath="modelos/giroscopo_02/horario/rapido/erre/erre_Text04_mesh.mesh" />
-        <file relativePath="modelos/giroscopo_02/horario/rapido/erre/naranja.png" />
         <file relativePath="modelos/giroscopo_02/horario/rapido/fuerzas/fuerzas.material" />
         <file relativePath="modelos/giroscopo_02/horario/rapido/fuerzas/fuerzas.scene" />
         <file relativePath="modelos/giroscopo_02/horario/rapido/fuerzas/fuerzas_Cone01_mesh.mesh" />
@@ -2725,14 +2461,6 @@
         <file relativePath="modelos/giroscopo_02/horario/rapido/velocidad_angular/velocidad_angular_Cylinder25_mesh.mesh" />
         <file relativePath="modelos/giroscopo_02/horario/rapido/velocidad_angular/velocidad_angular_Text06_mesh.mesh" />
         <file relativePath="modelos/giroscopo_02/horario/rapido/velocidad_angular/velocidad_angular_Text08_mesh.mesh" />
-        <file relativePath="modelos/giroscopo_04/antihorario/lento/erre/erre.material" />
-        <file relativePath="modelos/giroscopo_04/antihorario/lento/erre/erre.scene" />
-        <file relativePath="modelos/giroscopo_04/antihorario/lento/erre/erre_Cone07_mesh.mesh" />
-        <file relativePath="modelos/giroscopo_04/antihorario/lento/erre/erre_Cylinder21_mesh.mesh" />
-        <file relativePath="modelos/giroscopo_04/antihorario/lento/erre/erre_Cylinder22_mesh.mesh" />
-        <file relativePath="modelos/giroscopo_04/antihorario/lento/erre/erre_Cylinder23_mesh.mesh" />
-        <file relativePath="modelos/giroscopo_04/antihorario/lento/erre/erre_Text07_mesh.mesh" />
-        <file relativePath="modelos/giroscopo_04/antihorario/lento/erre/naranja.png" />
         <file relativePath="modelos/giroscopo_04/antihorario/lento/fuerzas/fuerzas.material" />
         <file relativePath="modelos/giroscopo_04/antihorario/lento/fuerzas/fuerzas.scene" />
         <file relativePath="modelos/giroscopo_04/antihorario/lento/fuerzas/fuerzas_Cone01_mesh.mesh" />
@@ -2796,14 +2524,6 @@
         <file relativePath="modelos/giroscopo_04/antihorario/lento/velocidad_angular/velocidad_angular_Cylinder20_mesh.mesh" />
         <file relativePath="modelos/giroscopo_04/antihorario/lento/velocidad_angular/velocidad_angular_Text05_mesh.mesh" />
         <file relativePath="modelos/giroscopo_04/antihorario/lento/velocidad_angular/velocidad_angular_Text06_mesh.mesh" />
-        <file relativePath="modelos/giroscopo_04/antihorario/rapido/erre/erre.material" />
-        <file relativePath="modelos/giroscopo_04/antihorario/rapido/erre/erre.scene" />
-        <file relativePath="modelos/giroscopo_04/antihorario/rapido/erre/erre_Cone07_mesh.mesh" />
-        <file relativePath="modelos/giroscopo_04/antihorario/rapido/erre/erre_Cylinder21_mesh.mesh" />
-        <file relativePath="modelos/giroscopo_04/antihorario/rapido/erre/erre_Cylinder22_mesh.mesh" />
-        <file relativePath="modelos/giroscopo_04/antihorario/rapido/erre/erre_Cylinder23_mesh.mesh" />
-        <file relativePath="modelos/giroscopo_04/antihorario/rapido/erre/erre_Text07_mesh.mesh" />
-        <file relativePath="modelos/giroscopo_04/antihorario/rapido/erre/naranja.png" />
         <file relativePath="modelos/giroscopo_04/antihorario/rapido/fuerzas/fuerzas.material" />
         <file relativePath="modelos/giroscopo_04/antihorario/rapido/fuerzas/fuerzas.scene" />
         <file relativePath="modelos/giroscopo_04/antihorario/rapido/fuerzas/fuerzas_Cone01_mesh.mesh" />
@@ -2870,14 +2590,6 @@
         <file relativePath="modelos/giroscopo_04/antihorario/rapido/velocidad_angular/velocidad_angular_Cylinder20_mesh.mesh" />
         <file relativePath="modelos/giroscopo_04/antihorario/rapido/velocidad_angular/velocidad_angular_Text05_mesh.mesh" />
         <file relativePath="modelos/giroscopo_04/antihorario/rapido/velocidad_angular/velocidad_angular_Text06_mesh.mesh" />
-        <file relativePath="modelos/giroscopo_04/horario/rapido/erre/erre.material" />
-        <file relativePath="modelos/giroscopo_04/horario/rapido/erre/erre.scene" />
-        <file relativePath="modelos/giroscopo_04/horario/rapido/erre/erre_Cone07_mesh.mesh" />
-        <file relativePath="modelos/giroscopo_04/horario/rapido/erre/erre_Cylinder21_mesh.mesh" />
-        <file relativePath="modelos/giroscopo_04/horario/rapido/erre/erre_Cylinder22_mesh.mesh" />
-        <file relativePath="modelos/giroscopo_04/horario/rapido/erre/erre_Cylinder23_mesh.mesh" />
-        <file relativePath="modelos/giroscopo_04/horario/rapido/erre/erre_Text07_mesh.mesh" />
-        <file relativePath="modelos/giroscopo_04/horario/rapido/erre/naranja.png" />
         <file relativePath="modelos/giroscopo_04/horario/rapido/fuerzas/fuerzas.material" />
         <file relativePath="modelos/giroscopo_04/horario/rapido/fuerzas/fuerzas.scene" />
         <file relativePath="modelos/giroscopo_04/horario/rapido/fuerzas/fuerzas_Cone01_mesh.mesh" />
@@ -2981,7 +2693,6 @@
             <scenette name="boton_momentoangular" file="boton\boton.scene" position="{1.500000, -8.000000, -1.000000}" orientation="{0.763129, 0.640342, 0.056023, -0.066765}" visible="true" rendergroup="50" scale="{0.100000, 0.100000, 0.100000}" visibilitymask="-1" />
             <scenette name="boton_fuerzas" file="boton\boton.scene" position="{4.000000, -8.000000, -1.000000}" orientation="{0.763129, 0.640342, 0.056023, -0.066765}" visible="true" rendergroup="50" scale="{0.100000, 0.100000, 0.100000}" visibilitymask="-1" />
             <scenette name="boton_vectores" file="boton\boton.scene" position="{-3.500000, -10.500000, -1.000000}" orientation="{0.763129, 0.640342, 0.056023, -0.066765}" visible="true" rendergroup="50" scale="{0.100000, 0.100000, 0.100000}" visibilitymask="-1" />
-            <scenette name="boton_erre" file="boton\boton.scene" position="{6.500000, -8.000000, -1.000000}" orientation="{0.763129, 0.640342, 0.056023, -0.066765}" visible="true" rendergroup="50" scale="{0.100000, 0.100000, 0.100000}" visibilitymask="-1" />
             <scenette name="boton_direccion" file="boton\boton.scene" position="{1.500000, -10.500000, -1.000000}" orientation="{0.763129, 0.640342, 0.056023, -0.066765}" visible="true" rendergroup="50" scale="{0.100000, 0.100000, 0.100000}" visibilitymask="-1" />
             <scenette name="boton_notas" file="boton\boton.scene" position="{4.000000, -5.500000, -1.000000}" orientation="{0.763129, 0.640342, 0.056023, -0.066765}" visible="true" rendergroup="50" scale="{0.100000, 0.100000, 0.100000}" visibilitymask="-1" />
             <scenette name="boton_precesion" file="boton\boton.scene" position="{4.000000, -10.500000, -1.000000}" orientation="{0.763129, 0.640342, 0.056023, -0.066765}" visible="true" rendergroup="50" scale="{0.100000, 0.100000, 0.100000}" visibilitymask="-1" />
