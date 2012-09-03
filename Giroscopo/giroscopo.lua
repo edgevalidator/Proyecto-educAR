@@ -1,5 +1,5 @@
 -- giroscopo.lua
--- 22:51
+-- 23:00
 
 Giroscopo = { name = '' , animated = false, direction = 'counterclockwise', precesion = 'quick' }
 
@@ -251,7 +251,7 @@ function Giroscopo:loadModel()
 		end
 		resource = resource .. self:getName() .. "/" .. self:getName() .. ".scene"
 		animated_model:setResource(resource)
-		animated_model:setVisible(clockwise and self:getDirection() == 'clockwise' and quick and self:getPrecesion() == 'quick')
+		animated_model:setVisible(((clockwise and self:getDirection() == 'clockwise') or (not clockwise and self:getDirection() == 'counterclockwise')) and ((quick and self:getPrecesion() == 'quick') or (not quick and self:getPrecesion() == 'slow')))
 		
 		-- Load vectors
 		local vectors = Object3D(scene:createObject(CID_OBJECT3D))
