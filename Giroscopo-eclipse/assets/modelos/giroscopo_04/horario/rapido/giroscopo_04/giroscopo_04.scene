@@ -1,5 +1,5 @@
 <scene version="0.2">
-	<info source="C:\Users\Matias Cuadrado\Desktop\exportados 20-08\04-rapido-horario\giroscopo_04.max" profile="public" shared_geometry="false" build_edges="false" build_tangents="false" exporter="Exporter 3DSMax3.20.22766"/>
+	<info source="C:\Users\Matias Cuadrado\Desktop\exportados 20-08\04-rapido-horario (US 13)\giroscopo_04.max" profile="public" shared_geometry="false" build_edges="false" build_tangents="false" exporter="Exporter 3DSMax3.20.22766"/>
 	<settings>
 		<environment ambient="0 0 0" background="0 0 0" camera=""/>
 		<shadow color="0 0 0" distance="10000" self="false" setup="uniform" size="1024 1" technique="none"/>
@@ -768,113 +768,11 @@
 				<entity name="Cylinder02_mesh" aab="0 0 0 0 0 0" blend="average" mesh="giroscopo_04_Cylinder02_mesh.mesh" priority="0" shadow="false true" visible="true"/>
 			</node>
 			<node name="Torus02" orientation="0 0 0 1" position="0 -2.4066e-005 9.97336" priority="0" scale="0.134212 0.134212 0.134212" show_box="false" visible="true">
-				<node name="Cylinder03" orientation="0 0 2.14167e-008 1" position="0 0.000175761 -10.2637" priority="0" scale="7.45092 7.45092 7.45092" show_box="false" visible="true">
-					<node name="Cone01" orientation="1 7.99365e-030 1.05879e-022 7.54979e-008" position="8.94 -5.33927e-007 -1" priority="0" scale="1 1 1" show_box="false" visible="true">
-						<entity name="Cone01_mesh" aab="0 0 0 0 0 0" blend="average" mesh="giroscopo_04_Cone01_mesh.mesh" priority="0" shadow="false true" visible="true"/>
-					</node>
-					<node name="Text01" orientation="0.707107 0 0 0.707107" position="10.0352 -4.71332e-007 -1.71333" priority="0" scale="1 1 1" show_box="false" visible="true">
-						<node name="Cylinder04" orientation="0.5 -0.5 -0.5 0.5" position="-0.00020504 0.570506 1.28225e-008" priority="0" scale="1 1 1" show_box="false" visible="true">
-							<node name="Cylinder05" orientation="3.64549e-015 -0.422618 1.30296e-015 0.906308" position="-4.76837e-007 1.86265e-009 -0.35" priority="0" scale="1 1 1" show_box="false" visible="true">
-								<entity name="Cylinder05_mesh" aab="0 0 0 0 0 0" blend="average" mesh="giroscopo_04_Cylinder05_mesh.mesh" priority="0" shadow="false true" visible="true"/>
-							</node>
-							<entity name="Cylinder04_mesh" aab="0 0 0 0 0 0" blend="average" mesh="giroscopo_04_Cylinder04_mesh.mesh" priority="0" shadow="false true" visible="true"/>
-						</node>
-						<entity name="Text01_mesh" aab="0 0 0 0 0 0" blend="average" mesh="giroscopo_04_Text01_mesh.mesh" priority="0" shadow="false true" visible="true"/>
-					</node>
-					<entity name="Cylinder03_mesh" aab="0 0 0 0 0 0" blend="average" mesh="giroscopo_04_Cylinder03_mesh.mesh" priority="0" shadow="false true" visible="true"/>
-				</node>
-				<node name="Cylinder08" orientation="1 2.14167e-008 -1.61692e-015 -7.54979e-008" position="-2.79721 0.000180447 11.4243" priority="0" scale="7.45092 7.45092 7.45092" show_box="false" visible="true">
-					<node name="Cone02" orientation="1 7.99365e-030 -1.05879e-022 7.54979e-008" position="2.98023e-008 -1.50996e-007 -1" priority="0" scale="1 1 1" show_box="false" visible="true">
-						<entity name="Cone02_mesh" aab="0 0 0 0 0 0" blend="average" mesh="giroscopo_04_Cone02_mesh.mesh" priority="0" shadow="false true" visible="true"/>
-					</node>
-					<node name="Text02" orientation="-0.707107 7.48678e-023 7.48678e-023 0.707107" position="-0.794 3.69716e-007 -1.76607" priority="0" scale="1 1 1" show_box="false" visible="true">
-						<node name="Cylinder06" orientation="0.5 -0.5 -0.5 0.5" position="0.000418067 0.656785 -1.20747e-009" priority="0" scale="1 1 1" show_box="false" visible="true">
-							<node name="Cylinder07" orientation="3.64549e-015 -0.422618 1.30296e-015 0.906308" position="0 1.86265e-009 -0.35" priority="0" scale="1 1 1" show_box="false" visible="true">
-								<entity name="Cylinder07_mesh" aab="0 0 0 0 0 0" blend="average" mesh="giroscopo_04_Cylinder07_mesh.mesh" priority="0" shadow="false true" visible="true"/>
-							</node>
-							<entity name="Cylinder06_mesh" aab="0 0 0 0 0 0" blend="average" mesh="giroscopo_04_Cylinder06_mesh.mesh" priority="0" shadow="false true" visible="true"/>
-						</node>
-						<entity name="Text02_mesh" aab="0 0 0 0 0 0" blend="average" mesh="giroscopo_04_Text02_mesh.mesh" priority="0" shadow="false true" visible="true"/>
-					</node>
-					<entity name="Cylinder08_mesh" aab="0 0 0 0 0 0" blend="average" mesh="giroscopo_04_Cylinder08_mesh.mesh" priority="0" shadow="false true" visible="true"/>
-				</node>
-				<node name="Cylinder11" orientation="0.707106 0 0 0.707107" position="0 0.000179313 -0.00414276" priority="0" scale="7.45092 7.45092 7.45092" show_box="false" visible="true">
-					<node name="Cone03" orientation="1 0 0 7.5498e-008" position="8.94014 9.53674e-007 -2.49565" priority="0" scale="1 1 1" show_box="false" visible="true">
-						<entity name="Cone03_mesh" aab="0 0 0 0 0 0" blend="average" mesh="giroscopo_04_Cone03_mesh.mesh" priority="0" shadow="false true" visible="true"/>
-					</node>
-					<node name="Text03" orientation="2.66926e-008 0.707107 -5.76011e-008 0.707107" position="8.94 1.37283 -3.17456" priority="0" scale="1 1 1" show_box="false" visible="true">
-						<node name="Cylinder10" orientation="0.5 -0.5 -0.5 0.5" position="0.000439405 0.384951 0" priority="0" scale="1 1 1" show_box="false" visible="true">
-							<node name="Cylinder09" orientation="3.00554e-015 -0.422618 2.86124e-015 0.906308" position="9.53674e-007 0 -0.35" priority="0" scale="1 1 1" show_box="false" visible="true">
-								<entity name="Cylinder09_mesh" aab="0 0 0 0 0 0" blend="average" mesh="giroscopo_04_Cylinder09_mesh.mesh" priority="0" shadow="false true" visible="true"/>
-							</node>
-							<entity name="Cylinder10_mesh" aab="0 0 0 0 0 0" blend="average" mesh="giroscopo_04_Cylinder10_mesh.mesh" priority="0" shadow="false true" visible="true"/>
-						</node>
-						<entity name="Text03_mesh" aab="0 0 0 0 0 0" blend="average" mesh="giroscopo_04_Text03_mesh.mesh" priority="0" shadow="false true" visible="true"/>
-					</node>
-					<entity name="Cylinder11_mesh" aab="0 0 0 0 0 0" blend="average" mesh="giroscopo_04_Cylinder11_mesh.mesh" priority="0" shadow="false true" visible="true"/>
-				</node>
-				<node name="Cylinder12" orientation="0.707107 1.7331e-007 0.707107 -1.63513e-008" position="122.426 -5.71534 2.73062" priority="0" scale="7.45092 7.45092 7.45092" show_box="false" visible="true">
-					<node name="Cone04" orientation="1 -7.10543e-015 7.10543e-015 7.54979e-008" position="-9.53674e-007 -1.78814e-007 -1" priority="0" scale="1 1 1" show_box="false" visible="true">
-						<entity name="Cone04_mesh" aab="0 0 0 0 0 0" blend="average" mesh="giroscopo_04_Cone04_mesh.mesh" priority="0" shadow="false true" visible="true"/>
-					</node>
-					<node name="Text04" orientation="-0.5 -0.5 -0.5 0.5" position="1.1895 -1.78814e-007 -1.70888" priority="0" scale="1 1 1" show_box="false" visible="true">
-						<node name="Cylinder13" orientation="0.5 -0.5 -0.5 0.5" position="-1.71661e-005 0.596138 1.19209e-007" priority="0" scale="1 1 1" show_box="false" visible="true">
-							<node name="Cylinder14" orientation="8.76358e-016 -0.422618 -1.43528e-014 0.906308" position="0 0 -0.35" priority="0" scale="1 1 1" show_box="false" visible="true">
-								<entity name="Cylinder14_mesh" aab="0 0 0 0 0 0" blend="average" mesh="giroscopo_04_Cylinder14_mesh.mesh" priority="0" shadow="false true" visible="true"/>
-							</node>
-							<entity name="Cylinder13_mesh" aab="0 0 0 0 0 0" blend="average" mesh="giroscopo_04_Cylinder13_mesh.mesh" priority="0" shadow="false true" visible="true"/>
-						</node>
-						<entity name="Text04_mesh" aab="0 0 0 0 0 0" blend="average" mesh="giroscopo_04_Text04_mesh.mesh" priority="0" shadow="false true" visible="true"/>
-					</node>
-					<entity name="Cylinder12_mesh" aab="0 0 0 0 0 0" blend="average" mesh="giroscopo_04_Cylinder12_mesh.mesh" priority="0" shadow="false true" visible="true"/>
-				</node>
-				<node name="Cylinder17" orientation="0.707107 1.52236e-007 0.707107 4.72213e-009" position="122.428 -5.7142 -2.80137" priority="0" scale="7.45091 7.45092 7.45092" show_box="false" visible="true">
-					<node name="Cone05" orientation="1 3.55271e-015 -3.55271e-015 7.54979e-008" position="-9.53674e-007 -1.78814e-007 -1" priority="0" scale="1 1 1" show_box="false" visible="true">
-						<entity name="Cone05_mesh" aab="0 0 0 0 0 0" blend="average" mesh="giroscopo_04_Cone05_mesh.mesh" priority="0" shadow="false true" visible="true"/>
-					</node>
-					<node name="Text05" orientation="-0.5 -0.5 -0.5 0.5" position="-0.863342 -5.96046e-008 -1.70888" priority="0" scale="1 1 1" show_box="false" visible="true">
-						<node name="Cylinder15" orientation="0.5 -0.5 -0.5 0.5" position="-1.90735e-005 0.236905 2.38419e-007" priority="0" scale="1 1 1" show_box="false" visible="true">
-							<node name="Cylinder16" orientation="4.55204e-014 -0.422618 1.48081e-014 0.906308" position="0 5.96046e-008 -0.35" priority="0" scale="1 1 1" show_box="false" visible="true">
-								<entity name="Cylinder16_mesh" aab="0 0 0 0 0 0" blend="average" mesh="giroscopo_04_Cylinder16_mesh.mesh" priority="0" shadow="false true" visible="true"/>
-							</node>
-							<entity name="Cylinder15_mesh" aab="0 0 0 0 0 0" blend="average" mesh="giroscopo_04_Cylinder15_mesh.mesh" priority="0" shadow="false true" visible="true"/>
-						</node>
-						<entity name="Text05_mesh" aab="0 0 0 0 0 0" blend="average" mesh="giroscopo_04_Text05_mesh.mesh" priority="0" shadow="false true" visible="true"/>
-					</node>
-					<entity name="Cylinder17_mesh" aab="0 0 0 0 0 0" blend="average" mesh="giroscopo_04_Cylinder17_mesh.mesh" priority="0" shadow="false true" visible="true"/>
-				</node>
-				<node name="Cylinder20" orientation="0 0 2.14167e-008 1" position="-2.79409 0.000180447 -0.0697327" priority="0" scale="7.45092 7.45092 7.45092" show_box="false" visible="true">
-					<node name="Cone06" orientation="1 7.99365e-030 1.05879e-022 7.54979e-008" position="0 -3.83926e-007 -2.54263" priority="0" scale="1 1 1" show_box="false" visible="true">
-						<entity name="Cone06_mesh" aab="0 0 0 0 0 0" blend="average" mesh="giroscopo_04_Cone06_mesh.mesh" priority="0" shadow="false true" visible="true"/>
-					</node>
-					<node name="Text06" orientation="0.707107 0 0 0.707107" position="0.982838 2.12847e-007 -3.309" priority="0" scale="1 1 1" show_box="false" visible="true">
-						<node name="Cylinder18" orientation="0.5 -0.5 -0.5 0.5" position="-0.000491977 0.507464 2.30809e-008" priority="0" scale="1 1 1" show_box="false" visible="true">
-							<node name="Cylinder19" orientation="3.64549e-015 -0.422618 1.30296e-015 0.906308" position="0 1.86265e-009 -0.35" priority="0" scale="1 1 1" show_box="false" visible="true">
-								<entity name="Cylinder19_mesh" aab="0 0 0 0 0 0" blend="average" mesh="giroscopo_04_Cylinder19_mesh.mesh" priority="0" shadow="false true" visible="true"/>
-							</node>
-							<entity name="Cylinder18_mesh" aab="0 0 0 0 0 0" blend="average" mesh="giroscopo_04_Cylinder18_mesh.mesh" priority="0" shadow="false true" visible="true"/>
-						</node>
-						<entity name="Text06_mesh" aab="0 0 0 0 0 0" blend="average" mesh="giroscopo_04_Text06_mesh.mesh" priority="0" shadow="false true" visible="true"/>
-					</node>
-					<entity name="Cylinder20_mesh" aab="0 0 0 0 0 0" blend="average" mesh="giroscopo_04_Cylinder20_mesh.mesh" priority="0" shadow="false true" visible="true"/>
-				</node>
-				<node name="Cylinder21" orientation="-7.84791e-008 -0.707107 7.84791e-008 0.707107" position="0 0.000179313 -0.00267029" priority="0" scale="7.45092 7.45092 7.45092" show_box="false" visible="true">
-					<node name="Cone07" orientation="1 5.76012e-008 -2.38419e-007 7.54979e-008" position="0 -0.850406 -6.27985" priority="0" scale="1 1 1" show_box="false" visible="true">
-						<entity name="Cone07_mesh" aab="0 0 0 0 0 0" blend="average" mesh="giroscopo_04_Cone07_mesh.mesh" priority="0" shadow="false true" visible="true"/>
-					</node>
-					<node name="Text07" orientation="0.5 0.5 -0.5 0.5" position="1.08731 -0.850001 -6.79186" priority="0" scale="1 1 1" show_box="false" visible="true">
-						<node name="Cylinder22" orientation="0.5 -0.5 -0.5 0.5" position="0.000142574 0.292361 1.78814e-007" priority="0" scale="1 1 1" show_box="false" visible="true">
-							<node name="Cylinder23" orientation="-3.06432e-015 -0.422618 -2.24957e-014 0.906308" position="0 0 -0.35" priority="0" scale="1 1 1" show_box="false" visible="true">
-								<entity name="Cylinder23_mesh" aab="0 0 0 0 0 0" blend="average" mesh="giroscopo_04_Cylinder23_mesh.mesh" priority="0" shadow="false true" visible="true"/>
-							</node>
-							<entity name="Cylinder22_mesh" aab="0 0 0 0 0 0" blend="average" mesh="giroscopo_04_Cylinder22_mesh.mesh" priority="0" shadow="false true" visible="true"/>
-						</node>
-						<entity name="Text07_mesh" aab="0 0 0 0 0 0" blend="average" mesh="giroscopo_04_Text07_mesh.mesh" priority="0" shadow="false true" visible="true"/>
-					</node>
-					<entity name="Cylinder21_mesh" aab="0 0 0 0 0 0" blend="average" mesh="giroscopo_04_Cylinder21_mesh.mesh" priority="0" shadow="false true" visible="true"/>
-				</node>
 				<node name="Torus01" orientation="-2.91957e-005 0.707078 -2.88374e-005 0.707136" position="62.0199 0 0" priority="0" scale="1 1 1" show_box="false" visible="true">
 					<entity name="Torus01_mesh" aab="0 0 0 0 0 0" blend="average" mesh="giroscopo_04_Torus01_mesh.mesh" priority="0" shadow="false true" visible="true"/>
+				</node>
+				<node name="Torus04" orientation="0.5 -0.5 -0.5 0.5" position="0.363502 0.000179313 -0.00267029" priority="0" scale="4.32021 4.32021 4.32021" show_box="false" visible="true">
+					<entity name="Torus04_mesh" aab="0 0 0 0 0 0" blend="average" mesh="giroscopo_04_Torus04_mesh.mesh" priority="0" shadow="false true" visible="true"/>
 				</node>
 				<node name="Tube05" orientation="-2.91957e-005 0.707078 -2.88374e-005 0.707136" position="6.93001 0 0.00454712" priority="0" scale="2.44981 2.44981 2.44981" show_box="false" visible="true">
 					<node name="Tube12" orientation="1.42109e-014 1.81899e-012 1.81899e-012 1" position="-0.00113678 1.62981e-009 -1.21376" priority="0" scale="1 1 1" show_box="false" visible="true">
@@ -895,9 +793,6 @@
 					<entity name="Tube06_mesh" aab="0 0 0 0 0 0" blend="average" mesh="giroscopo_04_Tube06_mesh.mesh" priority="0" shadow="false true" visible="true"/>
 				</node>
 				<entity name="Torus02_mesh" aab="0 0 0 0 0 0" blend="average" mesh="giroscopo_04_Torus02_mesh.mesh" priority="0" shadow="false true" visible="true"/>
-			</node>
-			<node name="Torus04" orientation="0.5 -0.5 -0.5 0.5" position="0.0487861 0 9.973" priority="0" scale="0.579822 0.579822 0.579822" show_box="false" visible="true">
-				<entity name="Torus04_mesh" aab="0 0 0 0 0 0" blend="average" mesh="giroscopo_04_Torus04_mesh.mesh" priority="0" shadow="false true" visible="true"/>
 			</node>
 		</node>
 	</nodes>

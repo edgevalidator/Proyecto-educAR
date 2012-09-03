@@ -1,6 +1,7 @@
--- GIROSCOPO
+-- giroscopo.lua
+-- 18:24
 
-Giroscopo = { name = '' , animated = false}
+Giroscopo = { name = '' , animated = false, direction = 'clockwise', precesion = 'quick' }
 
 function Giroscopo:new(o)
 	o = o or {}
@@ -15,6 +16,26 @@ end
 
 function Giroscopo:getAnimated()
 	return self.animated
+end
+
+function Giroscopo:getAnimated()
+	return self.animated
+end
+
+function Giroscopo:getDirection()
+	return self.direction
+end
+
+function Giroscopo:setDirection(value)
+	self.direction = value
+end
+
+function Giroscopo:getPrecesion()
+	return self.precesion
+end
+
+function Giroscopo:setPrecesion(value)
+	self.precesion = value
 end
 
 function Giroscopo:getNameForModel()
@@ -91,6 +112,7 @@ function Giroscopo:switchVectorsVisibility()
 
 	f(self:getNameForVectors(true, true))
 	f(self:getNameForVectors(false, true))
+	f(self:getNameForVectors(false, false))
 	
 end
 
@@ -107,6 +129,7 @@ function Giroscopo:switchVectorGroupVisibility(group)
 
 	f(self:getNameForVectorGroup(true, true, group))
 	f(self:getNameForVectorGroup(false, true, group))
+	f(self:getNameForVectorGroup(false, false, group))
 	
 end
 
@@ -129,11 +152,13 @@ function Giroscopo:switchAnimationState()
 	
 	f(self:getNameForAnimatedModel(true, true))
 	f(self:getNameForAnimatedModel(false, true))
+	f(self:getNameForAnimatedModel(false, false))
 	
 	local aux = { "momento_angular", "velocidad_angular", "fuerzas", "torque", "erre" }
 	for i = 1, 5 do
 		f(self:getNameForVectorGroup(true, true, aux[i]))
 		f(self:getNameForVectorGroup(false, true, aux[i]))
+		f(self:getNameForVectorGroup(false, false, aux[i]))
 	end
 	
 end
@@ -151,6 +176,44 @@ function Giroscopo:switchAnimationDirection()
 	
 	f(self:getNameForAnimatedModel(true, true))
 	f(self:getNameForAnimatedModel(false, true))
+	
+	if self:getDirection() == 'clockwise' then
+		self:setDirection('counterclockwise')
+	else
+		self:setDirection('clockwise')
+	end
+	
+end
+
+function Giroscopo:switchPrecesion()
+
+	local h = function(obj_name)
+		local obj = Scenette(getCurrentScene():getObjectByName(obj_name))
+		obj:setVisible(false)
+	end
+	
+	local s = function(obj_name)
+		local obj = Scenette(getCurrentScene():getObjectByName(obj_name))
+		obj:setVisible(true)
+	end
+	
+	if(self:getPrecesion() == 'quick') then
+		h(self:getNameForAnimatedModel(true, true))
+		h(self:getNameForAnimatedModel(false, true))
+		s(self:getNameForAnimatedModel(false, false))
+		self:setPrecesion('slow');
+	else
+		if(self:getDirection() == 'clockwise') then
+			s(self:getNameForAnimatedModel(true, true))
+			h(self:getNameForAnimatedModel(false, true))
+		else
+			h(self:getNameForAnimatedModel(true, true))
+			s(self:getNameForAnimatedModel(false, true))		
+		end
+		h(self:getNameForAnimatedModel(false, false))	
+		self:setPrecesion('quick');
+	end
+	
 end
 
 function Giroscopo:loadModel()
@@ -188,16 +251,18 @@ function Giroscopo:loadModel()
 		end
 		resource = resource .. self:getName() .. "/" .. self:getName() .. ".scene"
 		animated_model:setResource(resource)
-		animated_model:setVisible(clockwise and quick)
+		animated_model:setVisible(clockwise and self:getDirection() == 'clockwise' and quick and self:getPrecesion() == 'quick')
 		
 		-- Load vectors
 		local vectors = Object3D(scene:createObject(CID_OBJECT3D))
 		animated_model:addChild(vectors)
 		vectors:setName(self:getNameForVectors(clockwise, quick))
 		vectors:setVisible(false)
+		vectors:setOrientationEuler(90.0, 0.0, 0.0)
+		
+		-- Load vector groups
 		local aux = { "momento_angular", "velocidad_angular", "fuerzas", "torque", "erre" }
 		for i = 1, 5 do
-			-- Load vector group
 			local vector_group = Scenette(scene:createObject(CID_SCENETTE))
 			vectors:addChild(vector_group)
 			vector_group:setName(self:getNameForVectorGroup(clockwise, quick, aux[i]))
@@ -214,8 +279,7 @@ function Giroscopo:loadModel()
 			end
 			resource = resource .. aux[i] .. "/" .. aux[i] .. ".scene"
 			vector_group:setResource(resource)
-			vector_group:setVisible(true)
-			vector_group:setOrientationEuler(90.0, 0.0, 0.0)		
+			vector_group:setVisible(true)		
 		end
 	end
 	
@@ -224,6 +288,7 @@ function Giroscopo:loadModel()
 	else
 		fLoadAnimatedModel(model, true, true)
 		fLoadAnimatedModel(model, false, true)
+		fLoadAnimatedModel(model, false, false)
 	end
 	
 end
@@ -329,4 +394,9 @@ end
 function toggle_animation_direction()
 	giroscopo_02:switchAnimationDirection()
 	giroscopo_04:switchAnimationDirection()
+end
+
+function toggle_precesion()
+	giroscopo_02:switchPrecesion()
+	giroscopo_04:switchPrecesion()
 end
