@@ -1,5 +1,5 @@
 <scene version="0.2">
-	<info source="C:\Users\Matias Cuadrado\Desktop\copia\giroscopo_04.max" profile="public" shared_geometry="false" build_edges="false" build_tangents="false" exporter="Exporter 3DSMax3.20.22766"/>
+	<info source="C:\Users\Matias Cuadrado\Desktop\exportados 02-09\04-rapido-antihorario\giroscopo_04.max" profile="public" shared_geometry="false" build_edges="false" build_tangents="false" exporter="Exporter 3DSMax3.20.22766"/>
 	<settings>
 		<environment ambient="0 0 0" background="0 0 0" camera=""/>
 		<shadow color="0 0 0" distance="10000" self="false" setup="uniform" size="1024 1" technique="none"/>
@@ -388,15 +388,6 @@
 						<entity name="Cylinder13_mesh" aab="0 0 0 0 0 0" blend="average" mesh="momento_angular_Cylinder13_mesh.mesh" priority="0" shadow="false true" visible="true"/>
 					</node>
 					<entity name="Text04_mesh" aab="0 0 0 0 0 0" blend="average" mesh="momento_angular_Text04_mesh.mesh" priority="0" shadow="false true" visible="true"/>
-				</node>
-				<node name="Text07" orientation="-0.5 -0.5 0.5 -0.5" position="0.720458 -0.85 -6.79186" priority="0" scale="1 1 1" show_box="false" visible="true">
-					<node name="Cylinder22" orientation="0.5 -0.5 -0.5 0.5" position="0.000142574 0.292361 1.78814e-007" priority="0" scale="1 1 1" show_box="false" visible="true">
-						<node name="Cylinder23" orientation="-5.58535e-015 -0.422618 7.64393e-015 0.906308" position="0 0 -0.35" priority="0" scale="1 1 1" show_box="false" visible="true">
-							<entity name="Cylinder23_mesh" aab="0 0 0 0 0 0" blend="average" mesh="momento_angular_Cylinder23_mesh.mesh" priority="0" shadow="false true" visible="true"/>
-						</node>
-						<entity name="Cylinder22_mesh" aab="0 0 0 0 0 0" blend="average" mesh="momento_angular_Cylinder22_mesh.mesh" priority="0" shadow="false true" visible="true"/>
-					</node>
-					<entity name="Text07_mesh" aab="0 0 0 0 0 0" blend="average" mesh="momento_angular_Text07_mesh.mesh" priority="0" shadow="false true" visible="true"/>
 				</node>
 				<entity name="Cylinder12_mesh" aab="0 0 0 0 0 0" blend="average" mesh="momento_angular_Cylinder12_mesh.mesh" priority="0" shadow="false true" visible="true"/>
 			</node>
