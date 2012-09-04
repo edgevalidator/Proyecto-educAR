@@ -6,11 +6,11 @@
 	</settings>
 	<animations>
 		<animation name="Timeline" loop="false" length="-1" priority="0">
-			<bind target="TuboVectorMomento02RA" attribute="orientation" track="TuboVectorMomento02RA_Timeline_orientationTrack" loop="false" mode="absolute" reset="true" short="true" weight="1"/>
+			<bind target="TuboVectorL02RA" attribute="orientation" track="TuboVectorL02RA_Timeline_orientationTrack" loop="false" mode="absolute" reset="true" short="true" weight="1"/>
 		</animation>
 	</animations>
 	<tracks>
-		<track name="TuboVectorMomento02RA_Timeline_orientationTrack">
+		<track name="TuboVectorL02RA_Timeline_orientationTrack">
 			<key time="0" value="1.90632e-012 -1.49012e-008 9.67864e-013 1"/>
 			<key time="0.0333333" value="1.31942e-010 -1.49006e-008 0.00872654 0.999962"/>
 			<key time="0.0666667" value="2.61967e-010 -1.48989e-008 0.0174524 0.999848"/>
@@ -376,20 +376,20 @@
 	</tracks>
 	<nodes>
 		<node name="fixUp" orientation="-0.707107 0 0 0.707107" position="0 0 0" priority="0" scale="1 1 1" show_box="false" visible="true">
-			<node name="TuboVectorMomento02RA" orientation="1.90632e-012 -1.49012e-008 9.67864e-013 1" position="0 -9.6767e-007 17.1895" priority="0" scale="1 1 1" show_box="false" visible="true">
-				<node name="ConoVectorMomento02RA" orientation="4.89058e-020 0.173648 1.59982e-020 0.984808" position="6.51954 -1.92131e-011 1.87938" priority="0" scale="1 1 1" show_box="false" visible="true">
-					<entity name="ConoVectorMomento02RA_mesh" aab="0 0 0 0 0 0" blend="average" mesh="momento_angular_ConoVectorMomento02RA_mesh.mesh" priority="0" shadow="false true" visible="true"/>
+			<node name="TuboVectorL02RA" orientation="1.90632e-012 -1.49012e-008 9.67864e-013 1" position="0 -9.6767e-007 17.1895" priority="0" scale="1 1 1" show_box="false" visible="true">
+				<node name="ConoVectorL02RA" orientation="4.89058e-020 0.173648 1.59982e-020 0.984808" position="6.51954 -1.92131e-011 1.87938" priority="0" scale="1 1 1" show_box="false" visible="true">
+					<entity name="ConoVectorL02RA_mesh" aab="0 0 0 0 0 0" blend="average" mesh="momento_angular_ConoVectorL02RA_mesh.mesh" priority="0" shadow="false true" visible="true"/>
 				</node>
-				<node name="TextVectorMomento02RA" orientation="0.707107 3.16101e-008 -3.16101e-008 0.707107" position="5.88589 -2.39879e-011 3.17783" priority="0" scale="1 1 1" show_box="false" visible="true">
-					<node name="flechaVectorMomento02RA" orientation="-0.5 0.5 0.5 -0.5" position="0.000104904 0.578176 -9.12223e-010" priority="0" scale="1 1 1" show_box="false" visible="true">
-						<node name="flecha2VectorMomento02RA" orientation="-3.27625e-015 -0.422618 -2.39225e-015 0.906308" position="0 1.86253e-009 -0.35" priority="0" scale="1 1 1" show_box="false" visible="true">
-							<entity name="flecha2VectorMomento02RA_mesh" aab="0 0 0 0 0 0" blend="average" mesh="momento_angular_flecha2VectorMomento02RA_mesh.mesh" priority="0" shadow="false true" visible="true"/>
+				<node name="TextVectorL02RA" orientation="0.707107 3.16101e-008 -3.16101e-008 0.707107" position="5.88589 -2.39879e-011 3.17783" priority="0" scale="1 1 1" show_box="false" visible="true">
+					<node name="flechaVectorL02RA" orientation="-0.5 0.5 0.5 -0.5" position="0.000104904 0.578176 -9.12223e-010" priority="0" scale="1 1 1" show_box="false" visible="true">
+						<node name="flecha2VectorL02RA" orientation="-3.27625e-015 -0.422618 -2.39225e-015 0.906308" position="0 1.86253e-009 -0.35" priority="0" scale="1 1 1" show_box="false" visible="true">
+							<entity name="flecha2VectorL02RA_mesh" aab="0 0 0 0 0 0" blend="average" mesh="momento_angular_flecha2VectorL02RA_mesh.mesh" priority="0" shadow="false true" visible="true"/>
 						</node>
-						<entity name="flechaVectorMomento02RA_mesh" aab="0 0 0 0 0 0" blend="average" mesh="momento_angular_flechaVectorMomento02RA_mesh.mesh" priority="0" shadow="false true" visible="true"/>
+						<entity name="flechaVectorL02RA_mesh" aab="0 0 0 0 0 0" blend="average" mesh="momento_angular_flechaVectorL02RA_mesh.mesh" priority="0" shadow="false true" visible="true"/>
 					</node>
-					<entity name="TextVectorMomento02RA_mesh" aab="0 0 0 0 0 0" blend="average" mesh="momento_angular_TextVectorMomento02RA_mesh.mesh" priority="0" shadow="false true" visible="true"/>
+					<entity name="TextVectorL02RA_mesh" aab="0 0 0 0 0 0" blend="average" mesh="momento_angular_TextVectorL02RA_mesh.mesh" priority="0" shadow="false true" visible="true"/>
 				</node>
-				<entity name="TuboVectorMomento02RA_mesh" aab="0 0 0 0 0 0" blend="average" mesh="momento_angular_TuboVectorMomento02RA_mesh.mesh" priority="0" shadow="false true" visible="true"/>
+				<entity name="TuboVectorL02RA_mesh" aab="0 0 0 0 0 0" blend="average" mesh="momento_angular_TuboVectorL02RA_mesh.mesh" priority="0" shadow="false true" visible="true"/>
 			</node>
 		</node>
 	</nodes>
