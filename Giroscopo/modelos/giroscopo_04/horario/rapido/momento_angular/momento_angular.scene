@@ -6,11 +6,11 @@
 	</settings>
 	<animations>
 		<animation name="Timeline" loop="false" length="-1" priority="0">
-			<bind target="Cylinder12" attribute="orientation" track="Cylinder12_Timeline_orientationTrack" loop="false" mode="absolute" reset="true" short="true" weight="1"/>
+			<bind target="TuboVectorL04RH" attribute="orientation" track="TuboVectorL04RH_Timeline_orientationTrack" loop="false" mode="absolute" reset="true" short="true" weight="1"/>
 		</animation>
 	</animations>
 	<tracks>
-		<track name="Cylinder12_Timeline_orientationTrack">
+		<track name="TuboVectorL04RH_Timeline_orientationTrack">
 			<key time="0" value="-8.74228e-008 -2.6054e-015 2.98023e-008 1"/>
 			<key time="0.0333333" value="1.5099e-007 -1.31767e-009 -0.00872651 0.999962"/>
 			<key time="0.0666667" value="-8.74095e-008 1.52574e-009 -0.0174524 0.999848"/>
@@ -376,20 +376,20 @@
 	</tracks>
 	<nodes>
 		<node name="fixUp" orientation="-0.707107 0 0 0.707107" position="0 0 0" priority="0" scale="1 1 1" show_box="false" visible="true">
-			<node name="Cylinder12" orientation="-8.74228e-008 -2.6054e-015 2.98023e-008 1" position="0 0 10.3398" priority="0" scale="1 1 1" show_box="false" visible="true">
-				<node name="Cone04" orientation="-1.7561e-007 -0.707107 4.63629e-008 0.707107" position="15.431 -0.76709 9.53674e-007" priority="0" scale="1 1 1" show_box="false" visible="true">
-					<entity name="Cone04_mesh" aab="0 0 0 0 0 0" blend="average" mesh="momento_angular_Cone04_mesh.mesh" priority="0" shadow="false true" visible="true"/>
+			<node name="TuboVectorL04RH" orientation="-8.74228e-008 -2.6054e-015 2.98023e-008 1" position="0 0 10.3398" priority="0" scale="1 1 1" show_box="false" visible="true">
+				<node name="ConoVectorL04RH" orientation="-1.7561e-007 -0.707107 4.63629e-008 0.707107" position="15.431 -0.76709 9.53674e-007" priority="0" scale="1 1 1" show_box="false" visible="true">
+					<entity name="ConoVectorL04RH_mesh" aab="0 0 0 0 0 0" blend="average" mesh="momento_angular_ConoVectorL04RH_mesh.mesh" priority="0" shadow="false true" visible="true"/>
 				</node>
-				<node name="Text04" orientation="0.707107 3.98992e-007 -6.18175e-008 0.707106" position="14.7221 -0.76709 1.1895" priority="0" scale="1 1 1" show_box="false" visible="true">
-					<node name="Cylinder13" orientation="0.5 -0.5 -0.5 0.5" position="-1.71661e-005 0.596137 5.96046e-008" priority="0" scale="1 1 1" show_box="false" visible="true">
-						<node name="Cylinder14" orientation="6.49267e-015 -0.422618 -3.02758e-015 0.906308" position="-9.53674e-007 0 -0.350001" priority="0" scale="1 1 1" show_box="false" visible="true">
-							<entity name="Cylinder14_mesh" aab="0 0 0 0 0 0" blend="average" mesh="momento_angular_Cylinder14_mesh.mesh" priority="0" shadow="false true" visible="true"/>
+				<node name="TextVectorL04RH" orientation="0.707107 3.98992e-007 -6.18175e-008 0.707106" position="14.7221 -0.76709 1.1895" priority="0" scale="1 1 1" show_box="false" visible="true">
+					<node name="flechaVectorL04RH" orientation="0.5 -0.5 -0.5 0.5" position="-1.71661e-005 0.596137 5.96046e-008" priority="0" scale="1 1 1" show_box="false" visible="true">
+						<node name="flecha2VectorL04RH" orientation="6.49267e-015 -0.422618 -3.02758e-015 0.906308" position="-9.53674e-007 0 -0.350001" priority="0" scale="1 1 1" show_box="false" visible="true">
+							<entity name="flecha2VectorL04RH_mesh" aab="0 0 0 0 0 0" blend="average" mesh="momento_angular_flecha2VectorL04RH_mesh.mesh" priority="0" shadow="false true" visible="true"/>
 						</node>
-						<entity name="Cylinder13_mesh" aab="0 0 0 0 0 0" blend="average" mesh="momento_angular_Cylinder13_mesh.mesh" priority="0" shadow="false true" visible="true"/>
+						<entity name="flechaVectorL04RH_mesh" aab="0 0 0 0 0 0" blend="average" mesh="momento_angular_flechaVectorL04RH_mesh.mesh" priority="0" shadow="false true" visible="true"/>
 					</node>
-					<entity name="Text04_mesh" aab="0 0 0 0 0 0" blend="average" mesh="momento_angular_Text04_mesh.mesh" priority="0" shadow="false true" visible="true"/>
+					<entity name="TextVectorL04RH_mesh" aab="0 0 0 0 0 0" blend="average" mesh="momento_angular_TextVectorL04RH_mesh.mesh" priority="0" shadow="false true" visible="true"/>
 				</node>
-				<entity name="Cylinder12_mesh" aab="0 0 0 0 0 0" blend="average" mesh="momento_angular_Cylinder12_mesh.mesh" priority="0" shadow="false true" visible="true"/>
+				<entity name="TuboVectorL04RH_mesh" aab="0 0 0 0 0 0" blend="average" mesh="momento_angular_TuboVectorL04RH_mesh.mesh" priority="0" shadow="false true" visible="true"/>
 			</node>
 		</node>
 	</nodes>
