@@ -6,11 +6,11 @@
 	</settings>
 	<animations>
 		<animation name="Timeline" loop="false" length="-1" priority="0">
-			<bind target="Cylinder11" attribute="orientation" track="Cylinder11_Timeline_orientationTrack" loop="false" mode="absolute" reset="true" short="true" weight="1"/>
+			<bind target="TuboVectorT04LA" attribute="orientation" track="TuboVectorT04LA_Timeline_orientationTrack" loop="false" mode="absolute" reset="true" short="true" weight="1"/>
 		</animation>
 	</animations>
 	<tracks>
-		<track name="Cylinder11_Timeline_orientationTrack">
+		<track name="TuboVectorT04LA_Timeline_orientationTrack">
 			<key time="0" value="-8.74228e-008 0 0 1"/>
 			<key time="0.0333333" value="-8.74095e-008 -1.52574e-009 0.0174524 0.999848"/>
 			<key time="0.0666667" value="-3.25643e-007 -1.13717e-008 0.0348995 0.999391"/>
@@ -196,35 +196,35 @@
 	</tracks>
 	<nodes>
 		<node name="fixUp" orientation="-0.707107 0 0 0.707107" position="0 0 0" priority="0" scale="1 1 1" show_box="false" visible="true">
-			<node name="Cylinder11" orientation="-8.74228e-008 0 0 1" position="0 0 9.9728" priority="0" scale="1 1 1" show_box="false" visible="true">
-				<node name="Cone03" orientation="-0.707107 0 0 0.707106" position="8.94014 2.49565 -9.53674e-007" priority="0" scale="1 1 1" show_box="false" visible="true">
-					<entity name="Cone03_mesh" aab="0 0 0 0 0 0" blend="average" mesh="torque_Cone03_mesh.mesh" priority="0" shadow="false true" visible="true"/>
+			<node name="TuboVectorT04LA" orientation="-8.74228e-008 0 0 1" position="0 0 9.9728" priority="0" scale="1 1 1" show_box="false" visible="true">
+				<node name="ConoVectorT04LA" orientation="-0.707107 0 0 0.707106" position="8.94014 2.49565 -9.53674e-007" priority="0" scale="1 1 1" show_box="false" visible="true">
+					<entity name="ConoVectorT04LA_mesh" aab="0 0 0 0 0 0" blend="average" mesh="torque_ConoVectorT04LA_mesh.mesh" priority="0" shadow="false true" visible="true"/>
 				</node>
-				<node name="Cylinder21" orientation="8.74228e-008 0 0 1" position="0 -3.45608e-011 0.000196457" priority="0" scale="1 1 1" show_box="false" visible="true">
-					<node name="Cone07" orientation="0.707107 -1.26549e-008 0.707107 1.26549e-008" position="6.27985 -0.850406 0" priority="0" scale="1 1 1" show_box="false" visible="true">
-						<entity name="Cone07_mesh" aab="0 0 0 0 0 0" blend="average" mesh="torque_Cone07_mesh.mesh" priority="0" shadow="false true" visible="true"/>
+				<node name="TextVectorT04LA" orientation="0.5 0.5 0.5 0.5" position="8.94 3.17456 1.37283" priority="0" scale="1 1 1" show_box="false" visible="true">
+					<node name="flechaVectorT04LA" orientation="0.5 -0.5 -0.5 0.5" position="0.000439405 0.384951 0" priority="0" scale="1 1 1" show_box="false" visible="true">
+						<node name="flecha2VectorT04LA" orientation="-2.27235e-015 -0.422618 7.49932e-015 0.906308" position="0 0 -0.35" priority="0" scale="1 1 1" show_box="false" visible="true">
+							<entity name="flecha2VectorT04LA_mesh" aab="0 0 0 0 0 0" blend="average" mesh="torque_flecha2VectorT04LA_mesh.mesh" priority="0" shadow="false true" visible="true"/>
+						</node>
+						<entity name="flechaVectorT04LA_mesh" aab="0 0 0 0 0 0" blend="average" mesh="torque_flechaVectorT04LA_mesh.mesh" priority="0" shadow="false true" visible="true"/>
 					</node>
-					<node name="Text07" orientation="0.707107 -1.12118e-007 -2.78241e-008 0.707107" position="6.79186 -0.85 1.08731" priority="0" scale="1 1 1" show_box="false" visible="true">
-						<node name="Cylinder22" orientation="0.5 -0.5 -0.5 0.5" position="0.000142574 0.292361 1.78814e-007" priority="0" scale="1 1 1" show_box="false" visible="true">
-							<node name="Cylinder23" orientation="2.95222e-015 -0.422618 6.46333e-015 0.906308" position="0 0 -0.35" priority="0" scale="1 1 1" show_box="false" visible="true">
-								<entity name="Cylinder23_mesh" aab="0 0 0 0 0 0" blend="average" mesh="torque_Cylinder23_mesh.mesh" priority="0" shadow="false true" visible="true"/>
+					<entity name="TextVectorT04LA_mesh" aab="0 0 0 0 0 0" blend="average" mesh="torque_TextVectorT04LA_mesh.mesh" priority="0" shadow="false true" visible="true"/>
+				</node>
+				<node name="TuboVectorR04LA" orientation="8.74228e-008 0 0 1" position="0 -3.45608e-011 0.000196457" priority="0" scale="1 1 1" show_box="false" visible="true">
+					<node name="ConoVectorR04LA" orientation="0.707107 -1.26549e-008 0.707107 1.26549e-008" position="6.27985 -0.850406 0" priority="0" scale="1 1 1" show_box="false" visible="true">
+						<entity name="ConoVectorR04LA_mesh" aab="0 0 0 0 0 0" blend="average" mesh="torque_ConoVectorR04LA_mesh.mesh" priority="0" shadow="false true" visible="true"/>
+					</node>
+					<node name="TextVectorR04LA" orientation="0.707107 -1.12118e-007 -2.78241e-008 0.707107" position="6.79186 -0.85 1.08731" priority="0" scale="1 1 1" show_box="false" visible="true">
+						<node name="flechaVectorR04LA" orientation="0.5 -0.5 -0.5 0.5" position="0.000142574 0.292361 1.78814e-007" priority="0" scale="1 1 1" show_box="false" visible="true">
+							<node name="flecha2VectorR04LA" orientation="2.95222e-015 -0.422618 6.46333e-015 0.906308" position="0 0 -0.35" priority="0" scale="1 1 1" show_box="false" visible="true">
+								<entity name="flecha2VectorR04LA_mesh" aab="0 0 0 0 0 0" blend="average" mesh="torque_flecha2VectorR04LA_mesh.mesh" priority="0" shadow="false true" visible="true"/>
 							</node>
-							<entity name="Cylinder22_mesh" aab="0 0 0 0 0 0" blend="average" mesh="torque_Cylinder22_mesh.mesh" priority="0" shadow="false true" visible="true"/>
+							<entity name="flechaVectorR04LA_mesh" aab="0 0 0 0 0 0" blend="average" mesh="torque_flechaVectorR04LA_mesh.mesh" priority="0" shadow="false true" visible="true"/>
 						</node>
-						<entity name="Text07_mesh" aab="0 0 0 0 0 0" blend="average" mesh="torque_Text07_mesh.mesh" priority="0" shadow="false true" visible="true"/>
+						<entity name="TextVectorR04LA_mesh" aab="0 0 0 0 0 0" blend="average" mesh="torque_TextVectorR04LA_mesh.mesh" priority="0" shadow="false true" visible="true"/>
 					</node>
-					<entity name="Cylinder21_mesh" aab="0 0 0 0 0 0" blend="average" mesh="torque_Cylinder21_mesh.mesh" priority="0" shadow="false true" visible="true"/>
+					<entity name="TuboVectorR04LA_mesh" aab="0 0 0 0 0 0" blend="average" mesh="torque_TuboVectorR04LA_mesh.mesh" priority="0" shadow="false true" visible="true"/>
 				</node>
-				<node name="Text03" orientation="0.5 0.5 0.5 0.5" position="8.94 3.17456 1.37283" priority="0" scale="1 1 1" show_box="false" visible="true">
-					<node name="Cylinder10" orientation="0.5 -0.5 -0.5 0.5" position="0.000439405 0.384951 0" priority="0" scale="1 1 1" show_box="false" visible="true">
-						<node name="Cylinder09" orientation="-2.27235e-015 -0.422618 7.49932e-015 0.906308" position="0 0 -0.35" priority="0" scale="1 1 1" show_box="false" visible="true">
-							<entity name="Cylinder09_mesh" aab="0 0 0 0 0 0" blend="average" mesh="torque_Cylinder09_mesh.mesh" priority="0" shadow="false true" visible="true"/>
-						</node>
-						<entity name="Cylinder10_mesh" aab="0 0 0 0 0 0" blend="average" mesh="torque_Cylinder10_mesh.mesh" priority="0" shadow="false true" visible="true"/>
-					</node>
-					<entity name="Text03_mesh" aab="0 0 0 0 0 0" blend="average" mesh="torque_Text03_mesh.mesh" priority="0" shadow="false true" visible="true"/>
-				</node>
-				<entity name="Cylinder11_mesh" aab="0 0 0 0 0 0" blend="average" mesh="torque_Cylinder11_mesh.mesh" priority="0" shadow="false true" visible="true"/>
+				<entity name="TuboVectorT04LA_mesh" aab="0 0 0 0 0 0" blend="average" mesh="torque_TuboVectorT04LA_mesh.mesh" priority="0" shadow="false true" visible="true"/>
 			</node>
 		</node>
 	</nodes>
