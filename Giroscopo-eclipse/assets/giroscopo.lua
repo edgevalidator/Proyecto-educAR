@@ -136,14 +136,18 @@ end
 function Giroscopo:switchAnimationState()
 
 	local f = function(obj_name)
+		LOG(obj_name)
 		local obj = Scenette(getCurrentScene():getObjectByName(obj_name))
 		local animation = obj:getAnimation(0)
 		if not animation:isNull() then
-			if animation:isPlaying() then
-				animation:pause()
-			elseif animation:isPaused() then
+			if animation:isPaused() then
+				LOG("paused")
 				animation:resume()
+			elseif animation:isPlaying() then
+				LOG("playing")
+				animation:pause()
 			else
+				LOG("stopped")
 				animation:play()
 				animation:setLoop(true)
 			end
@@ -174,13 +178,15 @@ function Giroscopo:switchAnimationDirection()
 		end
 	end
 	
-	f(self:getNameForAnimatedModel(true, true))
-	f(self:getNameForAnimatedModel(false, true))
-	
-	if self:getDirection() == 'clockwise' then
-		self:setDirection('counterclockwise')
-	else
-		self:setDirection('clockwise')
+	if self:getPrecesion() == 'quick' then
+		f(self:getNameForAnimatedModel(true, true))
+		f(self:getNameForAnimatedModel(false, true))
+		
+		if self:getDirection() == 'clockwise' then
+			self:setDirection('counterclockwise')
+		else
+			self:setDirection('clockwise')
+		end
 	end
 	
 end

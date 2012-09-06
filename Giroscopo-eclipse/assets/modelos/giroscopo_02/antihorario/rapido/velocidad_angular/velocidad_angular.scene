@@ -6,11 +6,11 @@
 	</settings>
 	<animations>
 		<animation name="Timeline" loop="false" length="-1" priority="0">
-			<bind target="Cylinder23" attribute="orientation" track="Cylinder23_Timeline_orientationTrack" loop="false" mode="absolute" reset="true" short="true" weight="1"/>
+			<bind target="TuboVectorOmega02RA" attribute="orientation" track="TuboVectorOmega02RA_Timeline_orientationTrack" loop="false" mode="absolute" reset="true" short="true" weight="1"/>
 		</animation>
 	</animations>
 	<tracks>
-		<track name="Cylinder23_Timeline_orientationTrack">
+		<track name="TuboVectorOmega02RA_Timeline_orientationTrack">
 			<key time="0" value="1.79135e-012 6.93921e-009 3.15864e-013 1"/>
 			<key time="0.0333333" value="-5.8764e-011 6.93896e-009 0.00872654 0.999962"/>
 			<key time="0.0666667" value="-1.19315e-010 6.93818e-009 0.0174524 0.999848"/>
@@ -376,35 +376,35 @@
 	</tracks>
 	<nodes>
 		<node name="fixUp" orientation="-0.707107 0 0 0.707107" position="0 0 0" priority="0" scale="1 1 1" show_box="false" visible="true">
-			<node name="Cylinder23" orientation="1.79135e-012 6.93921e-009 3.15864e-013 1" position="0 0 0" priority="0" scale="1 1 1" show_box="false" visible="true">
-				<node name="Cone08" orientation="-5.02205e-036 4.44089e-016 -1.35525e-020 1" position="-0.602659 -0.7 2" priority="0" scale="1 1 1" show_box="false" visible="true">
-					<entity name="Cone08_mesh" aab="0 0 0 0 0 0" blend="average" mesh="velocidad_angular_Cone08_mesh.mesh" priority="0" shadow="false true" visible="true"/>
+			<node name="TuboVectorOmega02RA" orientation="1.79135e-012 6.93921e-009 3.15864e-013 1" position="0 0 0" priority="0" scale="1 1 1" show_box="false" visible="true">
+				<node name="ConoVectorOmega02RA" orientation="-5.02205e-036 4.44089e-016 -1.35525e-020 1" position="-0.602659 -0.7 2" priority="0" scale="1 1 1" show_box="false" visible="true">
+					<entity name="ConoVectorOmega02RA_mesh" aab="0 0 0 0 0 0" blend="average" mesh="velocidad_angular_ConoVectorOmega02RA_mesh.mesh" priority="0" shadow="false true" visible="true"/>
 				</node>
-				<node name="Cylinder17" orientation="1.14965e-013 4.44089e-016 6.52e-013 1" position="-2.34743e-007 -1.09329e-006 16.9142" priority="0" scale="1 1 1" show_box="false" visible="true">
-					<node name="Cone06" orientation="1.67276e-019 0.173648 1.826e-019 0.984808" position="7.27741 -2.08047e-011 1.87938" priority="0" scale="1 1 1" show_box="false" visible="true">
-						<entity name="Cone06_mesh" aab="0 0 0 0 0 0" blend="average" mesh="velocidad_angular_Cone06_mesh.mesh" priority="0" shadow="false true" visible="true"/>
+				<node name="TextVectorOmega02RA" orientation="0.707107 3.14005e-016 -3.14032e-016 0.707107" position="-1.54642 -0.7 2.70026" priority="0" scale="1 1 1" show_box="false" visible="true">
+					<node name="flechaVectorOmega02RA" orientation="-0.5 0.5 0.5 -0.5" position="-0.00043416 0.578176 0" priority="0" scale="1 1 1" show_box="false" visible="true">
+						<node name="flecha2VectorOmega02RA" orientation="-1.13388e-015 -0.422618 1.59442e-015 0.906308" position="0 0 -0.35" priority="0" scale="1 1 1" show_box="false" visible="true">
+							<entity name="flecha2VectorOmega02RA_mesh" aab="0 0 0 0 0 0" blend="average" mesh="velocidad_angular_flecha2VectorOmega02RA_mesh.mesh" priority="0" shadow="false true" visible="true"/>
+						</node>
+						<entity name="flechaVectorOmega02RA_mesh" aab="0 0 0 0 0 0" blend="average" mesh="velocidad_angular_flechaVectorOmega02RA_mesh.mesh" priority="0" shadow="false true" visible="true"/>
 					</node>
-					<node name="Text06" orientation="0.707107 3.16101e-008 -3.16101e-008 0.707107" position="8.53604 -2.37605e-011 2.39709" priority="0" scale="1 1 1" show_box="false" visible="true">
-						<node name="Cylinder18" orientation="-0.5 0.5 0.5 -0.5" position="-3.8147e-005 0.206009 5.97215e-008" priority="0" scale="1 1 1" show_box="false" visible="true">
-							<node name="Cylinder19" orientation="5.41308e-015 -0.422618 5.65857e-015 0.906308" position="0 1.86265e-009 -0.35" priority="0" scale="1 1 1" show_box="false" visible="true">
-								<entity name="Cylinder19_mesh" aab="0 0 0 0 0 0" blend="average" mesh="velocidad_angular_Cylinder19_mesh.mesh" priority="0" shadow="false true" visible="true"/>
+					<entity name="TextVectorOmega02RA_mesh" aab="0 0 0 0 0 0" blend="average" mesh="velocidad_angular_TextVectorOmega02RA_mesh.mesh" priority="0" shadow="false true" visible="true"/>
+				</node>
+				<node name="TuboVectorw02RA" orientation="1.14965e-013 4.44089e-016 6.52e-013 1" position="-2.34743e-007 -1.09329e-006 16.9142" priority="0" scale="1 1 1" show_box="false" visible="true">
+					<node name="ConoVectorw02RA" orientation="1.67276e-019 0.173648 1.826e-019 0.984808" position="7.27741 -2.08047e-011 1.87938" priority="0" scale="1 1 1" show_box="false" visible="true">
+						<entity name="ConoVectorw02RA_mesh" aab="0 0 0 0 0 0" blend="average" mesh="velocidad_angular_ConoVectorw02RA_mesh.mesh" priority="0" shadow="false true" visible="true"/>
+					</node>
+					<node name="TextVectorw02RA" orientation="0.707107 3.16101e-008 -3.16101e-008 0.707107" position="8.53604 -2.37605e-011 2.39709" priority="0" scale="1 1 1" show_box="false" visible="true">
+						<node name="flechaVectorw02RA" orientation="-0.5 0.5 0.5 -0.5" position="-3.8147e-005 0.206009 5.97215e-008" priority="0" scale="1 1 1" show_box="false" visible="true">
+							<node name="flecha2Vectorw02RA" orientation="5.41308e-015 -0.422618 5.65857e-015 0.906308" position="0 1.86265e-009 -0.35" priority="0" scale="1 1 1" show_box="false" visible="true">
+								<entity name="flecha2Vectorw02RA_mesh" aab="0 0 0 0 0 0" blend="average" mesh="velocidad_angular_flecha2Vectorw02RA_mesh.mesh" priority="0" shadow="false true" visible="true"/>
 							</node>
-							<entity name="Cylinder18_mesh" aab="0 0 0 0 0 0" blend="average" mesh="velocidad_angular_Cylinder18_mesh.mesh" priority="0" shadow="false true" visible="true"/>
+							<entity name="flechaVectorw02RA_mesh" aab="0 0 0 0 0 0" blend="average" mesh="velocidad_angular_flechaVectorw02RA_mesh.mesh" priority="0" shadow="false true" visible="true"/>
 						</node>
-						<entity name="Text06_mesh" aab="0 0 0 0 0 0" blend="average" mesh="velocidad_angular_Text06_mesh.mesh" priority="0" shadow="false true" visible="true"/>
+						<entity name="TextVectorw02RA_mesh" aab="0 0 0 0 0 0" blend="average" mesh="velocidad_angular_TextVectorw02RA_mesh.mesh" priority="0" shadow="false true" visible="true"/>
 					</node>
-					<entity name="Cylinder17_mesh" aab="0 0 0 0 0 0" blend="average" mesh="velocidad_angular_Cylinder17_mesh.mesh" priority="0" shadow="false true" visible="true"/>
+					<entity name="TuboVectorw02RA_mesh" aab="0 0 0 0 0 0" blend="average" mesh="velocidad_angular_TuboVectorw02RA_mesh.mesh" priority="0" shadow="false true" visible="true"/>
 				</node>
-				<node name="Text08" orientation="0.707107 3.14005e-016 -3.14032e-016 0.707107" position="-1.54642 -0.7 2.70026" priority="0" scale="1 1 1" show_box="false" visible="true">
-					<node name="Cylinder24" orientation="-0.5 0.5 0.5 -0.5" position="-0.00043416 0.578176 0" priority="0" scale="1 1 1" show_box="false" visible="true">
-						<node name="Cylinder25" orientation="-1.13388e-015 -0.422618 1.59442e-015 0.906308" position="0 0 -0.35" priority="0" scale="1 1 1" show_box="false" visible="true">
-							<entity name="Cylinder25_mesh" aab="0 0 0 0 0 0" blend="average" mesh="velocidad_angular_Cylinder25_mesh.mesh" priority="0" shadow="false true" visible="true"/>
-						</node>
-						<entity name="Cylinder24_mesh" aab="0 0 0 0 0 0" blend="average" mesh="velocidad_angular_Cylinder24_mesh.mesh" priority="0" shadow="false true" visible="true"/>
-					</node>
-					<entity name="Text08_mesh" aab="0 0 0 0 0 0" blend="average" mesh="velocidad_angular_Text08_mesh.mesh" priority="0" shadow="false true" visible="true"/>
-				</node>
-				<entity name="Cylinder23_mesh" aab="0 0 0 0 0 0" blend="average" mesh="velocidad_angular_Cylinder23_mesh.mesh" priority="0" shadow="false true" visible="true"/>
+				<entity name="TuboVectorOmega02RA_mesh" aab="0 0 0 0 0 0" blend="average" mesh="velocidad_angular_TuboVectorOmega02RA_mesh.mesh" priority="0" shadow="false true" visible="true"/>
 			</node>
 		</node>
 	</nodes>

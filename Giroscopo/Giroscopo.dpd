@@ -33,6 +33,7 @@
                 <configuration name="@Home|All Platforms" excludeFromBuild="true" />
                 <configuration name="@Home|windows" excludeFromBuild="true" />
                 <configuration name="mobile|All Platforms" excludeFromBuild="true" />
+                <configuration name="mobile|android" excludeFromBuild="false" encryption="encrypted" />
             </file>
             <file relativePath=".\boton\gris.png">
                 <configuration name="@Home|All Platforms" excludeFromBuild="true" />
@@ -159,77 +160,77 @@
                 <configuration name="@Home|windows" excludeFromBuild="true" />
                 <configuration name="mobile|All Platforms" excludeFromBuild="true" />
             </file>
-            <file relativePath=".\modelos\giroscopo_02\antihorario\lento\fuerzas\fuerzas_Cone01_mesh.mesh">
+            <file relativePath=".\modelos\giroscopo_02\antihorario\lento\fuerzas\fuerzas_ConoVectorFr02LA_mesh.mesh">
                 <configuration name="@Home|All Platforms" excludeFromBuild="true" />
                 <configuration name="@Home|windows" excludeFromBuild="true" />
                 <configuration name="mobile|All Platforms" excludeFromBuild="true" />
             </file>
-            <file relativePath=".\modelos\giroscopo_02\antihorario\lento\fuerzas\fuerzas_Cone02_mesh.mesh">
+            <file relativePath=".\modelos\giroscopo_02\antihorario\lento\fuerzas\fuerzas_ConoVectorN02LA_mesh.mesh">
                 <configuration name="@Home|All Platforms" excludeFromBuild="true" />
                 <configuration name="@Home|windows" excludeFromBuild="true" />
                 <configuration name="mobile|All Platforms" excludeFromBuild="true" />
             </file>
-            <file relativePath=".\modelos\giroscopo_02\antihorario\lento\fuerzas\fuerzas_Cone03_mesh.mesh">
+            <file relativePath=".\modelos\giroscopo_02\antihorario\lento\fuerzas\fuerzas_ConoVectorP02LA_mesh.mesh">
                 <configuration name="@Home|All Platforms" excludeFromBuild="true" />
                 <configuration name="@Home|windows" excludeFromBuild="true" />
                 <configuration name="mobile|All Platforms" excludeFromBuild="true" />
             </file>
-            <file relativePath=".\modelos\giroscopo_02\antihorario\lento\fuerzas\fuerzas_Cylinder01_mesh.mesh">
+            <file relativePath=".\modelos\giroscopo_02\antihorario\lento\fuerzas\fuerzas_TextVectorFr02LA_mesh.mesh">
                 <configuration name="@Home|All Platforms" excludeFromBuild="true" />
                 <configuration name="@Home|windows" excludeFromBuild="true" />
                 <configuration name="mobile|All Platforms" excludeFromBuild="true" />
             </file>
-            <file relativePath=".\modelos\giroscopo_02\antihorario\lento\fuerzas\fuerzas_Cylinder03_mesh.mesh">
+            <file relativePath=".\modelos\giroscopo_02\antihorario\lento\fuerzas\fuerzas_TextVectorN02LA_mesh.mesh">
                 <configuration name="@Home|All Platforms" excludeFromBuild="true" />
                 <configuration name="@Home|windows" excludeFromBuild="true" />
                 <configuration name="mobile|All Platforms" excludeFromBuild="true" />
             </file>
-            <file relativePath=".\modelos\giroscopo_02\antihorario\lento\fuerzas\fuerzas_Cylinder04_mesh.mesh">
+            <file relativePath=".\modelos\giroscopo_02\antihorario\lento\fuerzas\fuerzas_TextVectorP02LA_mesh.mesh">
                 <configuration name="@Home|All Platforms" excludeFromBuild="true" />
                 <configuration name="@Home|windows" excludeFromBuild="true" />
                 <configuration name="mobile|All Platforms" excludeFromBuild="true" />
             </file>
-            <file relativePath=".\modelos\giroscopo_02\antihorario\lento\fuerzas\fuerzas_Cylinder05_mesh.mesh">
+            <file relativePath=".\modelos\giroscopo_02\antihorario\lento\fuerzas\fuerzas_TuboVectorFr02LA_mesh.mesh">
                 <configuration name="@Home|All Platforms" excludeFromBuild="true" />
                 <configuration name="@Home|windows" excludeFromBuild="true" />
                 <configuration name="mobile|All Platforms" excludeFromBuild="true" />
             </file>
-            <file relativePath=".\modelos\giroscopo_02\antihorario\lento\fuerzas\fuerzas_Cylinder06_mesh.mesh">
+            <file relativePath=".\modelos\giroscopo_02\antihorario\lento\fuerzas\fuerzas_TuboVectorN02LA_mesh.mesh">
                 <configuration name="@Home|All Platforms" excludeFromBuild="true" />
                 <configuration name="@Home|windows" excludeFromBuild="true" />
                 <configuration name="mobile|All Platforms" excludeFromBuild="true" />
             </file>
-            <file relativePath=".\modelos\giroscopo_02\antihorario\lento\fuerzas\fuerzas_Cylinder07_mesh.mesh">
+            <file relativePath=".\modelos\giroscopo_02\antihorario\lento\fuerzas\fuerzas_TuboVectorP02LA_mesh.mesh">
                 <configuration name="@Home|All Platforms" excludeFromBuild="true" />
                 <configuration name="@Home|windows" excludeFromBuild="true" />
                 <configuration name="mobile|All Platforms" excludeFromBuild="true" />
             </file>
-            <file relativePath=".\modelos\giroscopo_02\antihorario\lento\fuerzas\fuerzas_Cylinder08_mesh.mesh">
+            <file relativePath=".\modelos\giroscopo_02\antihorario\lento\fuerzas\fuerzas_flecha2VectorFr02LA_mesh.mesh">
                 <configuration name="@Home|All Platforms" excludeFromBuild="true" />
                 <configuration name="@Home|windows" excludeFromBuild="true" />
                 <configuration name="mobile|All Platforms" excludeFromBuild="true" />
             </file>
-            <file relativePath=".\modelos\giroscopo_02\antihorario\lento\fuerzas\fuerzas_Cylinder09_mesh.mesh">
+            <file relativePath=".\modelos\giroscopo_02\antihorario\lento\fuerzas\fuerzas_flecha2VectorN02LA_mesh.mesh">
                 <configuration name="@Home|All Platforms" excludeFromBuild="true" />
                 <configuration name="@Home|windows" excludeFromBuild="true" />
                 <configuration name="mobile|All Platforms" excludeFromBuild="true" />
             </file>
-            <file relativePath=".\modelos\giroscopo_02\antihorario\lento\fuerzas\fuerzas_Cylinder10_mesh.mesh">
+            <file relativePath=".\modelos\giroscopo_02\antihorario\lento\fuerzas\fuerzas_flecha2VectorP02LA_mesh.mesh">
                 <configuration name="@Home|All Platforms" excludeFromBuild="true" />
                 <configuration name="@Home|windows" excludeFromBuild="true" />
                 <configuration name="mobile|All Platforms" excludeFromBuild="true" />
             </file>
-            <file relativePath=".\modelos\giroscopo_02\antihorario\lento\fuerzas\fuerzas_Text01_mesh.mesh">
+            <file relativePath=".\modelos\giroscopo_02\antihorario\lento\fuerzas\fuerzas_flechaVectorFr02LA_mesh.mesh">
                 <configuration name="@Home|All Platforms" excludeFromBuild="true" />
                 <configuration name="@Home|windows" excludeFromBuild="true" />
                 <configuration name="mobile|All Platforms" excludeFromBuild="true" />
             </file>
-            <file relativePath=".\modelos\giroscopo_02\antihorario\lento\fuerzas\fuerzas_Text02_mesh.mesh">
+            <file relativePath=".\modelos\giroscopo_02\antihorario\lento\fuerzas\fuerzas_flechaVectorN02LA_mesh.mesh">
                 <configuration name="@Home|All Platforms" excludeFromBuild="true" />
                 <configuration name="@Home|windows" excludeFromBuild="true" />
                 <configuration name="mobile|All Platforms" excludeFromBuild="true" />
             </file>
-            <file relativePath=".\modelos\giroscopo_02\antihorario\lento\fuerzas\fuerzas_Text03_mesh.mesh">
+            <file relativePath=".\modelos\giroscopo_02\antihorario\lento\fuerzas\fuerzas_flechaVectorP02LA_mesh.mesh">
                 <configuration name="@Home|All Platforms" excludeFromBuild="true" />
                 <configuration name="@Home|windows" excludeFromBuild="true" />
                 <configuration name="mobile|All Platforms" excludeFromBuild="true" />
@@ -359,27 +360,27 @@
                 <configuration name="@Home|windows" excludeFromBuild="true" />
                 <configuration name="mobile|All Platforms" excludeFromBuild="true" />
             </file>
-            <file relativePath=".\modelos\giroscopo_02\antihorario\lento\momento_angular\momento_angular_Cone05_mesh.mesh">
+            <file relativePath=".\modelos\giroscopo_02\antihorario\lento\momento_angular\momento_angular_ConoVectorL02LA_mesh.mesh">
                 <configuration name="@Home|All Platforms" excludeFromBuild="true" />
                 <configuration name="@Home|windows" excludeFromBuild="true" />
                 <configuration name="mobile|All Platforms" excludeFromBuild="true" />
             </file>
-            <file relativePath=".\modelos\giroscopo_02\antihorario\lento\momento_angular\momento_angular_Cylinder14_mesh.mesh">
+            <file relativePath=".\modelos\giroscopo_02\antihorario\lento\momento_angular\momento_angular_TextVectorL02LA_mesh.mesh">
                 <configuration name="@Home|All Platforms" excludeFromBuild="true" />
                 <configuration name="@Home|windows" excludeFromBuild="true" />
                 <configuration name="mobile|All Platforms" excludeFromBuild="true" />
             </file>
-            <file relativePath=".\modelos\giroscopo_02\antihorario\lento\momento_angular\momento_angular_Cylinder15_mesh.mesh">
+            <file relativePath=".\modelos\giroscopo_02\antihorario\lento\momento_angular\momento_angular_TuboVectorL02LA_mesh.mesh">
                 <configuration name="@Home|All Platforms" excludeFromBuild="true" />
                 <configuration name="@Home|windows" excludeFromBuild="true" />
                 <configuration name="mobile|All Platforms" excludeFromBuild="true" />
             </file>
-            <file relativePath=".\modelos\giroscopo_02\antihorario\lento\momento_angular\momento_angular_Cylinder16_mesh.mesh">
+            <file relativePath=".\modelos\giroscopo_02\antihorario\lento\momento_angular\momento_angular_flecha2VectorL02LA_mesh.mesh">
                 <configuration name="@Home|All Platforms" excludeFromBuild="true" />
                 <configuration name="@Home|windows" excludeFromBuild="true" />
                 <configuration name="mobile|All Platforms" excludeFromBuild="true" />
             </file>
-            <file relativePath=".\modelos\giroscopo_02\antihorario\lento\momento_angular\momento_angular_Text05_mesh.mesh">
+            <file relativePath=".\modelos\giroscopo_02\antihorario\lento\momento_angular\momento_angular_flechaVectorL02LA_mesh.mesh">
                 <configuration name="@Home|All Platforms" excludeFromBuild="true" />
                 <configuration name="@Home|windows" excludeFromBuild="true" />
                 <configuration name="mobile|All Platforms" excludeFromBuild="true" />
@@ -404,52 +405,52 @@
                 <configuration name="@Home|windows" excludeFromBuild="true" />
                 <configuration name="mobile|All Platforms" excludeFromBuild="true" />
             </file>
-            <file relativePath=".\modelos\giroscopo_02\antihorario\lento\torque\torque_Cone04_mesh.mesh">
+            <file relativePath=".\modelos\giroscopo_02\antihorario\lento\torque\torque_ConoVectorR02LA_mesh.mesh">
                 <configuration name="@Home|All Platforms" excludeFromBuild="true" />
                 <configuration name="@Home|windows" excludeFromBuild="true" />
                 <configuration name="mobile|All Platforms" excludeFromBuild="true" />
             </file>
-            <file relativePath=".\modelos\giroscopo_02\antihorario\lento\torque\torque_Cone07_mesh.mesh">
+            <file relativePath=".\modelos\giroscopo_02\antihorario\lento\torque\torque_ConoVectorT02LA_mesh.mesh">
                 <configuration name="@Home|All Platforms" excludeFromBuild="true" />
                 <configuration name="@Home|windows" excludeFromBuild="true" />
                 <configuration name="mobile|All Platforms" excludeFromBuild="true" />
             </file>
-            <file relativePath=".\modelos\giroscopo_02\antihorario\lento\torque\torque_Cylinder11_mesh.mesh">
+            <file relativePath=".\modelos\giroscopo_02\antihorario\lento\torque\torque_TextVectorR02LA_mesh.mesh">
                 <configuration name="@Home|All Platforms" excludeFromBuild="true" />
                 <configuration name="@Home|windows" excludeFromBuild="true" />
                 <configuration name="mobile|All Platforms" excludeFromBuild="true" />
             </file>
-            <file relativePath=".\modelos\giroscopo_02\antihorario\lento\torque\torque_Cylinder12_mesh.mesh">
+            <file relativePath=".\modelos\giroscopo_02\antihorario\lento\torque\torque_TextVectorT02LA_mesh.mesh">
                 <configuration name="@Home|All Platforms" excludeFromBuild="true" />
                 <configuration name="@Home|windows" excludeFromBuild="true" />
                 <configuration name="mobile|All Platforms" excludeFromBuild="true" />
             </file>
-            <file relativePath=".\modelos\giroscopo_02\antihorario\lento\torque\torque_Cylinder13_mesh.mesh">
+            <file relativePath=".\modelos\giroscopo_02\antihorario\lento\torque\torque_TuboVectorR02LA_mesh.mesh">
                 <configuration name="@Home|All Platforms" excludeFromBuild="true" />
                 <configuration name="@Home|windows" excludeFromBuild="true" />
                 <configuration name="mobile|All Platforms" excludeFromBuild="true" />
             </file>
-            <file relativePath=".\modelos\giroscopo_02\antihorario\lento\torque\torque_Cylinder20_mesh.mesh">
+            <file relativePath=".\modelos\giroscopo_02\antihorario\lento\torque\torque_TuboVectorT02LA_mesh.mesh">
                 <configuration name="@Home|All Platforms" excludeFromBuild="true" />
                 <configuration name="@Home|windows" excludeFromBuild="true" />
                 <configuration name="mobile|All Platforms" excludeFromBuild="true" />
             </file>
-            <file relativePath=".\modelos\giroscopo_02\antihorario\lento\torque\torque_Cylinder21_mesh.mesh">
+            <file relativePath=".\modelos\giroscopo_02\antihorario\lento\torque\torque_flecha2VectorR02LA_mesh.mesh">
                 <configuration name="@Home|All Platforms" excludeFromBuild="true" />
                 <configuration name="@Home|windows" excludeFromBuild="true" />
                 <configuration name="mobile|All Platforms" excludeFromBuild="true" />
             </file>
-            <file relativePath=".\modelos\giroscopo_02\antihorario\lento\torque\torque_Cylinder22_mesh.mesh">
+            <file relativePath=".\modelos\giroscopo_02\antihorario\lento\torque\torque_flecha2VectorT02LA_mesh.mesh">
                 <configuration name="@Home|All Platforms" excludeFromBuild="true" />
                 <configuration name="@Home|windows" excludeFromBuild="true" />
                 <configuration name="mobile|All Platforms" excludeFromBuild="true" />
             </file>
-            <file relativePath=".\modelos\giroscopo_02\antihorario\lento\torque\torque_Text04_mesh.mesh">
+            <file relativePath=".\modelos\giroscopo_02\antihorario\lento\torque\torque_flechaVectorR02LA_mesh.mesh">
                 <configuration name="@Home|All Platforms" excludeFromBuild="true" />
                 <configuration name="@Home|windows" excludeFromBuild="true" />
                 <configuration name="mobile|All Platforms" excludeFromBuild="true" />
             </file>
-            <file relativePath=".\modelos\giroscopo_02\antihorario\lento\torque\torque_Text07_mesh.mesh">
+            <file relativePath=".\modelos\giroscopo_02\antihorario\lento\torque\torque_flechaVectorT02LA_mesh.mesh">
                 <configuration name="@Home|All Platforms" excludeFromBuild="true" />
                 <configuration name="@Home|windows" excludeFromBuild="true" />
                 <configuration name="mobile|All Platforms" excludeFromBuild="true" />
@@ -469,52 +470,52 @@
                 <configuration name="@Home|windows" excludeFromBuild="true" />
                 <configuration name="mobile|All Platforms" excludeFromBuild="true" />
             </file>
-            <file relativePath=".\modelos\giroscopo_02\antihorario\lento\velocidad_angular\velocidad_angular_Cone06_mesh.mesh">
+            <file relativePath=".\modelos\giroscopo_02\antihorario\lento\velocidad_angular\velocidad_angular_ConoVectorOmega02LA_mesh.mesh">
                 <configuration name="@Home|All Platforms" excludeFromBuild="true" />
                 <configuration name="@Home|windows" excludeFromBuild="true" />
                 <configuration name="mobile|All Platforms" excludeFromBuild="true" />
             </file>
-            <file relativePath=".\modelos\giroscopo_02\antihorario\lento\velocidad_angular\velocidad_angular_Cone08_mesh.mesh">
+            <file relativePath=".\modelos\giroscopo_02\antihorario\lento\velocidad_angular\velocidad_angular_ConoVectorw02LA_mesh.mesh">
                 <configuration name="@Home|All Platforms" excludeFromBuild="true" />
                 <configuration name="@Home|windows" excludeFromBuild="true" />
                 <configuration name="mobile|All Platforms" excludeFromBuild="true" />
             </file>
-            <file relativePath=".\modelos\giroscopo_02\antihorario\lento\velocidad_angular\velocidad_angular_Cylinder17_mesh.mesh">
+            <file relativePath=".\modelos\giroscopo_02\antihorario\lento\velocidad_angular\velocidad_angular_TextVectorOmega02LA_mesh.mesh">
                 <configuration name="@Home|All Platforms" excludeFromBuild="true" />
                 <configuration name="@Home|windows" excludeFromBuild="true" />
                 <configuration name="mobile|All Platforms" excludeFromBuild="true" />
             </file>
-            <file relativePath=".\modelos\giroscopo_02\antihorario\lento\velocidad_angular\velocidad_angular_Cylinder18_mesh.mesh">
+            <file relativePath=".\modelos\giroscopo_02\antihorario\lento\velocidad_angular\velocidad_angular_TextVectorw02LA_mesh.mesh">
                 <configuration name="@Home|All Platforms" excludeFromBuild="true" />
                 <configuration name="@Home|windows" excludeFromBuild="true" />
                 <configuration name="mobile|All Platforms" excludeFromBuild="true" />
             </file>
-            <file relativePath=".\modelos\giroscopo_02\antihorario\lento\velocidad_angular\velocidad_angular_Cylinder19_mesh.mesh">
+            <file relativePath=".\modelos\giroscopo_02\antihorario\lento\velocidad_angular\velocidad_angular_TuboVectorOmega02LA_mesh.mesh">
                 <configuration name="@Home|All Platforms" excludeFromBuild="true" />
                 <configuration name="@Home|windows" excludeFromBuild="true" />
                 <configuration name="mobile|All Platforms" excludeFromBuild="true" />
             </file>
-            <file relativePath=".\modelos\giroscopo_02\antihorario\lento\velocidad_angular\velocidad_angular_Cylinder23_mesh.mesh">
+            <file relativePath=".\modelos\giroscopo_02\antihorario\lento\velocidad_angular\velocidad_angular_TuboVectorw02LA_mesh.mesh">
                 <configuration name="@Home|All Platforms" excludeFromBuild="true" />
                 <configuration name="@Home|windows" excludeFromBuild="true" />
                 <configuration name="mobile|All Platforms" excludeFromBuild="true" />
             </file>
-            <file relativePath=".\modelos\giroscopo_02\antihorario\lento\velocidad_angular\velocidad_angular_Cylinder24_mesh.mesh">
+            <file relativePath=".\modelos\giroscopo_02\antihorario\lento\velocidad_angular\velocidad_angular_flecha2VectorOmega02LA_mesh.mesh">
                 <configuration name="@Home|All Platforms" excludeFromBuild="true" />
                 <configuration name="@Home|windows" excludeFromBuild="true" />
                 <configuration name="mobile|All Platforms" excludeFromBuild="true" />
             </file>
-            <file relativePath=".\modelos\giroscopo_02\antihorario\lento\velocidad_angular\velocidad_angular_Cylinder25_mesh.mesh">
+            <file relativePath=".\modelos\giroscopo_02\antihorario\lento\velocidad_angular\velocidad_angular_flecha2Vectorw02LA_mesh.mesh">
                 <configuration name="@Home|All Platforms" excludeFromBuild="true" />
                 <configuration name="@Home|windows" excludeFromBuild="true" />
                 <configuration name="mobile|All Platforms" excludeFromBuild="true" />
             </file>
-            <file relativePath=".\modelos\giroscopo_02\antihorario\lento\velocidad_angular\velocidad_angular_Text06_mesh.mesh">
+            <file relativePath=".\modelos\giroscopo_02\antihorario\lento\velocidad_angular\velocidad_angular_flechaVectorOmega02LA_mesh.mesh">
                 <configuration name="@Home|All Platforms" excludeFromBuild="true" />
                 <configuration name="@Home|windows" excludeFromBuild="true" />
                 <configuration name="mobile|All Platforms" excludeFromBuild="true" />
             </file>
-            <file relativePath=".\modelos\giroscopo_02\antihorario\lento\velocidad_angular\velocidad_angular_Text08_mesh.mesh">
+            <file relativePath=".\modelos\giroscopo_02\antihorario\lento\velocidad_angular\velocidad_angular_flechaVectorw02LA_mesh.mesh">
                 <configuration name="@Home|All Platforms" excludeFromBuild="true" />
                 <configuration name="@Home|windows" excludeFromBuild="true" />
                 <configuration name="mobile|All Platforms" excludeFromBuild="true" />
@@ -529,77 +530,77 @@
                 <configuration name="@Home|windows" excludeFromBuild="true" />
                 <configuration name="mobile|All Platforms" excludeFromBuild="true" />
             </file>
-            <file relativePath=".\modelos\giroscopo_02\antihorario\rapido\fuerzas\fuerzas_Cone01_mesh.mesh">
+            <file relativePath=".\modelos\giroscopo_02\antihorario\rapido\fuerzas\fuerzas_ConoVectorFr02RA_mesh.mesh">
                 <configuration name="@Home|All Platforms" excludeFromBuild="true" />
                 <configuration name="@Home|windows" excludeFromBuild="true" />
                 <configuration name="mobile|All Platforms" excludeFromBuild="true" />
             </file>
-            <file relativePath=".\modelos\giroscopo_02\antihorario\rapido\fuerzas\fuerzas_Cone02_mesh.mesh">
+            <file relativePath=".\modelos\giroscopo_02\antihorario\rapido\fuerzas\fuerzas_ConoVectorN02RA_mesh.mesh">
                 <configuration name="@Home|All Platforms" excludeFromBuild="true" />
                 <configuration name="@Home|windows" excludeFromBuild="true" />
                 <configuration name="mobile|All Platforms" excludeFromBuild="true" />
             </file>
-            <file relativePath=".\modelos\giroscopo_02\antihorario\rapido\fuerzas\fuerzas_Cone03_mesh.mesh">
+            <file relativePath=".\modelos\giroscopo_02\antihorario\rapido\fuerzas\fuerzas_ConoVectorP02RA_mesh.mesh">
                 <configuration name="@Home|All Platforms" excludeFromBuild="true" />
                 <configuration name="@Home|windows" excludeFromBuild="true" />
                 <configuration name="mobile|All Platforms" excludeFromBuild="true" />
             </file>
-            <file relativePath=".\modelos\giroscopo_02\antihorario\rapido\fuerzas\fuerzas_Cylinder01_mesh.mesh">
+            <file relativePath=".\modelos\giroscopo_02\antihorario\rapido\fuerzas\fuerzas_TextVectorFr02RA_mesh.mesh">
                 <configuration name="@Home|All Platforms" excludeFromBuild="true" />
                 <configuration name="@Home|windows" excludeFromBuild="true" />
                 <configuration name="mobile|All Platforms" excludeFromBuild="true" />
             </file>
-            <file relativePath=".\modelos\giroscopo_02\antihorario\rapido\fuerzas\fuerzas_Cylinder03_mesh.mesh">
+            <file relativePath=".\modelos\giroscopo_02\antihorario\rapido\fuerzas\fuerzas_TextVectorN02RA_mesh.mesh">
                 <configuration name="@Home|All Platforms" excludeFromBuild="true" />
                 <configuration name="@Home|windows" excludeFromBuild="true" />
                 <configuration name="mobile|All Platforms" excludeFromBuild="true" />
             </file>
-            <file relativePath=".\modelos\giroscopo_02\antihorario\rapido\fuerzas\fuerzas_Cylinder04_mesh.mesh">
+            <file relativePath=".\modelos\giroscopo_02\antihorario\rapido\fuerzas\fuerzas_TextVectorP02RA_mesh.mesh">
                 <configuration name="@Home|All Platforms" excludeFromBuild="true" />
                 <configuration name="@Home|windows" excludeFromBuild="true" />
                 <configuration name="mobile|All Platforms" excludeFromBuild="true" />
             </file>
-            <file relativePath=".\modelos\giroscopo_02\antihorario\rapido\fuerzas\fuerzas_Cylinder05_mesh.mesh">
+            <file relativePath=".\modelos\giroscopo_02\antihorario\rapido\fuerzas\fuerzas_TuboVectorFr02RA_mesh.mesh">
                 <configuration name="@Home|All Platforms" excludeFromBuild="true" />
                 <configuration name="@Home|windows" excludeFromBuild="true" />
                 <configuration name="mobile|All Platforms" excludeFromBuild="true" />
             </file>
-            <file relativePath=".\modelos\giroscopo_02\antihorario\rapido\fuerzas\fuerzas_Cylinder06_mesh.mesh">
+            <file relativePath=".\modelos\giroscopo_02\antihorario\rapido\fuerzas\fuerzas_TuboVectorN02RA_mesh.mesh">
                 <configuration name="@Home|All Platforms" excludeFromBuild="true" />
                 <configuration name="@Home|windows" excludeFromBuild="true" />
                 <configuration name="mobile|All Platforms" excludeFromBuild="true" />
             </file>
-            <file relativePath=".\modelos\giroscopo_02\antihorario\rapido\fuerzas\fuerzas_Cylinder07_mesh.mesh">
+            <file relativePath=".\modelos\giroscopo_02\antihorario\rapido\fuerzas\fuerzas_TuboVectorP02RA_mesh.mesh">
                 <configuration name="@Home|All Platforms" excludeFromBuild="true" />
                 <configuration name="@Home|windows" excludeFromBuild="true" />
                 <configuration name="mobile|All Platforms" excludeFromBuild="true" />
             </file>
-            <file relativePath=".\modelos\giroscopo_02\antihorario\rapido\fuerzas\fuerzas_Cylinder08_mesh.mesh">
+            <file relativePath=".\modelos\giroscopo_02\antihorario\rapido\fuerzas\fuerzas_flecha2VectorFr02RA_mesh.mesh">
                 <configuration name="@Home|All Platforms" excludeFromBuild="true" />
                 <configuration name="@Home|windows" excludeFromBuild="true" />
                 <configuration name="mobile|All Platforms" excludeFromBuild="true" />
             </file>
-            <file relativePath=".\modelos\giroscopo_02\antihorario\rapido\fuerzas\fuerzas_Cylinder09_mesh.mesh">
+            <file relativePath=".\modelos\giroscopo_02\antihorario\rapido\fuerzas\fuerzas_flecha2VectorN02RA_mesh.mesh">
                 <configuration name="@Home|All Platforms" excludeFromBuild="true" />
                 <configuration name="@Home|windows" excludeFromBuild="true" />
                 <configuration name="mobile|All Platforms" excludeFromBuild="true" />
             </file>
-            <file relativePath=".\modelos\giroscopo_02\antihorario\rapido\fuerzas\fuerzas_Cylinder10_mesh.mesh">
+            <file relativePath=".\modelos\giroscopo_02\antihorario\rapido\fuerzas\fuerzas_flecha2VectorP02RA_mesh.mesh">
                 <configuration name="@Home|All Platforms" excludeFromBuild="true" />
                 <configuration name="@Home|windows" excludeFromBuild="true" />
                 <configuration name="mobile|All Platforms" excludeFromBuild="true" />
             </file>
-            <file relativePath=".\modelos\giroscopo_02\antihorario\rapido\fuerzas\fuerzas_Text01_mesh.mesh">
+            <file relativePath=".\modelos\giroscopo_02\antihorario\rapido\fuerzas\fuerzas_flechaVectorFr02RA_mesh.mesh">
                 <configuration name="@Home|All Platforms" excludeFromBuild="true" />
                 <configuration name="@Home|windows" excludeFromBuild="true" />
                 <configuration name="mobile|All Platforms" excludeFromBuild="true" />
             </file>
-            <file relativePath=".\modelos\giroscopo_02\antihorario\rapido\fuerzas\fuerzas_Text02_mesh.mesh">
+            <file relativePath=".\modelos\giroscopo_02\antihorario\rapido\fuerzas\fuerzas_flechaVectorN02RA_mesh.mesh">
                 <configuration name="@Home|All Platforms" excludeFromBuild="true" />
                 <configuration name="@Home|windows" excludeFromBuild="true" />
                 <configuration name="mobile|All Platforms" excludeFromBuild="true" />
             </file>
-            <file relativePath=".\modelos\giroscopo_02\antihorario\rapido\fuerzas\fuerzas_Text03_mesh.mesh">
+            <file relativePath=".\modelos\giroscopo_02\antihorario\rapido\fuerzas\fuerzas_flechaVectorP02RA_mesh.mesh">
                 <configuration name="@Home|All Platforms" excludeFromBuild="true" />
                 <configuration name="@Home|windows" excludeFromBuild="true" />
                 <configuration name="mobile|All Platforms" excludeFromBuild="true" />
@@ -729,27 +730,27 @@
                 <configuration name="@Home|windows" excludeFromBuild="true" />
                 <configuration name="mobile|All Platforms" excludeFromBuild="true" />
             </file>
-            <file relativePath=".\modelos\giroscopo_02\antihorario\rapido\momento_angular\momento_angular_Cone05_mesh.mesh">
+            <file relativePath=".\modelos\giroscopo_02\antihorario\rapido\momento_angular\momento_angular_ConoVectorL02RA_mesh.mesh">
                 <configuration name="@Home|All Platforms" excludeFromBuild="true" />
                 <configuration name="@Home|windows" excludeFromBuild="true" />
                 <configuration name="mobile|All Platforms" excludeFromBuild="true" />
             </file>
-            <file relativePath=".\modelos\giroscopo_02\antihorario\rapido\momento_angular\momento_angular_Cylinder14_mesh.mesh">
+            <file relativePath=".\modelos\giroscopo_02\antihorario\rapido\momento_angular\momento_angular_TextVectorL02RA_mesh.mesh">
                 <configuration name="@Home|All Platforms" excludeFromBuild="true" />
                 <configuration name="@Home|windows" excludeFromBuild="true" />
                 <configuration name="mobile|All Platforms" excludeFromBuild="true" />
             </file>
-            <file relativePath=".\modelos\giroscopo_02\antihorario\rapido\momento_angular\momento_angular_Cylinder15_mesh.mesh">
+            <file relativePath=".\modelos\giroscopo_02\antihorario\rapido\momento_angular\momento_angular_TuboVectorL02RA_mesh.mesh">
                 <configuration name="@Home|All Platforms" excludeFromBuild="true" />
                 <configuration name="@Home|windows" excludeFromBuild="true" />
                 <configuration name="mobile|All Platforms" excludeFromBuild="true" />
             </file>
-            <file relativePath=".\modelos\giroscopo_02\antihorario\rapido\momento_angular\momento_angular_Cylinder16_mesh.mesh">
+            <file relativePath=".\modelos\giroscopo_02\antihorario\rapido\momento_angular\momento_angular_flecha2VectorL02RA_mesh.mesh">
                 <configuration name="@Home|All Platforms" excludeFromBuild="true" />
                 <configuration name="@Home|windows" excludeFromBuild="true" />
                 <configuration name="mobile|All Platforms" excludeFromBuild="true" />
             </file>
-            <file relativePath=".\modelos\giroscopo_02\antihorario\rapido\momento_angular\momento_angular_Text05_mesh.mesh">
+            <file relativePath=".\modelos\giroscopo_02\antihorario\rapido\momento_angular\momento_angular_flechaVectorL02RA_mesh.mesh">
                 <configuration name="@Home|All Platforms" excludeFromBuild="true" />
                 <configuration name="@Home|windows" excludeFromBuild="true" />
                 <configuration name="mobile|All Platforms" excludeFromBuild="true" />
@@ -774,52 +775,52 @@
                 <configuration name="@Home|windows" excludeFromBuild="true" />
                 <configuration name="mobile|All Platforms" excludeFromBuild="true" />
             </file>
-            <file relativePath=".\modelos\giroscopo_02\antihorario\rapido\torque\torque_Cone04_mesh.mesh">
+            <file relativePath=".\modelos\giroscopo_02\antihorario\rapido\torque\torque_ConoVectorR02RA_mesh.mesh">
                 <configuration name="@Home|All Platforms" excludeFromBuild="true" />
                 <configuration name="@Home|windows" excludeFromBuild="true" />
                 <configuration name="mobile|All Platforms" excludeFromBuild="true" />
             </file>
-            <file relativePath=".\modelos\giroscopo_02\antihorario\rapido\torque\torque_Cone07_mesh.mesh">
+            <file relativePath=".\modelos\giroscopo_02\antihorario\rapido\torque\torque_ConoVectorT02RA_mesh.mesh">
                 <configuration name="@Home|All Platforms" excludeFromBuild="true" />
                 <configuration name="@Home|windows" excludeFromBuild="true" />
                 <configuration name="mobile|All Platforms" excludeFromBuild="true" />
             </file>
-            <file relativePath=".\modelos\giroscopo_02\antihorario\rapido\torque\torque_Cylinder11_mesh.mesh">
+            <file relativePath=".\modelos\giroscopo_02\antihorario\rapido\torque\torque_TextVectorR02RA_mesh.mesh">
                 <configuration name="@Home|All Platforms" excludeFromBuild="true" />
                 <configuration name="@Home|windows" excludeFromBuild="true" />
                 <configuration name="mobile|All Platforms" excludeFromBuild="true" />
             </file>
-            <file relativePath=".\modelos\giroscopo_02\antihorario\rapido\torque\torque_Cylinder12_mesh.mesh">
+            <file relativePath=".\modelos\giroscopo_02\antihorario\rapido\torque\torque_TextVectorT02RA_mesh.mesh">
                 <configuration name="@Home|All Platforms" excludeFromBuild="true" />
                 <configuration name="@Home|windows" excludeFromBuild="true" />
                 <configuration name="mobile|All Platforms" excludeFromBuild="true" />
             </file>
-            <file relativePath=".\modelos\giroscopo_02\antihorario\rapido\torque\torque_Cylinder13_mesh.mesh">
+            <file relativePath=".\modelos\giroscopo_02\antihorario\rapido\torque\torque_TuboVectorR02RA_mesh.mesh">
                 <configuration name="@Home|All Platforms" excludeFromBuild="true" />
                 <configuration name="@Home|windows" excludeFromBuild="true" />
                 <configuration name="mobile|All Platforms" excludeFromBuild="true" />
             </file>
-            <file relativePath=".\modelos\giroscopo_02\antihorario\rapido\torque\torque_Cylinder20_mesh.mesh">
+            <file relativePath=".\modelos\giroscopo_02\antihorario\rapido\torque\torque_TuboVectorT02RA_mesh.mesh">
                 <configuration name="@Home|All Platforms" excludeFromBuild="true" />
                 <configuration name="@Home|windows" excludeFromBuild="true" />
                 <configuration name="mobile|All Platforms" excludeFromBuild="true" />
             </file>
-            <file relativePath=".\modelos\giroscopo_02\antihorario\rapido\torque\torque_Cylinder21_mesh.mesh">
+            <file relativePath=".\modelos\giroscopo_02\antihorario\rapido\torque\torque_flecha2VectorR02RA_mesh.mesh">
                 <configuration name="@Home|All Platforms" excludeFromBuild="true" />
                 <configuration name="@Home|windows" excludeFromBuild="true" />
                 <configuration name="mobile|All Platforms" excludeFromBuild="true" />
             </file>
-            <file relativePath=".\modelos\giroscopo_02\antihorario\rapido\torque\torque_Cylinder22_mesh.mesh">
+            <file relativePath=".\modelos\giroscopo_02\antihorario\rapido\torque\torque_flecha2VectorT02RA_mesh.mesh">
                 <configuration name="@Home|All Platforms" excludeFromBuild="true" />
                 <configuration name="@Home|windows" excludeFromBuild="true" />
                 <configuration name="mobile|All Platforms" excludeFromBuild="true" />
             </file>
-            <file relativePath=".\modelos\giroscopo_02\antihorario\rapido\torque\torque_Text04_mesh.mesh">
+            <file relativePath=".\modelos\giroscopo_02\antihorario\rapido\torque\torque_flechaVectorR02RA_mesh.mesh">
                 <configuration name="@Home|All Platforms" excludeFromBuild="true" />
                 <configuration name="@Home|windows" excludeFromBuild="true" />
                 <configuration name="mobile|All Platforms" excludeFromBuild="true" />
             </file>
-            <file relativePath=".\modelos\giroscopo_02\antihorario\rapido\torque\torque_Text07_mesh.mesh">
+            <file relativePath=".\modelos\giroscopo_02\antihorario\rapido\torque\torque_flechaVectorT02RA_mesh.mesh">
                 <configuration name="@Home|All Platforms" excludeFromBuild="true" />
                 <configuration name="@Home|windows" excludeFromBuild="true" />
                 <configuration name="mobile|All Platforms" excludeFromBuild="true" />
@@ -839,52 +840,52 @@
                 <configuration name="@Home|windows" excludeFromBuild="true" />
                 <configuration name="mobile|All Platforms" excludeFromBuild="true" />
             </file>
-            <file relativePath=".\modelos\giroscopo_02\antihorario\rapido\velocidad_angular\velocidad_angular_Cone06_mesh.mesh">
+            <file relativePath=".\modelos\giroscopo_02\antihorario\rapido\velocidad_angular\velocidad_angular_ConoVectorOmega02RA_mesh.mesh">
                 <configuration name="@Home|All Platforms" excludeFromBuild="true" />
                 <configuration name="@Home|windows" excludeFromBuild="true" />
                 <configuration name="mobile|All Platforms" excludeFromBuild="true" />
             </file>
-            <file relativePath=".\modelos\giroscopo_02\antihorario\rapido\velocidad_angular\velocidad_angular_Cone08_mesh.mesh">
+            <file relativePath=".\modelos\giroscopo_02\antihorario\rapido\velocidad_angular\velocidad_angular_ConoVectorw02RA_mesh.mesh">
                 <configuration name="@Home|All Platforms" excludeFromBuild="true" />
                 <configuration name="@Home|windows" excludeFromBuild="true" />
                 <configuration name="mobile|All Platforms" excludeFromBuild="true" />
             </file>
-            <file relativePath=".\modelos\giroscopo_02\antihorario\rapido\velocidad_angular\velocidad_angular_Cylinder17_mesh.mesh">
+            <file relativePath=".\modelos\giroscopo_02\antihorario\rapido\velocidad_angular\velocidad_angular_TextVectorOmega02RA_mesh.mesh">
                 <configuration name="@Home|All Platforms" excludeFromBuild="true" />
                 <configuration name="@Home|windows" excludeFromBuild="true" />
                 <configuration name="mobile|All Platforms" excludeFromBuild="true" />
             </file>
-            <file relativePath=".\modelos\giroscopo_02\antihorario\rapido\velocidad_angular\velocidad_angular_Cylinder18_mesh.mesh">
+            <file relativePath=".\modelos\giroscopo_02\antihorario\rapido\velocidad_angular\velocidad_angular_TextVectorw02RA_mesh.mesh">
                 <configuration name="@Home|All Platforms" excludeFromBuild="true" />
                 <configuration name="@Home|windows" excludeFromBuild="true" />
                 <configuration name="mobile|All Platforms" excludeFromBuild="true" />
             </file>
-            <file relativePath=".\modelos\giroscopo_02\antihorario\rapido\velocidad_angular\velocidad_angular_Cylinder19_mesh.mesh">
+            <file relativePath=".\modelos\giroscopo_02\antihorario\rapido\velocidad_angular\velocidad_angular_TuboVectorOmega02RA_mesh.mesh">
                 <configuration name="@Home|All Platforms" excludeFromBuild="true" />
                 <configuration name="@Home|windows" excludeFromBuild="true" />
                 <configuration name="mobile|All Platforms" excludeFromBuild="true" />
             </file>
-            <file relativePath=".\modelos\giroscopo_02\antihorario\rapido\velocidad_angular\velocidad_angular_Cylinder23_mesh.mesh">
+            <file relativePath=".\modelos\giroscopo_02\antihorario\rapido\velocidad_angular\velocidad_angular_TuboVectorw02RA_mesh.mesh">
                 <configuration name="@Home|All Platforms" excludeFromBuild="true" />
                 <configuration name="@Home|windows" excludeFromBuild="true" />
                 <configuration name="mobile|All Platforms" excludeFromBuild="true" />
             </file>
-            <file relativePath=".\modelos\giroscopo_02\antihorario\rapido\velocidad_angular\velocidad_angular_Cylinder24_mesh.mesh">
+            <file relativePath=".\modelos\giroscopo_02\antihorario\rapido\velocidad_angular\velocidad_angular_flecha2VectorOmega02RA_mesh.mesh">
                 <configuration name="@Home|All Platforms" excludeFromBuild="true" />
                 <configuration name="@Home|windows" excludeFromBuild="true" />
                 <configuration name="mobile|All Platforms" excludeFromBuild="true" />
             </file>
-            <file relativePath=".\modelos\giroscopo_02\antihorario\rapido\velocidad_angular\velocidad_angular_Cylinder25_mesh.mesh">
+            <file relativePath=".\modelos\giroscopo_02\antihorario\rapido\velocidad_angular\velocidad_angular_flecha2Vectorw02RA_mesh.mesh">
                 <configuration name="@Home|All Platforms" excludeFromBuild="true" />
                 <configuration name="@Home|windows" excludeFromBuild="true" />
                 <configuration name="mobile|All Platforms" excludeFromBuild="true" />
             </file>
-            <file relativePath=".\modelos\giroscopo_02\antihorario\rapido\velocidad_angular\velocidad_angular_Text06_mesh.mesh">
+            <file relativePath=".\modelos\giroscopo_02\antihorario\rapido\velocidad_angular\velocidad_angular_flechaVectorOmega02RA_mesh.mesh">
                 <configuration name="@Home|All Platforms" excludeFromBuild="true" />
                 <configuration name="@Home|windows" excludeFromBuild="true" />
                 <configuration name="mobile|All Platforms" excludeFromBuild="true" />
             </file>
-            <file relativePath=".\modelos\giroscopo_02\antihorario\rapido\velocidad_angular\velocidad_angular_Text08_mesh.mesh">
+            <file relativePath=".\modelos\giroscopo_02\antihorario\rapido\velocidad_angular\velocidad_angular_flechaVectorw02RA_mesh.mesh">
                 <configuration name="@Home|All Platforms" excludeFromBuild="true" />
                 <configuration name="@Home|windows" excludeFromBuild="true" />
                 <configuration name="mobile|All Platforms" excludeFromBuild="true" />
@@ -899,77 +900,77 @@
                 <configuration name="@Home|windows" excludeFromBuild="true" />
                 <configuration name="mobile|All Platforms" excludeFromBuild="true" />
             </file>
-            <file relativePath=".\modelos\giroscopo_02\horario\rapido\fuerzas\fuerzas_Cone01_mesh.mesh">
+            <file relativePath=".\modelos\giroscopo_02\horario\rapido\fuerzas\fuerzas_ConoVectorFr02RH_mesh.mesh">
                 <configuration name="@Home|All Platforms" excludeFromBuild="true" />
                 <configuration name="@Home|windows" excludeFromBuild="true" />
                 <configuration name="mobile|All Platforms" excludeFromBuild="true" />
             </file>
-            <file relativePath=".\modelos\giroscopo_02\horario\rapido\fuerzas\fuerzas_Cone02_mesh.mesh">
+            <file relativePath=".\modelos\giroscopo_02\horario\rapido\fuerzas\fuerzas_ConoVectorN02RH_mesh.mesh">
                 <configuration name="@Home|All Platforms" excludeFromBuild="true" />
                 <configuration name="@Home|windows" excludeFromBuild="true" />
                 <configuration name="mobile|All Platforms" excludeFromBuild="true" />
             </file>
-            <file relativePath=".\modelos\giroscopo_02\horario\rapido\fuerzas\fuerzas_Cone03_mesh.mesh">
+            <file relativePath=".\modelos\giroscopo_02\horario\rapido\fuerzas\fuerzas_ConoVectorP02RH_mesh.mesh">
                 <configuration name="@Home|All Platforms" excludeFromBuild="true" />
                 <configuration name="@Home|windows" excludeFromBuild="true" />
                 <configuration name="mobile|All Platforms" excludeFromBuild="true" />
             </file>
-            <file relativePath=".\modelos\giroscopo_02\horario\rapido\fuerzas\fuerzas_Cylinder01_mesh.mesh">
+            <file relativePath=".\modelos\giroscopo_02\horario\rapido\fuerzas\fuerzas_TextVectorFr02RH_mesh.mesh">
                 <configuration name="@Home|All Platforms" excludeFromBuild="true" />
                 <configuration name="@Home|windows" excludeFromBuild="true" />
                 <configuration name="mobile|All Platforms" excludeFromBuild="true" />
             </file>
-            <file relativePath=".\modelos\giroscopo_02\horario\rapido\fuerzas\fuerzas_Cylinder03_mesh.mesh">
+            <file relativePath=".\modelos\giroscopo_02\horario\rapido\fuerzas\fuerzas_TextVectorN02RH_mesh.mesh">
                 <configuration name="@Home|All Platforms" excludeFromBuild="true" />
                 <configuration name="@Home|windows" excludeFromBuild="true" />
                 <configuration name="mobile|All Platforms" excludeFromBuild="true" />
             </file>
-            <file relativePath=".\modelos\giroscopo_02\horario\rapido\fuerzas\fuerzas_Cylinder04_mesh.mesh">
+            <file relativePath=".\modelos\giroscopo_02\horario\rapido\fuerzas\fuerzas_TextVectorP02RH_mesh.mesh">
                 <configuration name="@Home|All Platforms" excludeFromBuild="true" />
                 <configuration name="@Home|windows" excludeFromBuild="true" />
                 <configuration name="mobile|All Platforms" excludeFromBuild="true" />
             </file>
-            <file relativePath=".\modelos\giroscopo_02\horario\rapido\fuerzas\fuerzas_Cylinder05_mesh.mesh">
+            <file relativePath=".\modelos\giroscopo_02\horario\rapido\fuerzas\fuerzas_TuboVectorFr02RH_mesh.mesh">
                 <configuration name="@Home|All Platforms" excludeFromBuild="true" />
                 <configuration name="@Home|windows" excludeFromBuild="true" />
                 <configuration name="mobile|All Platforms" excludeFromBuild="true" />
             </file>
-            <file relativePath=".\modelos\giroscopo_02\horario\rapido\fuerzas\fuerzas_Cylinder06_mesh.mesh">
+            <file relativePath=".\modelos\giroscopo_02\horario\rapido\fuerzas\fuerzas_TuboVectorN02RH_mesh.mesh">
                 <configuration name="@Home|All Platforms" excludeFromBuild="true" />
                 <configuration name="@Home|windows" excludeFromBuild="true" />
                 <configuration name="mobile|All Platforms" excludeFromBuild="true" />
             </file>
-            <file relativePath=".\modelos\giroscopo_02\horario\rapido\fuerzas\fuerzas_Cylinder07_mesh.mesh">
+            <file relativePath=".\modelos\giroscopo_02\horario\rapido\fuerzas\fuerzas_TuboVectorP02RH_mesh.mesh">
                 <configuration name="@Home|All Platforms" excludeFromBuild="true" />
                 <configuration name="@Home|windows" excludeFromBuild="true" />
                 <configuration name="mobile|All Platforms" excludeFromBuild="true" />
             </file>
-            <file relativePath=".\modelos\giroscopo_02\horario\rapido\fuerzas\fuerzas_Cylinder08_mesh.mesh">
+            <file relativePath=".\modelos\giroscopo_02\horario\rapido\fuerzas\fuerzas_flecha2VectorFr02RH_mesh.mesh">
                 <configuration name="@Home|All Platforms" excludeFromBuild="true" />
                 <configuration name="@Home|windows" excludeFromBuild="true" />
                 <configuration name="mobile|All Platforms" excludeFromBuild="true" />
             </file>
-            <file relativePath=".\modelos\giroscopo_02\horario\rapido\fuerzas\fuerzas_Cylinder09_mesh.mesh">
+            <file relativePath=".\modelos\giroscopo_02\horario\rapido\fuerzas\fuerzas_flecha2VectorN02RH_mesh.mesh">
                 <configuration name="@Home|All Platforms" excludeFromBuild="true" />
                 <configuration name="@Home|windows" excludeFromBuild="true" />
                 <configuration name="mobile|All Platforms" excludeFromBuild="true" />
             </file>
-            <file relativePath=".\modelos\giroscopo_02\horario\rapido\fuerzas\fuerzas_Cylinder10_mesh.mesh">
+            <file relativePath=".\modelos\giroscopo_02\horario\rapido\fuerzas\fuerzas_flecha2VectorP02RH_mesh.mesh">
                 <configuration name="@Home|All Platforms" excludeFromBuild="true" />
                 <configuration name="@Home|windows" excludeFromBuild="true" />
                 <configuration name="mobile|All Platforms" excludeFromBuild="true" />
             </file>
-            <file relativePath=".\modelos\giroscopo_02\horario\rapido\fuerzas\fuerzas_Text01_mesh.mesh">
+            <file relativePath=".\modelos\giroscopo_02\horario\rapido\fuerzas\fuerzas_flechaVectorFr02RH_mesh.mesh">
                 <configuration name="@Home|All Platforms" excludeFromBuild="true" />
                 <configuration name="@Home|windows" excludeFromBuild="true" />
                 <configuration name="mobile|All Platforms" excludeFromBuild="true" />
             </file>
-            <file relativePath=".\modelos\giroscopo_02\horario\rapido\fuerzas\fuerzas_Text02_mesh.mesh">
+            <file relativePath=".\modelos\giroscopo_02\horario\rapido\fuerzas\fuerzas_flechaVectorN02RH_mesh.mesh">
                 <configuration name="@Home|All Platforms" excludeFromBuild="true" />
                 <configuration name="@Home|windows" excludeFromBuild="true" />
                 <configuration name="mobile|All Platforms" excludeFromBuild="true" />
             </file>
-            <file relativePath=".\modelos\giroscopo_02\horario\rapido\fuerzas\fuerzas_Text03_mesh.mesh">
+            <file relativePath=".\modelos\giroscopo_02\horario\rapido\fuerzas\fuerzas_flechaVectorP02RH_mesh.mesh">
                 <configuration name="@Home|All Platforms" excludeFromBuild="true" />
                 <configuration name="@Home|windows" excludeFromBuild="true" />
                 <configuration name="mobile|All Platforms" excludeFromBuild="true" />
@@ -1099,27 +1100,27 @@
                 <configuration name="@Home|windows" excludeFromBuild="true" />
                 <configuration name="mobile|All Platforms" excludeFromBuild="true" />
             </file>
-            <file relativePath=".\modelos\giroscopo_02\horario\rapido\momento_angular\momento_angular_Cone05_mesh.mesh">
+            <file relativePath=".\modelos\giroscopo_02\horario\rapido\momento_angular\momento_angular_ConoVectorL02RH_mesh.mesh">
                 <configuration name="@Home|All Platforms" excludeFromBuild="true" />
                 <configuration name="@Home|windows" excludeFromBuild="true" />
                 <configuration name="mobile|All Platforms" excludeFromBuild="true" />
             </file>
-            <file relativePath=".\modelos\giroscopo_02\horario\rapido\momento_angular\momento_angular_Cylinder14_mesh.mesh">
+            <file relativePath=".\modelos\giroscopo_02\horario\rapido\momento_angular\momento_angular_TextVectorL02RH_mesh.mesh">
                 <configuration name="@Home|All Platforms" excludeFromBuild="true" />
                 <configuration name="@Home|windows" excludeFromBuild="true" />
                 <configuration name="mobile|All Platforms" excludeFromBuild="true" />
             </file>
-            <file relativePath=".\modelos\giroscopo_02\horario\rapido\momento_angular\momento_angular_Cylinder15_mesh.mesh">
+            <file relativePath=".\modelos\giroscopo_02\horario\rapido\momento_angular\momento_angular_TuboVectorL02RH_mesh.mesh">
                 <configuration name="@Home|All Platforms" excludeFromBuild="true" />
                 <configuration name="@Home|windows" excludeFromBuild="true" />
                 <configuration name="mobile|All Platforms" excludeFromBuild="true" />
             </file>
-            <file relativePath=".\modelos\giroscopo_02\horario\rapido\momento_angular\momento_angular_Cylinder16_mesh.mesh">
+            <file relativePath=".\modelos\giroscopo_02\horario\rapido\momento_angular\momento_angular_flecha2VectorL02RH_mesh.mesh">
                 <configuration name="@Home|All Platforms" excludeFromBuild="true" />
                 <configuration name="@Home|windows" excludeFromBuild="true" />
                 <configuration name="mobile|All Platforms" excludeFromBuild="true" />
             </file>
-            <file relativePath=".\modelos\giroscopo_02\horario\rapido\momento_angular\momento_angular_Text05_mesh.mesh">
+            <file relativePath=".\modelos\giroscopo_02\horario\rapido\momento_angular\momento_angular_flechaVectorL02RH_mesh.mesh">
                 <configuration name="@Home|All Platforms" excludeFromBuild="true" />
                 <configuration name="@Home|windows" excludeFromBuild="true" />
                 <configuration name="mobile|All Platforms" excludeFromBuild="true" />
@@ -1144,52 +1145,52 @@
                 <configuration name="@Home|windows" excludeFromBuild="true" />
                 <configuration name="mobile|All Platforms" excludeFromBuild="true" />
             </file>
-            <file relativePath=".\modelos\giroscopo_02\horario\rapido\torque\torque_Cone04_mesh.mesh">
+            <file relativePath=".\modelos\giroscopo_02\horario\rapido\torque\torque_ConoVectorR02RH_mesh.mesh">
                 <configuration name="@Home|All Platforms" excludeFromBuild="true" />
                 <configuration name="@Home|windows" excludeFromBuild="true" />
                 <configuration name="mobile|All Platforms" excludeFromBuild="true" />
             </file>
-            <file relativePath=".\modelos\giroscopo_02\horario\rapido\torque\torque_Cone07_mesh.mesh">
+            <file relativePath=".\modelos\giroscopo_02\horario\rapido\torque\torque_ConoVectorT02RH_mesh.mesh">
                 <configuration name="@Home|All Platforms" excludeFromBuild="true" />
                 <configuration name="@Home|windows" excludeFromBuild="true" />
                 <configuration name="mobile|All Platforms" excludeFromBuild="true" />
             </file>
-            <file relativePath=".\modelos\giroscopo_02\horario\rapido\torque\torque_Cylinder11_mesh.mesh">
+            <file relativePath=".\modelos\giroscopo_02\horario\rapido\torque\torque_TextVectorR02RH_mesh.mesh">
                 <configuration name="@Home|All Platforms" excludeFromBuild="true" />
                 <configuration name="@Home|windows" excludeFromBuild="true" />
                 <configuration name="mobile|All Platforms" excludeFromBuild="true" />
             </file>
-            <file relativePath=".\modelos\giroscopo_02\horario\rapido\torque\torque_Cylinder12_mesh.mesh">
+            <file relativePath=".\modelos\giroscopo_02\horario\rapido\torque\torque_TextVectorT02RH_mesh.mesh">
                 <configuration name="@Home|All Platforms" excludeFromBuild="true" />
                 <configuration name="@Home|windows" excludeFromBuild="true" />
                 <configuration name="mobile|All Platforms" excludeFromBuild="true" />
             </file>
-            <file relativePath=".\modelos\giroscopo_02\horario\rapido\torque\torque_Cylinder13_mesh.mesh">
+            <file relativePath=".\modelos\giroscopo_02\horario\rapido\torque\torque_TuboVectorR02RH_mesh.mesh">
                 <configuration name="@Home|All Platforms" excludeFromBuild="true" />
                 <configuration name="@Home|windows" excludeFromBuild="true" />
                 <configuration name="mobile|All Platforms" excludeFromBuild="true" />
             </file>
-            <file relativePath=".\modelos\giroscopo_02\horario\rapido\torque\torque_Cylinder20_mesh.mesh">
+            <file relativePath=".\modelos\giroscopo_02\horario\rapido\torque\torque_TuboVectorT02RH_mesh.mesh">
                 <configuration name="@Home|All Platforms" excludeFromBuild="true" />
                 <configuration name="@Home|windows" excludeFromBuild="true" />
                 <configuration name="mobile|All Platforms" excludeFromBuild="true" />
             </file>
-            <file relativePath=".\modelos\giroscopo_02\horario\rapido\torque\torque_Cylinder21_mesh.mesh">
+            <file relativePath=".\modelos\giroscopo_02\horario\rapido\torque\torque_flecha2VectorR02RH_mesh.mesh">
                 <configuration name="@Home|All Platforms" excludeFromBuild="true" />
                 <configuration name="@Home|windows" excludeFromBuild="true" />
                 <configuration name="mobile|All Platforms" excludeFromBuild="true" />
             </file>
-            <file relativePath=".\modelos\giroscopo_02\horario\rapido\torque\torque_Cylinder22_mesh.mesh">
+            <file relativePath=".\modelos\giroscopo_02\horario\rapido\torque\torque_flecha2VectorT02RH_mesh.mesh">
                 <configuration name="@Home|All Platforms" excludeFromBuild="true" />
                 <configuration name="@Home|windows" excludeFromBuild="true" />
                 <configuration name="mobile|All Platforms" excludeFromBuild="true" />
             </file>
-            <file relativePath=".\modelos\giroscopo_02\horario\rapido\torque\torque_Text04_mesh.mesh">
+            <file relativePath=".\modelos\giroscopo_02\horario\rapido\torque\torque_flechaVectorR02RH_mesh.mesh">
                 <configuration name="@Home|All Platforms" excludeFromBuild="true" />
                 <configuration name="@Home|windows" excludeFromBuild="true" />
                 <configuration name="mobile|All Platforms" excludeFromBuild="true" />
             </file>
-            <file relativePath=".\modelos\giroscopo_02\horario\rapido\torque\torque_Text07_mesh.mesh">
+            <file relativePath=".\modelos\giroscopo_02\horario\rapido\torque\torque_flechaVectorT02RH_mesh.mesh">
                 <configuration name="@Home|All Platforms" excludeFromBuild="true" />
                 <configuration name="@Home|windows" excludeFromBuild="true" />
                 <configuration name="mobile|All Platforms" excludeFromBuild="true" />
@@ -1209,52 +1210,52 @@
                 <configuration name="@Home|windows" excludeFromBuild="true" />
                 <configuration name="mobile|All Platforms" excludeFromBuild="true" />
             </file>
-            <file relativePath=".\modelos\giroscopo_02\horario\rapido\velocidad_angular\velocidad_angular_Cone06_mesh.mesh">
+            <file relativePath=".\modelos\giroscopo_02\horario\rapido\velocidad_angular\velocidad_angular_ConoVectorOmega02RH_mesh.mesh">
                 <configuration name="@Home|All Platforms" excludeFromBuild="true" />
                 <configuration name="@Home|windows" excludeFromBuild="true" />
                 <configuration name="mobile|All Platforms" excludeFromBuild="true" />
             </file>
-            <file relativePath=".\modelos\giroscopo_02\horario\rapido\velocidad_angular\velocidad_angular_Cone08_mesh.mesh">
+            <file relativePath=".\modelos\giroscopo_02\horario\rapido\velocidad_angular\velocidad_angular_ConoVectorw02RH_mesh.mesh">
                 <configuration name="@Home|All Platforms" excludeFromBuild="true" />
                 <configuration name="@Home|windows" excludeFromBuild="true" />
                 <configuration name="mobile|All Platforms" excludeFromBuild="true" />
             </file>
-            <file relativePath=".\modelos\giroscopo_02\horario\rapido\velocidad_angular\velocidad_angular_Cylinder17_mesh.mesh">
+            <file relativePath=".\modelos\giroscopo_02\horario\rapido\velocidad_angular\velocidad_angular_TextVectorOmega02RH_mesh.mesh">
                 <configuration name="@Home|All Platforms" excludeFromBuild="true" />
                 <configuration name="@Home|windows" excludeFromBuild="true" />
                 <configuration name="mobile|All Platforms" excludeFromBuild="true" />
             </file>
-            <file relativePath=".\modelos\giroscopo_02\horario\rapido\velocidad_angular\velocidad_angular_Cylinder18_mesh.mesh">
+            <file relativePath=".\modelos\giroscopo_02\horario\rapido\velocidad_angular\velocidad_angular_TextVectorw02RH_mesh.mesh">
                 <configuration name="@Home|All Platforms" excludeFromBuild="true" />
                 <configuration name="@Home|windows" excludeFromBuild="true" />
                 <configuration name="mobile|All Platforms" excludeFromBuild="true" />
             </file>
-            <file relativePath=".\modelos\giroscopo_02\horario\rapido\velocidad_angular\velocidad_angular_Cylinder19_mesh.mesh">
+            <file relativePath=".\modelos\giroscopo_02\horario\rapido\velocidad_angular\velocidad_angular_TuboVectorOmega02RH_mesh.mesh">
                 <configuration name="@Home|All Platforms" excludeFromBuild="true" />
                 <configuration name="@Home|windows" excludeFromBuild="true" />
                 <configuration name="mobile|All Platforms" excludeFromBuild="true" />
             </file>
-            <file relativePath=".\modelos\giroscopo_02\horario\rapido\velocidad_angular\velocidad_angular_Cylinder23_mesh.mesh">
+            <file relativePath=".\modelos\giroscopo_02\horario\rapido\velocidad_angular\velocidad_angular_TuboVectorw02RH_mesh.mesh">
                 <configuration name="@Home|All Platforms" excludeFromBuild="true" />
                 <configuration name="@Home|windows" excludeFromBuild="true" />
                 <configuration name="mobile|All Platforms" excludeFromBuild="true" />
             </file>
-            <file relativePath=".\modelos\giroscopo_02\horario\rapido\velocidad_angular\velocidad_angular_Cylinder24_mesh.mesh">
+            <file relativePath=".\modelos\giroscopo_02\horario\rapido\velocidad_angular\velocidad_angular_flecha2VectorOmega02RH_mesh.mesh">
                 <configuration name="@Home|All Platforms" excludeFromBuild="true" />
                 <configuration name="@Home|windows" excludeFromBuild="true" />
                 <configuration name="mobile|All Platforms" excludeFromBuild="true" />
             </file>
-            <file relativePath=".\modelos\giroscopo_02\horario\rapido\velocidad_angular\velocidad_angular_Cylinder25_mesh.mesh">
+            <file relativePath=".\modelos\giroscopo_02\horario\rapido\velocidad_angular\velocidad_angular_flecha2Vectorw02RH_mesh.mesh">
                 <configuration name="@Home|All Platforms" excludeFromBuild="true" />
                 <configuration name="@Home|windows" excludeFromBuild="true" />
                 <configuration name="mobile|All Platforms" excludeFromBuild="true" />
             </file>
-            <file relativePath=".\modelos\giroscopo_02\horario\rapido\velocidad_angular\velocidad_angular_Text06_mesh.mesh">
+            <file relativePath=".\modelos\giroscopo_02\horario\rapido\velocidad_angular\velocidad_angular_flechaVectorOmega02RH_mesh.mesh">
                 <configuration name="@Home|All Platforms" excludeFromBuild="true" />
                 <configuration name="@Home|windows" excludeFromBuild="true" />
                 <configuration name="mobile|All Platforms" excludeFromBuild="true" />
             </file>
-            <file relativePath=".\modelos\giroscopo_02\horario\rapido\velocidad_angular\velocidad_angular_Text08_mesh.mesh">
+            <file relativePath=".\modelos\giroscopo_02\horario\rapido\velocidad_angular\velocidad_angular_flechaVectorw02RH_mesh.mesh">
                 <configuration name="@Home|All Platforms" excludeFromBuild="true" />
                 <configuration name="@Home|windows" excludeFromBuild="true" />
                 <configuration name="mobile|All Platforms" excludeFromBuild="true" />
@@ -1269,52 +1270,52 @@
                 <configuration name="@Home|windows" excludeFromBuild="true" />
                 <configuration name="mobile|All Platforms" excludeFromBuild="true" />
             </file>
-            <file relativePath=".\modelos\giroscopo_04\antihorario\lento\fuerzas\fuerzas_Cone01_mesh.mesh">
+            <file relativePath=".\modelos\giroscopo_04\antihorario\lento\fuerzas\fuerzas_ConoVectorP04LA_mesh.mesh">
                 <configuration name="@Home|All Platforms" excludeFromBuild="true" />
                 <configuration name="@Home|windows" excludeFromBuild="true" />
                 <configuration name="mobile|All Platforms" excludeFromBuild="true" />
             </file>
-            <file relativePath=".\modelos\giroscopo_04\antihorario\lento\fuerzas\fuerzas_Cone02_mesh.mesh">
+            <file relativePath=".\modelos\giroscopo_04\antihorario\lento\fuerzas\fuerzas_ConoVectorTen04LA_mesh.mesh">
                 <configuration name="@Home|All Platforms" excludeFromBuild="true" />
                 <configuration name="@Home|windows" excludeFromBuild="true" />
                 <configuration name="mobile|All Platforms" excludeFromBuild="true" />
             </file>
-            <file relativePath=".\modelos\giroscopo_04\antihorario\lento\fuerzas\fuerzas_Cylinder03_mesh.mesh">
+            <file relativePath=".\modelos\giroscopo_04\antihorario\lento\fuerzas\fuerzas_TextVectorP04LA_mesh.mesh">
                 <configuration name="@Home|All Platforms" excludeFromBuild="true" />
                 <configuration name="@Home|windows" excludeFromBuild="true" />
                 <configuration name="mobile|All Platforms" excludeFromBuild="true" />
             </file>
-            <file relativePath=".\modelos\giroscopo_04\antihorario\lento\fuerzas\fuerzas_Cylinder04_mesh.mesh">
+            <file relativePath=".\modelos\giroscopo_04\antihorario\lento\fuerzas\fuerzas_TextVectorTen04LA_mesh.mesh">
                 <configuration name="@Home|All Platforms" excludeFromBuild="true" />
                 <configuration name="@Home|windows" excludeFromBuild="true" />
                 <configuration name="mobile|All Platforms" excludeFromBuild="true" />
             </file>
-            <file relativePath=".\modelos\giroscopo_04\antihorario\lento\fuerzas\fuerzas_Cylinder05_mesh.mesh">
+            <file relativePath=".\modelos\giroscopo_04\antihorario\lento\fuerzas\fuerzas_TuboVectorP04LA_mesh.mesh">
                 <configuration name="@Home|All Platforms" excludeFromBuild="true" />
                 <configuration name="@Home|windows" excludeFromBuild="true" />
                 <configuration name="mobile|All Platforms" excludeFromBuild="true" />
             </file>
-            <file relativePath=".\modelos\giroscopo_04\antihorario\lento\fuerzas\fuerzas_Cylinder06_mesh.mesh">
+            <file relativePath=".\modelos\giroscopo_04\antihorario\lento\fuerzas\fuerzas_TuboVectorTen04LA_mesh.mesh">
                 <configuration name="@Home|All Platforms" excludeFromBuild="true" />
                 <configuration name="@Home|windows" excludeFromBuild="true" />
                 <configuration name="mobile|All Platforms" excludeFromBuild="true" />
             </file>
-            <file relativePath=".\modelos\giroscopo_04\antihorario\lento\fuerzas\fuerzas_Cylinder07_mesh.mesh">
+            <file relativePath=".\modelos\giroscopo_04\antihorario\lento\fuerzas\fuerzas_flecha2VectorP04LA_mesh.mesh">
                 <configuration name="@Home|All Platforms" excludeFromBuild="true" />
                 <configuration name="@Home|windows" excludeFromBuild="true" />
                 <configuration name="mobile|All Platforms" excludeFromBuild="true" />
             </file>
-            <file relativePath=".\modelos\giroscopo_04\antihorario\lento\fuerzas\fuerzas_Cylinder08_mesh.mesh">
+            <file relativePath=".\modelos\giroscopo_04\antihorario\lento\fuerzas\fuerzas_flecha2VectorTen04LA_mesh.mesh">
                 <configuration name="@Home|All Platforms" excludeFromBuild="true" />
                 <configuration name="@Home|windows" excludeFromBuild="true" />
                 <configuration name="mobile|All Platforms" excludeFromBuild="true" />
             </file>
-            <file relativePath=".\modelos\giroscopo_04\antihorario\lento\fuerzas\fuerzas_Text01_mesh.mesh">
+            <file relativePath=".\modelos\giroscopo_04\antihorario\lento\fuerzas\fuerzas_flechaVectorP04LA_mesh.mesh">
                 <configuration name="@Home|All Platforms" excludeFromBuild="true" />
                 <configuration name="@Home|windows" excludeFromBuild="true" />
                 <configuration name="mobile|All Platforms" excludeFromBuild="true" />
             </file>
-            <file relativePath=".\modelos\giroscopo_04\antihorario\lento\fuerzas\fuerzas_Text02_mesh.mesh">
+            <file relativePath=".\modelos\giroscopo_04\antihorario\lento\fuerzas\fuerzas_flechaVectorTen04LA_mesh.mesh">
                 <configuration name="@Home|All Platforms" excludeFromBuild="true" />
                 <configuration name="@Home|windows" excludeFromBuild="true" />
                 <configuration name="mobile|All Platforms" excludeFromBuild="true" />
@@ -1439,27 +1440,27 @@
                 <configuration name="@Home|windows" excludeFromBuild="true" />
                 <configuration name="mobile|All Platforms" excludeFromBuild="true" />
             </file>
-            <file relativePath=".\modelos\giroscopo_04\antihorario\lento\momento_angular\momento_angular_Cone04_mesh.mesh">
+            <file relativePath=".\modelos\giroscopo_04\antihorario\lento\momento_angular\momento_angular_ConoVectorL04LA_mesh.mesh">
                 <configuration name="@Home|All Platforms" excludeFromBuild="true" />
                 <configuration name="@Home|windows" excludeFromBuild="true" />
                 <configuration name="mobile|All Platforms" excludeFromBuild="true" />
             </file>
-            <file relativePath=".\modelos\giroscopo_04\antihorario\lento\momento_angular\momento_angular_Cylinder12_mesh.mesh">
+            <file relativePath=".\modelos\giroscopo_04\antihorario\lento\momento_angular\momento_angular_TextVectorL04LA_mesh.mesh">
                 <configuration name="@Home|All Platforms" excludeFromBuild="true" />
                 <configuration name="@Home|windows" excludeFromBuild="true" />
                 <configuration name="mobile|All Platforms" excludeFromBuild="true" />
             </file>
-            <file relativePath=".\modelos\giroscopo_04\antihorario\lento\momento_angular\momento_angular_Cylinder13_mesh.mesh">
+            <file relativePath=".\modelos\giroscopo_04\antihorario\lento\momento_angular\momento_angular_TuboVectorL04LA_mesh.mesh">
                 <configuration name="@Home|All Platforms" excludeFromBuild="true" />
                 <configuration name="@Home|windows" excludeFromBuild="true" />
                 <configuration name="mobile|All Platforms" excludeFromBuild="true" />
             </file>
-            <file relativePath=".\modelos\giroscopo_04\antihorario\lento\momento_angular\momento_angular_Cylinder14_mesh.mesh">
+            <file relativePath=".\modelos\giroscopo_04\antihorario\lento\momento_angular\momento_angular_flecha2VectorL04LA_mesh.mesh">
                 <configuration name="@Home|All Platforms" excludeFromBuild="true" />
                 <configuration name="@Home|windows" excludeFromBuild="true" />
                 <configuration name="mobile|All Platforms" excludeFromBuild="true" />
             </file>
-            <file relativePath=".\modelos\giroscopo_04\antihorario\lento\momento_angular\momento_angular_Text04_mesh.mesh">
+            <file relativePath=".\modelos\giroscopo_04\antihorario\lento\momento_angular\momento_angular_flechaVectorL04LA_mesh.mesh">
                 <configuration name="@Home|All Platforms" excludeFromBuild="true" />
                 <configuration name="@Home|windows" excludeFromBuild="true" />
                 <configuration name="mobile|All Platforms" excludeFromBuild="true" />
@@ -1484,52 +1485,52 @@
                 <configuration name="@Home|windows" excludeFromBuild="true" />
                 <configuration name="mobile|All Platforms" excludeFromBuild="true" />
             </file>
-            <file relativePath=".\modelos\giroscopo_04\antihorario\lento\torque\torque_Cone03_mesh.mesh">
+            <file relativePath=".\modelos\giroscopo_04\antihorario\lento\torque\torque_ConoVectorR04LA_mesh.mesh">
                 <configuration name="@Home|All Platforms" excludeFromBuild="true" />
                 <configuration name="@Home|windows" excludeFromBuild="true" />
                 <configuration name="mobile|All Platforms" excludeFromBuild="true" />
             </file>
-            <file relativePath=".\modelos\giroscopo_04\antihorario\lento\torque\torque_Cone07_mesh.mesh">
+            <file relativePath=".\modelos\giroscopo_04\antihorario\lento\torque\torque_ConoVectorT04LA_mesh.mesh">
                 <configuration name="@Home|All Platforms" excludeFromBuild="true" />
                 <configuration name="@Home|windows" excludeFromBuild="true" />
                 <configuration name="mobile|All Platforms" excludeFromBuild="true" />
             </file>
-            <file relativePath=".\modelos\giroscopo_04\antihorario\lento\torque\torque_Cylinder09_mesh.mesh">
+            <file relativePath=".\modelos\giroscopo_04\antihorario\lento\torque\torque_TextVectorR04LA_mesh.mesh">
                 <configuration name="@Home|All Platforms" excludeFromBuild="true" />
                 <configuration name="@Home|windows" excludeFromBuild="true" />
                 <configuration name="mobile|All Platforms" excludeFromBuild="true" />
             </file>
-            <file relativePath=".\modelos\giroscopo_04\antihorario\lento\torque\torque_Cylinder10_mesh.mesh">
+            <file relativePath=".\modelos\giroscopo_04\antihorario\lento\torque\torque_TextVectorT04LA_mesh.mesh">
                 <configuration name="@Home|All Platforms" excludeFromBuild="true" />
                 <configuration name="@Home|windows" excludeFromBuild="true" />
                 <configuration name="mobile|All Platforms" excludeFromBuild="true" />
             </file>
-            <file relativePath=".\modelos\giroscopo_04\antihorario\lento\torque\torque_Cylinder11_mesh.mesh">
+            <file relativePath=".\modelos\giroscopo_04\antihorario\lento\torque\torque_TuboVectorR04LA_mesh.mesh">
                 <configuration name="@Home|All Platforms" excludeFromBuild="true" />
                 <configuration name="@Home|windows" excludeFromBuild="true" />
                 <configuration name="mobile|All Platforms" excludeFromBuild="true" />
             </file>
-            <file relativePath=".\modelos\giroscopo_04\antihorario\lento\torque\torque_Cylinder21_mesh.mesh">
+            <file relativePath=".\modelos\giroscopo_04\antihorario\lento\torque\torque_TuboVectorT04LA_mesh.mesh">
                 <configuration name="@Home|All Platforms" excludeFromBuild="true" />
                 <configuration name="@Home|windows" excludeFromBuild="true" />
                 <configuration name="mobile|All Platforms" excludeFromBuild="true" />
             </file>
-            <file relativePath=".\modelos\giroscopo_04\antihorario\lento\torque\torque_Cylinder22_mesh.mesh">
+            <file relativePath=".\modelos\giroscopo_04\antihorario\lento\torque\torque_flecha2VectorR04LA_mesh.mesh">
                 <configuration name="@Home|All Platforms" excludeFromBuild="true" />
                 <configuration name="@Home|windows" excludeFromBuild="true" />
                 <configuration name="mobile|All Platforms" excludeFromBuild="true" />
             </file>
-            <file relativePath=".\modelos\giroscopo_04\antihorario\lento\torque\torque_Cylinder23_mesh.mesh">
+            <file relativePath=".\modelos\giroscopo_04\antihorario\lento\torque\torque_flecha2VectorT04LA_mesh.mesh">
                 <configuration name="@Home|All Platforms" excludeFromBuild="true" />
                 <configuration name="@Home|windows" excludeFromBuild="true" />
                 <configuration name="mobile|All Platforms" excludeFromBuild="true" />
             </file>
-            <file relativePath=".\modelos\giroscopo_04\antihorario\lento\torque\torque_Text03_mesh.mesh">
+            <file relativePath=".\modelos\giroscopo_04\antihorario\lento\torque\torque_flechaVectorR04LA_mesh.mesh">
                 <configuration name="@Home|All Platforms" excludeFromBuild="true" />
                 <configuration name="@Home|windows" excludeFromBuild="true" />
                 <configuration name="mobile|All Platforms" excludeFromBuild="true" />
             </file>
-            <file relativePath=".\modelos\giroscopo_04\antihorario\lento\torque\torque_Text07_mesh.mesh">
+            <file relativePath=".\modelos\giroscopo_04\antihorario\lento\torque\torque_flechaVectorT04LA_mesh.mesh">
                 <configuration name="@Home|All Platforms" excludeFromBuild="true" />
                 <configuration name="@Home|windows" excludeFromBuild="true" />
                 <configuration name="mobile|All Platforms" excludeFromBuild="true" />
@@ -1549,52 +1550,52 @@
                 <configuration name="@Home|windows" excludeFromBuild="true" />
                 <configuration name="mobile|All Platforms" excludeFromBuild="true" />
             </file>
-            <file relativePath=".\modelos\giroscopo_04\antihorario\lento\velocidad_angular\velocidad_angular_Cone05_mesh.mesh">
+            <file relativePath=".\modelos\giroscopo_04\antihorario\lento\velocidad_angular\velocidad_angular_ConoVectorOmega04LA_mesh.mesh">
                 <configuration name="@Home|All Platforms" excludeFromBuild="true" />
                 <configuration name="@Home|windows" excludeFromBuild="true" />
                 <configuration name="mobile|All Platforms" excludeFromBuild="true" />
             </file>
-            <file relativePath=".\modelos\giroscopo_04\antihorario\lento\velocidad_angular\velocidad_angular_Cone06_mesh.mesh">
+            <file relativePath=".\modelos\giroscopo_04\antihorario\lento\velocidad_angular\velocidad_angular_ConoVectorw04LA_mesh.mesh">
                 <configuration name="@Home|All Platforms" excludeFromBuild="true" />
                 <configuration name="@Home|windows" excludeFromBuild="true" />
                 <configuration name="mobile|All Platforms" excludeFromBuild="true" />
             </file>
-            <file relativePath=".\modelos\giroscopo_04\antihorario\lento\velocidad_angular\velocidad_angular_Cylinder15_mesh.mesh">
+            <file relativePath=".\modelos\giroscopo_04\antihorario\lento\velocidad_angular\velocidad_angular_TextVectorOmega04LA_mesh.mesh">
                 <configuration name="@Home|All Platforms" excludeFromBuild="true" />
                 <configuration name="@Home|windows" excludeFromBuild="true" />
                 <configuration name="mobile|All Platforms" excludeFromBuild="true" />
             </file>
-            <file relativePath=".\modelos\giroscopo_04\antihorario\lento\velocidad_angular\velocidad_angular_Cylinder16_mesh.mesh">
+            <file relativePath=".\modelos\giroscopo_04\antihorario\lento\velocidad_angular\velocidad_angular_TextVectorw04LA_mesh.mesh">
                 <configuration name="@Home|All Platforms" excludeFromBuild="true" />
                 <configuration name="@Home|windows" excludeFromBuild="true" />
                 <configuration name="mobile|All Platforms" excludeFromBuild="true" />
             </file>
-            <file relativePath=".\modelos\giroscopo_04\antihorario\lento\velocidad_angular\velocidad_angular_Cylinder17_mesh.mesh">
+            <file relativePath=".\modelos\giroscopo_04\antihorario\lento\velocidad_angular\velocidad_angular_TuboVectorOmega04LA_mesh.mesh">
                 <configuration name="@Home|All Platforms" excludeFromBuild="true" />
                 <configuration name="@Home|windows" excludeFromBuild="true" />
                 <configuration name="mobile|All Platforms" excludeFromBuild="true" />
             </file>
-            <file relativePath=".\modelos\giroscopo_04\antihorario\lento\velocidad_angular\velocidad_angular_Cylinder18_mesh.mesh">
+            <file relativePath=".\modelos\giroscopo_04\antihorario\lento\velocidad_angular\velocidad_angular_TuboVectorw04LA_mesh.mesh">
                 <configuration name="@Home|All Platforms" excludeFromBuild="true" />
                 <configuration name="@Home|windows" excludeFromBuild="true" />
                 <configuration name="mobile|All Platforms" excludeFromBuild="true" />
             </file>
-            <file relativePath=".\modelos\giroscopo_04\antihorario\lento\velocidad_angular\velocidad_angular_Cylinder19_mesh.mesh">
+            <file relativePath=".\modelos\giroscopo_04\antihorario\lento\velocidad_angular\velocidad_angular_flecha2VectorOmega04LA_mesh.mesh">
                 <configuration name="@Home|All Platforms" excludeFromBuild="true" />
                 <configuration name="@Home|windows" excludeFromBuild="true" />
                 <configuration name="mobile|All Platforms" excludeFromBuild="true" />
             </file>
-            <file relativePath=".\modelos\giroscopo_04\antihorario\lento\velocidad_angular\velocidad_angular_Cylinder20_mesh.mesh">
+            <file relativePath=".\modelos\giroscopo_04\antihorario\lento\velocidad_angular\velocidad_angular_flecha2Vectorw04LA_mesh.mesh">
                 <configuration name="@Home|All Platforms" excludeFromBuild="true" />
                 <configuration name="@Home|windows" excludeFromBuild="true" />
                 <configuration name="mobile|All Platforms" excludeFromBuild="true" />
             </file>
-            <file relativePath=".\modelos\giroscopo_04\antihorario\lento\velocidad_angular\velocidad_angular_Text05_mesh.mesh">
+            <file relativePath=".\modelos\giroscopo_04\antihorario\lento\velocidad_angular\velocidad_angular_flechaVectorOmega04LA_mesh.mesh">
                 <configuration name="@Home|All Platforms" excludeFromBuild="true" />
                 <configuration name="@Home|windows" excludeFromBuild="true" />
                 <configuration name="mobile|All Platforms" excludeFromBuild="true" />
             </file>
-            <file relativePath=".\modelos\giroscopo_04\antihorario\lento\velocidad_angular\velocidad_angular_Text06_mesh.mesh">
+            <file relativePath=".\modelos\giroscopo_04\antihorario\lento\velocidad_angular\velocidad_angular_flechaVectorw04LA_mesh.mesh">
                 <configuration name="@Home|All Platforms" excludeFromBuild="true" />
                 <configuration name="@Home|windows" excludeFromBuild="true" />
                 <configuration name="mobile|All Platforms" excludeFromBuild="true" />
@@ -1609,52 +1610,52 @@
                 <configuration name="@Home|windows" excludeFromBuild="true" />
                 <configuration name="mobile|All Platforms" excludeFromBuild="true" />
             </file>
-            <file relativePath=".\modelos\giroscopo_04\antihorario\rapido\fuerzas\fuerzas_Cone01_mesh.mesh">
+            <file relativePath=".\modelos\giroscopo_04\antihorario\rapido\fuerzas\fuerzas_ConoVectorP04RA_mesh.mesh">
                 <configuration name="@Home|All Platforms" excludeFromBuild="true" />
                 <configuration name="@Home|windows" excludeFromBuild="true" />
                 <configuration name="mobile|All Platforms" excludeFromBuild="true" />
             </file>
-            <file relativePath=".\modelos\giroscopo_04\antihorario\rapido\fuerzas\fuerzas_Cone02_mesh.mesh">
+            <file relativePath=".\modelos\giroscopo_04\antihorario\rapido\fuerzas\fuerzas_ConoVectorTen04RA_mesh.mesh">
                 <configuration name="@Home|All Platforms" excludeFromBuild="true" />
                 <configuration name="@Home|windows" excludeFromBuild="true" />
                 <configuration name="mobile|All Platforms" excludeFromBuild="true" />
             </file>
-            <file relativePath=".\modelos\giroscopo_04\antihorario\rapido\fuerzas\fuerzas_Cylinder03_mesh.mesh">
+            <file relativePath=".\modelos\giroscopo_04\antihorario\rapido\fuerzas\fuerzas_TextVectorP04RA_mesh.mesh">
                 <configuration name="@Home|All Platforms" excludeFromBuild="true" />
                 <configuration name="@Home|windows" excludeFromBuild="true" />
                 <configuration name="mobile|All Platforms" excludeFromBuild="true" />
             </file>
-            <file relativePath=".\modelos\giroscopo_04\antihorario\rapido\fuerzas\fuerzas_Cylinder04_mesh.mesh">
+            <file relativePath=".\modelos\giroscopo_04\antihorario\rapido\fuerzas\fuerzas_TextVectorTen04RA_mesh.mesh">
                 <configuration name="@Home|All Platforms" excludeFromBuild="true" />
                 <configuration name="@Home|windows" excludeFromBuild="true" />
                 <configuration name="mobile|All Platforms" excludeFromBuild="true" />
             </file>
-            <file relativePath=".\modelos\giroscopo_04\antihorario\rapido\fuerzas\fuerzas_Cylinder05_mesh.mesh">
+            <file relativePath=".\modelos\giroscopo_04\antihorario\rapido\fuerzas\fuerzas_TuboVectorP04RA_mesh.mesh">
                 <configuration name="@Home|All Platforms" excludeFromBuild="true" />
                 <configuration name="@Home|windows" excludeFromBuild="true" />
                 <configuration name="mobile|All Platforms" excludeFromBuild="true" />
             </file>
-            <file relativePath=".\modelos\giroscopo_04\antihorario\rapido\fuerzas\fuerzas_Cylinder06_mesh.mesh">
+            <file relativePath=".\modelos\giroscopo_04\antihorario\rapido\fuerzas\fuerzas_TuboVectorTen04RA_mesh.mesh">
                 <configuration name="@Home|All Platforms" excludeFromBuild="true" />
                 <configuration name="@Home|windows" excludeFromBuild="true" />
                 <configuration name="mobile|All Platforms" excludeFromBuild="true" />
             </file>
-            <file relativePath=".\modelos\giroscopo_04\antihorario\rapido\fuerzas\fuerzas_Cylinder07_mesh.mesh">
+            <file relativePath=".\modelos\giroscopo_04\antihorario\rapido\fuerzas\fuerzas_flecha2VectorP04RA_mesh.mesh">
                 <configuration name="@Home|All Platforms" excludeFromBuild="true" />
                 <configuration name="@Home|windows" excludeFromBuild="true" />
                 <configuration name="mobile|All Platforms" excludeFromBuild="true" />
             </file>
-            <file relativePath=".\modelos\giroscopo_04\antihorario\rapido\fuerzas\fuerzas_Cylinder08_mesh.mesh">
+            <file relativePath=".\modelos\giroscopo_04\antihorario\rapido\fuerzas\fuerzas_flecha2VectorTen04RA_mesh.mesh">
                 <configuration name="@Home|All Platforms" excludeFromBuild="true" />
                 <configuration name="@Home|windows" excludeFromBuild="true" />
                 <configuration name="mobile|All Platforms" excludeFromBuild="true" />
             </file>
-            <file relativePath=".\modelos\giroscopo_04\antihorario\rapido\fuerzas\fuerzas_Text01_mesh.mesh">
+            <file relativePath=".\modelos\giroscopo_04\antihorario\rapido\fuerzas\fuerzas_flechaVectorP04RA_mesh.mesh">
                 <configuration name="@Home|All Platforms" excludeFromBuild="true" />
                 <configuration name="@Home|windows" excludeFromBuild="true" />
                 <configuration name="mobile|All Platforms" excludeFromBuild="true" />
             </file>
-            <file relativePath=".\modelos\giroscopo_04\antihorario\rapido\fuerzas\fuerzas_Text02_mesh.mesh">
+            <file relativePath=".\modelos\giroscopo_04\antihorario\rapido\fuerzas\fuerzas_flechaVectorTen04RA_mesh.mesh">
                 <configuration name="@Home|All Platforms" excludeFromBuild="true" />
                 <configuration name="@Home|windows" excludeFromBuild="true" />
                 <configuration name="mobile|All Platforms" excludeFromBuild="true" />
@@ -1779,27 +1780,27 @@
                 <configuration name="@Home|windows" excludeFromBuild="true" />
                 <configuration name="mobile|All Platforms" excludeFromBuild="true" />
             </file>
-            <file relativePath=".\modelos\giroscopo_04\antihorario\rapido\momento_angular\momento_angular_Cone04_mesh.mesh">
+            <file relativePath=".\modelos\giroscopo_04\antihorario\rapido\momento_angular\momento_angular_ConoVectorL04RA_mesh.mesh">
                 <configuration name="@Home|All Platforms" excludeFromBuild="true" />
                 <configuration name="@Home|windows" excludeFromBuild="true" />
                 <configuration name="mobile|All Platforms" excludeFromBuild="true" />
             </file>
-            <file relativePath=".\modelos\giroscopo_04\antihorario\rapido\momento_angular\momento_angular_Cylinder12_mesh.mesh">
+            <file relativePath=".\modelos\giroscopo_04\antihorario\rapido\momento_angular\momento_angular_TextVectorL04RA_mesh.mesh">
                 <configuration name="@Home|All Platforms" excludeFromBuild="true" />
                 <configuration name="@Home|windows" excludeFromBuild="true" />
                 <configuration name="mobile|All Platforms" excludeFromBuild="true" />
             </file>
-            <file relativePath=".\modelos\giroscopo_04\antihorario\rapido\momento_angular\momento_angular_Cylinder13_mesh.mesh">
+            <file relativePath=".\modelos\giroscopo_04\antihorario\rapido\momento_angular\momento_angular_TuboVectorL04RA_mesh.mesh">
                 <configuration name="@Home|All Platforms" excludeFromBuild="true" />
                 <configuration name="@Home|windows" excludeFromBuild="true" />
                 <configuration name="mobile|All Platforms" excludeFromBuild="true" />
             </file>
-            <file relativePath=".\modelos\giroscopo_04\antihorario\rapido\momento_angular\momento_angular_Cylinder14_mesh.mesh">
+            <file relativePath=".\modelos\giroscopo_04\antihorario\rapido\momento_angular\momento_angular_flecha2VectorL04RA_mesh.mesh">
                 <configuration name="@Home|All Platforms" excludeFromBuild="true" />
                 <configuration name="@Home|windows" excludeFromBuild="true" />
                 <configuration name="mobile|All Platforms" excludeFromBuild="true" />
             </file>
-            <file relativePath=".\modelos\giroscopo_04\antihorario\rapido\momento_angular\momento_angular_Text04_mesh.mesh">
+            <file relativePath=".\modelos\giroscopo_04\antihorario\rapido\momento_angular\momento_angular_flechaVectorL04RA_mesh.mesh">
                 <configuration name="@Home|All Platforms" excludeFromBuild="true" />
                 <configuration name="@Home|windows" excludeFromBuild="true" />
                 <configuration name="mobile|All Platforms" excludeFromBuild="true" />
@@ -1824,52 +1825,52 @@
                 <configuration name="@Home|windows" excludeFromBuild="true" />
                 <configuration name="mobile|All Platforms" excludeFromBuild="true" />
             </file>
-            <file relativePath=".\modelos\giroscopo_04\antihorario\rapido\torque\torque_Cone03_mesh.mesh">
+            <file relativePath=".\modelos\giroscopo_04\antihorario\rapido\torque\torque_ConoVectorR04RA_mesh.mesh">
                 <configuration name="@Home|All Platforms" excludeFromBuild="true" />
                 <configuration name="@Home|windows" excludeFromBuild="true" />
                 <configuration name="mobile|All Platforms" excludeFromBuild="true" />
             </file>
-            <file relativePath=".\modelos\giroscopo_04\antihorario\rapido\torque\torque_Cone07_mesh.mesh">
+            <file relativePath=".\modelos\giroscopo_04\antihorario\rapido\torque\torque_ConoVectorT04RA_mesh.mesh">
                 <configuration name="@Home|All Platforms" excludeFromBuild="true" />
                 <configuration name="@Home|windows" excludeFromBuild="true" />
                 <configuration name="mobile|All Platforms" excludeFromBuild="true" />
             </file>
-            <file relativePath=".\modelos\giroscopo_04\antihorario\rapido\torque\torque_Cylinder09_mesh.mesh">
+            <file relativePath=".\modelos\giroscopo_04\antihorario\rapido\torque\torque_TextVectorR04RA_mesh.mesh">
                 <configuration name="@Home|All Platforms" excludeFromBuild="true" />
                 <configuration name="@Home|windows" excludeFromBuild="true" />
                 <configuration name="mobile|All Platforms" excludeFromBuild="true" />
             </file>
-            <file relativePath=".\modelos\giroscopo_04\antihorario\rapido\torque\torque_Cylinder10_mesh.mesh">
+            <file relativePath=".\modelos\giroscopo_04\antihorario\rapido\torque\torque_TextVectorT04RA_mesh.mesh">
                 <configuration name="@Home|All Platforms" excludeFromBuild="true" />
                 <configuration name="@Home|windows" excludeFromBuild="true" />
                 <configuration name="mobile|All Platforms" excludeFromBuild="true" />
             </file>
-            <file relativePath=".\modelos\giroscopo_04\antihorario\rapido\torque\torque_Cylinder11_mesh.mesh">
+            <file relativePath=".\modelos\giroscopo_04\antihorario\rapido\torque\torque_TuboVectorR04RA_mesh.mesh">
                 <configuration name="@Home|All Platforms" excludeFromBuild="true" />
                 <configuration name="@Home|windows" excludeFromBuild="true" />
                 <configuration name="mobile|All Platforms" excludeFromBuild="true" />
             </file>
-            <file relativePath=".\modelos\giroscopo_04\antihorario\rapido\torque\torque_Cylinder21_mesh.mesh">
+            <file relativePath=".\modelos\giroscopo_04\antihorario\rapido\torque\torque_TuboVectorT04RA_mesh.mesh">
                 <configuration name="@Home|All Platforms" excludeFromBuild="true" />
                 <configuration name="@Home|windows" excludeFromBuild="true" />
                 <configuration name="mobile|All Platforms" excludeFromBuild="true" />
             </file>
-            <file relativePath=".\modelos\giroscopo_04\antihorario\rapido\torque\torque_Cylinder22_mesh.mesh">
+            <file relativePath=".\modelos\giroscopo_04\antihorario\rapido\torque\torque_flecha2VectorR04RA_mesh.mesh">
                 <configuration name="@Home|All Platforms" excludeFromBuild="true" />
                 <configuration name="@Home|windows" excludeFromBuild="true" />
                 <configuration name="mobile|All Platforms" excludeFromBuild="true" />
             </file>
-            <file relativePath=".\modelos\giroscopo_04\antihorario\rapido\torque\torque_Cylinder23_mesh.mesh">
+            <file relativePath=".\modelos\giroscopo_04\antihorario\rapido\torque\torque_flecha2VectorT04RA_mesh.mesh">
                 <configuration name="@Home|All Platforms" excludeFromBuild="true" />
                 <configuration name="@Home|windows" excludeFromBuild="true" />
                 <configuration name="mobile|All Platforms" excludeFromBuild="true" />
             </file>
-            <file relativePath=".\modelos\giroscopo_04\antihorario\rapido\torque\torque_Text03_mesh.mesh">
+            <file relativePath=".\modelos\giroscopo_04\antihorario\rapido\torque\torque_flechaVectorR04RA_mesh.mesh">
                 <configuration name="@Home|All Platforms" excludeFromBuild="true" />
                 <configuration name="@Home|windows" excludeFromBuild="true" />
                 <configuration name="mobile|All Platforms" excludeFromBuild="true" />
             </file>
-            <file relativePath=".\modelos\giroscopo_04\antihorario\rapido\torque\torque_Text07_mesh.mesh">
+            <file relativePath=".\modelos\giroscopo_04\antihorario\rapido\torque\torque_flechaVectorT04RA_mesh.mesh">
                 <configuration name="@Home|All Platforms" excludeFromBuild="true" />
                 <configuration name="@Home|windows" excludeFromBuild="true" />
                 <configuration name="mobile|All Platforms" excludeFromBuild="true" />
@@ -1889,52 +1890,52 @@
                 <configuration name="@Home|windows" excludeFromBuild="true" />
                 <configuration name="mobile|All Platforms" excludeFromBuild="true" />
             </file>
-            <file relativePath=".\modelos\giroscopo_04\antihorario\rapido\velocidad_angular\velocidad_angular_Cone05_mesh.mesh">
+            <file relativePath=".\modelos\giroscopo_04\antihorario\rapido\velocidad_angular\velocidad_angular_ConoVectorOmega04RA_mesh.mesh">
                 <configuration name="@Home|All Platforms" excludeFromBuild="true" />
                 <configuration name="@Home|windows" excludeFromBuild="true" />
                 <configuration name="mobile|All Platforms" excludeFromBuild="true" />
             </file>
-            <file relativePath=".\modelos\giroscopo_04\antihorario\rapido\velocidad_angular\velocidad_angular_Cone06_mesh.mesh">
+            <file relativePath=".\modelos\giroscopo_04\antihorario\rapido\velocidad_angular\velocidad_angular_ConoVectorw04RA_mesh.mesh">
                 <configuration name="@Home|All Platforms" excludeFromBuild="true" />
                 <configuration name="@Home|windows" excludeFromBuild="true" />
                 <configuration name="mobile|All Platforms" excludeFromBuild="true" />
             </file>
-            <file relativePath=".\modelos\giroscopo_04\antihorario\rapido\velocidad_angular\velocidad_angular_Cylinder15_mesh.mesh">
+            <file relativePath=".\modelos\giroscopo_04\antihorario\rapido\velocidad_angular\velocidad_angular_TextVectorOmega04RA_mesh.mesh">
                 <configuration name="@Home|All Platforms" excludeFromBuild="true" />
                 <configuration name="@Home|windows" excludeFromBuild="true" />
                 <configuration name="mobile|All Platforms" excludeFromBuild="true" />
             </file>
-            <file relativePath=".\modelos\giroscopo_04\antihorario\rapido\velocidad_angular\velocidad_angular_Cylinder16_mesh.mesh">
+            <file relativePath=".\modelos\giroscopo_04\antihorario\rapido\velocidad_angular\velocidad_angular_TextVectorw04RA_mesh.mesh">
                 <configuration name="@Home|All Platforms" excludeFromBuild="true" />
                 <configuration name="@Home|windows" excludeFromBuild="true" />
                 <configuration name="mobile|All Platforms" excludeFromBuild="true" />
             </file>
-            <file relativePath=".\modelos\giroscopo_04\antihorario\rapido\velocidad_angular\velocidad_angular_Cylinder17_mesh.mesh">
+            <file relativePath=".\modelos\giroscopo_04\antihorario\rapido\velocidad_angular\velocidad_angular_TuboVectorOmega04RA_mesh.mesh">
                 <configuration name="@Home|All Platforms" excludeFromBuild="true" />
                 <configuration name="@Home|windows" excludeFromBuild="true" />
                 <configuration name="mobile|All Platforms" excludeFromBuild="true" />
             </file>
-            <file relativePath=".\modelos\giroscopo_04\antihorario\rapido\velocidad_angular\velocidad_angular_Cylinder18_mesh.mesh">
+            <file relativePath=".\modelos\giroscopo_04\antihorario\rapido\velocidad_angular\velocidad_angular_TuboVectorw04RA_mesh.mesh">
                 <configuration name="@Home|All Platforms" excludeFromBuild="true" />
                 <configuration name="@Home|windows" excludeFromBuild="true" />
                 <configuration name="mobile|All Platforms" excludeFromBuild="true" />
             </file>
-            <file relativePath=".\modelos\giroscopo_04\antihorario\rapido\velocidad_angular\velocidad_angular_Cylinder19_mesh.mesh">
+            <file relativePath=".\modelos\giroscopo_04\antihorario\rapido\velocidad_angular\velocidad_angular_flecha2VectorOmega04RA_mesh.mesh">
                 <configuration name="@Home|All Platforms" excludeFromBuild="true" />
                 <configuration name="@Home|windows" excludeFromBuild="true" />
                 <configuration name="mobile|All Platforms" excludeFromBuild="true" />
             </file>
-            <file relativePath=".\modelos\giroscopo_04\antihorario\rapido\velocidad_angular\velocidad_angular_Cylinder20_mesh.mesh">
+            <file relativePath=".\modelos\giroscopo_04\antihorario\rapido\velocidad_angular\velocidad_angular_flecha2Vectorw04RA_mesh.mesh">
                 <configuration name="@Home|All Platforms" excludeFromBuild="true" />
                 <configuration name="@Home|windows" excludeFromBuild="true" />
                 <configuration name="mobile|All Platforms" excludeFromBuild="true" />
             </file>
-            <file relativePath=".\modelos\giroscopo_04\antihorario\rapido\velocidad_angular\velocidad_angular_Text05_mesh.mesh">
+            <file relativePath=".\modelos\giroscopo_04\antihorario\rapido\velocidad_angular\velocidad_angular_flechaVectorOmega04RA_mesh.mesh">
                 <configuration name="@Home|All Platforms" excludeFromBuild="true" />
                 <configuration name="@Home|windows" excludeFromBuild="true" />
                 <configuration name="mobile|All Platforms" excludeFromBuild="true" />
             </file>
-            <file relativePath=".\modelos\giroscopo_04\antihorario\rapido\velocidad_angular\velocidad_angular_Text06_mesh.mesh">
+            <file relativePath=".\modelos\giroscopo_04\antihorario\rapido\velocidad_angular\velocidad_angular_flechaVectorw04RA_mesh.mesh">
                 <configuration name="@Home|All Platforms" excludeFromBuild="true" />
                 <configuration name="@Home|windows" excludeFromBuild="true" />
                 <configuration name="mobile|All Platforms" excludeFromBuild="true" />
@@ -1949,52 +1950,52 @@
                 <configuration name="@Home|windows" excludeFromBuild="true" />
                 <configuration name="mobile|All Platforms" excludeFromBuild="true" />
             </file>
-            <file relativePath=".\modelos\giroscopo_04\horario\rapido\fuerzas\fuerzas_Cone01_mesh.mesh">
+            <file relativePath=".\modelos\giroscopo_04\horario\rapido\fuerzas\fuerzas_ConoVectorOmega04RH_mesh.mesh">
                 <configuration name="@Home|All Platforms" excludeFromBuild="true" />
                 <configuration name="@Home|windows" excludeFromBuild="true" />
                 <configuration name="mobile|All Platforms" excludeFromBuild="true" />
             </file>
-            <file relativePath=".\modelos\giroscopo_04\horario\rapido\fuerzas\fuerzas_Cone02_mesh.mesh">
+            <file relativePath=".\modelos\giroscopo_04\horario\rapido\fuerzas\fuerzas_ConoVectorP04RH_mesh.mesh">
                 <configuration name="@Home|All Platforms" excludeFromBuild="true" />
                 <configuration name="@Home|windows" excludeFromBuild="true" />
                 <configuration name="mobile|All Platforms" excludeFromBuild="true" />
             </file>
-            <file relativePath=".\modelos\giroscopo_04\horario\rapido\fuerzas\fuerzas_Cylinder03_mesh.mesh">
+            <file relativePath=".\modelos\giroscopo_04\horario\rapido\fuerzas\fuerzas_TextVectorP04RH_mesh.mesh">
                 <configuration name="@Home|All Platforms" excludeFromBuild="true" />
                 <configuration name="@Home|windows" excludeFromBuild="true" />
                 <configuration name="mobile|All Platforms" excludeFromBuild="true" />
             </file>
-            <file relativePath=".\modelos\giroscopo_04\horario\rapido\fuerzas\fuerzas_Cylinder04_mesh.mesh">
+            <file relativePath=".\modelos\giroscopo_04\horario\rapido\fuerzas\fuerzas_TextVectorTen04RH_mesh.mesh">
                 <configuration name="@Home|All Platforms" excludeFromBuild="true" />
                 <configuration name="@Home|windows" excludeFromBuild="true" />
                 <configuration name="mobile|All Platforms" excludeFromBuild="true" />
             </file>
-            <file relativePath=".\modelos\giroscopo_04\horario\rapido\fuerzas\fuerzas_Cylinder05_mesh.mesh">
+            <file relativePath=".\modelos\giroscopo_04\horario\rapido\fuerzas\fuerzas_TuboVectorP04RH_mesh.mesh">
                 <configuration name="@Home|All Platforms" excludeFromBuild="true" />
                 <configuration name="@Home|windows" excludeFromBuild="true" />
                 <configuration name="mobile|All Platforms" excludeFromBuild="true" />
             </file>
-            <file relativePath=".\modelos\giroscopo_04\horario\rapido\fuerzas\fuerzas_Cylinder06_mesh.mesh">
+            <file relativePath=".\modelos\giroscopo_04\horario\rapido\fuerzas\fuerzas_TuboVectorTen04RH_mesh.mesh">
                 <configuration name="@Home|All Platforms" excludeFromBuild="true" />
                 <configuration name="@Home|windows" excludeFromBuild="true" />
                 <configuration name="mobile|All Platforms" excludeFromBuild="true" />
             </file>
-            <file relativePath=".\modelos\giroscopo_04\horario\rapido\fuerzas\fuerzas_Cylinder07_mesh.mesh">
+            <file relativePath=".\modelos\giroscopo_04\horario\rapido\fuerzas\fuerzas_flecha2VectorP04RH_mesh.mesh">
                 <configuration name="@Home|All Platforms" excludeFromBuild="true" />
                 <configuration name="@Home|windows" excludeFromBuild="true" />
                 <configuration name="mobile|All Platforms" excludeFromBuild="true" />
             </file>
-            <file relativePath=".\modelos\giroscopo_04\horario\rapido\fuerzas\fuerzas_Cylinder08_mesh.mesh">
+            <file relativePath=".\modelos\giroscopo_04\horario\rapido\fuerzas\fuerzas_flecha2VectorTen04RH_mesh.mesh">
                 <configuration name="@Home|All Platforms" excludeFromBuild="true" />
                 <configuration name="@Home|windows" excludeFromBuild="true" />
                 <configuration name="mobile|All Platforms" excludeFromBuild="true" />
             </file>
-            <file relativePath=".\modelos\giroscopo_04\horario\rapido\fuerzas\fuerzas_Text01_mesh.mesh">
+            <file relativePath=".\modelos\giroscopo_04\horario\rapido\fuerzas\fuerzas_flechaVectorP04RH_mesh.mesh">
                 <configuration name="@Home|All Platforms" excludeFromBuild="true" />
                 <configuration name="@Home|windows" excludeFromBuild="true" />
                 <configuration name="mobile|All Platforms" excludeFromBuild="true" />
             </file>
-            <file relativePath=".\modelos\giroscopo_04\horario\rapido\fuerzas\fuerzas_Text02_mesh.mesh">
+            <file relativePath=".\modelos\giroscopo_04\horario\rapido\fuerzas\fuerzas_flechaVectorTen04RH_mesh.mesh">
                 <configuration name="@Home|All Platforms" excludeFromBuild="true" />
                 <configuration name="@Home|windows" excludeFromBuild="true" />
                 <configuration name="mobile|All Platforms" excludeFromBuild="true" />
@@ -2119,27 +2120,27 @@
                 <configuration name="@Home|windows" excludeFromBuild="true" />
                 <configuration name="mobile|All Platforms" excludeFromBuild="true" />
             </file>
-            <file relativePath=".\modelos\giroscopo_04\horario\rapido\momento_angular\momento_angular_Cone04_mesh.mesh">
+            <file relativePath=".\modelos\giroscopo_04\horario\rapido\momento_angular\momento_angular_ConoVectorL04RH_mesh.mesh">
                 <configuration name="@Home|All Platforms" excludeFromBuild="true" />
                 <configuration name="@Home|windows" excludeFromBuild="true" />
                 <configuration name="mobile|All Platforms" excludeFromBuild="true" />
             </file>
-            <file relativePath=".\modelos\giroscopo_04\horario\rapido\momento_angular\momento_angular_Cylinder12_mesh.mesh">
+            <file relativePath=".\modelos\giroscopo_04\horario\rapido\momento_angular\momento_angular_TextVectorL04RH_mesh.mesh">
                 <configuration name="@Home|All Platforms" excludeFromBuild="true" />
                 <configuration name="@Home|windows" excludeFromBuild="true" />
                 <configuration name="mobile|All Platforms" excludeFromBuild="true" />
             </file>
-            <file relativePath=".\modelos\giroscopo_04\horario\rapido\momento_angular\momento_angular_Cylinder13_mesh.mesh">
+            <file relativePath=".\modelos\giroscopo_04\horario\rapido\momento_angular\momento_angular_TuboVectorL04RH_mesh.mesh">
                 <configuration name="@Home|All Platforms" excludeFromBuild="true" />
                 <configuration name="@Home|windows" excludeFromBuild="true" />
                 <configuration name="mobile|All Platforms" excludeFromBuild="true" />
             </file>
-            <file relativePath=".\modelos\giroscopo_04\horario\rapido\momento_angular\momento_angular_Cylinder14_mesh.mesh">
+            <file relativePath=".\modelos\giroscopo_04\horario\rapido\momento_angular\momento_angular_flecha2VectorL04RH_mesh.mesh">
                 <configuration name="@Home|All Platforms" excludeFromBuild="true" />
                 <configuration name="@Home|windows" excludeFromBuild="true" />
                 <configuration name="mobile|All Platforms" excludeFromBuild="true" />
             </file>
-            <file relativePath=".\modelos\giroscopo_04\horario\rapido\momento_angular\momento_angular_Text04_mesh.mesh">
+            <file relativePath=".\modelos\giroscopo_04\horario\rapido\momento_angular\momento_angular_flechaVectorL04RH_mesh.mesh">
                 <configuration name="@Home|All Platforms" excludeFromBuild="true" />
                 <configuration name="@Home|windows" excludeFromBuild="true" />
                 <configuration name="mobile|All Platforms" excludeFromBuild="true" />
@@ -2164,52 +2165,52 @@
                 <configuration name="@Home|windows" excludeFromBuild="true" />
                 <configuration name="mobile|All Platforms" excludeFromBuild="true" />
             </file>
-            <file relativePath=".\modelos\giroscopo_04\horario\rapido\torque\torque_Cone03_mesh.mesh">
+            <file relativePath=".\modelos\giroscopo_04\horario\rapido\torque\torque_ConoVectorR04RH_mesh.mesh">
                 <configuration name="@Home|All Platforms" excludeFromBuild="true" />
                 <configuration name="@Home|windows" excludeFromBuild="true" />
                 <configuration name="mobile|All Platforms" excludeFromBuild="true" />
             </file>
-            <file relativePath=".\modelos\giroscopo_04\horario\rapido\torque\torque_Cone07_mesh.mesh">
+            <file relativePath=".\modelos\giroscopo_04\horario\rapido\torque\torque_ConoVectorT04RH_mesh.mesh">
                 <configuration name="@Home|All Platforms" excludeFromBuild="true" />
                 <configuration name="@Home|windows" excludeFromBuild="true" />
                 <configuration name="mobile|All Platforms" excludeFromBuild="true" />
             </file>
-            <file relativePath=".\modelos\giroscopo_04\horario\rapido\torque\torque_Cylinder09_mesh.mesh">
+            <file relativePath=".\modelos\giroscopo_04\horario\rapido\torque\torque_TextVectorR04RH_mesh.mesh">
                 <configuration name="@Home|All Platforms" excludeFromBuild="true" />
                 <configuration name="@Home|windows" excludeFromBuild="true" />
                 <configuration name="mobile|All Platforms" excludeFromBuild="true" />
             </file>
-            <file relativePath=".\modelos\giroscopo_04\horario\rapido\torque\torque_Cylinder10_mesh.mesh">
+            <file relativePath=".\modelos\giroscopo_04\horario\rapido\torque\torque_TextVectorT04RH_mesh.mesh">
                 <configuration name="@Home|All Platforms" excludeFromBuild="true" />
                 <configuration name="@Home|windows" excludeFromBuild="true" />
                 <configuration name="mobile|All Platforms" excludeFromBuild="true" />
             </file>
-            <file relativePath=".\modelos\giroscopo_04\horario\rapido\torque\torque_Cylinder11_mesh.mesh">
+            <file relativePath=".\modelos\giroscopo_04\horario\rapido\torque\torque_TuboVectorR04RH_mesh.mesh">
                 <configuration name="@Home|All Platforms" excludeFromBuild="true" />
                 <configuration name="@Home|windows" excludeFromBuild="true" />
                 <configuration name="mobile|All Platforms" excludeFromBuild="true" />
             </file>
-            <file relativePath=".\modelos\giroscopo_04\horario\rapido\torque\torque_Cylinder21_mesh.mesh">
+            <file relativePath=".\modelos\giroscopo_04\horario\rapido\torque\torque_TuboVectorT04RH_mesh.mesh">
                 <configuration name="@Home|All Platforms" excludeFromBuild="true" />
                 <configuration name="@Home|windows" excludeFromBuild="true" />
                 <configuration name="mobile|All Platforms" excludeFromBuild="true" />
             </file>
-            <file relativePath=".\modelos\giroscopo_04\horario\rapido\torque\torque_Cylinder22_mesh.mesh">
+            <file relativePath=".\modelos\giroscopo_04\horario\rapido\torque\torque_flecha2VectorR04RH_mesh.mesh">
                 <configuration name="@Home|All Platforms" excludeFromBuild="true" />
                 <configuration name="@Home|windows" excludeFromBuild="true" />
                 <configuration name="mobile|All Platforms" excludeFromBuild="true" />
             </file>
-            <file relativePath=".\modelos\giroscopo_04\horario\rapido\torque\torque_Cylinder23_mesh.mesh">
+            <file relativePath=".\modelos\giroscopo_04\horario\rapido\torque\torque_flecha2VectorT04RH_mesh.mesh">
                 <configuration name="@Home|All Platforms" excludeFromBuild="true" />
                 <configuration name="@Home|windows" excludeFromBuild="true" />
                 <configuration name="mobile|All Platforms" excludeFromBuild="true" />
             </file>
-            <file relativePath=".\modelos\giroscopo_04\horario\rapido\torque\torque_Text03_mesh.mesh">
+            <file relativePath=".\modelos\giroscopo_04\horario\rapido\torque\torque_flechaVectorR04RH_mesh.mesh">
                 <configuration name="@Home|All Platforms" excludeFromBuild="true" />
                 <configuration name="@Home|windows" excludeFromBuild="true" />
                 <configuration name="mobile|All Platforms" excludeFromBuild="true" />
             </file>
-            <file relativePath=".\modelos\giroscopo_04\horario\rapido\torque\torque_Text07_mesh.mesh">
+            <file relativePath=".\modelos\giroscopo_04\horario\rapido\torque\torque_flechaVectorT04RH_mesh.mesh">
                 <configuration name="@Home|All Platforms" excludeFromBuild="true" />
                 <configuration name="@Home|windows" excludeFromBuild="true" />
                 <configuration name="mobile|All Platforms" excludeFromBuild="true" />
@@ -2229,52 +2230,52 @@
                 <configuration name="@Home|windows" excludeFromBuild="true" />
                 <configuration name="mobile|All Platforms" excludeFromBuild="true" />
             </file>
-            <file relativePath=".\modelos\giroscopo_04\horario\rapido\velocidad_angular\velocidad_angular_Cone05_mesh.mesh">
+            <file relativePath=".\modelos\giroscopo_04\horario\rapido\velocidad_angular\velocidad_angular_ConoVectorOmega04RH_mesh.mesh">
                 <configuration name="@Home|All Platforms" excludeFromBuild="true" />
                 <configuration name="@Home|windows" excludeFromBuild="true" />
                 <configuration name="mobile|All Platforms" excludeFromBuild="true" />
             </file>
-            <file relativePath=".\modelos\giroscopo_04\horario\rapido\velocidad_angular\velocidad_angular_Cone06_mesh.mesh">
+            <file relativePath=".\modelos\giroscopo_04\horario\rapido\velocidad_angular\velocidad_angular_ConoVectorw04RH_mesh.mesh">
                 <configuration name="@Home|All Platforms" excludeFromBuild="true" />
                 <configuration name="@Home|windows" excludeFromBuild="true" />
                 <configuration name="mobile|All Platforms" excludeFromBuild="true" />
             </file>
-            <file relativePath=".\modelos\giroscopo_04\horario\rapido\velocidad_angular\velocidad_angular_Cylinder15_mesh.mesh">
+            <file relativePath=".\modelos\giroscopo_04\horario\rapido\velocidad_angular\velocidad_angular_TextVectorOmega04RH_mesh.mesh">
                 <configuration name="@Home|All Platforms" excludeFromBuild="true" />
                 <configuration name="@Home|windows" excludeFromBuild="true" />
                 <configuration name="mobile|All Platforms" excludeFromBuild="true" />
             </file>
-            <file relativePath=".\modelos\giroscopo_04\horario\rapido\velocidad_angular\velocidad_angular_Cylinder16_mesh.mesh">
+            <file relativePath=".\modelos\giroscopo_04\horario\rapido\velocidad_angular\velocidad_angular_TextVectorw04RH_mesh.mesh">
                 <configuration name="@Home|All Platforms" excludeFromBuild="true" />
                 <configuration name="@Home|windows" excludeFromBuild="true" />
                 <configuration name="mobile|All Platforms" excludeFromBuild="true" />
             </file>
-            <file relativePath=".\modelos\giroscopo_04\horario\rapido\velocidad_angular\velocidad_angular_Cylinder17_mesh.mesh">
+            <file relativePath=".\modelos\giroscopo_04\horario\rapido\velocidad_angular\velocidad_angular_TuboVectorOmega04RH_mesh.mesh">
                 <configuration name="@Home|All Platforms" excludeFromBuild="true" />
                 <configuration name="@Home|windows" excludeFromBuild="true" />
                 <configuration name="mobile|All Platforms" excludeFromBuild="true" />
             </file>
-            <file relativePath=".\modelos\giroscopo_04\horario\rapido\velocidad_angular\velocidad_angular_Cylinder18_mesh.mesh">
+            <file relativePath=".\modelos\giroscopo_04\horario\rapido\velocidad_angular\velocidad_angular_TuboVectorw04RH_mesh.mesh">
                 <configuration name="@Home|All Platforms" excludeFromBuild="true" />
                 <configuration name="@Home|windows" excludeFromBuild="true" />
                 <configuration name="mobile|All Platforms" excludeFromBuild="true" />
             </file>
-            <file relativePath=".\modelos\giroscopo_04\horario\rapido\velocidad_angular\velocidad_angular_Cylinder19_mesh.mesh">
+            <file relativePath=".\modelos\giroscopo_04\horario\rapido\velocidad_angular\velocidad_angular_flecha2VectorOmega04RH_mesh.mesh">
                 <configuration name="@Home|All Platforms" excludeFromBuild="true" />
                 <configuration name="@Home|windows" excludeFromBuild="true" />
                 <configuration name="mobile|All Platforms" excludeFromBuild="true" />
             </file>
-            <file relativePath=".\modelos\giroscopo_04\horario\rapido\velocidad_angular\velocidad_angular_Cylinder20_mesh.mesh">
+            <file relativePath=".\modelos\giroscopo_04\horario\rapido\velocidad_angular\velocidad_angular_flecha2Vectorw04RH_mesh.mesh">
                 <configuration name="@Home|All Platforms" excludeFromBuild="true" />
                 <configuration name="@Home|windows" excludeFromBuild="true" />
                 <configuration name="mobile|All Platforms" excludeFromBuild="true" />
             </file>
-            <file relativePath=".\modelos\giroscopo_04\horario\rapido\velocidad_angular\velocidad_angular_Text05_mesh.mesh">
+            <file relativePath=".\modelos\giroscopo_04\horario\rapido\velocidad_angular\velocidad_angular_flechaVectorOmega04RH_mesh.mesh">
                 <configuration name="@Home|All Platforms" excludeFromBuild="true" />
                 <configuration name="@Home|windows" excludeFromBuild="true" />
                 <configuration name="mobile|All Platforms" excludeFromBuild="true" />
             </file>
-            <file relativePath=".\modelos\giroscopo_04\horario\rapido\velocidad_angular\velocidad_angular_Text06_mesh.mesh">
+            <file relativePath=".\modelos\giroscopo_04\horario\rapido\velocidad_angular\velocidad_angular_flechaVectorw04RH_mesh.mesh">
                 <configuration name="@Home|All Platforms" excludeFromBuild="true" />
                 <configuration name="@Home|windows" excludeFromBuild="true" />
                 <configuration name="mobile|All Platforms" excludeFromBuild="true" />
@@ -2373,21 +2374,21 @@
         <file relativePath="modelos/giroscopo_01/Lakerem2.jpg" />
         <file relativePath="modelos/giroscopo_02/antihorario/lento/fuerzas/fuerzas.material" />
         <file relativePath="modelos/giroscopo_02/antihorario/lento/fuerzas/fuerzas.scene" />
-        <file relativePath="modelos/giroscopo_02/antihorario/lento/fuerzas/fuerzas_Cone01_mesh.mesh" />
-        <file relativePath="modelos/giroscopo_02/antihorario/lento/fuerzas/fuerzas_Cone02_mesh.mesh" />
-        <file relativePath="modelos/giroscopo_02/antihorario/lento/fuerzas/fuerzas_Cone03_mesh.mesh" />
-        <file relativePath="modelos/giroscopo_02/antihorario/lento/fuerzas/fuerzas_Cylinder01_mesh.mesh" />
-        <file relativePath="modelos/giroscopo_02/antihorario/lento/fuerzas/fuerzas_Cylinder03_mesh.mesh" />
-        <file relativePath="modelos/giroscopo_02/antihorario/lento/fuerzas/fuerzas_Cylinder04_mesh.mesh" />
-        <file relativePath="modelos/giroscopo_02/antihorario/lento/fuerzas/fuerzas_Cylinder05_mesh.mesh" />
-        <file relativePath="modelos/giroscopo_02/antihorario/lento/fuerzas/fuerzas_Cylinder06_mesh.mesh" />
-        <file relativePath="modelos/giroscopo_02/antihorario/lento/fuerzas/fuerzas_Cylinder07_mesh.mesh" />
-        <file relativePath="modelos/giroscopo_02/antihorario/lento/fuerzas/fuerzas_Cylinder08_mesh.mesh" />
-        <file relativePath="modelos/giroscopo_02/antihorario/lento/fuerzas/fuerzas_Cylinder09_mesh.mesh" />
-        <file relativePath="modelos/giroscopo_02/antihorario/lento/fuerzas/fuerzas_Cylinder10_mesh.mesh" />
-        <file relativePath="modelos/giroscopo_02/antihorario/lento/fuerzas/fuerzas_Text01_mesh.mesh" />
-        <file relativePath="modelos/giroscopo_02/antihorario/lento/fuerzas/fuerzas_Text02_mesh.mesh" />
-        <file relativePath="modelos/giroscopo_02/antihorario/lento/fuerzas/fuerzas_Text03_mesh.mesh" />
+        <file relativePath="modelos/giroscopo_02/antihorario/lento/fuerzas/fuerzas_ConoVectorFr02LA_mesh.mesh" />
+        <file relativePath="modelos/giroscopo_02/antihorario/lento/fuerzas/fuerzas_ConoVectorN02LA_mesh.mesh" />
+        <file relativePath="modelos/giroscopo_02/antihorario/lento/fuerzas/fuerzas_ConoVectorP02LA_mesh.mesh" />
+        <file relativePath="modelos/giroscopo_02/antihorario/lento/fuerzas/fuerzas_flecha2VectorFr02LA_mesh.mesh" />
+        <file relativePath="modelos/giroscopo_02/antihorario/lento/fuerzas/fuerzas_flecha2VectorN02LA_mesh.mesh" />
+        <file relativePath="modelos/giroscopo_02/antihorario/lento/fuerzas/fuerzas_flecha2VectorP02LA_mesh.mesh" />
+        <file relativePath="modelos/giroscopo_02/antihorario/lento/fuerzas/fuerzas_flechaVectorFr02LA_mesh.mesh" />
+        <file relativePath="modelos/giroscopo_02/antihorario/lento/fuerzas/fuerzas_flechaVectorN02LA_mesh.mesh" />
+        <file relativePath="modelos/giroscopo_02/antihorario/lento/fuerzas/fuerzas_flechaVectorP02LA_mesh.mesh" />
+        <file relativePath="modelos/giroscopo_02/antihorario/lento/fuerzas/fuerzas_TextVectorFr02LA_mesh.mesh" />
+        <file relativePath="modelos/giroscopo_02/antihorario/lento/fuerzas/fuerzas_TextVectorN02LA_mesh.mesh" />
+        <file relativePath="modelos/giroscopo_02/antihorario/lento/fuerzas/fuerzas_TextVectorP02LA_mesh.mesh" />
+        <file relativePath="modelos/giroscopo_02/antihorario/lento/fuerzas/fuerzas_TuboVectorFr02LA_mesh.mesh" />
+        <file relativePath="modelos/giroscopo_02/antihorario/lento/fuerzas/fuerzas_TuboVectorN02LA_mesh.mesh" />
+        <file relativePath="modelos/giroscopo_02/antihorario/lento/fuerzas/fuerzas_TuboVectorP02LA_mesh.mesh" />
         <file relativePath="modelos/giroscopo_02/antihorario/lento/fuerzas/naranja.png" />
         <file relativePath="modelos/giroscopo_02/antihorario/lento/giroscopo_02/azul.png" />
         <file relativePath="modelos/giroscopo_02/antihorario/lento/giroscopo_02/factory_reflection_bw1.jpg" />
@@ -2413,55 +2414,55 @@
         <file relativePath="modelos/giroscopo_02/antihorario/lento/giroscopo_02/Lakerem2.jpg" />
         <file relativePath="modelos/giroscopo_02/antihorario/lento/momento_angular/momento_angular.material" />
         <file relativePath="modelos/giroscopo_02/antihorario/lento/momento_angular/momento_angular.scene" />
-        <file relativePath="modelos/giroscopo_02/antihorario/lento/momento_angular/momento_angular_Cone05_mesh.mesh" />
-        <file relativePath="modelos/giroscopo_02/antihorario/lento/momento_angular/momento_angular_Cylinder14_mesh.mesh" />
-        <file relativePath="modelos/giroscopo_02/antihorario/lento/momento_angular/momento_angular_Cylinder15_mesh.mesh" />
-        <file relativePath="modelos/giroscopo_02/antihorario/lento/momento_angular/momento_angular_Cylinder16_mesh.mesh" />
-        <file relativePath="modelos/giroscopo_02/antihorario/lento/momento_angular/momento_angular_Text05_mesh.mesh" />
+        <file relativePath="modelos/giroscopo_02/antihorario/lento/momento_angular/momento_angular_ConoVectorL02LA_mesh.mesh" />
+        <file relativePath="modelos/giroscopo_02/antihorario/lento/momento_angular/momento_angular_flecha2VectorL02LA_mesh.mesh" />
+        <file relativePath="modelos/giroscopo_02/antihorario/lento/momento_angular/momento_angular_flechaVectorL02LA_mesh.mesh" />
+        <file relativePath="modelos/giroscopo_02/antihorario/lento/momento_angular/momento_angular_TextVectorL02LA_mesh.mesh" />
+        <file relativePath="modelos/giroscopo_02/antihorario/lento/momento_angular/momento_angular_TuboVectorL02LA_mesh.mesh" />
         <file relativePath="modelos/giroscopo_02/antihorario/lento/momento_angular/naranja.png" />
         <file relativePath="modelos/giroscopo_02/antihorario/lento/torque/naranja.png" />
         <file relativePath="modelos/giroscopo_02/antihorario/lento/torque/torque.material" />
         <file relativePath="modelos/giroscopo_02/antihorario/lento/torque/torque.scene" />
-        <file relativePath="modelos/giroscopo_02/antihorario/lento/torque/torque_Cone04_mesh.mesh" />
-        <file relativePath="modelos/giroscopo_02/antihorario/lento/torque/torque_Cone07_mesh.mesh" />
-        <file relativePath="modelos/giroscopo_02/antihorario/lento/torque/torque_Cylinder11_mesh.mesh" />
-        <file relativePath="modelos/giroscopo_02/antihorario/lento/torque/torque_Cylinder12_mesh.mesh" />
-        <file relativePath="modelos/giroscopo_02/antihorario/lento/torque/torque_Cylinder13_mesh.mesh" />
-        <file relativePath="modelos/giroscopo_02/antihorario/lento/torque/torque_Cylinder20_mesh.mesh" />
-        <file relativePath="modelos/giroscopo_02/antihorario/lento/torque/torque_Cylinder21_mesh.mesh" />
-        <file relativePath="modelos/giroscopo_02/antihorario/lento/torque/torque_Cylinder22_mesh.mesh" />
-        <file relativePath="modelos/giroscopo_02/antihorario/lento/torque/torque_Text04_mesh.mesh" />
-        <file relativePath="modelos/giroscopo_02/antihorario/lento/torque/torque_Text07_mesh.mesh" />
+        <file relativePath="modelos/giroscopo_02/antihorario/lento/torque/torque_ConoVectorR02LA_mesh.mesh" />
+        <file relativePath="modelos/giroscopo_02/antihorario/lento/torque/torque_ConoVectorT02LA_mesh.mesh" />
+        <file relativePath="modelos/giroscopo_02/antihorario/lento/torque/torque_flecha2VectorR02LA_mesh.mesh" />
+        <file relativePath="modelos/giroscopo_02/antihorario/lento/torque/torque_flecha2VectorT02LA_mesh.mesh" />
+        <file relativePath="modelos/giroscopo_02/antihorario/lento/torque/torque_flechaVectorR02LA_mesh.mesh" />
+        <file relativePath="modelos/giroscopo_02/antihorario/lento/torque/torque_flechaVectorT02LA_mesh.mesh" />
+        <file relativePath="modelos/giroscopo_02/antihorario/lento/torque/torque_TextVectorR02LA_mesh.mesh" />
+        <file relativePath="modelos/giroscopo_02/antihorario/lento/torque/torque_TextVectorT02LA_mesh.mesh" />
+        <file relativePath="modelos/giroscopo_02/antihorario/lento/torque/torque_TuboVectorR02LA_mesh.mesh" />
+        <file relativePath="modelos/giroscopo_02/antihorario/lento/torque/torque_TuboVectorT02LA_mesh.mesh" />
         <file relativePath="modelos/giroscopo_02/antihorario/lento/velocidad_angular/naranja.png" />
         <file relativePath="modelos/giroscopo_02/antihorario/lento/velocidad_angular/velocidad_angular.material" />
         <file relativePath="modelos/giroscopo_02/antihorario/lento/velocidad_angular/velocidad_angular.scene" />
-        <file relativePath="modelos/giroscopo_02/antihorario/lento/velocidad_angular/velocidad_angular_Cone06_mesh.mesh" />
-        <file relativePath="modelos/giroscopo_02/antihorario/lento/velocidad_angular/velocidad_angular_Cone08_mesh.mesh" />
-        <file relativePath="modelos/giroscopo_02/antihorario/lento/velocidad_angular/velocidad_angular_Cylinder17_mesh.mesh" />
-        <file relativePath="modelos/giroscopo_02/antihorario/lento/velocidad_angular/velocidad_angular_Cylinder18_mesh.mesh" />
-        <file relativePath="modelos/giroscopo_02/antihorario/lento/velocidad_angular/velocidad_angular_Cylinder19_mesh.mesh" />
-        <file relativePath="modelos/giroscopo_02/antihorario/lento/velocidad_angular/velocidad_angular_Cylinder23_mesh.mesh" />
-        <file relativePath="modelos/giroscopo_02/antihorario/lento/velocidad_angular/velocidad_angular_Cylinder24_mesh.mesh" />
-        <file relativePath="modelos/giroscopo_02/antihorario/lento/velocidad_angular/velocidad_angular_Cylinder25_mesh.mesh" />
-        <file relativePath="modelos/giroscopo_02/antihorario/lento/velocidad_angular/velocidad_angular_Text06_mesh.mesh" />
-        <file relativePath="modelos/giroscopo_02/antihorario/lento/velocidad_angular/velocidad_angular_Text08_mesh.mesh" />
+        <file relativePath="modelos/giroscopo_02/antihorario/lento/velocidad_angular/velocidad_angular_ConoVectorOmega02LA_mesh.mesh" />
+        <file relativePath="modelos/giroscopo_02/antihorario/lento/velocidad_angular/velocidad_angular_ConoVectorw02LA_mesh.mesh" />
+        <file relativePath="modelos/giroscopo_02/antihorario/lento/velocidad_angular/velocidad_angular_flecha2VectorOmega02LA_mesh.mesh" />
+        <file relativePath="modelos/giroscopo_02/antihorario/lento/velocidad_angular/velocidad_angular_flecha2Vectorw02LA_mesh.mesh" />
+        <file relativePath="modelos/giroscopo_02/antihorario/lento/velocidad_angular/velocidad_angular_flechaVectorOmega02LA_mesh.mesh" />
+        <file relativePath="modelos/giroscopo_02/antihorario/lento/velocidad_angular/velocidad_angular_flechaVectorw02LA_mesh.mesh" />
+        <file relativePath="modelos/giroscopo_02/antihorario/lento/velocidad_angular/velocidad_angular_TextVectorOmega02LA_mesh.mesh" />
+        <file relativePath="modelos/giroscopo_02/antihorario/lento/velocidad_angular/velocidad_angular_TextVectorw02LA_mesh.mesh" />
+        <file relativePath="modelos/giroscopo_02/antihorario/lento/velocidad_angular/velocidad_angular_TuboVectorOmega02LA_mesh.mesh" />
+        <file relativePath="modelos/giroscopo_02/antihorario/lento/velocidad_angular/velocidad_angular_TuboVectorw02LA_mesh.mesh" />
         <file relativePath="modelos/giroscopo_02/antihorario/rapido/fuerzas/fuerzas.material" />
         <file relativePath="modelos/giroscopo_02/antihorario/rapido/fuerzas/fuerzas.scene" />
-        <file relativePath="modelos/giroscopo_02/antihorario/rapido/fuerzas/fuerzas_Cone01_mesh.mesh" />
-        <file relativePath="modelos/giroscopo_02/antihorario/rapido/fuerzas/fuerzas_Cone02_mesh.mesh" />
-        <file relativePath="modelos/giroscopo_02/antihorario/rapido/fuerzas/fuerzas_Cone03_mesh.mesh" />
-        <file relativePath="modelos/giroscopo_02/antihorario/rapido/fuerzas/fuerzas_Cylinder01_mesh.mesh" />
-        <file relativePath="modelos/giroscopo_02/antihorario/rapido/fuerzas/fuerzas_Cylinder03_mesh.mesh" />
-        <file relativePath="modelos/giroscopo_02/antihorario/rapido/fuerzas/fuerzas_Cylinder04_mesh.mesh" />
-        <file relativePath="modelos/giroscopo_02/antihorario/rapido/fuerzas/fuerzas_Cylinder05_mesh.mesh" />
-        <file relativePath="modelos/giroscopo_02/antihorario/rapido/fuerzas/fuerzas_Cylinder06_mesh.mesh" />
-        <file relativePath="modelos/giroscopo_02/antihorario/rapido/fuerzas/fuerzas_Cylinder07_mesh.mesh" />
-        <file relativePath="modelos/giroscopo_02/antihorario/rapido/fuerzas/fuerzas_Cylinder08_mesh.mesh" />
-        <file relativePath="modelos/giroscopo_02/antihorario/rapido/fuerzas/fuerzas_Cylinder09_mesh.mesh" />
-        <file relativePath="modelos/giroscopo_02/antihorario/rapido/fuerzas/fuerzas_Cylinder10_mesh.mesh" />
-        <file relativePath="modelos/giroscopo_02/antihorario/rapido/fuerzas/fuerzas_Text01_mesh.mesh" />
-        <file relativePath="modelos/giroscopo_02/antihorario/rapido/fuerzas/fuerzas_Text02_mesh.mesh" />
-        <file relativePath="modelos/giroscopo_02/antihorario/rapido/fuerzas/fuerzas_Text03_mesh.mesh" />
+        <file relativePath="modelos/giroscopo_02/antihorario/rapido/fuerzas/fuerzas_ConoVectorFr02RA_mesh.mesh" />
+        <file relativePath="modelos/giroscopo_02/antihorario/rapido/fuerzas/fuerzas_ConoVectorN02RA_mesh.mesh" />
+        <file relativePath="modelos/giroscopo_02/antihorario/rapido/fuerzas/fuerzas_ConoVectorP02RA_mesh.mesh" />
+        <file relativePath="modelos/giroscopo_02/antihorario/rapido/fuerzas/fuerzas_flecha2VectorFr02RA_mesh.mesh" />
+        <file relativePath="modelos/giroscopo_02/antihorario/rapido/fuerzas/fuerzas_flecha2VectorN02RA_mesh.mesh" />
+        <file relativePath="modelos/giroscopo_02/antihorario/rapido/fuerzas/fuerzas_flecha2VectorP02RA_mesh.mesh" />
+        <file relativePath="modelos/giroscopo_02/antihorario/rapido/fuerzas/fuerzas_flechaVectorFr02RA_mesh.mesh" />
+        <file relativePath="modelos/giroscopo_02/antihorario/rapido/fuerzas/fuerzas_flechaVectorN02RA_mesh.mesh" />
+        <file relativePath="modelos/giroscopo_02/antihorario/rapido/fuerzas/fuerzas_flechaVectorP02RA_mesh.mesh" />
+        <file relativePath="modelos/giroscopo_02/antihorario/rapido/fuerzas/fuerzas_TextVectorFr02RA_mesh.mesh" />
+        <file relativePath="modelos/giroscopo_02/antihorario/rapido/fuerzas/fuerzas_TextVectorN02RA_mesh.mesh" />
+        <file relativePath="modelos/giroscopo_02/antihorario/rapido/fuerzas/fuerzas_TextVectorP02RA_mesh.mesh" />
+        <file relativePath="modelos/giroscopo_02/antihorario/rapido/fuerzas/fuerzas_TuboVectorFr02RA_mesh.mesh" />
+        <file relativePath="modelos/giroscopo_02/antihorario/rapido/fuerzas/fuerzas_TuboVectorN02RA_mesh.mesh" />
+        <file relativePath="modelos/giroscopo_02/antihorario/rapido/fuerzas/fuerzas_TuboVectorP02RA_mesh.mesh" />
         <file relativePath="modelos/giroscopo_02/antihorario/rapido/fuerzas/naranja.png" />
         <file relativePath="modelos/giroscopo_02/antihorario/rapido/giroscopo_02/azul.png" />
         <file relativePath="modelos/giroscopo_02/antihorario/rapido/giroscopo_02/factory_reflection_bw1.jpg" />
@@ -2487,55 +2488,55 @@
         <file relativePath="modelos/giroscopo_02/antihorario/rapido/giroscopo_02/Lakerem2.jpg" />
         <file relativePath="modelos/giroscopo_02/antihorario/rapido/momento_angular/momento_angular.material" />
         <file relativePath="modelos/giroscopo_02/antihorario/rapido/momento_angular/momento_angular.scene" />
-        <file relativePath="modelos/giroscopo_02/antihorario/rapido/momento_angular/momento_angular_Cone05_mesh.mesh" />
-        <file relativePath="modelos/giroscopo_02/antihorario/rapido/momento_angular/momento_angular_Cylinder14_mesh.mesh" />
-        <file relativePath="modelos/giroscopo_02/antihorario/rapido/momento_angular/momento_angular_Cylinder15_mesh.mesh" />
-        <file relativePath="modelos/giroscopo_02/antihorario/rapido/momento_angular/momento_angular_Cylinder16_mesh.mesh" />
-        <file relativePath="modelos/giroscopo_02/antihorario/rapido/momento_angular/momento_angular_Text05_mesh.mesh" />
+        <file relativePath="modelos/giroscopo_02/antihorario/rapido/momento_angular/momento_angular_ConoVectorL02RA_mesh.mesh" />
+        <file relativePath="modelos/giroscopo_02/antihorario/rapido/momento_angular/momento_angular_flecha2VectorL02RA_mesh.mesh" />
+        <file relativePath="modelos/giroscopo_02/antihorario/rapido/momento_angular/momento_angular_flechaVectorL02RA_mesh.mesh" />
+        <file relativePath="modelos/giroscopo_02/antihorario/rapido/momento_angular/momento_angular_TextVectorL02RA_mesh.mesh" />
+        <file relativePath="modelos/giroscopo_02/antihorario/rapido/momento_angular/momento_angular_TuboVectorL02RA_mesh.mesh" />
         <file relativePath="modelos/giroscopo_02/antihorario/rapido/momento_angular/naranja.png" />
         <file relativePath="modelos/giroscopo_02/antihorario/rapido/torque/naranja.png" />
         <file relativePath="modelos/giroscopo_02/antihorario/rapido/torque/torque.material" />
         <file relativePath="modelos/giroscopo_02/antihorario/rapido/torque/torque.scene" />
-        <file relativePath="modelos/giroscopo_02/antihorario/rapido/torque/torque_Cone04_mesh.mesh" />
-        <file relativePath="modelos/giroscopo_02/antihorario/rapido/torque/torque_Cone07_mesh.mesh" />
-        <file relativePath="modelos/giroscopo_02/antihorario/rapido/torque/torque_Cylinder11_mesh.mesh" />
-        <file relativePath="modelos/giroscopo_02/antihorario/rapido/torque/torque_Cylinder12_mesh.mesh" />
-        <file relativePath="modelos/giroscopo_02/antihorario/rapido/torque/torque_Cylinder13_mesh.mesh" />
-        <file relativePath="modelos/giroscopo_02/antihorario/rapido/torque/torque_Cylinder20_mesh.mesh" />
-        <file relativePath="modelos/giroscopo_02/antihorario/rapido/torque/torque_Cylinder21_mesh.mesh" />
-        <file relativePath="modelos/giroscopo_02/antihorario/rapido/torque/torque_Cylinder22_mesh.mesh" />
-        <file relativePath="modelos/giroscopo_02/antihorario/rapido/torque/torque_Text04_mesh.mesh" />
-        <file relativePath="modelos/giroscopo_02/antihorario/rapido/torque/torque_Text07_mesh.mesh" />
+        <file relativePath="modelos/giroscopo_02/antihorario/rapido/torque/torque_ConoVectorR02RA_mesh.mesh" />
+        <file relativePath="modelos/giroscopo_02/antihorario/rapido/torque/torque_ConoVectorT02RA_mesh.mesh" />
+        <file relativePath="modelos/giroscopo_02/antihorario/rapido/torque/torque_flecha2VectorR02RA_mesh.mesh" />
+        <file relativePath="modelos/giroscopo_02/antihorario/rapido/torque/torque_flecha2VectorT02RA_mesh.mesh" />
+        <file relativePath="modelos/giroscopo_02/antihorario/rapido/torque/torque_flechaVectorR02RA_mesh.mesh" />
+        <file relativePath="modelos/giroscopo_02/antihorario/rapido/torque/torque_flechaVectorT02RA_mesh.mesh" />
+        <file relativePath="modelos/giroscopo_02/antihorario/rapido/torque/torque_TextVectorR02RA_mesh.mesh" />
+        <file relativePath="modelos/giroscopo_02/antihorario/rapido/torque/torque_TextVectorT02RA_mesh.mesh" />
+        <file relativePath="modelos/giroscopo_02/antihorario/rapido/torque/torque_TuboVectorR02RA_mesh.mesh" />
+        <file relativePath="modelos/giroscopo_02/antihorario/rapido/torque/torque_TuboVectorT02RA_mesh.mesh" />
         <file relativePath="modelos/giroscopo_02/antihorario/rapido/velocidad_angular/naranja.png" />
         <file relativePath="modelos/giroscopo_02/antihorario/rapido/velocidad_angular/velocidad_angular.material" />
         <file relativePath="modelos/giroscopo_02/antihorario/rapido/velocidad_angular/velocidad_angular.scene" />
-        <file relativePath="modelos/giroscopo_02/antihorario/rapido/velocidad_angular/velocidad_angular_Cone06_mesh.mesh" />
-        <file relativePath="modelos/giroscopo_02/antihorario/rapido/velocidad_angular/velocidad_angular_Cone08_mesh.mesh" />
-        <file relativePath="modelos/giroscopo_02/antihorario/rapido/velocidad_angular/velocidad_angular_Cylinder17_mesh.mesh" />
-        <file relativePath="modelos/giroscopo_02/antihorario/rapido/velocidad_angular/velocidad_angular_Cylinder18_mesh.mesh" />
-        <file relativePath="modelos/giroscopo_02/antihorario/rapido/velocidad_angular/velocidad_angular_Cylinder19_mesh.mesh" />
-        <file relativePath="modelos/giroscopo_02/antihorario/rapido/velocidad_angular/velocidad_angular_Cylinder23_mesh.mesh" />
-        <file relativePath="modelos/giroscopo_02/antihorario/rapido/velocidad_angular/velocidad_angular_Cylinder24_mesh.mesh" />
-        <file relativePath="modelos/giroscopo_02/antihorario/rapido/velocidad_angular/velocidad_angular_Cylinder25_mesh.mesh" />
-        <file relativePath="modelos/giroscopo_02/antihorario/rapido/velocidad_angular/velocidad_angular_Text06_mesh.mesh" />
-        <file relativePath="modelos/giroscopo_02/antihorario/rapido/velocidad_angular/velocidad_angular_Text08_mesh.mesh" />
+        <file relativePath="modelos/giroscopo_02/antihorario/rapido/velocidad_angular/velocidad_angular_ConoVectorOmega02RA_mesh.mesh" />
+        <file relativePath="modelos/giroscopo_02/antihorario/rapido/velocidad_angular/velocidad_angular_ConoVectorw02RA_mesh.mesh" />
+        <file relativePath="modelos/giroscopo_02/antihorario/rapido/velocidad_angular/velocidad_angular_flecha2VectorOmega02RA_mesh.mesh" />
+        <file relativePath="modelos/giroscopo_02/antihorario/rapido/velocidad_angular/velocidad_angular_flecha2Vectorw02RA_mesh.mesh" />
+        <file relativePath="modelos/giroscopo_02/antihorario/rapido/velocidad_angular/velocidad_angular_flechaVectorOmega02RA_mesh.mesh" />
+        <file relativePath="modelos/giroscopo_02/antihorario/rapido/velocidad_angular/velocidad_angular_flechaVectorw02RA_mesh.mesh" />
+        <file relativePath="modelos/giroscopo_02/antihorario/rapido/velocidad_angular/velocidad_angular_TextVectorOmega02RA_mesh.mesh" />
+        <file relativePath="modelos/giroscopo_02/antihorario/rapido/velocidad_angular/velocidad_angular_TextVectorw02RA_mesh.mesh" />
+        <file relativePath="modelos/giroscopo_02/antihorario/rapido/velocidad_angular/velocidad_angular_TuboVectorOmega02RA_mesh.mesh" />
+        <file relativePath="modelos/giroscopo_02/antihorario/rapido/velocidad_angular/velocidad_angular_TuboVectorw02RA_mesh.mesh" />
         <file relativePath="modelos/giroscopo_02/horario/rapido/fuerzas/fuerzas.material" />
         <file relativePath="modelos/giroscopo_02/horario/rapido/fuerzas/fuerzas.scene" />
-        <file relativePath="modelos/giroscopo_02/horario/rapido/fuerzas/fuerzas_Cone01_mesh.mesh" />
-        <file relativePath="modelos/giroscopo_02/horario/rapido/fuerzas/fuerzas_Cone02_mesh.mesh" />
-        <file relativePath="modelos/giroscopo_02/horario/rapido/fuerzas/fuerzas_Cone03_mesh.mesh" />
-        <file relativePath="modelos/giroscopo_02/horario/rapido/fuerzas/fuerzas_Cylinder01_mesh.mesh" />
-        <file relativePath="modelos/giroscopo_02/horario/rapido/fuerzas/fuerzas_Cylinder03_mesh.mesh" />
-        <file relativePath="modelos/giroscopo_02/horario/rapido/fuerzas/fuerzas_Cylinder04_mesh.mesh" />
-        <file relativePath="modelos/giroscopo_02/horario/rapido/fuerzas/fuerzas_Cylinder05_mesh.mesh" />
-        <file relativePath="modelos/giroscopo_02/horario/rapido/fuerzas/fuerzas_Cylinder06_mesh.mesh" />
-        <file relativePath="modelos/giroscopo_02/horario/rapido/fuerzas/fuerzas_Cylinder07_mesh.mesh" />
-        <file relativePath="modelos/giroscopo_02/horario/rapido/fuerzas/fuerzas_Cylinder08_mesh.mesh" />
-        <file relativePath="modelos/giroscopo_02/horario/rapido/fuerzas/fuerzas_Cylinder09_mesh.mesh" />
-        <file relativePath="modelos/giroscopo_02/horario/rapido/fuerzas/fuerzas_Cylinder10_mesh.mesh" />
-        <file relativePath="modelos/giroscopo_02/horario/rapido/fuerzas/fuerzas_Text01_mesh.mesh" />
-        <file relativePath="modelos/giroscopo_02/horario/rapido/fuerzas/fuerzas_Text02_mesh.mesh" />
-        <file relativePath="modelos/giroscopo_02/horario/rapido/fuerzas/fuerzas_Text03_mesh.mesh" />
+        <file relativePath="modelos/giroscopo_02/horario/rapido/fuerzas/fuerzas_ConoVectorFr02RH_mesh.mesh" />
+        <file relativePath="modelos/giroscopo_02/horario/rapido/fuerzas/fuerzas_ConoVectorN02RH_mesh.mesh" />
+        <file relativePath="modelos/giroscopo_02/horario/rapido/fuerzas/fuerzas_ConoVectorP02RH_mesh.mesh" />
+        <file relativePath="modelos/giroscopo_02/horario/rapido/fuerzas/fuerzas_flecha2VectorFr02RH_mesh.mesh" />
+        <file relativePath="modelos/giroscopo_02/horario/rapido/fuerzas/fuerzas_flecha2VectorN02RH_mesh.mesh" />
+        <file relativePath="modelos/giroscopo_02/horario/rapido/fuerzas/fuerzas_flecha2VectorP02RH_mesh.mesh" />
+        <file relativePath="modelos/giroscopo_02/horario/rapido/fuerzas/fuerzas_flechaVectorFr02RH_mesh.mesh" />
+        <file relativePath="modelos/giroscopo_02/horario/rapido/fuerzas/fuerzas_flechaVectorN02RH_mesh.mesh" />
+        <file relativePath="modelos/giroscopo_02/horario/rapido/fuerzas/fuerzas_flechaVectorP02RH_mesh.mesh" />
+        <file relativePath="modelos/giroscopo_02/horario/rapido/fuerzas/fuerzas_TextVectorFr02RH_mesh.mesh" />
+        <file relativePath="modelos/giroscopo_02/horario/rapido/fuerzas/fuerzas_TextVectorN02RH_mesh.mesh" />
+        <file relativePath="modelos/giroscopo_02/horario/rapido/fuerzas/fuerzas_TextVectorP02RH_mesh.mesh" />
+        <file relativePath="modelos/giroscopo_02/horario/rapido/fuerzas/fuerzas_TuboVectorFr02RH_mesh.mesh" />
+        <file relativePath="modelos/giroscopo_02/horario/rapido/fuerzas/fuerzas_TuboVectorN02RH_mesh.mesh" />
+        <file relativePath="modelos/giroscopo_02/horario/rapido/fuerzas/fuerzas_TuboVectorP02RH_mesh.mesh" />
         <file relativePath="modelos/giroscopo_02/horario/rapido/fuerzas/naranja.png" />
         <file relativePath="modelos/giroscopo_02/horario/rapido/giroscopo_02/azul.png" />
         <file relativePath="modelos/giroscopo_02/horario/rapido/giroscopo_02/factory_reflection_bw1.jpg" />
@@ -2561,50 +2562,50 @@
         <file relativePath="modelos/giroscopo_02/horario/rapido/giroscopo_02/Lakerem2.jpg" />
         <file relativePath="modelos/giroscopo_02/horario/rapido/momento_angular/momento_angular.material" />
         <file relativePath="modelos/giroscopo_02/horario/rapido/momento_angular/momento_angular.scene" />
-        <file relativePath="modelos/giroscopo_02/horario/rapido/momento_angular/momento_angular_Cone05_mesh.mesh" />
-        <file relativePath="modelos/giroscopo_02/horario/rapido/momento_angular/momento_angular_Cylinder14_mesh.mesh" />
-        <file relativePath="modelos/giroscopo_02/horario/rapido/momento_angular/momento_angular_Cylinder15_mesh.mesh" />
-        <file relativePath="modelos/giroscopo_02/horario/rapido/momento_angular/momento_angular_Cylinder16_mesh.mesh" />
-        <file relativePath="modelos/giroscopo_02/horario/rapido/momento_angular/momento_angular_Text05_mesh.mesh" />
+        <file relativePath="modelos/giroscopo_02/horario/rapido/momento_angular/momento_angular_ConoVectorL02RH_mesh.mesh" />
+        <file relativePath="modelos/giroscopo_02/horario/rapido/momento_angular/momento_angular_flecha2VectorL02RH_mesh.mesh" />
+        <file relativePath="modelos/giroscopo_02/horario/rapido/momento_angular/momento_angular_flechaVectorL02RH_mesh.mesh" />
+        <file relativePath="modelos/giroscopo_02/horario/rapido/momento_angular/momento_angular_TextVectorL02RH_mesh.mesh" />
+        <file relativePath="modelos/giroscopo_02/horario/rapido/momento_angular/momento_angular_TuboVectorL02RH_mesh.mesh" />
         <file relativePath="modelos/giroscopo_02/horario/rapido/momento_angular/naranja.png" />
         <file relativePath="modelos/giroscopo_02/horario/rapido/torque/naranja.png" />
         <file relativePath="modelos/giroscopo_02/horario/rapido/torque/torque.material" />
         <file relativePath="modelos/giroscopo_02/horario/rapido/torque/torque.scene" />
-        <file relativePath="modelos/giroscopo_02/horario/rapido/torque/torque_Cone04_mesh.mesh" />
-        <file relativePath="modelos/giroscopo_02/horario/rapido/torque/torque_Cone07_mesh.mesh" />
-        <file relativePath="modelos/giroscopo_02/horario/rapido/torque/torque_Cylinder11_mesh.mesh" />
-        <file relativePath="modelos/giroscopo_02/horario/rapido/torque/torque_Cylinder12_mesh.mesh" />
-        <file relativePath="modelos/giroscopo_02/horario/rapido/torque/torque_Cylinder13_mesh.mesh" />
-        <file relativePath="modelos/giroscopo_02/horario/rapido/torque/torque_Cylinder20_mesh.mesh" />
-        <file relativePath="modelos/giroscopo_02/horario/rapido/torque/torque_Cylinder21_mesh.mesh" />
-        <file relativePath="modelos/giroscopo_02/horario/rapido/torque/torque_Cylinder22_mesh.mesh" />
-        <file relativePath="modelos/giroscopo_02/horario/rapido/torque/torque_Text04_mesh.mesh" />
-        <file relativePath="modelos/giroscopo_02/horario/rapido/torque/torque_Text07_mesh.mesh" />
+        <file relativePath="modelos/giroscopo_02/horario/rapido/torque/torque_ConoVectorR02RH_mesh.mesh" />
+        <file relativePath="modelos/giroscopo_02/horario/rapido/torque/torque_ConoVectorT02RH_mesh.mesh" />
+        <file relativePath="modelos/giroscopo_02/horario/rapido/torque/torque_flecha2VectorR02RH_mesh.mesh" />
+        <file relativePath="modelos/giroscopo_02/horario/rapido/torque/torque_flecha2VectorT02RH_mesh.mesh" />
+        <file relativePath="modelos/giroscopo_02/horario/rapido/torque/torque_flechaVectorR02RH_mesh.mesh" />
+        <file relativePath="modelos/giroscopo_02/horario/rapido/torque/torque_flechaVectorT02RH_mesh.mesh" />
+        <file relativePath="modelos/giroscopo_02/horario/rapido/torque/torque_TextVectorR02RH_mesh.mesh" />
+        <file relativePath="modelos/giroscopo_02/horario/rapido/torque/torque_TextVectorT02RH_mesh.mesh" />
+        <file relativePath="modelos/giroscopo_02/horario/rapido/torque/torque_TuboVectorR02RH_mesh.mesh" />
+        <file relativePath="modelos/giroscopo_02/horario/rapido/torque/torque_TuboVectorT02RH_mesh.mesh" />
         <file relativePath="modelos/giroscopo_02/horario/rapido/velocidad_angular/naranja.png" />
         <file relativePath="modelos/giroscopo_02/horario/rapido/velocidad_angular/velocidad_angular.material" />
         <file relativePath="modelos/giroscopo_02/horario/rapido/velocidad_angular/velocidad_angular.scene" />
-        <file relativePath="modelos/giroscopo_02/horario/rapido/velocidad_angular/velocidad_angular_Cone06_mesh.mesh" />
-        <file relativePath="modelos/giroscopo_02/horario/rapido/velocidad_angular/velocidad_angular_Cone08_mesh.mesh" />
-        <file relativePath="modelos/giroscopo_02/horario/rapido/velocidad_angular/velocidad_angular_Cylinder17_mesh.mesh" />
-        <file relativePath="modelos/giroscopo_02/horario/rapido/velocidad_angular/velocidad_angular_Cylinder18_mesh.mesh" />
-        <file relativePath="modelos/giroscopo_02/horario/rapido/velocidad_angular/velocidad_angular_Cylinder19_mesh.mesh" />
-        <file relativePath="modelos/giroscopo_02/horario/rapido/velocidad_angular/velocidad_angular_Cylinder23_mesh.mesh" />
-        <file relativePath="modelos/giroscopo_02/horario/rapido/velocidad_angular/velocidad_angular_Cylinder24_mesh.mesh" />
-        <file relativePath="modelos/giroscopo_02/horario/rapido/velocidad_angular/velocidad_angular_Cylinder25_mesh.mesh" />
-        <file relativePath="modelos/giroscopo_02/horario/rapido/velocidad_angular/velocidad_angular_Text06_mesh.mesh" />
-        <file relativePath="modelos/giroscopo_02/horario/rapido/velocidad_angular/velocidad_angular_Text08_mesh.mesh" />
+        <file relativePath="modelos/giroscopo_02/horario/rapido/velocidad_angular/velocidad_angular_ConoVectorOmega02RH_mesh.mesh" />
+        <file relativePath="modelos/giroscopo_02/horario/rapido/velocidad_angular/velocidad_angular_ConoVectorw02RH_mesh.mesh" />
+        <file relativePath="modelos/giroscopo_02/horario/rapido/velocidad_angular/velocidad_angular_flecha2VectorOmega02RH_mesh.mesh" />
+        <file relativePath="modelos/giroscopo_02/horario/rapido/velocidad_angular/velocidad_angular_flecha2Vectorw02RH_mesh.mesh" />
+        <file relativePath="modelos/giroscopo_02/horario/rapido/velocidad_angular/velocidad_angular_flechaVectorOmega02RH_mesh.mesh" />
+        <file relativePath="modelos/giroscopo_02/horario/rapido/velocidad_angular/velocidad_angular_flechaVectorw02RH_mesh.mesh" />
+        <file relativePath="modelos/giroscopo_02/horario/rapido/velocidad_angular/velocidad_angular_TextVectorOmega02RH_mesh.mesh" />
+        <file relativePath="modelos/giroscopo_02/horario/rapido/velocidad_angular/velocidad_angular_TextVectorw02RH_mesh.mesh" />
+        <file relativePath="modelos/giroscopo_02/horario/rapido/velocidad_angular/velocidad_angular_TuboVectorOmega02RH_mesh.mesh" />
+        <file relativePath="modelos/giroscopo_02/horario/rapido/velocidad_angular/velocidad_angular_TuboVectorw02RH_mesh.mesh" />
         <file relativePath="modelos/giroscopo_04/antihorario/lento/fuerzas/fuerzas.material" />
         <file relativePath="modelos/giroscopo_04/antihorario/lento/fuerzas/fuerzas.scene" />
-        <file relativePath="modelos/giroscopo_04/antihorario/lento/fuerzas/fuerzas_Cone01_mesh.mesh" />
-        <file relativePath="modelos/giroscopo_04/antihorario/lento/fuerzas/fuerzas_Cone02_mesh.mesh" />
-        <file relativePath="modelos/giroscopo_04/antihorario/lento/fuerzas/fuerzas_Cylinder03_mesh.mesh" />
-        <file relativePath="modelos/giroscopo_04/antihorario/lento/fuerzas/fuerzas_Cylinder04_mesh.mesh" />
-        <file relativePath="modelos/giroscopo_04/antihorario/lento/fuerzas/fuerzas_Cylinder05_mesh.mesh" />
-        <file relativePath="modelos/giroscopo_04/antihorario/lento/fuerzas/fuerzas_Cylinder06_mesh.mesh" />
-        <file relativePath="modelos/giroscopo_04/antihorario/lento/fuerzas/fuerzas_Cylinder07_mesh.mesh" />
-        <file relativePath="modelos/giroscopo_04/antihorario/lento/fuerzas/fuerzas_Cylinder08_mesh.mesh" />
-        <file relativePath="modelos/giroscopo_04/antihorario/lento/fuerzas/fuerzas_Text01_mesh.mesh" />
-        <file relativePath="modelos/giroscopo_04/antihorario/lento/fuerzas/fuerzas_Text02_mesh.mesh" />
+        <file relativePath="modelos/giroscopo_04/antihorario/lento/fuerzas/fuerzas_ConoVectorP04LA_mesh.mesh" />
+        <file relativePath="modelos/giroscopo_04/antihorario/lento/fuerzas/fuerzas_ConoVectorTen04LA_mesh.mesh" />
+        <file relativePath="modelos/giroscopo_04/antihorario/lento/fuerzas/fuerzas_flecha2VectorP04LA_mesh.mesh" />
+        <file relativePath="modelos/giroscopo_04/antihorario/lento/fuerzas/fuerzas_flecha2VectorTen04LA_mesh.mesh" />
+        <file relativePath="modelos/giroscopo_04/antihorario/lento/fuerzas/fuerzas_flechaVectorP04LA_mesh.mesh" />
+        <file relativePath="modelos/giroscopo_04/antihorario/lento/fuerzas/fuerzas_flechaVectorTen04LA_mesh.mesh" />
+        <file relativePath="modelos/giroscopo_04/antihorario/lento/fuerzas/fuerzas_TextVectorP04LA_mesh.mesh" />
+        <file relativePath="modelos/giroscopo_04/antihorario/lento/fuerzas/fuerzas_TextVectorTen04LA_mesh.mesh" />
+        <file relativePath="modelos/giroscopo_04/antihorario/lento/fuerzas/fuerzas_TuboVectorP04LA_mesh.mesh" />
+        <file relativePath="modelos/giroscopo_04/antihorario/lento/fuerzas/fuerzas_TuboVectorTen04LA_mesh.mesh" />
         <file relativePath="modelos/giroscopo_04/antihorario/lento/fuerzas/naranja.png" />
         <file relativePath="modelos/giroscopo_04/antihorario/lento/giroscopo_04/factory_reflection_bw1.jpg" />
         <file relativePath="modelos/giroscopo_04/antihorario/lento/giroscopo_04/giroscopo_04.material" />
@@ -2629,50 +2630,50 @@
         <file relativePath="modelos/giroscopo_04/antihorario/lento/giroscopo_04/giroscopo_04_Tube13_mesh.mesh" />
         <file relativePath="modelos/giroscopo_04/antihorario/lento/momento_angular/momento_angular.material" />
         <file relativePath="modelos/giroscopo_04/antihorario/lento/momento_angular/momento_angular.scene" />
-        <file relativePath="modelos/giroscopo_04/antihorario/lento/momento_angular/momento_angular_Cone04_mesh.mesh" />
-        <file relativePath="modelos/giroscopo_04/antihorario/lento/momento_angular/momento_angular_Cylinder12_mesh.mesh" />
-        <file relativePath="modelos/giroscopo_04/antihorario/lento/momento_angular/momento_angular_Cylinder13_mesh.mesh" />
-        <file relativePath="modelos/giroscopo_04/antihorario/lento/momento_angular/momento_angular_Cylinder14_mesh.mesh" />
-        <file relativePath="modelos/giroscopo_04/antihorario/lento/momento_angular/momento_angular_Text04_mesh.mesh" />
+        <file relativePath="modelos/giroscopo_04/antihorario/lento/momento_angular/momento_angular_ConoVectorL04LA_mesh.mesh" />
+        <file relativePath="modelos/giroscopo_04/antihorario/lento/momento_angular/momento_angular_flecha2VectorL04LA_mesh.mesh" />
+        <file relativePath="modelos/giroscopo_04/antihorario/lento/momento_angular/momento_angular_flechaVectorL04LA_mesh.mesh" />
+        <file relativePath="modelos/giroscopo_04/antihorario/lento/momento_angular/momento_angular_TextVectorL04LA_mesh.mesh" />
+        <file relativePath="modelos/giroscopo_04/antihorario/lento/momento_angular/momento_angular_TuboVectorL04LA_mesh.mesh" />
         <file relativePath="modelos/giroscopo_04/antihorario/lento/momento_angular/naranja.png" />
         <file relativePath="modelos/giroscopo_04/antihorario/lento/torque/naranja.png" />
         <file relativePath="modelos/giroscopo_04/antihorario/lento/torque/torque.material" />
         <file relativePath="modelos/giroscopo_04/antihorario/lento/torque/torque.scene" />
-        <file relativePath="modelos/giroscopo_04/antihorario/lento/torque/torque_Cone03_mesh.mesh" />
-        <file relativePath="modelos/giroscopo_04/antihorario/lento/torque/torque_Cone07_mesh.mesh" />
-        <file relativePath="modelos/giroscopo_04/antihorario/lento/torque/torque_Cylinder09_mesh.mesh" />
-        <file relativePath="modelos/giroscopo_04/antihorario/lento/torque/torque_Cylinder10_mesh.mesh" />
-        <file relativePath="modelos/giroscopo_04/antihorario/lento/torque/torque_Cylinder11_mesh.mesh" />
-        <file relativePath="modelos/giroscopo_04/antihorario/lento/torque/torque_Cylinder21_mesh.mesh" />
-        <file relativePath="modelos/giroscopo_04/antihorario/lento/torque/torque_Cylinder22_mesh.mesh" />
-        <file relativePath="modelos/giroscopo_04/antihorario/lento/torque/torque_Cylinder23_mesh.mesh" />
-        <file relativePath="modelos/giroscopo_04/antihorario/lento/torque/torque_Text03_mesh.mesh" />
-        <file relativePath="modelos/giroscopo_04/antihorario/lento/torque/torque_Text07_mesh.mesh" />
+        <file relativePath="modelos/giroscopo_04/antihorario/lento/torque/torque_ConoVectorR04LA_mesh.mesh" />
+        <file relativePath="modelos/giroscopo_04/antihorario/lento/torque/torque_ConoVectorT04LA_mesh.mesh" />
+        <file relativePath="modelos/giroscopo_04/antihorario/lento/torque/torque_flecha2VectorR04LA_mesh.mesh" />
+        <file relativePath="modelos/giroscopo_04/antihorario/lento/torque/torque_flecha2VectorT04LA_mesh.mesh" />
+        <file relativePath="modelos/giroscopo_04/antihorario/lento/torque/torque_flechaVectorR04LA_mesh.mesh" />
+        <file relativePath="modelos/giroscopo_04/antihorario/lento/torque/torque_flechaVectorT04LA_mesh.mesh" />
+        <file relativePath="modelos/giroscopo_04/antihorario/lento/torque/torque_TextVectorR04LA_mesh.mesh" />
+        <file relativePath="modelos/giroscopo_04/antihorario/lento/torque/torque_TextVectorT04LA_mesh.mesh" />
+        <file relativePath="modelos/giroscopo_04/antihorario/lento/torque/torque_TuboVectorR04LA_mesh.mesh" />
+        <file relativePath="modelos/giroscopo_04/antihorario/lento/torque/torque_TuboVectorT04LA_mesh.mesh" />
         <file relativePath="modelos/giroscopo_04/antihorario/lento/velocidad_angular/naranja.png" />
         <file relativePath="modelos/giroscopo_04/antihorario/lento/velocidad_angular/velocidad_angular.material" />
         <file relativePath="modelos/giroscopo_04/antihorario/lento/velocidad_angular/velocidad_angular.scene" />
-        <file relativePath="modelos/giroscopo_04/antihorario/lento/velocidad_angular/velocidad_angular_Cone05_mesh.mesh" />
-        <file relativePath="modelos/giroscopo_04/antihorario/lento/velocidad_angular/velocidad_angular_Cone06_mesh.mesh" />
-        <file relativePath="modelos/giroscopo_04/antihorario/lento/velocidad_angular/velocidad_angular_Cylinder15_mesh.mesh" />
-        <file relativePath="modelos/giroscopo_04/antihorario/lento/velocidad_angular/velocidad_angular_Cylinder16_mesh.mesh" />
-        <file relativePath="modelos/giroscopo_04/antihorario/lento/velocidad_angular/velocidad_angular_Cylinder17_mesh.mesh" />
-        <file relativePath="modelos/giroscopo_04/antihorario/lento/velocidad_angular/velocidad_angular_Cylinder18_mesh.mesh" />
-        <file relativePath="modelos/giroscopo_04/antihorario/lento/velocidad_angular/velocidad_angular_Cylinder19_mesh.mesh" />
-        <file relativePath="modelos/giroscopo_04/antihorario/lento/velocidad_angular/velocidad_angular_Cylinder20_mesh.mesh" />
-        <file relativePath="modelos/giroscopo_04/antihorario/lento/velocidad_angular/velocidad_angular_Text05_mesh.mesh" />
-        <file relativePath="modelos/giroscopo_04/antihorario/lento/velocidad_angular/velocidad_angular_Text06_mesh.mesh" />
+        <file relativePath="modelos/giroscopo_04/antihorario/lento/velocidad_angular/velocidad_angular_ConoVectorOmega04LA_mesh.mesh" />
+        <file relativePath="modelos/giroscopo_04/antihorario/lento/velocidad_angular/velocidad_angular_ConoVectorw04LA_mesh.mesh" />
+        <file relativePath="modelos/giroscopo_04/antihorario/lento/velocidad_angular/velocidad_angular_flecha2VectorOmega04LA_mesh.mesh" />
+        <file relativePath="modelos/giroscopo_04/antihorario/lento/velocidad_angular/velocidad_angular_flecha2Vectorw04LA_mesh.mesh" />
+        <file relativePath="modelos/giroscopo_04/antihorario/lento/velocidad_angular/velocidad_angular_flechaVectorOmega04LA_mesh.mesh" />
+        <file relativePath="modelos/giroscopo_04/antihorario/lento/velocidad_angular/velocidad_angular_flechaVectorw04LA_mesh.mesh" />
+        <file relativePath="modelos/giroscopo_04/antihorario/lento/velocidad_angular/velocidad_angular_TextVectorOmega04LA_mesh.mesh" />
+        <file relativePath="modelos/giroscopo_04/antihorario/lento/velocidad_angular/velocidad_angular_TextVectorw04LA_mesh.mesh" />
+        <file relativePath="modelos/giroscopo_04/antihorario/lento/velocidad_angular/velocidad_angular_TuboVectorOmega04LA_mesh.mesh" />
+        <file relativePath="modelos/giroscopo_04/antihorario/lento/velocidad_angular/velocidad_angular_TuboVectorw04LA_mesh.mesh" />
         <file relativePath="modelos/giroscopo_04/antihorario/rapido/fuerzas/fuerzas.material" />
         <file relativePath="modelos/giroscopo_04/antihorario/rapido/fuerzas/fuerzas.scene" />
-        <file relativePath="modelos/giroscopo_04/antihorario/rapido/fuerzas/fuerzas_Cone01_mesh.mesh" />
-        <file relativePath="modelos/giroscopo_04/antihorario/rapido/fuerzas/fuerzas_Cone02_mesh.mesh" />
-        <file relativePath="modelos/giroscopo_04/antihorario/rapido/fuerzas/fuerzas_Cylinder03_mesh.mesh" />
-        <file relativePath="modelos/giroscopo_04/antihorario/rapido/fuerzas/fuerzas_Cylinder04_mesh.mesh" />
-        <file relativePath="modelos/giroscopo_04/antihorario/rapido/fuerzas/fuerzas_Cylinder05_mesh.mesh" />
-        <file relativePath="modelos/giroscopo_04/antihorario/rapido/fuerzas/fuerzas_Cylinder06_mesh.mesh" />
-        <file relativePath="modelos/giroscopo_04/antihorario/rapido/fuerzas/fuerzas_Cylinder07_mesh.mesh" />
-        <file relativePath="modelos/giroscopo_04/antihorario/rapido/fuerzas/fuerzas_Cylinder08_mesh.mesh" />
-        <file relativePath="modelos/giroscopo_04/antihorario/rapido/fuerzas/fuerzas_Text01_mesh.mesh" />
-        <file relativePath="modelos/giroscopo_04/antihorario/rapido/fuerzas/fuerzas_Text02_mesh.mesh" />
+        <file relativePath="modelos/giroscopo_04/antihorario/rapido/fuerzas/fuerzas_ConoVectorP04RA_mesh.mesh" />
+        <file relativePath="modelos/giroscopo_04/antihorario/rapido/fuerzas/fuerzas_ConoVectorTen04RA_mesh.mesh" />
+        <file relativePath="modelos/giroscopo_04/antihorario/rapido/fuerzas/fuerzas_flecha2VectorP04RA_mesh.mesh" />
+        <file relativePath="modelos/giroscopo_04/antihorario/rapido/fuerzas/fuerzas_flecha2VectorTen04RA_mesh.mesh" />
+        <file relativePath="modelos/giroscopo_04/antihorario/rapido/fuerzas/fuerzas_flechaVectorP04RA_mesh.mesh" />
+        <file relativePath="modelos/giroscopo_04/antihorario/rapido/fuerzas/fuerzas_flechaVectorTen04RA_mesh.mesh" />
+        <file relativePath="modelos/giroscopo_04/antihorario/rapido/fuerzas/fuerzas_TextVectorP04RA_mesh.mesh" />
+        <file relativePath="modelos/giroscopo_04/antihorario/rapido/fuerzas/fuerzas_TextVectorTen04RA_mesh.mesh" />
+        <file relativePath="modelos/giroscopo_04/antihorario/rapido/fuerzas/fuerzas_TuboVectorP04RA_mesh.mesh" />
+        <file relativePath="modelos/giroscopo_04/antihorario/rapido/fuerzas/fuerzas_TuboVectorTen04RA_mesh.mesh" />
         <file relativePath="modelos/giroscopo_04/antihorario/rapido/fuerzas/naranja.png" />
         <file relativePath="modelos/giroscopo_04/antihorario/rapido/giroscopo_04/factory_reflection_bw1.jpg" />
         <file relativePath="modelos/giroscopo_04/antihorario/rapido/giroscopo_04/giroscopo_04.material" />
@@ -2697,50 +2698,50 @@
         <file relativePath="modelos/giroscopo_04/antihorario/rapido/giroscopo_04/giroscopo_04_Tube13_mesh.mesh" />
         <file relativePath="modelos/giroscopo_04/antihorario/rapido/momento_angular/momento_angular.material" />
         <file relativePath="modelos/giroscopo_04/antihorario/rapido/momento_angular/momento_angular.scene" />
-        <file relativePath="modelos/giroscopo_04/antihorario/rapido/momento_angular/momento_angular_Cone04_mesh.mesh" />
-        <file relativePath="modelos/giroscopo_04/antihorario/rapido/momento_angular/momento_angular_Cylinder12_mesh.mesh" />
-        <file relativePath="modelos/giroscopo_04/antihorario/rapido/momento_angular/momento_angular_Cylinder13_mesh.mesh" />
-        <file relativePath="modelos/giroscopo_04/antihorario/rapido/momento_angular/momento_angular_Cylinder14_mesh.mesh" />
-        <file relativePath="modelos/giroscopo_04/antihorario/rapido/momento_angular/momento_angular_Text04_mesh.mesh" />
+        <file relativePath="modelos/giroscopo_04/antihorario/rapido/momento_angular/momento_angular_ConoVectorL04RA_mesh.mesh" />
+        <file relativePath="modelos/giroscopo_04/antihorario/rapido/momento_angular/momento_angular_flecha2VectorL04RA_mesh.mesh" />
+        <file relativePath="modelos/giroscopo_04/antihorario/rapido/momento_angular/momento_angular_flechaVectorL04RA_mesh.mesh" />
+        <file relativePath="modelos/giroscopo_04/antihorario/rapido/momento_angular/momento_angular_TextVectorL04RA_mesh.mesh" />
+        <file relativePath="modelos/giroscopo_04/antihorario/rapido/momento_angular/momento_angular_TuboVectorL04RA_mesh.mesh" />
         <file relativePath="modelos/giroscopo_04/antihorario/rapido/momento_angular/naranja.png" />
         <file relativePath="modelos/giroscopo_04/antihorario/rapido/torque/naranja.png" />
         <file relativePath="modelos/giroscopo_04/antihorario/rapido/torque/torque.material" />
         <file relativePath="modelos/giroscopo_04/antihorario/rapido/torque/torque.scene" />
-        <file relativePath="modelos/giroscopo_04/antihorario/rapido/torque/torque_Cone03_mesh.mesh" />
-        <file relativePath="modelos/giroscopo_04/antihorario/rapido/torque/torque_Cone07_mesh.mesh" />
-        <file relativePath="modelos/giroscopo_04/antihorario/rapido/torque/torque_Cylinder09_mesh.mesh" />
-        <file relativePath="modelos/giroscopo_04/antihorario/rapido/torque/torque_Cylinder10_mesh.mesh" />
-        <file relativePath="modelos/giroscopo_04/antihorario/rapido/torque/torque_Cylinder11_mesh.mesh" />
-        <file relativePath="modelos/giroscopo_04/antihorario/rapido/torque/torque_Cylinder21_mesh.mesh" />
-        <file relativePath="modelos/giroscopo_04/antihorario/rapido/torque/torque_Cylinder22_mesh.mesh" />
-        <file relativePath="modelos/giroscopo_04/antihorario/rapido/torque/torque_Cylinder23_mesh.mesh" />
-        <file relativePath="modelos/giroscopo_04/antihorario/rapido/torque/torque_Text03_mesh.mesh" />
-        <file relativePath="modelos/giroscopo_04/antihorario/rapido/torque/torque_Text07_mesh.mesh" />
+        <file relativePath="modelos/giroscopo_04/antihorario/rapido/torque/torque_ConoVectorR04RA_mesh.mesh" />
+        <file relativePath="modelos/giroscopo_04/antihorario/rapido/torque/torque_ConoVectorT04RA_mesh.mesh" />
+        <file relativePath="modelos/giroscopo_04/antihorario/rapido/torque/torque_flecha2VectorR04RA_mesh.mesh" />
+        <file relativePath="modelos/giroscopo_04/antihorario/rapido/torque/torque_flecha2VectorT04RA_mesh.mesh" />
+        <file relativePath="modelos/giroscopo_04/antihorario/rapido/torque/torque_flechaVectorR04RA_mesh.mesh" />
+        <file relativePath="modelos/giroscopo_04/antihorario/rapido/torque/torque_flechaVectorT04RA_mesh.mesh" />
+        <file relativePath="modelos/giroscopo_04/antihorario/rapido/torque/torque_TextVectorR04RA_mesh.mesh" />
+        <file relativePath="modelos/giroscopo_04/antihorario/rapido/torque/torque_TextVectorT04RA_mesh.mesh" />
+        <file relativePath="modelos/giroscopo_04/antihorario/rapido/torque/torque_TuboVectorR04RA_mesh.mesh" />
+        <file relativePath="modelos/giroscopo_04/antihorario/rapido/torque/torque_TuboVectorT04RA_mesh.mesh" />
         <file relativePath="modelos/giroscopo_04/antihorario/rapido/velocidad_angular/naranja.png" />
         <file relativePath="modelos/giroscopo_04/antihorario/rapido/velocidad_angular/velocidad_angular.material" />
         <file relativePath="modelos/giroscopo_04/antihorario/rapido/velocidad_angular/velocidad_angular.scene" />
-        <file relativePath="modelos/giroscopo_04/antihorario/rapido/velocidad_angular/velocidad_angular_Cone05_mesh.mesh" />
-        <file relativePath="modelos/giroscopo_04/antihorario/rapido/velocidad_angular/velocidad_angular_Cone06_mesh.mesh" />
-        <file relativePath="modelos/giroscopo_04/antihorario/rapido/velocidad_angular/velocidad_angular_Cylinder15_mesh.mesh" />
-        <file relativePath="modelos/giroscopo_04/antihorario/rapido/velocidad_angular/velocidad_angular_Cylinder16_mesh.mesh" />
-        <file relativePath="modelos/giroscopo_04/antihorario/rapido/velocidad_angular/velocidad_angular_Cylinder17_mesh.mesh" />
-        <file relativePath="modelos/giroscopo_04/antihorario/rapido/velocidad_angular/velocidad_angular_Cylinder18_mesh.mesh" />
-        <file relativePath="modelos/giroscopo_04/antihorario/rapido/velocidad_angular/velocidad_angular_Cylinder19_mesh.mesh" />
-        <file relativePath="modelos/giroscopo_04/antihorario/rapido/velocidad_angular/velocidad_angular_Cylinder20_mesh.mesh" />
-        <file relativePath="modelos/giroscopo_04/antihorario/rapido/velocidad_angular/velocidad_angular_Text05_mesh.mesh" />
-        <file relativePath="modelos/giroscopo_04/antihorario/rapido/velocidad_angular/velocidad_angular_Text06_mesh.mesh" />
+        <file relativePath="modelos/giroscopo_04/antihorario/rapido/velocidad_angular/velocidad_angular_ConoVectorOmega04RA_mesh.mesh" />
+        <file relativePath="modelos/giroscopo_04/antihorario/rapido/velocidad_angular/velocidad_angular_ConoVectorw04RA_mesh.mesh" />
+        <file relativePath="modelos/giroscopo_04/antihorario/rapido/velocidad_angular/velocidad_angular_flecha2VectorOmega04RA_mesh.mesh" />
+        <file relativePath="modelos/giroscopo_04/antihorario/rapido/velocidad_angular/velocidad_angular_flecha2Vectorw04RA_mesh.mesh" />
+        <file relativePath="modelos/giroscopo_04/antihorario/rapido/velocidad_angular/velocidad_angular_flechaVectorOmega04RA_mesh.mesh" />
+        <file relativePath="modelos/giroscopo_04/antihorario/rapido/velocidad_angular/velocidad_angular_flechaVectorw04RA_mesh.mesh" />
+        <file relativePath="modelos/giroscopo_04/antihorario/rapido/velocidad_angular/velocidad_angular_TextVectorOmega04RA_mesh.mesh" />
+        <file relativePath="modelos/giroscopo_04/antihorario/rapido/velocidad_angular/velocidad_angular_TextVectorw04RA_mesh.mesh" />
+        <file relativePath="modelos/giroscopo_04/antihorario/rapido/velocidad_angular/velocidad_angular_TuboVectorOmega04RA_mesh.mesh" />
+        <file relativePath="modelos/giroscopo_04/antihorario/rapido/velocidad_angular/velocidad_angular_TuboVectorw04RA_mesh.mesh" />
         <file relativePath="modelos/giroscopo_04/horario/rapido/fuerzas/fuerzas.material" />
         <file relativePath="modelos/giroscopo_04/horario/rapido/fuerzas/fuerzas.scene" />
-        <file relativePath="modelos/giroscopo_04/horario/rapido/fuerzas/fuerzas_Cone01_mesh.mesh" />
-        <file relativePath="modelos/giroscopo_04/horario/rapido/fuerzas/fuerzas_Cone02_mesh.mesh" />
-        <file relativePath="modelos/giroscopo_04/horario/rapido/fuerzas/fuerzas_Cylinder03_mesh.mesh" />
-        <file relativePath="modelos/giroscopo_04/horario/rapido/fuerzas/fuerzas_Cylinder04_mesh.mesh" />
-        <file relativePath="modelos/giroscopo_04/horario/rapido/fuerzas/fuerzas_Cylinder05_mesh.mesh" />
-        <file relativePath="modelos/giroscopo_04/horario/rapido/fuerzas/fuerzas_Cylinder06_mesh.mesh" />
-        <file relativePath="modelos/giroscopo_04/horario/rapido/fuerzas/fuerzas_Cylinder07_mesh.mesh" />
-        <file relativePath="modelos/giroscopo_04/horario/rapido/fuerzas/fuerzas_Cylinder08_mesh.mesh" />
-        <file relativePath="modelos/giroscopo_04/horario/rapido/fuerzas/fuerzas_Text01_mesh.mesh" />
-        <file relativePath="modelos/giroscopo_04/horario/rapido/fuerzas/fuerzas_Text02_mesh.mesh" />
+        <file relativePath="modelos/giroscopo_04/horario/rapido/fuerzas/fuerzas_ConoVectorOmega04RH_mesh.mesh" />
+        <file relativePath="modelos/giroscopo_04/horario/rapido/fuerzas/fuerzas_ConoVectorP04RH_mesh.mesh" />
+        <file relativePath="modelos/giroscopo_04/horario/rapido/fuerzas/fuerzas_flecha2VectorP04RH_mesh.mesh" />
+        <file relativePath="modelos/giroscopo_04/horario/rapido/fuerzas/fuerzas_flecha2VectorTen04RH_mesh.mesh" />
+        <file relativePath="modelos/giroscopo_04/horario/rapido/fuerzas/fuerzas_flechaVectorP04RH_mesh.mesh" />
+        <file relativePath="modelos/giroscopo_04/horario/rapido/fuerzas/fuerzas_flechaVectorTen04RH_mesh.mesh" />
+        <file relativePath="modelos/giroscopo_04/horario/rapido/fuerzas/fuerzas_TextVectorP04RH_mesh.mesh" />
+        <file relativePath="modelos/giroscopo_04/horario/rapido/fuerzas/fuerzas_TextVectorTen04RH_mesh.mesh" />
+        <file relativePath="modelos/giroscopo_04/horario/rapido/fuerzas/fuerzas_TuboVectorP04RH_mesh.mesh" />
+        <file relativePath="modelos/giroscopo_04/horario/rapido/fuerzas/fuerzas_TuboVectorTen04RH_mesh.mesh" />
         <file relativePath="modelos/giroscopo_04/horario/rapido/fuerzas/naranja.png" />
         <file relativePath="modelos/giroscopo_04/horario/rapido/giroscopo_04/factory_reflection_bw1.jpg" />
         <file relativePath="modelos/giroscopo_04/horario/rapido/giroscopo_04/giroscopo_04.material" />
@@ -2765,38 +2766,38 @@
         <file relativePath="modelos/giroscopo_04/horario/rapido/giroscopo_04/giroscopo_04_Tube13_mesh.mesh" />
         <file relativePath="modelos/giroscopo_04/horario/rapido/momento_angular/momento_angular.material" />
         <file relativePath="modelos/giroscopo_04/horario/rapido/momento_angular/momento_angular.scene" />
-        <file relativePath="modelos/giroscopo_04/horario/rapido/momento_angular/momento_angular_Cone04_mesh.mesh" />
-        <file relativePath="modelos/giroscopo_04/horario/rapido/momento_angular/momento_angular_Cylinder12_mesh.mesh" />
-        <file relativePath="modelos/giroscopo_04/horario/rapido/momento_angular/momento_angular_Cylinder13_mesh.mesh" />
-        <file relativePath="modelos/giroscopo_04/horario/rapido/momento_angular/momento_angular_Cylinder14_mesh.mesh" />
-        <file relativePath="modelos/giroscopo_04/horario/rapido/momento_angular/momento_angular_Text04_mesh.mesh" />
+        <file relativePath="modelos/giroscopo_04/horario/rapido/momento_angular/momento_angular_ConoVectorL04RH_mesh.mesh" />
+        <file relativePath="modelos/giroscopo_04/horario/rapido/momento_angular/momento_angular_flecha2VectorL04RH_mesh.mesh" />
+        <file relativePath="modelos/giroscopo_04/horario/rapido/momento_angular/momento_angular_flechaVectorL04RH_mesh.mesh" />
+        <file relativePath="modelos/giroscopo_04/horario/rapido/momento_angular/momento_angular_TextVectorL04RH_mesh.mesh" />
+        <file relativePath="modelos/giroscopo_04/horario/rapido/momento_angular/momento_angular_TuboVectorL04RH_mesh.mesh" />
         <file relativePath="modelos/giroscopo_04/horario/rapido/momento_angular/naranja.png" />
         <file relativePath="modelos/giroscopo_04/horario/rapido/torque/naranja.png" />
         <file relativePath="modelos/giroscopo_04/horario/rapido/torque/torque.material" />
         <file relativePath="modelos/giroscopo_04/horario/rapido/torque/torque.scene" />
-        <file relativePath="modelos/giroscopo_04/horario/rapido/torque/torque_Cone03_mesh.mesh" />
-        <file relativePath="modelos/giroscopo_04/horario/rapido/torque/torque_Cone07_mesh.mesh" />
-        <file relativePath="modelos/giroscopo_04/horario/rapido/torque/torque_Cylinder09_mesh.mesh" />
-        <file relativePath="modelos/giroscopo_04/horario/rapido/torque/torque_Cylinder10_mesh.mesh" />
-        <file relativePath="modelos/giroscopo_04/horario/rapido/torque/torque_Cylinder11_mesh.mesh" />
-        <file relativePath="modelos/giroscopo_04/horario/rapido/torque/torque_Cylinder21_mesh.mesh" />
-        <file relativePath="modelos/giroscopo_04/horario/rapido/torque/torque_Cylinder22_mesh.mesh" />
-        <file relativePath="modelos/giroscopo_04/horario/rapido/torque/torque_Cylinder23_mesh.mesh" />
-        <file relativePath="modelos/giroscopo_04/horario/rapido/torque/torque_Text03_mesh.mesh" />
-        <file relativePath="modelos/giroscopo_04/horario/rapido/torque/torque_Text07_mesh.mesh" />
+        <file relativePath="modelos/giroscopo_04/horario/rapido/torque/torque_ConoVectorR04RH_mesh.mesh" />
+        <file relativePath="modelos/giroscopo_04/horario/rapido/torque/torque_ConoVectorT04RH_mesh.mesh" />
+        <file relativePath="modelos/giroscopo_04/horario/rapido/torque/torque_flecha2VectorR04RH_mesh.mesh" />
+        <file relativePath="modelos/giroscopo_04/horario/rapido/torque/torque_flecha2VectorT04RH_mesh.mesh" />
+        <file relativePath="modelos/giroscopo_04/horario/rapido/torque/torque_flechaVectorR04RH_mesh.mesh" />
+        <file relativePath="modelos/giroscopo_04/horario/rapido/torque/torque_flechaVectorT04RH_mesh.mesh" />
+        <file relativePath="modelos/giroscopo_04/horario/rapido/torque/torque_TextVectorR04RH_mesh.mesh" />
+        <file relativePath="modelos/giroscopo_04/horario/rapido/torque/torque_TextVectorT04RH_mesh.mesh" />
+        <file relativePath="modelos/giroscopo_04/horario/rapido/torque/torque_TuboVectorR04RH_mesh.mesh" />
+        <file relativePath="modelos/giroscopo_04/horario/rapido/torque/torque_TuboVectorT04RH_mesh.mesh" />
         <file relativePath="modelos/giroscopo_04/horario/rapido/velocidad_angular/naranja.png" />
         <file relativePath="modelos/giroscopo_04/horario/rapido/velocidad_angular/velocidad_angular.material" />
         <file relativePath="modelos/giroscopo_04/horario/rapido/velocidad_angular/velocidad_angular.scene" />
-        <file relativePath="modelos/giroscopo_04/horario/rapido/velocidad_angular/velocidad_angular_Cone05_mesh.mesh" />
-        <file relativePath="modelos/giroscopo_04/horario/rapido/velocidad_angular/velocidad_angular_Cone06_mesh.mesh" />
-        <file relativePath="modelos/giroscopo_04/horario/rapido/velocidad_angular/velocidad_angular_Cylinder15_mesh.mesh" />
-        <file relativePath="modelos/giroscopo_04/horario/rapido/velocidad_angular/velocidad_angular_Cylinder16_mesh.mesh" />
-        <file relativePath="modelos/giroscopo_04/horario/rapido/velocidad_angular/velocidad_angular_Cylinder17_mesh.mesh" />
-        <file relativePath="modelos/giroscopo_04/horario/rapido/velocidad_angular/velocidad_angular_Cylinder18_mesh.mesh" />
-        <file relativePath="modelos/giroscopo_04/horario/rapido/velocidad_angular/velocidad_angular_Cylinder19_mesh.mesh" />
-        <file relativePath="modelos/giroscopo_04/horario/rapido/velocidad_angular/velocidad_angular_Cylinder20_mesh.mesh" />
-        <file relativePath="modelos/giroscopo_04/horario/rapido/velocidad_angular/velocidad_angular_Text05_mesh.mesh" />
-        <file relativePath="modelos/giroscopo_04/horario/rapido/velocidad_angular/velocidad_angular_Text06_mesh.mesh" />
+        <file relativePath="modelos/giroscopo_04/horario/rapido/velocidad_angular/velocidad_angular_ConoVectorOmega04RH_mesh.mesh" />
+        <file relativePath="modelos/giroscopo_04/horario/rapido/velocidad_angular/velocidad_angular_ConoVectorw04RH_mesh.mesh" />
+        <file relativePath="modelos/giroscopo_04/horario/rapido/velocidad_angular/velocidad_angular_flecha2VectorOmega04RH_mesh.mesh" />
+        <file relativePath="modelos/giroscopo_04/horario/rapido/velocidad_angular/velocidad_angular_flecha2Vectorw04RH_mesh.mesh" />
+        <file relativePath="modelos/giroscopo_04/horario/rapido/velocidad_angular/velocidad_angular_flechaVectorOmega04RH_mesh.mesh" />
+        <file relativePath="modelos/giroscopo_04/horario/rapido/velocidad_angular/velocidad_angular_flechaVectorw04RH_mesh.mesh" />
+        <file relativePath="modelos/giroscopo_04/horario/rapido/velocidad_angular/velocidad_angular_TextVectorOmega04RH_mesh.mesh" />
+        <file relativePath="modelos/giroscopo_04/horario/rapido/velocidad_angular/velocidad_angular_TextVectorw04RH_mesh.mesh" />
+        <file relativePath="modelos/giroscopo_04/horario/rapido/velocidad_angular/velocidad_angular_TuboVectorOmega04RH_mesh.mesh" />
+        <file relativePath="modelos/giroscopo_04/horario/rapido/velocidad_angular/velocidad_angular_TuboVectorw04RH_mesh.mesh" />
         <file relativePath="notas/nota/nota.material" />
         <file relativePath="notas/nota/nota.png" />
         <file relativePath="notas/nota/nota.scene" />
