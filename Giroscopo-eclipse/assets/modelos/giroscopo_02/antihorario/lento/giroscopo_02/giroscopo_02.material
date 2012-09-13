@@ -39,25 +39,3 @@ material giroscopo_02/Metal_ChromeFast
 		}
 	}
 }
-material giroscopo_02/Reflection_Lake_Gold
-{
-	technique
-	{
-		pass
-		{
-			ambient 0 0 0
-			diffuse 0.486275 0.486275 0.486275 1
-			specular 0.81 0.81 0.81 51.2
-			emissive 0 0 0
-
-
-			texture_unit
-			{
-				texture Lakerem2.jpg
-				env_map spherical
-				tex_address_mode mirror
-				colour_op_ex blend_manual src_texture src_current 1
-			}
-		}
-	}
-}

@@ -1,16 +1,16 @@
 <scene version="0.2">
-	<info source="C:\Users\Matias Cuadrado\Desktop\exportados 02-09\02-rapido-horario (US 13)\giroscopo_02.max" profile="public" shared_geometry="false" build_edges="false" build_tangents="false" exporter="Exporter 3DSMax3.20.22766"/>
+	<info source="C:\Users\Matias Cuadrado\Dropbox\Proyecto\modelos 3ds max\2012\02RH US 13\giroscopo_02.max" profile="public" shared_geometry="false" build_edges="false" build_tangents="false" exporter="Exporter 3DSMax3.25.24177"/>
 	<settings>
 		<environment ambient="0 0 0" background="0 0 0" camera=""/>
 		<shadow color="0 0 0" distance="10000" self="false" setup="uniform" size="1024 1" technique="none"/>
 	</settings>
 	<animations>
 		<animation name="Timeline" loop="false" length="-1" priority="0">
-			<bind target="TuboVectorT02RH" attribute="orientation" track="TuboVectorT02RH_Timeline_orientationTrack" loop="false" mode="absolute" reset="true" short="true" weight="1"/>
+			<bind target="TuboVectorT02RH_node" attribute="orientation" track="TuboVectorT02RH_node_Timeline_orientationTrack" loop="false" mode="absolute" reset="true" short="true" weight="1"/>
 		</animation>
 	</animations>
 	<tracks>
-		<track name="TuboVectorT02RH_Timeline_orientationTrack">
+		<track name="TuboVectorT02RH_node_Timeline_orientationTrack">
 			<key time="0" value="0 6.66134e-015 0 1"/>
 			<key time="0.0333333" value="5.81304e-017 6.66108e-015 -0.00872654 0.999962"/>
 			<key time="0.0666667" value="1.16256e-016 6.66032e-015 -0.0174524 0.999848"/>
@@ -32,7 +32,7 @@
 			<key time="0.6" value="1.04206e-015 6.57933e-015 -0.156434 0.987688"/>
 			<key time="0.633333" value="1.09944e-015 6.56998e-015 -0.165048 0.986286"/>
 			<key time="0.666667" value="1.15673e-015 6.56014e-015 -0.173648 0.984808"/>
-			<key time="0.7" value="1.21393e-015 6.54979e-015 -0.182235 0.983255"/>
+			<key time="0.7" value="1.21393e-015 6.54979e-015 -0.182236 0.983255"/>
 			<key time="0.733333" value="1.27104e-015 6.53895e-015 -0.190809 0.981627"/>
 			<key time="0.766667" value="1.32806e-015 6.52761e-015 -0.199368 0.979925"/>
 			<key time="0.8" value="1.38497e-015 6.51577e-015 -0.207912 0.978148"/>
@@ -59,12 +59,12 @@
 			<key time="1.5" value="2.54918e-015 6.15427e-015 -0.382683 0.92388"/>
 			<key time="1.53333" value="2.60279e-015 6.13179e-015 -0.390731 0.920505"/>
 			<key time="1.56667" value="2.6562e-015 6.10885e-015 -0.398749 0.91706"/>
-			<key time="1.6" value="2.70941e-015 6.08543e-015 -0.406737 0.913545"/>
+			<key time="1.6" value="2.70941e-015 6.08544e-015 -0.406737 0.913545"/>
 			<key time="1.63333" value="2.76241e-015 6.06156e-015 -0.414693 0.909961"/>
 			<key time="1.66667" value="2.8152e-015 6.03722e-015 -0.422618 0.906308"/>
 			<key time="1.7" value="2.86778e-015 6.01243e-015 -0.430511 0.902585"/>
 			<key time="1.73333" value="2.92014e-015 5.98717e-015 -0.438371 0.898794"/>
-			<key time="1.76667" value="2.97228e-015 5.96146e-015 -0.446198 0.894934"/>
+			<key time="1.76667" value="2.97227e-015 5.96146e-015 -0.446198 0.894934"/>
 			<key time="1.8" value="3.02418e-015 5.9353e-015 -0.453991 0.891007"/>
 			<key time="1.83333" value="3.07586e-015 5.90868e-015 -0.461749 0.887011"/>
 			<key time="1.86667" value="3.12731e-015 5.88161e-015 -0.469472 0.882948"/>
@@ -72,7 +72,7 @@
 			<key time="1.93333" value="3.22948e-015 5.82614e-015 -0.48481 0.87462"/>
 			<key time="1.96667" value="3.2802e-015 5.79773e-015 -0.492424 0.870356"/>
 			<key time="2" value="3.33067e-015 5.76889e-015 -0.5 0.866025"/>
-			<key time="2.03333" value="3.38089e-015 5.7396e-015 -0.507538 0.861629"/>
+			<key time="2.03333" value="3.38088e-015 5.7396e-015 -0.507538 0.861629"/>
 			<key time="2.06667" value="3.43084e-015 5.70988e-015 -0.515038 0.857167"/>
 			<key time="2.1" value="3.48054e-015 5.67972e-015 -0.522499 0.85264"/>
 			<key time="2.13333" value="3.52997e-015 5.64913e-015 -0.529919 0.848048"/>
@@ -96,7 +96,7 @@
 			<key time="2.73333" value="4.37023e-015 5.02738e-015 -0.656059 0.75471"/>
 			<key time="2.76667" value="4.41394e-015 4.98905e-015 -0.66262 0.748956"/>
 			<key time="2.8" value="4.45731e-015 4.95034e-015 -0.669131 0.743145"/>
-			<key time="2.83333" value="4.50034e-015 4.91125e-015 -0.67559 0.737277"/>
+			<key time="2.83333" value="4.50033e-015 4.91125e-015 -0.67559 0.737277"/>
 			<key time="2.86667" value="4.54302e-015 4.87179e-015 -0.681998 0.731354"/>
 			<key time="2.9" value="4.58536e-015 4.83196e-015 -0.688355 0.725374"/>
 			<key time="2.93333" value="4.62736e-015 4.79177e-015 -0.694658 0.71934"/>
@@ -105,7 +105,7 @@
 			<key time="3.03333" value="4.7512e-015 4.66899e-015 -0.71325 0.700909"/>
 			<key time="3.06667" value="4.79177e-015 4.62735e-015 -0.71934 0.694658"/>
 			<key time="3.1" value="4.83196e-015 4.58536e-015 -0.725374 0.688355"/>
-			<key time="3.13333" value="4.87179e-015 4.54302e-015 -0.731354 0.681998"/>
+			<key time="3.13333" value="4.8718e-015 4.54302e-015 -0.731354 0.681998"/>
 			<key time="3.16667" value="4.91125e-015 4.50033e-015 -0.737277 0.67559"/>
 			<key time="3.2" value="4.95034e-015 4.45731e-015 -0.743145 0.669131"/>
 			<key time="3.23333" value="4.98905e-015 4.41394e-015 -0.748956 0.66262"/>
@@ -124,11 +124,11 @@
 			<key time="3.66667" value="5.45665e-015 3.82079e-015 -0.819152 0.573576"/>
 			<key time="3.7" value="5.48978e-015 3.77302e-015 -0.824126 0.566406"/>
 			<key time="3.73333" value="5.5225e-015 3.72497e-015 -0.829038 0.559193"/>
-			<key time="3.76667" value="5.5548e-015 3.67664e-015 -0.833886 0.551937"/>
+			<key time="3.76667" value="5.55479e-015 3.67664e-015 -0.833886 0.551937"/>
 			<key time="3.8" value="5.58667e-015 3.62802e-015 -0.838671 0.544639"/>
 			<key time="3.83333" value="5.61811e-015 3.57913e-015 -0.843391 0.5373"/>
 			<key time="3.86667" value="5.64913e-015 3.52997e-015 -0.848048 0.529919"/>
-			<key time="3.9" value="5.67972e-015 3.48054e-015 -0.85264 0.522499"/>
+			<key time="3.9" value="5.67972e-015 3.48054e-015 -0.85264 0.522498"/>
 			<key time="3.93333" value="5.70988e-015 3.43084e-015 -0.857167 0.515038"/>
 			<key time="3.96667" value="5.7396e-015 3.38088e-015 -0.861629 0.507538"/>
 			<key time="4" value="5.76889e-015 3.33067e-015 -0.866025 0.5"/>
@@ -145,7 +145,7 @@
 			<key time="4.36667" value="-6.06156e-015 -2.76241e-015 0.909961 -0.414693"/>
 			<key time="4.4" value="-6.08543e-015 -2.70941e-015 0.913545 -0.406737"/>
 			<key time="4.43333" value="-6.10885e-015 -2.6562e-015 0.91706 -0.398749"/>
-			<key time="4.46667" value="-6.13179e-015 -2.60279e-015 0.920505 -0.390731"/>
+			<key time="4.46667" value="-6.1318e-015 -2.60279e-015 0.920505 -0.390731"/>
 			<key time="4.5" value="-6.15427e-015 -2.54918e-015 0.92388 -0.382683"/>
 			<key time="4.53333" value="-6.17629e-015 -2.49538e-015 0.927184 -0.374607"/>
 			<key time="4.56667" value="-6.19783e-015 -2.44139e-015 0.930418 -0.366501"/>
@@ -154,7 +154,7 @@
 			<key time="4.66667" value="-6.25961e-015 -2.27831e-015 0.939693 -0.34202"/>
 			<key time="4.7" value="-6.27925e-015 -2.2236e-015 0.942641 -0.333807"/>
 			<key time="4.73333" value="-6.29842e-015 -2.16872e-015 0.945519 -0.325568"/>
-			<key time="4.76667" value="-6.3171e-015 -2.11367e-015 0.948324 -0.317305"/>
+			<key time="4.76667" value="-6.31711e-015 -2.11367e-015 0.948324 -0.317305"/>
 			<key time="4.8" value="-6.33531e-015 -2.05847e-015 0.951057 -0.309017"/>
 			<key time="4.83333" value="-6.35303e-015 -2.0031e-015 0.953717 -0.300706"/>
 			<key time="4.86667" value="-6.37027e-015 -1.94759e-015 0.956305 -0.292372"/>
@@ -170,7 +170,7 @@
 			<key time="5.2" value="-6.51577e-015 -1.38497e-015 0.978148 -0.207912"/>
 			<key time="5.23333" value="-6.52761e-015 -1.32806e-015 0.979925 -0.199368"/>
 			<key time="5.26667" value="-6.53895e-015 -1.27104e-015 0.981627 -0.190809"/>
-			<key time="5.3" value="-6.54979e-015 -1.21393e-015 0.983255 -0.182235"/>
+			<key time="5.3" value="-6.54979e-015 -1.21393e-015 0.983255 -0.182236"/>
 			<key time="5.33333" value="-6.56014e-015 -1.15673e-015 0.984808 -0.173648"/>
 			<key time="5.36667" value="-6.56998e-015 -1.09944e-015 0.986286 -0.165048"/>
 			<key time="5.4" value="-6.57933e-015 -1.04206e-015 0.987688 -0.156434"/>
@@ -192,7 +192,7 @@
 			<key time="5.93333" value="-6.66032e-015 -1.16256e-016 0.999848 -0.0174524"/>
 			<key time="5.96667" value="-6.66108e-015 -5.81306e-017 0.999962 -0.00872656"/>
 			<key time="6" value="-6.66134e-015 2.91176e-022 1 4.37114e-008"/>
-			<key time="6.03333" value="-6.66108e-015 5.81304e-017 0.999962 0.00872653"/>
+			<key time="6.03333" value="-6.66108e-015 5.81303e-017 0.999962 0.00872653"/>
 			<key time="6.06667" value="-6.66032e-015 1.16257e-016 0.999848 0.0174525"/>
 			<key time="6.1" value="-6.65906e-015 1.74374e-016 0.999657 0.026177"/>
 			<key time="6.13333" value="-6.65728e-015 2.32478e-016 0.999391 0.0348996"/>
@@ -200,7 +200,7 @@
 			<key time="6.2" value="-6.65221e-015 3.48627e-016 0.99863 0.0523359"/>
 			<key time="6.23333" value="-6.64891e-015 4.06665e-016 0.998135 0.0610486"/>
 			<key time="6.26667" value="-6.64511e-015 4.64672e-016 0.997564 0.0697566"/>
-			<key time="6.3" value="-6.6408e-015 5.22642e-016 0.996917 0.078459"/>
+			<key time="6.3" value="-6.6408e-015 5.22642e-016 0.996917 0.0784591"/>
 			<key time="6.33333" value="-6.63599e-015 5.80575e-016 0.996195 0.0871559"/>
 			<key time="6.36667" value="-6.63067e-015 6.38461e-016 0.995396 0.0958457"/>
 			<key time="6.4" value="-6.62485e-015 6.96301e-016 0.994522 0.104529"/>
@@ -256,17 +256,17 @@
 			<key time="8.06667" value="-5.70988e-015 3.43084e-015 0.857167 0.515038"/>
 			<key time="8.1" value="-5.67972e-015 3.48054e-015 0.85264 0.522498"/>
 			<key time="8.13333" value="-5.64913e-015 3.52997e-015 0.848048 0.529919"/>
-			<key time="8.16667" value="-5.61812e-015 3.57913e-015 0.843391 0.5373"/>
+			<key time="8.16667" value="-5.61811e-015 3.57913e-015 0.843391 0.5373"/>
 			<key time="8.2" value="-5.58667e-015 3.62802e-015 0.838671 0.544639"/>
 			<key time="8.23333" value="-5.5548e-015 3.67664e-015 0.833886 0.551937"/>
-			<key time="8.26667" value="-5.5225e-015 3.72497e-015 0.829038 0.559193"/>
+			<key time="8.26667" value="-5.5225e-015 3.72497e-015 0.829037 0.559193"/>
 			<key time="8.3" value="-5.48978e-015 3.77302e-015 0.824126 0.566406"/>
 			<key time="8.33333" value="-5.45665e-015 3.82079e-015 0.819152 0.573576"/>
 			<key time="8.36667" value="-5.4231e-015 3.86826e-015 0.814115 0.580703"/>
 			<key time="8.4" value="-5.38914e-015 3.91544e-015 0.809017 0.587785"/>
 			<key time="8.43333" value="-5.35476e-015 3.96232e-015 0.803857 0.594823"/>
 			<key time="8.46667" value="-5.31998e-015 4.00889e-015 0.798635 0.601815"/>
-			<key time="8.5" value="-5.28479e-015 4.05517e-015 0.793353 0.608762"/>
+			<key time="8.5" value="-5.28479e-015 4.05517e-015 0.793353 0.608761"/>
 			<key time="8.53333" value="-5.24921e-015 4.10113e-015 0.788011 0.615661"/>
 			<key time="8.56667" value="-5.21322e-015 4.14678e-015 0.782608 0.622515"/>
 			<key time="8.6" value="-5.17683e-015 4.19212e-015 0.777146 0.629321"/>
@@ -278,14 +278,14 @@
 			<key time="8.8" value="-4.95034e-015 4.4573e-015 0.743145 0.669131"/>
 			<key time="8.83333" value="-4.91125e-015 4.50033e-015 0.737277 0.67559"/>
 			<key time="8.86667" value="-4.87179e-015 4.54302e-015 0.731354 0.681998"/>
-			<key time="8.9" value="-4.83196e-015 4.58536e-015 0.725374 0.688354"/>
-			<key time="8.93333" value="-4.79177e-015 4.62735e-015 0.71934 0.694658"/>
+			<key time="8.9" value="-4.83196e-015 4.58536e-015 0.725374 0.688355"/>
+			<key time="8.93333" value="-4.79177e-015 4.62736e-015 0.71934 0.694658"/>
 			<key time="8.96667" value="-4.7512e-015 4.66899e-015 0.71325 0.700909"/>
 			<key time="9" value="-4.71028e-015 4.71028e-015 0.707107 0.707107"/>
 			<key time="9.03333" value="-4.66899e-015 4.7512e-015 0.700909 0.71325"/>
-			<key time="9.06667" value="-4.62735e-015 4.79177e-015 0.694658 0.71934"/>
-			<key time="9.1" value="-4.58536e-015 4.83196e-015 0.688355 0.725374"/>
-			<key time="9.13333" value="-4.54302e-015 4.87179e-015 0.681998 0.731354"/>
+			<key time="9.06667" value="-4.62736e-015 4.79177e-015 0.694658 0.71934"/>
+			<key time="9.1" value="-4.58537e-015 4.83196e-015 0.688355 0.725374"/>
+			<key time="9.13333" value="-4.54302e-015 4.8718e-015 0.681998 0.731354"/>
 			<key time="9.16667" value="-4.50034e-015 4.91125e-015 0.67559 0.737277"/>
 			<key time="9.2" value="-4.45731e-015 4.95034e-015 0.669131 0.743145"/>
 			<key time="9.23333" value="-4.41394e-015 4.98905e-015 0.66262 0.748956"/>
@@ -332,7 +332,7 @@
 			<key time="10.6" value="-2.38721e-015 6.2189e-015 0.358368 0.933581"/>
 			<key time="10.6333" value="-2.33285e-015 6.23949e-015 0.350207 0.936672"/>
 			<key time="10.6667" value="-2.27831e-015 6.25961e-015 0.34202 0.939693"/>
-			<key time="10.7" value="-2.2236e-015 6.27925e-015 0.333807 0.942642"/>
+			<key time="10.7" value="-2.2236e-015 6.27926e-015 0.333807 0.942642"/>
 			<key time="10.7333" value="-2.16872e-015 6.29842e-015 0.325568 0.945519"/>
 			<key time="10.7667" value="-2.11367e-015 6.31711e-015 0.317304 0.948324"/>
 			<key time="10.8" value="-2.05847e-015 6.33531e-015 0.309017 0.951057"/>
@@ -360,7 +360,7 @@
 			<key time="11.5333" value="-8.11813e-016 6.61169e-015 0.121869 0.992546"/>
 			<key time="11.5667" value="-7.54085e-016 6.61852e-015 0.113203 0.993572"/>
 			<key time="11.6" value="-6.96298e-016 6.62485e-015 0.104528 0.994522"/>
-			<key time="11.6333" value="-6.38458e-016 6.63067e-015 0.0958453 0.995396"/>
+			<key time="11.6333" value="-6.38458e-016 6.63067e-015 0.0958454 0.995396"/>
 			<key time="11.6667" value="-5.80572e-016 6.63599e-015 0.0871554 0.996195"/>
 			<key time="11.7" value="-5.22644e-016 6.6408e-015 0.0784593 0.996917"/>
 			<key time="11.7333" value="-4.6467e-016 6.64511e-015 0.0697562 0.997564"/>
@@ -376,35 +376,35 @@
 	</tracks>
 	<nodes>
 		<node name="fixUp" orientation="-0.707107 0 0 0.707107" position="0 0 0" priority="0" scale="1 1 1" show_box="false" visible="true">
-			<node name="TuboVectorT02RH" orientation="0 6.66134e-015 0 1" position="0 0 9.22461" priority="0" scale="1 1 1" show_box="false" visible="true">
-				<node name="ConoVectorT02RH" orientation="0.500622 -0.499369 -0.500622 -0.499386" position="3.4118 2.49281 0" priority="0" scale="1 1 1" show_box="false" visible="true">
-					<entity name="ConoVectorT02RH_mesh" aab="0 0 0 0 0 0" blend="average" mesh="torque_ConoVectorT02RH_mesh.mesh" priority="0" shadow="false true" visible="true"/>
+			<node name="TuboVectorT02RH_node" orientation="0 6.66134e-015 0 1" position="0 0 9.22461" priority="0" scale="1 1 1" show_box="false" visible="true">
+				<node name="ConoVectorT02RH_node" orientation="0.500622 -0.499369 -0.500622 -0.499386" position="3.4118 2.49281 0" priority="0" scale="1 1 1" show_box="false" visible="true">
+					<entity name="ConoVectorT02RH" aab="0 0 0 0 0 0" blend="average" mesh="torque_ConoVectorT02RH.mesh" priority="0" shadow="false true" visible="true"/>
 				</node>
-				<node name="TextVectorT02RH" orientation="0.499118 0.500869 0.500881 0.49913" position="3.40988 3.04457 1.08523" priority="0" scale="1 1 1" show_box="false" visible="true">
-					<node name="flechaVectorT02RH" orientation="-0.5 0.5 0.5 -0.5" position="4.00543e-005 0.372417 0" priority="0" scale="1 1 1" show_box="false" visible="true">
-						<node name="flecha2VectorT02RH" orientation="-6.20115e-011 -0.422618 2.87784e-011 0.906308" position="0 0 -0.35" priority="0" scale="1 1 1" show_box="false" visible="true">
-							<entity name="flecha2VectorT02RH_mesh" aab="0 0 0 0 0 0" blend="average" mesh="torque_flecha2VectorT02RH_mesh.mesh" priority="0" shadow="false true" visible="true"/>
+				<node name="TextVectorT02RH_node" orientation="0.499118 0.500869 0.500881 0.49913" position="3.40988 3.04457 1.08523" priority="0" scale="1 1 1" show_box="false" visible="true">
+					<node name="flechaVectorT02RH_node" orientation="-0.5 0.5 0.5 -0.5" position="4.00543e-005 0.372417 0" priority="0" scale="1 1 1" show_box="false" visible="true">
+						<node name="flecha2VectorT02RH_node" orientation="-6.20115e-011 -0.422618 2.87784e-011 0.906308" position="0 0 -0.35" priority="0" scale="1 1 1" show_box="false" visible="true">
+							<entity name="flecha2VectorT02RH" aab="0 0 0 0 0 0" blend="average" mesh="torque_flecha2VectorT02RH.mesh" priority="0" shadow="false true" visible="true"/>
 						</node>
-						<entity name="flechaVectorT02RH_mesh" aab="0 0 0 0 0 0" blend="average" mesh="torque_flechaVectorT02RH_mesh.mesh" priority="0" shadow="false true" visible="true"/>
+						<entity name="flechaVectorT02RH" aab="0 0 0 0 0 0" blend="average" mesh="torque_flechaVectorT02RH.mesh" priority="0" shadow="false true" visible="true"/>
 					</node>
-					<entity name="TextVectorT02RH_mesh" aab="0 0 0 0 0 0" blend="average" mesh="torque_TextVectorT02RH_mesh.mesh" priority="0" shadow="false true" visible="true"/>
+					<entity name="TextVectorT02RH" aab="0 0 0 0 0 0" blend="average" mesh="torque_TextVectorT02RH.mesh" priority="0" shadow="false true" visible="true"/>
 				</node>
-				<node name="TuboVectorR02RH" orientation="9.13385e-006 1.49299e-008 3.14728e-006 1" position="-8.32348e-008 0 -9.22463" priority="0" scale="1 1 1" show_box="false" visible="true">
-					<node name="ConoVectorR02RH" orientation="-9.19312e-013 0.17364 -8.98823e-014 0.984809" position="2.56502 -0.700145 7.04775" priority="0" scale="1 1 1" show_box="false" visible="true">
-						<entity name="ConoVectorR02RH_mesh" aab="0 0 0 0 0 0" blend="average" mesh="torque_ConoVectorR02RH_mesh.mesh" priority="0" shadow="false true" visible="true"/>
+				<node name="TuboVectorR02RH_node" orientation="9.13385e-006 1.49299e-008 3.14728e-006 1" position="-8.32348e-008 0 -9.22463" priority="0" scale="1 1 1" show_box="false" visible="true">
+					<node name="ConoVectorR02RH_node" orientation="-9.19312e-013 0.17364 -8.98823e-014 0.984809" position="2.56502 -0.700145 7.04775" priority="0" scale="1 1 1" show_box="false" visible="true">
+						<entity name="ConoVectorR02RH" aab="0 0 0 0 0 0" blend="average" mesh="torque_ConoVectorR02RH.mesh" priority="0" shadow="false true" visible="true"/>
 					</node>
-					<node name="TextVectorR02RH" orientation="0.707107 -6.09022e-006 6.09022e-006 0.707107" position="1.56209 -0.70013 6.54522" priority="0" scale="1 1 1" show_box="false" visible="true">
-						<node name="flechaVectorR02RH" orientation="-0.5 0.5 0.5 -0.5" position="0.000196576 0.321559 0" priority="0" scale="1 1 1" show_box="false" visible="true">
-							<node name="flecha2VectorR02RH" orientation="-6.13279e-014 -0.422618 1.8986e-013 0.906308" position="0 0 -0.35" priority="0" scale="1 1 1" show_box="false" visible="true">
-								<entity name="flecha2VectorR02RH_mesh" aab="0 0 0 0 0 0" blend="average" mesh="torque_flecha2VectorR02RH_mesh.mesh" priority="0" shadow="false true" visible="true"/>
+					<node name="TextVectorR02RH_node" orientation="0.707107 -6.09022e-006 6.09022e-006 0.707107" position="1.56209 -0.70013 6.54522" priority="0" scale="1 1 1" show_box="false" visible="true">
+						<node name="flechaVectorR02RH_node" orientation="-0.5 0.5 0.5 -0.5" position="0.000196576 0.321559 0" priority="0" scale="1 1 1" show_box="false" visible="true">
+							<node name="flecha2VectorR02RH_node" orientation="-6.13279e-014 -0.422618 1.8986e-013 0.906308" position="0 0 -0.35" priority="0" scale="1 1 1" show_box="false" visible="true">
+								<entity name="flecha2VectorR02RH" aab="0 0 0 0 0 0" blend="average" mesh="torque_flecha2VectorR02RH.mesh" priority="0" shadow="false true" visible="true"/>
 							</node>
-							<entity name="flechaVectorR02RH_mesh" aab="0 0 0 0 0 0" blend="average" mesh="torque_flechaVectorR02RH_mesh.mesh" priority="0" shadow="false true" visible="true"/>
+							<entity name="flechaVectorR02RH" aab="0 0 0 0 0 0" blend="average" mesh="torque_flechaVectorR02RH.mesh" priority="0" shadow="false true" visible="true"/>
 						</node>
-						<entity name="TextVectorR02RH_mesh" aab="0 0 0 0 0 0" blend="average" mesh="torque_TextVectorR02RH_mesh.mesh" priority="0" shadow="false true" visible="true"/>
+						<entity name="TextVectorR02RH" aab="0 0 0 0 0 0" blend="average" mesh="torque_TextVectorR02RH.mesh" priority="0" shadow="false true" visible="true"/>
 					</node>
-					<entity name="TuboVectorR02RH_mesh" aab="0 0 0 0 0 0" blend="average" mesh="torque_TuboVectorR02RH_mesh.mesh" priority="0" shadow="false true" visible="true"/>
+					<entity name="TuboVectorR02RH" aab="0 0 0 0 0 0" blend="average" mesh="torque_TuboVectorR02RH.mesh" priority="0" shadow="false true" visible="true"/>
 				</node>
-				<entity name="TuboVectorT02RH_mesh" aab="0 0 0 0 0 0" blend="average" mesh="torque_TuboVectorT02RH_mesh.mesh" priority="0" shadow="false true" visible="true"/>
+				<entity name="TuboVectorT02RH" aab="0 0 0 0 0 0" blend="average" mesh="torque_TuboVectorT02RH.mesh" priority="0" shadow="false true" visible="true"/>
 			</node>
 		</node>
 	</nodes>
