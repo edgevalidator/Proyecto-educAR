@@ -1,16 +1,16 @@
 <scene version="0.2">
-	<info source="C:\Users\Matias Cuadrado\Desktop\exportados 02-09\02-lento-antihorario (US 18)\giroscopo_02.max" profile="public" shared_geometry="false" build_edges="false" build_tangents="false" exporter="Exporter 3DSMax3.20.22766"/>
+	<info source="C:\Users\Matias Cuadrado\Desktop\giroscopo_02.max" profile="public" shared_geometry="false" build_edges="false" build_tangents="false" exporter="Exporter 3DSMax3.25.24177"/>
 	<settings>
 		<environment ambient="0 0 0" background="0 0 0" camera=""/>
 		<shadow color="0 0 0" distance="10000" self="false" setup="uniform" size="1024 1" technique="none"/>
 	</settings>
 	<animations>
 		<animation name="Timeline" loop="false" length="-1" priority="0">
-			<bind target="TuboVectorFr02LA" attribute="orientation" track="TuboVectorFr02LA_Timeline_orientationTrack" loop="false" mode="absolute" reset="true" short="true" weight="1"/>
+			<bind target="TuboVectorFr02LA_node" attribute="orientation" track="TuboVectorFr02LA_node_Timeline_orientationTrack" loop="false" mode="absolute" reset="true" short="true" weight="1"/>
 		</animation>
 	</animations>
 	<tracks>
-		<track name="TuboVectorFr02LA_Timeline_orientationTrack">
+		<track name="TuboVectorFr02LA_node_Timeline_orientationTrack">
 			<key time="0" value="-1.56319e-013 -2.44358e-026 1.56319e-013 1"/>
 			<key time="0.0333333" value="-1.56296e-013 -2.72815e-015 0.0174524 0.999848"/>
 			<key time="0.0666667" value="-1.56224e-013 -5.45547e-015 0.0348995 0.999391"/>
@@ -42,7 +42,7 @@
 			<key time="0.933333" value="-1.38022e-013 -7.33875e-014 0.469472 0.882948"/>
 			<key time="0.966667" value="-1.3672e-013 -7.57852e-014 0.48481 0.87462"/>
 			<key time="1" value="-1.35377e-013 -7.81597e-014 0.5 0.866025"/>
-			<key time="1.03333" value="-1.33992e-013 -8.05104e-014 0.515038 0.857167"/>
+			<key time="1.03333" value="-1.33992e-013 -8.05105e-014 0.515038 0.857167"/>
 			<key time="1.06667" value="-1.32566e-013 -8.28367e-014 0.529919 0.848048"/>
 			<key time="1.1" value="-1.311e-013 -8.51376e-014 0.544639 0.838671"/>
 			<key time="1.13333" value="-1.29595e-013 -8.74127e-014 0.559193 0.829038"/>
@@ -65,7 +65,7 @@
 			<key time="1.7" value="-9.8375e-014 -1.21483e-013 0.777146 0.62932"/>
 			<key time="1.73333" value="-9.62398e-014 -1.23181e-013 0.788011 0.615661"/>
 			<key time="1.76667" value="-9.40754e-014 -1.24842e-013 0.798636 0.601815"/>
-			<key time="1.8" value="-9.18823e-014 -1.26465e-013 0.809017 0.587785"/>
+			<key time="1.8" value="-9.18822e-014 -1.26465e-013 0.809017 0.587785"/>
 			<key time="1.83333" value="-8.96611e-014 -1.28049e-013 0.819152 0.573576"/>
 			<key time="1.86667" value="-8.74127e-014 -1.29595e-013 0.829038 0.559193"/>
 			<key time="1.9" value="-8.51377e-014 -1.31101e-013 0.838671 0.544639"/>
@@ -85,7 +85,7 @@
 			<key time="2.36667" value="-5.08926e-014 -1.47803e-013 0.945519 0.325568"/>
 			<key time="2.4" value="-4.83053e-014 -1.48669e-013 0.951057 0.309017"/>
 			<key time="2.43333" value="-4.57034e-014 -1.49489e-013 0.956305 0.292372"/>
-			<key time="2.46667" value="-4.30875e-014 -1.50264e-013 0.961262 0.275637"/>
+			<key time="2.46667" value="-4.30874e-014 -1.50264e-013 0.961262 0.275637"/>
 			<key time="2.5" value="-4.04584e-014 -1.50993e-013 0.965926 0.258819"/>
 			<key time="2.53333" value="-3.78171e-014 -1.51676e-013 0.970296 0.241922"/>
 			<key time="2.56667" value="-3.51642e-014 -1.52313e-013 0.97437 0.224951"/>
@@ -156,7 +156,7 @@
 			<key time="4.73333" value="-1.23181e-013 9.62398e-014 -0.615661 0.788011"/>
 			<key time="4.76667" value="-1.24842e-013 9.40753e-014 -0.601815 0.798636"/>
 			<key time="4.8" value="-1.26465e-013 9.18823e-014 -0.587785 0.809017"/>
-			<key time="4.83333" value="-1.28049e-013 8.96611e-014 -0.573577 0.819152"/>
+			<key time="4.83333" value="-1.28049e-013 8.96611e-014 -0.573576 0.819152"/>
 			<key time="4.86667" value="-1.29595e-013 8.74127e-014 -0.559193 0.829038"/>
 			<key time="4.9" value="-1.31101e-013 8.51376e-014 -0.544639 0.838671"/>
 			<key time="4.93333" value="-1.32566e-013 8.28367e-014 -0.52992 0.848048"/>
@@ -196,50 +196,50 @@
 	</tracks>
 	<nodes>
 		<node name="fixUp" orientation="-0.707107 0 0 0.707107" position="0 0 0" priority="0" scale="1 1 1" show_box="false" visible="true">
-			<node name="TuboVectorFr02LA" orientation="-1.56319e-013 -2.44358e-026 1.56319e-013 1" position="-1.16081e-007 0 -7.38964e-013" priority="0" scale="1 1 1" show_box="false" visible="true">
-				<node name="ConoVectorFr02LA" orientation="2.15419e-020 0.707107 -2.37573e-021 0.707107" position="2 -0.700001 2.38419e-007" priority="0" scale="1 1 1" show_box="false" visible="true">
-					<entity name="ConoVectorFr02LA_mesh" aab="0 0 0 0 0 0" blend="average" mesh="fuerzas_ConoVectorFr02LA_mesh.mesh" priority="0" shadow="false true" visible="true"/>
+			<node name="TuboVectorFr02LA_node" orientation="-1.56319e-013 -2.44358e-026 1.56319e-013 1" position="-1.16081e-007 0 -7.38964e-013" priority="0" scale="1 1 1" show_box="false" visible="true">
+				<node name="ConoVectorFr02LA_node" orientation="2.15419e-020 0.707107 -2.37573e-021 0.707107" position="2 -0.700001 2.38419e-007" priority="0" scale="1 1 1" show_box="false" visible="true">
+					<entity name="ConoVectorFr02LA" aab="0 0 0 0 0 0" blend="average" mesh="fuerzas_ConoVectorFr02LA.mesh" priority="0" shadow="false true" visible="true"/>
 				</node>
-				<node name="TextVectorFr02LA" orientation="0.707107 -4.21468e-008 4.21468e-008 0.707107" position="4.5014 -0.700002 0.562203" priority="0" scale="1 1 1" show_box="false" visible="true">
-					<node name="flechaVectorFr02LA" orientation="-0.5 0.5 0.5 -0.5" position="-0.00040102 0.613044 -5.96046e-008" priority="0" scale="1 1 1" show_box="false" visible="true">
-						<node name="flecha2VectorFr02LA" orientation="4.34262e-015 -0.422618 5.77232e-016 0.906308" position="0 0 -0.35" priority="0" scale="1 1 1" show_box="false" visible="true">
-							<entity name="flecha2VectorFr02LA_mesh" aab="0 0 0 0 0 0" blend="average" mesh="fuerzas_flecha2VectorFr02LA_mesh.mesh" priority="0" shadow="false true" visible="true"/>
+				<node name="TextVectorFr02LA_node" orientation="0.707107 -4.21468e-008 4.21468e-008 0.707107" position="4.5014 -0.700002 0.562203" priority="0" scale="1 1 1" show_box="false" visible="true">
+					<node name="flechaVectorFr02LA_node" orientation="-0.5 0.5 0.5 -0.5" position="-0.00040102 0.613044 -5.96046e-008" priority="0" scale="1 1 1" show_box="false" visible="true">
+						<node name="flecha2VectorFr02LA_node" orientation="4.34262e-015 -0.422618 5.77232e-016 0.906308" position="0 0 -0.35" priority="0" scale="1 1 1" show_box="false" visible="true">
+							<entity name="flecha2VectorFr02LA" aab="0 0 0 0 0 0" blend="average" mesh="fuerzas_flecha2VectorFr02LA.mesh" priority="0" shadow="false true" visible="true"/>
 						</node>
-						<entity name="flechaVectorFr02LA_mesh" aab="0 0 0 0 0 0" blend="average" mesh="fuerzas_flechaVectorFr02LA_mesh.mesh" priority="0" shadow="false true" visible="true"/>
+						<entity name="flechaVectorFr02LA" aab="0 0 0 0 0 0" blend="average" mesh="fuerzas_flechaVectorFr02LA.mesh" priority="0" shadow="false true" visible="true"/>
 					</node>
-					<entity name="TextVectorFr02LA_mesh" aab="0 0 0 0 0 0" blend="average" mesh="fuerzas_TextVectorFr02LA_mesh.mesh" priority="0" shadow="false true" visible="true"/>
+					<entity name="TextVectorFr02LA" aab="0 0 0 0 0 0" blend="average" mesh="fuerzas_TextVectorFr02LA.mesh" priority="0" shadow="false true" visible="true"/>
 				</node>
-				<node name="TuboVectorN02LA" orientation="1.94767e-012 6.93921e-009 1.59545e-013 1" position="0 -6.46235e-027 -5.42101e-020" priority="0" scale="1 1 1" show_box="false" visible="true">
-					<node name="ConoVectorN02LA" orientation="-5.42101e-020 1.34773e-039 -2.71051e-020 1" position="-4.40536e-013 -0.7 2" priority="0" scale="1 1 1" show_box="false" visible="true">
-						<entity name="ConoVectorN02LA_mesh" aab="0 0 0 0 0 0" blend="average" mesh="fuerzas_ConoVectorN02LA_mesh.mesh" priority="0" shadow="false true" visible="true"/>
+				<node name="TuboVectorN02LA_node" orientation="1.94767e-012 6.93921e-009 1.59545e-013 1" position="0 -6.46235e-027 -5.42101e-020" priority="0" scale="1 1 1" show_box="false" visible="true">
+					<node name="ConoVectorN02LA_node" orientation="-5.42101e-020 1.34773e-039 -2.71051e-020 1" position="-4.40536e-013 -0.7 2" priority="0" scale="1 1 1" show_box="false" visible="true">
+						<entity name="ConoVectorN02LA" aab="0 0 0 0 0 0" blend="average" mesh="fuerzas_ConoVectorN02LA.mesh" priority="0" shadow="false true" visible="true"/>
 					</node>
-					<node name="TextVectorN02LA" orientation="0.707107 -2.2762e-020 -2.2762e-020 0.707107" position="0.536006 -0.7 3.7825" priority="0" scale="1 1 1" show_box="false" visible="true">
-						<node name="flechaVectorN02LA" orientation="-0.5 0.5 0.5 -0.5" position="-0.00043416 0.578176 0" priority="0" scale="1 1 1" show_box="false" visible="true">
-							<node name="flecha2VectorN02LA" orientation="3.02437e-015 -0.422618 -3.09501e-016 0.906308" position="0 0 -0.35" priority="0" scale="1 1 1" show_box="false" visible="true">
-								<entity name="flecha2VectorN02LA_mesh" aab="0 0 0 0 0 0" blend="average" mesh="fuerzas_flecha2VectorN02LA_mesh.mesh" priority="0" shadow="false true" visible="true"/>
+					<node name="TextVectorN02LA_node" orientation="0.707107 -2.2762e-020 -2.2762e-020 0.707107" position="5.96046e-008 -0.7 4.28281" priority="0" scale="1 1 1" show_box="false" visible="true">
+						<node name="flechaVectorN02LA_node" orientation="-0.5 0.5 0.5 -0.5" position="-0.00043416 0.578176 -5.96046e-008" priority="0" scale="1 1 1" show_box="false" visible="true">
+							<node name="flecha2VectorN02LA_node" orientation="3.02437e-015 -0.422618 -3.09501e-016 0.906308" position="0 0 -0.35" priority="0" scale="1 1 1" show_box="false" visible="true">
+								<entity name="flecha2VectorN02LA" aab="0 0 0 0 0 0" blend="average" mesh="fuerzas_flecha2VectorN02LA.mesh" priority="0" shadow="false true" visible="true"/>
 							</node>
-							<entity name="flechaVectorN02LA_mesh" aab="0 0 0 0 0 0" blend="average" mesh="fuerzas_flechaVectorN02LA_mesh.mesh" priority="0" shadow="false true" visible="true"/>
+							<entity name="flechaVectorN02LA" aab="0 0 0 0 0 0" blend="average" mesh="fuerzas_flechaVectorN02LA.mesh" priority="0" shadow="false true" visible="true"/>
 						</node>
-						<entity name="TextVectorN02LA_mesh" aab="0 0 0 0 0 0" blend="average" mesh="fuerzas_TextVectorN02LA_mesh.mesh" priority="0" shadow="false true" visible="true"/>
+						<entity name="TextVectorN02LA" aab="0 0 0 0 0 0" blend="average" mesh="fuerzas_TextVectorN02LA.mesh" priority="0" shadow="false true" visible="true"/>
 					</node>
-					<entity name="TuboVectorN02LA_mesh" aab="0 0 0 0 0 0" blend="average" mesh="fuerzas_TuboVectorN02LA_mesh.mesh" priority="0" shadow="false true" visible="true"/>
+					<entity name="TuboVectorN02LA" aab="0 0 0 0 0 0" blend="average" mesh="fuerzas_TuboVectorN02LA.mesh" priority="0" shadow="false true" visible="true"/>
 				</node>
-				<node name="TuboVectorP02LA" orientation="-2.38419e-007 5.68435e-014 -2.38419e-007 1" position="1.16081e-007 -2.59412e-012 8.29749" priority="0" scale="1 1 1" show_box="false" visible="true">
-					<node name="ConoVectorP02LA" orientation="-1.04216e-014 1 -1.42109e-014 7.54979e-008" position="3.09401 -0.699995 -2" priority="0" scale="1 1 1" show_box="false" visible="true">
-						<entity name="ConoVectorP02LA_mesh" aab="0 0 0 0 0 0" blend="average" mesh="fuerzas_ConoVectorP02LA_mesh.mesh" priority="0" shadow="false true" visible="true"/>
+				<node name="TuboVectorP02LA_node" orientation="-2.38419e-007 5.68435e-014 -2.38419e-007 1" position="1.16081e-007 -2.59412e-012 8.29749" priority="0" scale="1 1 1" show_box="false" visible="true">
+					<node name="ConoVectorP02LA_node" orientation="-1.04216e-014 1 -1.42109e-014 7.54979e-008" position="3.09401 -0.699995 -2" priority="0" scale="1 1 1" show_box="false" visible="true">
+						<entity name="ConoVectorP02LA" aab="0 0 0 0 0 0" blend="average" mesh="fuerzas_ConoVectorP02LA.mesh" priority="0" shadow="false true" visible="true"/>
 					</node>
-					<node name="TextVectorP02LA" orientation="0.707107 -8.42937e-008 2.24765e-008 0.707107" position="3.9251 -0.699993 -3.04007" priority="0" scale="1 1 1" show_box="false" visible="true">
-						<node name="flechaVectorP02LA" orientation="-0.5 0.5 0.5 -0.5" position="0.000380516 0.528873 0" priority="0" scale="1 1 1" show_box="false" visible="true">
-							<node name="flecha2VectorP02LA" orientation="-1.74673e-015 -0.422618 -7.02546e-015 0.906308" position="0 -5.96046e-008 -0.35" priority="0" scale="1 1 1" show_box="false" visible="true">
-								<entity name="flecha2VectorP02LA_mesh" aab="0 0 0 0 0 0" blend="average" mesh="fuerzas_flecha2VectorP02LA_mesh.mesh" priority="0" shadow="false true" visible="true"/>
+					<node name="TextVectorP02LA_node" orientation="0.707107 -8.42937e-008 2.24765e-008 0.707107" position="3.9251 -0.699993 -3.04007" priority="0" scale="1 1 1" show_box="false" visible="true">
+						<node name="flechaVectorP02LA_node" orientation="-0.5 0.5 0.5 -0.5" position="0.000380516 0.528873 0" priority="0" scale="1 1 1" show_box="false" visible="true">
+							<node name="flecha2VectorP02LA_node" orientation="-1.74673e-015 -0.422618 -7.02546e-015 0.906308" position="0 -5.96046e-008 -0.35" priority="0" scale="1 1 1" show_box="false" visible="true">
+								<entity name="flecha2VectorP02LA" aab="0 0 0 0 0 0" blend="average" mesh="fuerzas_flecha2VectorP02LA.mesh" priority="0" shadow="false true" visible="true"/>
 							</node>
-							<entity name="flechaVectorP02LA_mesh" aab="0 0 0 0 0 0" blend="average" mesh="fuerzas_flechaVectorP02LA_mesh.mesh" priority="0" shadow="false true" visible="true"/>
+							<entity name="flechaVectorP02LA" aab="0 0 0 0 0 0" blend="average" mesh="fuerzas_flechaVectorP02LA.mesh" priority="0" shadow="false true" visible="true"/>
 						</node>
-						<entity name="TextVectorP02LA_mesh" aab="0 0 0 0 0 0" blend="average" mesh="fuerzas_TextVectorP02LA_mesh.mesh" priority="0" shadow="false true" visible="true"/>
+						<entity name="TextVectorP02LA" aab="0 0 0 0 0 0" blend="average" mesh="fuerzas_TextVectorP02LA.mesh" priority="0" shadow="false true" visible="true"/>
 					</node>
-					<entity name="TuboVectorP02LA_mesh" aab="0 0 0 0 0 0" blend="average" mesh="fuerzas_TuboVectorP02LA_mesh.mesh" priority="0" shadow="false true" visible="true"/>
+					<entity name="TuboVectorP02LA" aab="0 0 0 0 0 0" blend="average" mesh="fuerzas_TuboVectorP02LA.mesh" priority="0" shadow="false true" visible="true"/>
 				</node>
-				<entity name="TuboVectorFr02LA_mesh" aab="0 0 0 0 0 0" blend="average" mesh="fuerzas_TuboVectorFr02LA_mesh.mesh" priority="0" shadow="false true" visible="true"/>
+				<entity name="TuboVectorFr02LA" aab="0 0 0 0 0 0" blend="average" mesh="fuerzas_TuboVectorFr02LA.mesh" priority="0" shadow="false true" visible="true"/>
 			</node>
 		</node>
 	</nodes>

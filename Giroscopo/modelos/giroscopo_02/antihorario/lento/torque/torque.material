@@ -1,4 +1,4 @@
-material torque/Material0
+material torque/Material4
 {
 	technique
 	{
@@ -8,9 +8,11 @@ material torque/Material0
 			diffuse 0.588 0.588 0.588 1
 			specular 0 0 0 12.8
 			emissive 0 0 0
+
+
 			texture_unit
 			{
-				texture naranja.png
+				texture rojo.png
 			}
 		}
 	}
