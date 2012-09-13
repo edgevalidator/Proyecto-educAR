@@ -1,16 +1,16 @@
 <scene version="0.2">
-	<info source="C:\Users\Matias Cuadrado\Desktop\exportados 02-09\02-lento-antihorario (US 18)\giroscopo_02.max" profile="public" shared_geometry="false" build_edges="false" build_tangents="false" exporter="Exporter 3DSMax3.20.22766"/>
+	<info source="C:\Users\Matias Cuadrado\Desktop\giroscopo_02.max" profile="public" shared_geometry="false" build_edges="false" build_tangents="false" exporter="Exporter 3DSMax3.25.24177"/>
 	<settings>
 		<environment ambient="0 0 0" background="0 0 0" camera=""/>
 		<shadow color="0 0 0" distance="10000" self="false" setup="uniform" size="1024 1" technique="none"/>
 	</settings>
 	<animations>
 		<animation name="Timeline" loop="false" length="-1" priority="0">
-			<bind target="TuboVectorL02LA" attribute="orientation" track="TuboVectorL02LA_Timeline_orientationTrack" loop="false" mode="absolute" reset="true" short="true" weight="1"/>
+			<bind target="TuboVectorL02LA_node" attribute="orientation" track="TuboVectorL02LA_node_Timeline_orientationTrack" loop="false" mode="absolute" reset="true" short="true" weight="1"/>
 		</animation>
 	</animations>
 	<tracks>
-		<track name="TuboVectorL02LA_Timeline_orientationTrack">
+		<track name="TuboVectorL02LA_node_Timeline_orientationTrack">
 			<key time="0" value="1.90632e-012 -1.49012e-008 9.67864e-013 1"/>
 			<key time="0.0333333" value="2.61967e-010 -1.48989e-008 0.0174524 0.999848"/>
 			<key time="0.0666667" value="5.21948e-010 -1.4892e-008 0.0348995 0.999391"/>
@@ -63,7 +63,7 @@
 			<key time="1.63333" value="1.12473e-008 -9.7746e-009 0.75471 0.656059"/>
 			<key time="1.66667" value="1.14162e-008 -9.57682e-009 0.766044 0.642788"/>
 			<key time="1.7" value="1.15816e-008 -9.37612e-009 0.777146 0.62932"/>
-			<key time="1.73333" value="1.17435e-008 -9.17257e-009 0.788011 0.615661"/>
+			<key time="1.73333" value="1.17434e-008 -9.17257e-009 0.788011 0.615661"/>
 			<key time="1.76667" value="1.19017e-008 -8.96622e-009 0.798636 0.601815"/>
 			<key time="1.8" value="1.20564e-008 -8.75714e-009 0.809017 0.587785"/>
 			<key time="1.83333" value="1.22074e-008 -8.54539e-009 0.819152 0.573576"/>
@@ -76,10 +76,10 @@
 			<key time="2.06667" value="1.31578e-008 -6.99399e-009 0.882948 0.469472"/>
 			<key time="2.1" value="1.32779e-008 -6.76329e-009 0.891007 0.45399"/>
 			<key time="2.13333" value="1.33939e-008 -6.53053e-009 0.898794 0.438371"/>
-			<key time="2.16667" value="1.35058e-008 -6.29577e-009 0.906308 0.422618"/>
+			<key time="2.16667" value="1.35058e-008 -6.29578e-009 0.906308 0.422618"/>
 			<key time="2.2" value="1.36137e-008 -6.05911e-009 0.913545 0.406737"/>
 			<key time="2.23333" value="1.37173e-008 -5.82059e-009 0.920505 0.390731"/>
-			<key time="2.26667" value="1.38168e-008 -5.5803e-009 0.927184 0.374607"/>
+			<key time="2.26667" value="1.38168e-008 -5.58031e-009 0.927184 0.374607"/>
 			<key time="2.3" value="1.39121e-008 -5.33832e-009 0.93358 0.358368"/>
 			<key time="2.33333" value="1.40032e-008 -5.09471e-009 0.939693 0.34202"/>
 			<key time="2.36667" value="1.40899e-008 -4.84954e-009 0.945519 0.325568"/>
@@ -162,7 +162,7 @@
 			<key time="4.93333" value="-7.8948e-009 -1.26379e-008 -0.52992 0.848048"/>
 			<key time="4.96667" value="-7.67303e-009 -1.27738e-008 -0.515038 0.857167"/>
 			<key time="5" value="-7.44893e-009 -1.29057e-008 -0.5 0.866025"/>
-			<key time="5.03333" value="-7.22256e-009 -1.30338e-008 -0.484809 0.87462"/>
+			<key time="5.03333" value="-7.22255e-009 -1.30338e-008 -0.484809 0.87462"/>
 			<key time="5.06667" value="-6.99399e-009 -1.31578e-008 -0.469472 0.882948"/>
 			<key time="5.1" value="-6.76328e-009 -1.32779e-008 -0.45399 0.891007"/>
 			<key time="5.13333" value="-6.53053e-009 -1.33939e-008 -0.438371 0.898794"/>
@@ -196,20 +196,20 @@
 	</tracks>
 	<nodes>
 		<node name="fixUp" orientation="-0.707107 0 0 0.707107" position="0 0 0" priority="0" scale="1 1 1" show_box="false" visible="true">
-			<node name="TuboVectorL02LA" orientation="1.90632e-012 -1.49012e-008 9.67864e-013 1" position="0 -9.6767e-007 17.1895" priority="0" scale="1 1 1" show_box="false" visible="true">
-				<node name="ConoVectorL02LA" orientation="4.89058e-020 0.173648 1.59982e-020 0.984808" position="6.17768 -1.58025e-011 0.940138" priority="0" scale="1 1 1" show_box="false" visible="true">
-					<entity name="ConoVectorL02LA_mesh" aab="0 0 0 0 0 0" blend="average" mesh="momento_angular_ConoVectorL02LA_mesh.mesh" priority="0" shadow="false true" visible="true"/>
+			<node name="TuboVectorL02LA_node" orientation="1.90632e-012 -1.49012e-008 9.67864e-013 1" position="0 -9.6767e-007 17.1895" priority="0" scale="1 1 1" show_box="false" visible="true">
+				<node name="ConoVectorL02LA_node" orientation="4.89058e-020 0.173648 1.59982e-020 0.984808" position="6.17768 -1.58025e-011 0.940138" priority="0" scale="1 1 1" show_box="false" visible="true">
+					<entity name="ConoVectorL02LA" aab="0 0 0 0 0 0" blend="average" mesh="momento_angular_ConoVectorL02LA.mesh" priority="0" shadow="false true" visible="true"/>
 				</node>
-				<node name="TextVectorL02LA" orientation="0.707107 3.16101e-008 -3.16101e-008 0.707107" position="5.67385 -2.04636e-011 2.34335" priority="0" scale="1 1 1" show_box="false" visible="true">
-					<node name="flechaVectorL02LA" orientation="-0.5 0.5 0.5 -0.5" position="0.000104427 0.578178 -9.12223e-010" priority="0" scale="1 1 1" show_box="false" visible="true">
-						<node name="flecha2VectorL02LA" orientation="-3.27625e-015 -0.422618 -2.39225e-015 0.906308" position="0 1.86253e-009 -0.35" priority="0" scale="1 1 1" show_box="false" visible="true">
-							<entity name="flecha2VectorL02LA_mesh" aab="0 0 0 0 0 0" blend="average" mesh="momento_angular_flecha2VectorL02LA_mesh.mesh" priority="0" shadow="false true" visible="true"/>
+				<node name="TextVectorL02LA_node" orientation="0.707107 3.16101e-008 -3.16101e-008 0.707107" position="5.67385 -2.04636e-011 2.34335" priority="0" scale="1 1 1" show_box="false" visible="true">
+					<node name="flechaVectorL02LA_node" orientation="-0.5 0.5 0.5 -0.5" position="0.000104427 0.578178 -9.12223e-010" priority="0" scale="1 1 1" show_box="false" visible="true">
+						<node name="flecha2VectorL02LA_node" orientation="-3.27625e-015 -0.422618 -2.39225e-015 0.906308" position="0 1.86253e-009 -0.35" priority="0" scale="1 1 1" show_box="false" visible="true">
+							<entity name="flecha2VectorL02LA" aab="0 0 0 0 0 0" blend="average" mesh="momento_angular_flecha2VectorL02LA.mesh" priority="0" shadow="false true" visible="true"/>
 						</node>
-						<entity name="flechaVectorL02LA_mesh" aab="0 0 0 0 0 0" blend="average" mesh="momento_angular_flechaVectorL02LA_mesh.mesh" priority="0" shadow="false true" visible="true"/>
+						<entity name="flechaVectorL02LA" aab="0 0 0 0 0 0" blend="average" mesh="momento_angular_flechaVectorL02LA.mesh" priority="0" shadow="false true" visible="true"/>
 					</node>
-					<entity name="TextVectorL02LA_mesh" aab="0 0 0 0 0 0" blend="average" mesh="momento_angular_TextVectorL02LA_mesh.mesh" priority="0" shadow="false true" visible="true"/>
+					<entity name="TextVectorL02LA" aab="0 0 0 0 0 0" blend="average" mesh="momento_angular_TextVectorL02LA.mesh" priority="0" shadow="false true" visible="true"/>
 				</node>
-				<entity name="TuboVectorL02LA_mesh" aab="0 0 0 0 0 0" blend="average" mesh="momento_angular_TuboVectorL02LA_mesh.mesh" priority="0" shadow="false true" visible="true"/>
+				<entity name="TuboVectorL02LA" aab="0 0 0 0 0 0" blend="average" mesh="momento_angular_TuboVectorL02LA.mesh" priority="0" shadow="false true" visible="true"/>
 			</node>
 		</node>
 	</nodes>

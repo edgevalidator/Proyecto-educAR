@@ -1,22 +1,22 @@
 <scene version="0.2">
-	<info source="C:\Users\Matias Cuadrado\Desktop\exportados 02-09\02-lento-antihorario (US 18)\giroscopo_02.max" profile="public" shared_geometry="false" build_edges="false" build_tangents="false" exporter="Exporter 3DSMax3.20.22766"/>
+	<info source="C:\Users\Matias Cuadrado\Desktop\giroscopo_02.max" profile="public" shared_geometry="false" build_edges="false" build_tangents="false" exporter="Exporter 3DSMax3.25.24177"/>
 	<settings>
 		<environment ambient="0 0 0" background="0 0 0" camera=""/>
 		<shadow color="0 0 0" distance="10000" self="false" setup="uniform" size="1024 1" technique="none"/>
 	</settings>
 	<animations>
 		<animation name="Timeline" loop="false" length="-1" priority="0">
-			<bind target="TuboVectorT02LA" attribute="orientation" track="TuboVectorT02LA_Timeline_orientationTrack" loop="false" mode="absolute" reset="true" short="true" weight="1"/>
+			<bind target="TuboVectorT02LA_node" attribute="orientation" track="TuboVectorT02LA_node_Timeline_orientationTrack" loop="false" mode="absolute" reset="true" short="true" weight="1"/>
 		</animation>
 	</animations>
 	<tracks>
-		<track name="TuboVectorT02LA_Timeline_orientationTrack">
+		<track name="TuboVectorT02LA_node_Timeline_orientationTrack">
 			<key time="0" value="0 0 0 1"/>
 			<key time="0.0333333" value="0 0 0.0174524 0.999848"/>
 			<key time="0.0666667" value="0 0 0.0348995 0.999391"/>
 			<key time="0.1" value="0 0 0.052336 0.99863"/>
 			<key time="0.133333" value="0 0 0.0697565 0.997564"/>
-			<key time="0.166667" value="0 0 0.0871558 0.996195"/>
+			<key time="0.166667" value="0 0 0.0871557 0.996195"/>
 			<key time="0.2" value="0 0 0.104528 0.994522"/>
 			<key time="0.233333" value="0 0 0.121869 0.992546"/>
 			<key time="0.266667" value="0 0 0.139173 0.990268"/>
@@ -64,7 +64,7 @@
 			<key time="1.66667" value="0 0 0.766044 0.642788"/>
 			<key time="1.7" value="0 0 0.777146 0.62932"/>
 			<key time="1.73333" value="0 0 0.788011 0.615662"/>
-			<key time="1.76667" value="0 0 0.798636 0.601815"/>
+			<key time="1.76667" value="0 0 0.798635 0.601815"/>
 			<key time="1.8" value="0 0 0.809017 0.587785"/>
 			<key time="1.83333" value="0 0 0.819152 0.573576"/>
 			<key time="1.86667" value="0 0 0.829038 0.559193"/>
@@ -140,7 +140,7 @@
 			<key time="4.2" value="0 0 -0.809017 0.587785"/>
 			<key time="4.23333" value="0 0 -0.798635 0.601815"/>
 			<key time="4.26667" value="0 0 -0.788011 0.615662"/>
-			<key time="4.3" value="0 0 -0.777146 0.62932"/>
+			<key time="4.3" value="0 0 -0.777146 0.629321"/>
 			<key time="4.33333" value="0 0 -0.766044 0.642788"/>
 			<key time="4.36667" value="0 0 -0.75471 0.656059"/>
 			<key time="4.4" value="0 0 -0.743145 0.669131"/>
@@ -196,35 +196,35 @@
 	</tracks>
 	<nodes>
 		<node name="fixUp" orientation="-0.707107 0 0 0.707107" position="0 0 0" priority="0" scale="1 1 1" show_box="false" visible="true">
-			<node name="TuboVectorT02LA" orientation="0 0 0 1" position="0 0 9.22454" priority="0" scale="1 1 1" show_box="false" visible="true">
-				<node name="ConoVectorT02LA" orientation="0.5 -0.5 -0.5 -0.5" position="3.41897 2.49298 -9.53674e-007" priority="0" scale="1 1 1" show_box="false" visible="true">
-					<entity name="ConoVectorT02LA_mesh" aab="0 0 0 0 0 0" blend="average" mesh="torque_ConoVectorT02LA_mesh.mesh" priority="0" shadow="false true" visible="true"/>
+			<node name="TuboVectorT02LA_node" orientation="0 0 0 1" position="0 0 9.22454" priority="0" scale="1 1 1" show_box="false" visible="true">
+				<node name="ConoVectorT02LA_node" orientation="0.5 -0.5 -0.5 -0.5" position="3.41897 2.49298 -9.53674e-007" priority="0" scale="1 1 1" show_box="false" visible="true">
+					<entity name="ConoVectorT02LA" aab="0 0 0 0 0 0" blend="average" mesh="torque_ConoVectorT02LA.mesh" priority="0" shadow="false true" visible="true"/>
 				</node>
-				<node name="TextVectorT02LA" orientation="0.5 0.5 0.5 0.5" position="3.419 3.04475 1.08523" priority="0" scale="1 1 1" show_box="false" visible="true">
-					<node name="flechaVectorT02LA" orientation="-0.5 0.5 0.5 -0.5" position="4.00543e-005 0.372417 2.38419e-007" priority="0" scale="1 1 1" show_box="false" visible="true">
-						<node name="flecha2VectorT02LA" orientation="1.79145e-014 -0.422618 -1.79494e-014 0.906308" position="0 0 -0.35" priority="0" scale="1 1 1" show_box="false" visible="true">
-							<entity name="flecha2VectorT02LA_mesh" aab="0 0 0 0 0 0" blend="average" mesh="torque_flecha2VectorT02LA_mesh.mesh" priority="0" shadow="false true" visible="true"/>
+				<node name="TextVectorT02LA_node" orientation="0.5 0.5 0.5 0.5" position="3.419 3.04475 1.08523" priority="0" scale="1 1 1" show_box="false" visible="true">
+					<node name="flechaVectorT02LA_node" orientation="-0.5 0.5 0.5 -0.5" position="4.00543e-005 0.372417 2.38419e-007" priority="0" scale="1 1 1" show_box="false" visible="true">
+						<node name="flecha2VectorT02LA_node" orientation="1.79145e-014 -0.422618 -1.79494e-014 0.906308" position="0 0 -0.35" priority="0" scale="1 1 1" show_box="false" visible="true">
+							<entity name="flecha2VectorT02LA" aab="0 0 0 0 0 0" blend="average" mesh="torque_flecha2VectorT02LA.mesh" priority="0" shadow="false true" visible="true"/>
 						</node>
-						<entity name="flechaVectorT02LA_mesh" aab="0 0 0 0 0 0" blend="average" mesh="torque_flechaVectorT02LA_mesh.mesh" priority="0" shadow="false true" visible="true"/>
+						<entity name="flechaVectorT02LA" aab="0 0 0 0 0 0" blend="average" mesh="torque_flechaVectorT02LA.mesh" priority="0" shadow="false true" visible="true"/>
 					</node>
-					<entity name="TextVectorT02LA_mesh" aab="0 0 0 0 0 0" blend="average" mesh="torque_TextVectorT02LA_mesh.mesh" priority="0" shadow="false true" visible="true"/>
+					<entity name="TextVectorT02LA" aab="0 0 0 0 0 0" blend="average" mesh="torque_TextVectorT02LA.mesh" priority="0" shadow="false true" visible="true"/>
 				</node>
-				<node name="TuboVectorR02LA" orientation="5.96046e-008 5.96046e-008 -3.55271e-015 1" position="-9.53674e-007 -1.09965e-006 -9.22455" priority="0" scale="1 1 1" show_box="false" visible="true">
-					<node name="ConoVectorR02LA" orientation="1.9036e-015 0.173648 1.18315e-015 0.984808" position="2.56515 -0.700001 7.04769" priority="0" scale="1 1 1" show_box="false" visible="true">
-						<entity name="ConoVectorR02LA_mesh" aab="0 0 0 0 0 0" blend="average" mesh="torque_ConoVectorR02LA_mesh.mesh" priority="0" shadow="false true" visible="true"/>
+				<node name="TuboVectorR02LA_node" orientation="5.96046e-008 5.96046e-008 -3.55271e-015 1" position="-9.53674e-007 -1.09965e-006 -9.22455" priority="0" scale="1 1 1" show_box="false" visible="true">
+					<node name="ConoVectorR02LA_node" orientation="1.9036e-015 0.173648 1.18315e-015 0.984808" position="2.56515 -0.700001 7.04769" priority="0" scale="1 1 1" show_box="false" visible="true">
+						<entity name="ConoVectorR02LA" aab="0 0 0 0 0 0" blend="average" mesh="torque_ConoVectorR02LA.mesh" priority="0" shadow="false true" visible="true"/>
 					</node>
-					<node name="TextVectorR02LA" orientation="0.707107 3.16101e-008 -3.16101e-008 0.707107" position="1.5622 -0.700001 6.54518" priority="0" scale="1 1 1" show_box="false" visible="true">
-						<node name="flechaVectorR02LA" orientation="-0.5 0.5 0.5 -0.5" position="0.000196457 0.321559 -5.96046e-008" priority="0" scale="1 1 1" show_box="false" visible="true">
-							<node name="flecha2VectorR02LA" orientation="3.40159e-015 -0.422618 6.25379e-015 0.906308" position="0 0 -0.35" priority="0" scale="1 1 1" show_box="false" visible="true">
-								<entity name="flecha2VectorR02LA_mesh" aab="0 0 0 0 0 0" blend="average" mesh="torque_flecha2VectorR02LA_mesh.mesh" priority="0" shadow="false true" visible="true"/>
+					<node name="TextVectorR02LA_node" orientation="0.707107 3.16101e-008 -3.16101e-008 0.707107" position="1.5622 -0.700001 6.54518" priority="0" scale="1 1 1" show_box="false" visible="true">
+						<node name="flechaVectorR02LA_node" orientation="-0.5 0.5 0.5 -0.5" position="0.000196457 0.321559 -5.96046e-008" priority="0" scale="1 1 1" show_box="false" visible="true">
+							<node name="flecha2VectorR02LA_node" orientation="3.40159e-015 -0.422618 6.25378e-015 0.906308" position="0 0 -0.35" priority="0" scale="1 1 1" show_box="false" visible="true">
+								<entity name="flecha2VectorR02LA" aab="0 0 0 0 0 0" blend="average" mesh="torque_flecha2VectorR02LA.mesh" priority="0" shadow="false true" visible="true"/>
 							</node>
-							<entity name="flechaVectorR02LA_mesh" aab="0 0 0 0 0 0" blend="average" mesh="torque_flechaVectorR02LA_mesh.mesh" priority="0" shadow="false true" visible="true"/>
+							<entity name="flechaVectorR02LA" aab="0 0 0 0 0 0" blend="average" mesh="torque_flechaVectorR02LA.mesh" priority="0" shadow="false true" visible="true"/>
 						</node>
-						<entity name="TextVectorR02LA_mesh" aab="0 0 0 0 0 0" blend="average" mesh="torque_TextVectorR02LA_mesh.mesh" priority="0" shadow="false true" visible="true"/>
+						<entity name="TextVectorR02LA" aab="0 0 0 0 0 0" blend="average" mesh="torque_TextVectorR02LA.mesh" priority="0" shadow="false true" visible="true"/>
 					</node>
-					<entity name="TuboVectorR02LA_mesh" aab="0 0 0 0 0 0" blend="average" mesh="torque_TuboVectorR02LA_mesh.mesh" priority="0" shadow="false true" visible="true"/>
+					<entity name="TuboVectorR02LA" aab="0 0 0 0 0 0" blend="average" mesh="torque_TuboVectorR02LA.mesh" priority="0" shadow="false true" visible="true"/>
 				</node>
-				<entity name="TuboVectorT02LA_mesh" aab="0 0 0 0 0 0" blend="average" mesh="torque_TuboVectorT02LA_mesh.mesh" priority="0" shadow="false true" visible="true"/>
+				<entity name="TuboVectorT02LA" aab="0 0 0 0 0 0" blend="average" mesh="torque_TuboVectorT02LA.mesh" priority="0" shadow="false true" visible="true"/>
 			</node>
 		</node>
 	</nodes>
