@@ -1,16 +1,16 @@
 <scene version="0.2">
-	<info source="C:\Users\Matias Cuadrado\Desktop\exportados 02-09\04-lento-antihorario (US 18)\giroscopo_04.max" profile="public" shared_geometry="false" build_edges="false" build_tangents="false" exporter="Exporter 3DSMax3.20.22766"/>
+	<info source="C:\Users\Matias Cuadrado\Dropbox\Proyecto\modelos 3ds max\2012\04LA US18\giroscopo_04.max" profile="public" shared_geometry="false" build_edges="false" build_tangents="false" exporter="Exporter 3DSMax3.25.24177"/>
 	<settings>
 		<environment ambient="0 0 0" background="0 0 0" camera=""/>
 		<shadow color="0 0 0" distance="10000" self="false" setup="uniform" size="1024 1" technique="none"/>
 	</settings>
 	<animations>
 		<animation name="Timeline" loop="false" length="-1" priority="0">
-			<bind target="TuboVectorL04LA" attribute="orientation" track="TuboVectorL04LA_Timeline_orientationTrack" loop="false" mode="absolute" reset="true" short="true" weight="1"/>
+			<bind target="TuboVectorL04LA_node" attribute="orientation" track="TuboVectorL04LA_node_Timeline_orientationTrack" loop="false" mode="absolute" reset="true" short="true" weight="1"/>
 		</animation>
 	</animations>
 	<tracks>
-		<track name="TuboVectorL04LA_Timeline_orientationTrack">
+		<track name="TuboVectorL04LA_node_Timeline_orientationTrack">
 			<key time="0" value="0 0 0 1"/>
 			<key time="0.0333333" value="0 0 0.0174524 0.999848"/>
 			<key time="0.0666667" value="0 0 0.0348995 0.999391"/>
@@ -64,7 +64,7 @@
 			<key time="1.66667" value="0 0 0.766044 0.642788"/>
 			<key time="1.7" value="0 0 0.777146 0.62932"/>
 			<key time="1.73333" value="0 0 0.788011 0.615662"/>
-			<key time="1.76667" value="0 0 0.798636 0.601815"/>
+			<key time="1.76667" value="0 0 0.798635 0.601815"/>
 			<key time="1.8" value="0 0 0.809017 0.587785"/>
 			<key time="1.83333" value="0 0 0.819152 0.573576"/>
 			<key time="1.86667" value="0 0 0.829038 0.559193"/>
@@ -139,7 +139,7 @@
 			<key time="4.16667" value="0 0 -0.819152 0.573576"/>
 			<key time="4.2" value="0 0 -0.809017 0.587785"/>
 			<key time="4.23333" value="0 0 -0.798635 0.601815"/>
-			<key time="4.26667" value="0 0 -0.788011 0.615662"/>
+			<key time="4.26667" value="0 0 -0.788011 0.615661"/>
 			<key time="4.3" value="0 0 -0.777146 0.629321"/>
 			<key time="4.33333" value="0 0 -0.766044 0.642788"/>
 			<key time="4.36667" value="0 0 -0.75471 0.656059"/>
@@ -196,20 +196,20 @@
 	</tracks>
 	<nodes>
 		<node name="fixUp" orientation="-0.707107 0 0 0.707107" position="0 0 0" priority="0" scale="1 1 1" show_box="false" visible="true">
-			<node name="TuboVectorL04LA" orientation="0 0 0 1" position="-5.40167e-007 -4.76837e-007 10.3398" priority="0" scale="1 1 1" show_box="false" visible="true">
-				<node name="ConoVectorL04LA" orientation="0.707107 -5.33851e-008 0.707107 5.33851e-008" position="18.48 -3.62011e-007 -1.90735e-006" priority="0" scale="1 1 1" show_box="false" visible="true">
-					<entity name="ConoVectorL04LA_mesh" aab="0 0 0 0 0 0" blend="average" mesh="momento_angular_ConoVectorL04LA_mesh.mesh" priority="0" shadow="false true" visible="true"/>
+			<node name="TuboVectorL04LA_node" orientation="0 0 0 1" position="-5.40167e-007 -4.76837e-007 10.3398" priority="0" scale="1 1 1" show_box="false" visible="true">
+				<node name="ConoVectorL04LA_node" orientation="0.707107 -5.33851e-008 0.707107 5.33851e-008" position="19.48 -3.62011e-007 -1.90735e-006" priority="0" scale="1 1 1" show_box="false" visible="true">
+					<entity name="ConoVectorL04LA" aab="0 0 0 0 0 0" blend="average" mesh="momento_angular_ConoVectorL04LA.mesh" priority="0" shadow="false true" visible="true"/>
 				</node>
-				<node name="TextVectorL04LA" orientation="0.707107 -1.35015e-008 -1.35015e-008 0.707107" position="19.189 -4.41609e-007 1.1895" priority="0" scale="1 1 1" show_box="false" visible="true">
-					<node name="flechaVectorL04LA" orientation="0.5 -0.5 -0.5 0.5" position="-1.71661e-005 0.596138 8.78263e-008" priority="0" scale="1 1 1" show_box="false" visible="true">
-						<node name="flecha2VectorL04LA" orientation="4.18325e-015 -0.422618 -9.30749e-015 0.906308" position="0 1.8631e-009 -0.35" priority="0" scale="1 1 1" show_box="false" visible="true">
-							<entity name="flecha2VectorL04LA_mesh" aab="0 0 0 0 0 0" blend="average" mesh="momento_angular_flecha2VectorL04LA_mesh.mesh" priority="0" shadow="false true" visible="true"/>
+				<node name="TextVectorL04LA_node" orientation="0.707107 -1.35015e-008 -1.35015e-008 0.707107" position="20.189 -4.41609e-007 1.1895" priority="0" scale="1 1 1" show_box="false" visible="true">
+					<node name="flechaVectorL04LA_node" orientation="0.5 -0.5 -0.5 0.5" position="-1.71661e-005 0.596138 8.78263e-008" priority="0" scale="1 1 1" show_box="false" visible="true">
+						<node name="flecha2VectorL04LA_node" orientation="4.18325e-015 -0.422618 -9.30749e-015 0.906308" position="-9.53674e-007 1.86265e-009 -0.35" priority="0" scale="1 1 1" show_box="false" visible="true">
+							<entity name="flecha2VectorL04LA" aab="0 0 0 0 0 0" blend="average" mesh="momento_angular_flecha2VectorL04LA.mesh" priority="0" shadow="false true" visible="true"/>
 						</node>
-						<entity name="flechaVectorL04LA_mesh" aab="0 0 0 0 0 0" blend="average" mesh="momento_angular_flechaVectorL04LA_mesh.mesh" priority="0" shadow="false true" visible="true"/>
+						<entity name="flechaVectorL04LA" aab="0 0 0 0 0 0" blend="average" mesh="momento_angular_flechaVectorL04LA.mesh" priority="0" shadow="false true" visible="true"/>
 					</node>
-					<entity name="TextVectorL04LA_mesh" aab="0 0 0 0 0 0" blend="average" mesh="momento_angular_TextVectorL04LA_mesh.mesh" priority="0" shadow="false true" visible="true"/>
+					<entity name="TextVectorL04LA" aab="0 0 0 0 0 0" blend="average" mesh="momento_angular_TextVectorL04LA.mesh" priority="0" shadow="false true" visible="true"/>
 				</node>
-				<entity name="TuboVectorL04LA_mesh" aab="0 0 0 0 0 0" blend="average" mesh="momento_angular_TuboVectorL04LA_mesh.mesh" priority="0" shadow="false true" visible="true"/>
+				<entity name="TuboVectorL04LA" aab="0 0 0 0 0 0" blend="average" mesh="momento_angular_TuboVectorL04LA.mesh" priority="0" shadow="false true" visible="true"/>
 			</node>
 		</node>
 	</nodes>

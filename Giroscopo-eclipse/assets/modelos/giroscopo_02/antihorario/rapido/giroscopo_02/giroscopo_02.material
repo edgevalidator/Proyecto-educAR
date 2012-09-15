@@ -1,4 +1,4 @@
-material giroscopo_02/Material1
+material giroscopo_02/Material0
 {
 	technique
 	{
@@ -12,7 +12,7 @@ material giroscopo_02/Material1
 
 			texture_unit
 			{
-				texture azul.png
+				texture naranja.png
 			}
 		}
 	}

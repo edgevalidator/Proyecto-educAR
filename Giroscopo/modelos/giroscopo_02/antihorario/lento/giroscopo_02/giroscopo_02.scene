@@ -587,6 +587,9 @@
 			</node>
 			<node name="Torus02_node" orientation="1.81207e-012 -0.0871557 1.58535e-013 0.996195" position="0 0 0" priority="0" scale="0.134212 0.134212 0.134212" show_box="false" visible="true">
 				<node name="Cylinder27_node" orientation="1.84829e-022 0.0871557 -1.67334e-020 0.996195" position="-2.93374 4.94006e-007 0.517298" priority="0" scale="7.45092 7.45092 7.45092" show_box="false" visible="true">
+					<node name="Cylinder01_node" orientation="8.51798e-021 0.707107 -8.51798e-021 0.707107" position="0.972003 -1.85327e-009 6.95" priority="0" scale="1 1 1" show_box="false" visible="true">
+						<entity name="Cylinder01" aab="0 0 0 0 0 0" blend="average" mesh="giroscopo_02_Cylinder01.mesh" priority="0" shadow="false true" visible="true"/>
+					</node>
 					<node name="Text09_node" orientation="0.707107 3.14005e-016 -3.14032e-016 0.707107" position="0.994018 -7.10543e-015 5.18433" priority="0" scale="1 1 1" show_box="false" visible="true">
 						<entity name="Text09" aab="0 0 0 0 0 0" blend="average" mesh="giroscopo_02_Text09.mesh" priority="0" shadow="false true" visible="true"/>
 					</node>

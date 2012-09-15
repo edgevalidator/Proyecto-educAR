@@ -8,9 +8,14 @@ material giroscopo_01/Metal_ChromeFast
 			diffuse 0.439216 0.439216 0.439216 1
 			specular 0.9 0.9 0.9 25.6
 			emissive 0 0 0
+
+
 			texture_unit
 			{
 				texture factory_reflection_bw1.jpg
+				env_map spherical
+				tex_address_mode mirror
+				colour_op_ex blend_manual src_texture src_current 1
 			}
 		}
 	}
@@ -25,9 +30,14 @@ material giroscopo_01/Reflection_Lake_Gold
 			diffuse 0.486275 0.486275 0.486275 1
 			specular 0.81 0.81 0.81 51.2
 			emissive 0 0 0
+
+
 			texture_unit
 			{
 				texture Lakerem2.jpg
+				env_map spherical
+				tex_address_mode mirror
+				colour_op_ex blend_manual src_texture src_current 1
 			}
 		}
 	}
