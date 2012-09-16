@@ -1,4 +1,4 @@
-<dfusion version="3.20.20164">
+<dfusion version="3.25.24177">
     <configurations>
         <configuration name="@Home|All Platforms" encryption="none" />
         <configuration name="@Home|windows" encryption="none" />
@@ -2490,6 +2490,16 @@
                 <configuration name="@Home|windows" excludeFromBuild="true" />
                 <configuration name="mobile|All Platforms" excludeFromBuild="true" />
             </file>
+            <file relativePath=".\notas\nota\nota.1.png">
+                <configuration name="@Home|All Platforms" excludeFromBuild="true" />
+                <configuration name="@Home|windows" excludeFromBuild="true" />
+                <configuration name="mobile|All Platforms" excludeFromBuild="true" />
+            </file>
+            <file relativePath=".\notas\nota\nota.2.png">
+                <configuration name="@Home|All Platforms" excludeFromBuild="true" />
+                <configuration name="@Home|windows" excludeFromBuild="true" />
+                <configuration name="mobile|All Platforms" excludeFromBuild="true" />
+            </file>
             <file relativePath=".\notas\nota\nota.material">
                 <configuration name="@Home|All Platforms" excludeFromBuild="true" />
                 <configuration name="@Home|windows" excludeFromBuild="true" />
@@ -3050,6 +3060,8 @@
         <file relativePath="modelos/giroscopo_04/horario/rapido/velocidad_angular/velocidad_angular_TextVectorw04RH.mesh" />
         <file relativePath="modelos/giroscopo_04/horario/rapido/velocidad_angular/velocidad_angular_TuboVectorOmega04RH.mesh" />
         <file relativePath="modelos/giroscopo_04/horario/rapido/velocidad_angular/velocidad_angular_TuboVectorw04RH.mesh" />
+        <file relativePath="notas/nota/nota.1.png" />
+        <file relativePath="notas/nota/nota.2.png" />
         <file relativePath="notas/nota/nota.material" />
         <file relativePath="notas/nota/nota.png" />
         <file relativePath="notas/nota/nota.scene" />

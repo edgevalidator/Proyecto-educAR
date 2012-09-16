@@ -6,6 +6,9 @@ import android.content.pm.PackageManager;
 import android.content.pm.PackageManager.NameNotFoundException;
 import android.os.Bundle;
 import android.util.Log;
+import android.view.Menu;
+import android.view.MenuInflater;
+import android.view.MenuItem;
 import android.widget.FrameLayout;
 import ti.dfusionmobile.tiComponent;
 
@@ -86,5 +89,42 @@ public class EducARActivity extends Activity {
 	    _frameLayout = null;
 	    _tiComponent = null;
     }
-    
+	@Override
+	public boolean onCreateOptionsMenu(Menu menu) {
+		MenuInflater inflater = getMenuInflater();
+		inflater.inflate(R.menu.main, menu);
+		return true;
+	}
+
+	@Override
+	public boolean onOptionsItemSelected(MenuItem item) {
+		switch (item.getItemId()) {
+			case R.id.boton_01:
+				_tiComponent.enqueueCommand("boton_01", null);
+				return true;
+			case R.id.boton_02:
+				_tiComponent.enqueueCommand("boton_02", null);
+				return true;
+			case R.id.boton_04:
+				_tiComponent.enqueueCommand("boton_04", null);
+				return true;
+			case R.id.boton_notas:
+				_tiComponent.enqueueCommand("boton_notas", null);
+				return true;
+			case R.id.boton_vectores:
+				_tiComponent.enqueueCommand("boton_vectores", null);
+				return true;
+			case R.id.boton_animaciones:
+				_tiComponent.enqueueCommand("boton_animaciones", null);
+				return true;
+			case R.id.boton_direccion:
+				_tiComponent.enqueueCommand("boton_direccion", null);
+				return true;
+			case R.id.boton_precesion:
+				_tiComponent.enqueueCommand("boton_precesion", null);
+				return true;
+			default:
+				return super.onOptionsItemSelected(item);
+		}
+	}
 }

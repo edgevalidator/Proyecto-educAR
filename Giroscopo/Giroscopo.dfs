@@ -6,9 +6,13 @@
         <configuration name="mobile|android" exportFolder="C:\Users\Matias Cuadrado\Desktop\asset" />
     </configurations>
     <LuaEditor>
-        <files />
+        <files>
+            <file absolutePath="C:\Users\duter\Documents\GitHub\Proyecto-educAR\Giroscopo\touch.lua" />
+        </files>
         <watch />
     </LuaEditor>
     <macros />
-    <commands />
+    <commands>
+        <command name="boton_01" type="component" />
+    </commands>
 </dfusion>

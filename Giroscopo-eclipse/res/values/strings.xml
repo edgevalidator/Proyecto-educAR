@@ -2,5 +2,14 @@
 <resources>
 
     <string name="app_name">Giroscopo</string>
+    
+    <string name="boton_01">Giroscopo</string>
+    <string name="boton_02">Giroscopo 30</string>
+    <string name="boton_04">Giroscopo 90</string>
+    <string name="boton_notas">Notas</string>
+    <string name="boton_vectores">Vectores</string>
+    <string name="boton_animaciones">Anmacion</string>
+    <string name="boton_direccion">Direccion</string>
+    <string name="boton_precesion">Precesion</string>
 
 </resources>
