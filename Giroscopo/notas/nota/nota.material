@@ -1,4 +1,4 @@
-material nota/Material25
+material nota/Material26
 {
 	technique
 	{
@@ -9,12 +9,6 @@ material nota/Material25
 			specular 0 0 0 12.8
 			emissive 0 0 0
 
-			vertex_program_ref tiShader/vertex_phong.vs
-			{
-			}
-			fragment_program_ref tiShader/phong_diffuse.ps
-			{
-			}
 
 			texture_unit
 			{
