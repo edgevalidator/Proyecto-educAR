@@ -1,0 +1,107 @@
+<scene version="0.2">
+	<info source="C:\Users\Matias Cuadrado\Dropbox\Proyecto\modelos 3ds max\2012\ecuaciones.max" profile="public" shared_geometry="false" build_edges="false" build_tangents="false" exporter="Exporter 3DSMax3.25.24177"/>
+	<settings>
+		<environment ambient="0 0 0" background="0 0 0" camera=""/>
+		<shadow color="0 0 0" distance="10000" self="false" setup="uniform" size="1024 1" technique="none"/>
+	</settings>
+	<nodes>
+		<node name="fixUp" orientation="-0.707107 0 0 0.707107" position="0 0 0" priority="0" scale="1 1 1" show_box="false" visible="true">
+			<node name="Plane01_node" orientation="0 0 0 1" position="0 0.118954 0" priority="0" scale="1 1 1" show_box="false" visible="true">
+				<entity name="Plane01" aab="0 0 0 0 0 0" blend="average" mesh="ecuaciones_Plane01.mesh" priority="0" shadow="false true" visible="true"/>
+			</node>
+			<node name="Text04_node" orientation="0 0 0 1" position="-5 12.3535 0" priority="0" scale="1 1 1" show_box="false" visible="true">
+				<node name="Text01_node" orientation="0 0 0 1" position="9.76215 0.510058 0" priority="0" scale="1 1 1" show_box="false" visible="true">
+					<entity name="Text01" aab="0 0 0 0 0 0" blend="average" mesh="ecuaciones_Text01.mesh" priority="0" shadow="false true" visible="true"/>
+				</node>
+				<node name="Text06_node" orientation="0 0 0 1" position="-6 0.510458 0" priority="0" scale="1 1 1" show_box="false" visible="true">
+					<entity name="Text06" aab="0 0 0 0 0 0" blend="average" mesh="ecuaciones_Text06.mesh" priority="0" shadow="false true" visible="true"/>
+				</node>
+				<entity name="Text04" aab="0 0 0 0 0 0" blend="average" mesh="ecuaciones_Text04.mesh" priority="0" shadow="false true" visible="true"/>
+			</node>
+			<node name="Text05_node" orientation="0 0 0 1" position="-5 3.3046 0" priority="0" scale="1 1 1" show_box="false" visible="true">
+				<node name="Text02_node" orientation="0 0 0 1" position="-6 0.290404 0" priority="0" scale="1 1 1" show_box="false" visible="true">
+					<node name="Box01_node" orientation="0 0 0.707107 0.707107" position="0.330732 5.9331 0" priority="0" scale="1 1 1" show_box="false" visible="true">
+						<node name="Box02_node" orientation="0 0 -0.382683 0.92388" position="0.573221 -0.86734 0" priority="0" scale="1 1 1" show_box="false" visible="true">
+							<entity name="Box02" aab="0 0 0 0 0 0" blend="average" mesh="ecuaciones_Box02.mesh" priority="0" shadow="false true" visible="true"/>
+						</node>
+						<entity name="Box01" aab="0 0 0 0 0 0" blend="average" mesh="ecuaciones_Box01.mesh" priority="0" shadow="false true" visible="true"/>
+					</node>
+					<entity name="Text02" aab="0 0 0 0 0 0" blend="average" mesh="ecuaciones_Text02.mesh" priority="0" shadow="false true" visible="true"/>
+				</node>
+				<node name="Text03_node" orientation="0 0 0 1" position="13.003 0.290344 0" priority="0" scale="1 1 1" show_box="false" visible="true">
+					<node name="Box03_node" orientation="0 0 0.707107 0.707107" position="-7.78285 5.53331 0" priority="0" scale="1 1 1" show_box="false" visible="true">
+						<node name="Box04_node" orientation="0 0 -0.382683 0.92388" position="0.573221 -0.867341 0" priority="0" scale="1 1 1" show_box="false" visible="true">
+							<entity name="Box04" aab="0 0 0 0 0 0" blend="average" mesh="ecuaciones_Box04.mesh" priority="0" shadow="false true" visible="true"/>
+						</node>
+						<entity name="Box03" aab="0 0 0 0 0 0" blend="average" mesh="ecuaciones_Box03.mesh" priority="0" shadow="false true" visible="true"/>
+					</node>
+					<node name="Box05_node" orientation="0 0 0.707107 0.707107" position="6.52044 7.02627 0" priority="0" scale="1 1 1" show_box="false" visible="true">
+						<node name="Box06_node" orientation="0 0 -0.382683 0.92388" position="0.57322 -0.86734 0" priority="0" scale="1 1 1" show_box="false" visible="true">
+							<entity name="Box06" aab="0 0 0 0 0 0" blend="average" mesh="ecuaciones_Box06.mesh" priority="0" shadow="false true" visible="true"/>
+						</node>
+						<entity name="Box05" aab="0 0 0 0 0 0" blend="average" mesh="ecuaciones_Box05.mesh" priority="0" shadow="false true" visible="true"/>
+					</node>
+					<entity name="Text03" aab="0 0 0 0 0 0" blend="average" mesh="ecuaciones_Text03.mesh" priority="0" shadow="false true" visible="true"/>
+				</node>
+				<entity name="Text05" aab="0 0 0 0 0 0" blend="average" mesh="ecuaciones_Text05.mesh" priority="0" shadow="false true" visible="true"/>
+			</node>
+			<node name="Text08_node" orientation="0 0 0 1" position="-5 -5.44835 0" priority="0" scale="1 1 1" show_box="false" visible="true">
+				<node name="Text07_node" orientation="0 0 0 1" position="-5.47235 -0.456652 0" priority="0" scale="1 1 1" show_box="false" visible="true">
+					<node name="Box07_node" orientation="0 0 0.707107 0.707107" position="0.143291 6.90964 0" priority="0" scale="1 1 1" show_box="false" visible="true">
+						<node name="Box08_node" orientation="0 0 -0.382683 0.92388" position="0.573221 -0.86734 0" priority="0" scale="1 1 1" show_box="false" visible="true">
+							<entity name="Box08" aab="0 0 0 0 0 0" blend="average" mesh="ecuaciones_Box08.mesh" priority="0" shadow="false true" visible="true"/>
+						</node>
+						<entity name="Box07" aab="0 0 0 0 0 0" blend="average" mesh="ecuaciones_Box07.mesh" priority="0" shadow="false true" visible="true"/>
+					</node>
+					<entity name="Text07" aab="0 0 0 0 0 0" blend="average" mesh="ecuaciones_Text07.mesh" priority="0" shadow="false true" visible="true"/>
+				</node>
+				<node name="Text09_node" orientation="0 0 0 1" position="9.749 -0.456902 0" priority="0" scale="1 1 1" show_box="false" visible="true">
+					<node name="Box09_node" orientation="0 0 0.707107 0.707107" position="2.97866 5.14133 0" priority="0" scale="1 1 1" show_box="false" visible="true">
+						<node name="Box10_node" orientation="0 0 -0.382683 0.92388" position="0.573221 -0.86734 0" priority="0" scale="1 1 1" show_box="false" visible="true">
+							<entity name="Box10" aab="0 0 0 0 0 0" blend="average" mesh="ecuaciones_Box10.mesh" priority="0" shadow="false true" visible="true"/>
+						</node>
+						<entity name="Box09" aab="0 0 0 0 0 0" blend="average" mesh="ecuaciones_Box09.mesh" priority="0" shadow="false true" visible="true"/>
+					</node>
+					<entity name="Text09" aab="0 0 0 0 0 0" blend="average" mesh="ecuaciones_Text09.mesh" priority="0" shadow="false true" visible="true"/>
+				</node>
+				<entity name="Text08" aab="0 0 0 0 0 0" blend="average" mesh="ecuaciones_Text08.mesh" priority="0" shadow="false true" visible="true"/>
+			</node>
+			<node name="Text10_node" orientation="0 0 0 1" position="-5 -15.9506 0" priority="0" scale="1 1 1" show_box="false" visible="true">
+				<node name="Box11_node" orientation="0 0 0.707107 0.707107" position="-6 2.48652 0" priority="0" scale="0.731181 0.731181 0.731181" show_box="false" visible="true">
+					<node name="Text14_node" orientation="0 0 -0.707107 0.707107" position="0.727644 -2.63725 0" priority="0" scale="1 1 1" show_box="false" visible="true">
+						<node name="Box14_node" orientation="0 0 0.707107 0.707107" position="0.185495 6.97477 0" priority="0" scale="1 1 1" show_box="false" visible="true">
+							<node name="Box15_node" orientation="0 0 -0.382683 0.92388" position="0.573221 -0.86734 0" priority="0" scale="1 1 1" show_box="false" visible="true">
+								<entity name="Box15" aab="0 0 0 0 0 0" blend="average" mesh="ecuaciones_Box15.mesh" priority="0" shadow="false true" visible="true"/>
+							</node>
+							<entity name="Box14" aab="0 0 0 0 0 0" blend="average" mesh="ecuaciones_Box14.mesh" priority="0" shadow="false true" visible="true"/>
+						</node>
+						<node name="Text11_node" orientation="0 0 0 1" position="-5.08768 -1.90735e-006 0" priority="0" scale="1 1 1" show_box="false" visible="true">
+							<entity name="Text11" aab="0 0 0 0 0 0" blend="average" mesh="ecuaciones_Text11.mesh" priority="0" shadow="false true" visible="true"/>
+						</node>
+						<entity name="Text14" aab="0 0 0 0 0 0" blend="average" mesh="ecuaciones_Text14.mesh" priority="0" shadow="false true" visible="true"/>
+					</node>
+					<node name="Text15_node" orientation="0 0 -0.707107 0.707107" position="-6.67818 -1.7557 0" priority="0" scale="1 1 1" show_box="false" visible="true">
+						<node name="Text12_node" orientation="0 0 0 1" position="-4.20614 -0.0277367 0" priority="0" scale="1 1 1" show_box="false" visible="true">
+							<entity name="Text12" aab="0 0 0 0 0 0" blend="average" mesh="ecuaciones_Text12.mesh" priority="0" shadow="false true" visible="true"/>
+						</node>
+						<entity name="Text15" aab="0 0 0 0 0 0" blend="average" mesh="ecuaciones_Text15.mesh" priority="0" shadow="false true" visible="true"/>
+					</node>
+					<entity name="Box11" aab="0 0 0 0 0 0" blend="average" mesh="ecuaciones_Box11.mesh" priority="0" shadow="false true" visible="true"/>
+				</node>
+				<node name="Text13_node" orientation="0 0 0 1" position="5.46517 0.53867 0" priority="0" scale="1 1 1" show_box="false" visible="true">
+					<node name="Box12_node" orientation="0 0 0.707107 0.707107" position="0.330732 5.9331 0" priority="0" scale="1 1 1" show_box="false" visible="true">
+						<node name="Box13_node" orientation="0 0 -0.382683 0.92388" position="0.573221 -0.867341 0" priority="0" scale="1 1 1" show_box="false" visible="true">
+							<entity name="Box13" aab="0 0 0 0 0 0" blend="average" mesh="ecuaciones_Box13.mesh" priority="0" shadow="false true" visible="true"/>
+						</node>
+						<entity name="Box12" aab="0 0 0 0 0 0" blend="average" mesh="ecuaciones_Box12.mesh" priority="0" shadow="false true" visible="true"/>
+					</node>
+					<node name="Text16_node" orientation="0 0 0 1" position="4.73298 -0.291632 0" priority="0" scale="1 1 1" show_box="false" visible="true">
+						<entity name="Text16" aab="0 0 0 0 0 0" blend="average" mesh="ecuaciones_Text16.mesh" priority="0" shadow="false true" visible="true"/>
+					</node>
+					<entity name="Text13" aab="0 0 0 0 0 0" blend="average" mesh="ecuaciones_Text13.mesh" priority="0" shadow="false true" visible="true"/>
+				</node>
+				<entity name="Text10" aab="0 0 0 0 0 0" blend="average" mesh="ecuaciones_Text10.mesh" priority="0" shadow="false true" visible="true"/>
+			</node>
+		</node>
+	</nodes>
+</scene>
