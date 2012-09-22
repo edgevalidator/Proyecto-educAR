@@ -10,7 +10,5 @@
         <watch />
     </LuaEditor>
     <macros />
-    <commands>
-        <command name="boton_01" type="component" />
-    </commands>
+    <commands />
 </dfusion>

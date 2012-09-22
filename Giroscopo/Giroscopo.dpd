@@ -45,186 +45,6 @@
                 <configuration name="@Home|windows" excludeFromBuild="true" />
                 <configuration name="mobile|All Platforms" excludeFromBuild="true" />
             </file>
-            <file relativePath=".\ecuaciones\blanco.png">
-                <configuration name="@Home|All Platforms" excludeFromBuild="true" />
-                <configuration name="@Home|windows" excludeFromBuild="true" />
-                <configuration name="mobile|All Platforms" excludeFromBuild="true" />
-            </file>
-            <file relativePath=".\ecuaciones\ecuaciones.material">
-                <configuration name="@Home|All Platforms" excludeFromBuild="true" />
-                <configuration name="@Home|windows" excludeFromBuild="true" />
-                <configuration name="mobile|All Platforms" excludeFromBuild="true" />
-            </file>
-            <file relativePath=".\ecuaciones\ecuaciones.scene">
-                <configuration name="@Home|All Platforms" excludeFromBuild="true" />
-                <configuration name="@Home|windows" excludeFromBuild="true" />
-                <configuration name="mobile|All Platforms" excludeFromBuild="true" />
-            </file>
-            <file relativePath=".\ecuaciones\ecuaciones_Box01.mesh">
-                <configuration name="@Home|All Platforms" excludeFromBuild="true" />
-                <configuration name="@Home|windows" excludeFromBuild="true" />
-                <configuration name="mobile|All Platforms" excludeFromBuild="true" />
-            </file>
-            <file relativePath=".\ecuaciones\ecuaciones_Box02.mesh">
-                <configuration name="@Home|All Platforms" excludeFromBuild="true" />
-                <configuration name="@Home|windows" excludeFromBuild="true" />
-                <configuration name="mobile|All Platforms" excludeFromBuild="true" />
-            </file>
-            <file relativePath=".\ecuaciones\ecuaciones_Box03.mesh">
-                <configuration name="@Home|All Platforms" excludeFromBuild="true" />
-                <configuration name="@Home|windows" excludeFromBuild="true" />
-                <configuration name="mobile|All Platforms" excludeFromBuild="true" />
-            </file>
-            <file relativePath=".\ecuaciones\ecuaciones_Box04.mesh">
-                <configuration name="@Home|All Platforms" excludeFromBuild="true" />
-                <configuration name="@Home|windows" excludeFromBuild="true" />
-                <configuration name="mobile|All Platforms" excludeFromBuild="true" />
-            </file>
-            <file relativePath=".\ecuaciones\ecuaciones_Box05.mesh">
-                <configuration name="@Home|All Platforms" excludeFromBuild="true" />
-                <configuration name="@Home|windows" excludeFromBuild="true" />
-                <configuration name="mobile|All Platforms" excludeFromBuild="true" />
-            </file>
-            <file relativePath=".\ecuaciones\ecuaciones_Box06.mesh">
-                <configuration name="@Home|All Platforms" excludeFromBuild="true" />
-                <configuration name="@Home|windows" excludeFromBuild="true" />
-                <configuration name="mobile|All Platforms" excludeFromBuild="true" />
-            </file>
-            <file relativePath=".\ecuaciones\ecuaciones_Box07.mesh">
-                <configuration name="@Home|All Platforms" excludeFromBuild="true" />
-                <configuration name="@Home|windows" excludeFromBuild="true" />
-                <configuration name="mobile|All Platforms" excludeFromBuild="true" />
-            </file>
-            <file relativePath=".\ecuaciones\ecuaciones_Box08.mesh">
-                <configuration name="@Home|All Platforms" excludeFromBuild="true" />
-                <configuration name="@Home|windows" excludeFromBuild="true" />
-                <configuration name="mobile|All Platforms" excludeFromBuild="true" />
-            </file>
-            <file relativePath=".\ecuaciones\ecuaciones_Box09.mesh">
-                <configuration name="@Home|All Platforms" excludeFromBuild="true" />
-                <configuration name="@Home|windows" excludeFromBuild="true" />
-                <configuration name="mobile|All Platforms" excludeFromBuild="true" />
-            </file>
-            <file relativePath=".\ecuaciones\ecuaciones_Box10.mesh">
-                <configuration name="@Home|All Platforms" excludeFromBuild="true" />
-                <configuration name="@Home|windows" excludeFromBuild="true" />
-                <configuration name="mobile|All Platforms" excludeFromBuild="true" />
-            </file>
-            <file relativePath=".\ecuaciones\ecuaciones_Box11.mesh">
-                <configuration name="@Home|All Platforms" excludeFromBuild="true" />
-                <configuration name="@Home|windows" excludeFromBuild="true" />
-                <configuration name="mobile|All Platforms" excludeFromBuild="true" />
-            </file>
-            <file relativePath=".\ecuaciones\ecuaciones_Box12.mesh">
-                <configuration name="@Home|All Platforms" excludeFromBuild="true" />
-                <configuration name="@Home|windows" excludeFromBuild="true" />
-                <configuration name="mobile|All Platforms" excludeFromBuild="true" />
-            </file>
-            <file relativePath=".\ecuaciones\ecuaciones_Box13.mesh">
-                <configuration name="@Home|All Platforms" excludeFromBuild="true" />
-                <configuration name="@Home|windows" excludeFromBuild="true" />
-                <configuration name="mobile|All Platforms" excludeFromBuild="true" />
-            </file>
-            <file relativePath=".\ecuaciones\ecuaciones_Box14.mesh">
-                <configuration name="@Home|All Platforms" excludeFromBuild="true" />
-                <configuration name="@Home|windows" excludeFromBuild="true" />
-                <configuration name="mobile|All Platforms" excludeFromBuild="true" />
-            </file>
-            <file relativePath=".\ecuaciones\ecuaciones_Box15.mesh">
-                <configuration name="@Home|All Platforms" excludeFromBuild="true" />
-                <configuration name="@Home|windows" excludeFromBuild="true" />
-                <configuration name="mobile|All Platforms" excludeFromBuild="true" />
-            </file>
-            <file relativePath=".\ecuaciones\ecuaciones_Plane01.mesh">
-                <configuration name="@Home|All Platforms" excludeFromBuild="true" />
-                <configuration name="@Home|windows" excludeFromBuild="true" />
-                <configuration name="mobile|All Platforms" excludeFromBuild="true" />
-            </file>
-            <file relativePath=".\ecuaciones\ecuaciones_Text01.mesh">
-                <configuration name="@Home|All Platforms" excludeFromBuild="true" />
-                <configuration name="@Home|windows" excludeFromBuild="true" />
-                <configuration name="mobile|All Platforms" excludeFromBuild="true" />
-            </file>
-            <file relativePath=".\ecuaciones\ecuaciones_Text02.mesh">
-                <configuration name="@Home|All Platforms" excludeFromBuild="true" />
-                <configuration name="@Home|windows" excludeFromBuild="true" />
-                <configuration name="mobile|All Platforms" excludeFromBuild="true" />
-            </file>
-            <file relativePath=".\ecuaciones\ecuaciones_Text03.mesh">
-                <configuration name="@Home|All Platforms" excludeFromBuild="true" />
-                <configuration name="@Home|windows" excludeFromBuild="true" />
-                <configuration name="mobile|All Platforms" excludeFromBuild="true" />
-            </file>
-            <file relativePath=".\ecuaciones\ecuaciones_Text04.mesh">
-                <configuration name="@Home|All Platforms" excludeFromBuild="true" />
-                <configuration name="@Home|windows" excludeFromBuild="true" />
-                <configuration name="mobile|All Platforms" excludeFromBuild="true" />
-            </file>
-            <file relativePath=".\ecuaciones\ecuaciones_Text05.mesh">
-                <configuration name="@Home|All Platforms" excludeFromBuild="true" />
-                <configuration name="@Home|windows" excludeFromBuild="true" />
-                <configuration name="mobile|All Platforms" excludeFromBuild="true" />
-            </file>
-            <file relativePath=".\ecuaciones\ecuaciones_Text06.mesh">
-                <configuration name="@Home|All Platforms" excludeFromBuild="true" />
-                <configuration name="@Home|windows" excludeFromBuild="true" />
-                <configuration name="mobile|All Platforms" excludeFromBuild="true" />
-            </file>
-            <file relativePath=".\ecuaciones\ecuaciones_Text07.mesh">
-                <configuration name="@Home|All Platforms" excludeFromBuild="true" />
-                <configuration name="@Home|windows" excludeFromBuild="true" />
-                <configuration name="mobile|All Platforms" excludeFromBuild="true" />
-            </file>
-            <file relativePath=".\ecuaciones\ecuaciones_Text08.mesh">
-                <configuration name="@Home|All Platforms" excludeFromBuild="true" />
-                <configuration name="@Home|windows" excludeFromBuild="true" />
-                <configuration name="mobile|All Platforms" excludeFromBuild="true" />
-            </file>
-            <file relativePath=".\ecuaciones\ecuaciones_Text09.mesh">
-                <configuration name="@Home|All Platforms" excludeFromBuild="true" />
-                <configuration name="@Home|windows" excludeFromBuild="true" />
-                <configuration name="mobile|All Platforms" excludeFromBuild="true" />
-            </file>
-            <file relativePath=".\ecuaciones\ecuaciones_Text10.mesh">
-                <configuration name="@Home|All Platforms" excludeFromBuild="true" />
-                <configuration name="@Home|windows" excludeFromBuild="true" />
-                <configuration name="mobile|All Platforms" excludeFromBuild="true" />
-            </file>
-            <file relativePath=".\ecuaciones\ecuaciones_Text11.mesh">
-                <configuration name="@Home|All Platforms" excludeFromBuild="true" />
-                <configuration name="@Home|windows" excludeFromBuild="true" />
-                <configuration name="mobile|All Platforms" excludeFromBuild="true" />
-            </file>
-            <file relativePath=".\ecuaciones\ecuaciones_Text12.mesh">
-                <configuration name="@Home|All Platforms" excludeFromBuild="true" />
-                <configuration name="@Home|windows" excludeFromBuild="true" />
-                <configuration name="mobile|All Platforms" excludeFromBuild="true" />
-            </file>
-            <file relativePath=".\ecuaciones\ecuaciones_Text13.mesh">
-                <configuration name="@Home|All Platforms" excludeFromBuild="true" />
-                <configuration name="@Home|windows" excludeFromBuild="true" />
-                <configuration name="mobile|All Platforms" excludeFromBuild="true" />
-            </file>
-            <file relativePath=".\ecuaciones\ecuaciones_Text14.mesh">
-                <configuration name="@Home|All Platforms" excludeFromBuild="true" />
-                <configuration name="@Home|windows" excludeFromBuild="true" />
-                <configuration name="mobile|All Platforms" excludeFromBuild="true" />
-            </file>
-            <file relativePath=".\ecuaciones\ecuaciones_Text15.mesh">
-                <configuration name="@Home|All Platforms" excludeFromBuild="true" />
-                <configuration name="@Home|windows" excludeFromBuild="true" />
-                <configuration name="mobile|All Platforms" excludeFromBuild="true" />
-            </file>
-            <file relativePath=".\ecuaciones\ecuaciones_Text16.mesh">
-                <configuration name="@Home|All Platforms" excludeFromBuild="true" />
-                <configuration name="@Home|windows" excludeFromBuild="true" />
-                <configuration name="mobile|All Platforms" excludeFromBuild="true" />
-            </file>
-            <file relativePath=".\ecuaciones\gris_oscuro.png">
-                <configuration name="@Home|All Platforms" excludeFromBuild="true" />
-                <configuration name="@Home|windows" excludeFromBuild="true" />
-                <configuration name="mobile|All Platforms" excludeFromBuild="true" />
-            </file>
             <file relativePath=".\giroscopo.lua">
                 <configuration name="@Home|All Platforms" excludeFromBuild="true" />
                 <configuration name="@Home|windows" excludeFromBuild="true" />
@@ -2670,16 +2490,6 @@
                 <configuration name="@Home|windows" excludeFromBuild="true" />
                 <configuration name="mobile|All Platforms" excludeFromBuild="true" />
             </file>
-            <file relativePath=".\notas\nota\nota.1.png">
-                <configuration name="@Home|All Platforms" excludeFromBuild="true" />
-                <configuration name="@Home|windows" excludeFromBuild="true" />
-                <configuration name="mobile|All Platforms" excludeFromBuild="true" />
-            </file>
-            <file relativePath=".\notas\nota\nota.2.png">
-                <configuration name="@Home|All Platforms" excludeFromBuild="true" />
-                <configuration name="@Home|windows" excludeFromBuild="true" />
-                <configuration name="mobile|All Platforms" excludeFromBuild="true" />
-            </file>
             <file relativePath=".\notas\nota\nota.material">
                 <configuration name="@Home|All Platforms" excludeFromBuild="true" />
                 <configuration name="@Home|windows" excludeFromBuild="true" />
@@ -2749,42 +2559,6 @@
         <file relativePath="boton/boton_Cylinder02_mesh.mesh" />
         <file relativePath="boton/gris.png" />
         <file relativePath="boton/rojo.png" />
-        <file relativePath="ecuaciones/blanco.png" />
-        <file relativePath="ecuaciones/ecuaciones.material" />
-        <file relativePath="ecuaciones/ecuaciones.scene" />
-        <file relativePath="ecuaciones/ecuaciones_Box01.mesh" />
-        <file relativePath="ecuaciones/ecuaciones_Box02.mesh" />
-        <file relativePath="ecuaciones/ecuaciones_Box03.mesh" />
-        <file relativePath="ecuaciones/ecuaciones_Box04.mesh" />
-        <file relativePath="ecuaciones/ecuaciones_Box05.mesh" />
-        <file relativePath="ecuaciones/ecuaciones_Box06.mesh" />
-        <file relativePath="ecuaciones/ecuaciones_Box07.mesh" />
-        <file relativePath="ecuaciones/ecuaciones_Box08.mesh" />
-        <file relativePath="ecuaciones/ecuaciones_Box09.mesh" />
-        <file relativePath="ecuaciones/ecuaciones_Box10.mesh" />
-        <file relativePath="ecuaciones/ecuaciones_Box11.mesh" />
-        <file relativePath="ecuaciones/ecuaciones_Box12.mesh" />
-        <file relativePath="ecuaciones/ecuaciones_Box13.mesh" />
-        <file relativePath="ecuaciones/ecuaciones_Box14.mesh" />
-        <file relativePath="ecuaciones/ecuaciones_Box15.mesh" />
-        <file relativePath="ecuaciones/ecuaciones_Plane01.mesh" />
-        <file relativePath="ecuaciones/ecuaciones_Text01.mesh" />
-        <file relativePath="ecuaciones/ecuaciones_Text02.mesh" />
-        <file relativePath="ecuaciones/ecuaciones_Text03.mesh" />
-        <file relativePath="ecuaciones/ecuaciones_Text04.mesh" />
-        <file relativePath="ecuaciones/ecuaciones_Text05.mesh" />
-        <file relativePath="ecuaciones/ecuaciones_Text06.mesh" />
-        <file relativePath="ecuaciones/ecuaciones_Text07.mesh" />
-        <file relativePath="ecuaciones/ecuaciones_Text08.mesh" />
-        <file relativePath="ecuaciones/ecuaciones_Text09.mesh" />
-        <file relativePath="ecuaciones/ecuaciones_Text10.mesh" />
-        <file relativePath="ecuaciones/ecuaciones_Text11.mesh" />
-        <file relativePath="ecuaciones/ecuaciones_Text12.mesh" />
-        <file relativePath="ecuaciones/ecuaciones_Text13.mesh" />
-        <file relativePath="ecuaciones/ecuaciones_Text14.mesh" />
-        <file relativePath="ecuaciones/ecuaciones_Text15.mesh" />
-        <file relativePath="ecuaciones/ecuaciones_Text16.mesh" />
-        <file relativePath="ecuaciones/gris_oscuro.png" />
         <file relativePath="Giroscopo.dfs" />
         <file relativePath="Giroscopo.dpd" />
         <file relativePath="giroscopo.lua" />
@@ -3276,8 +3050,6 @@
         <file relativePath="modelos/giroscopo_04/horario/rapido/velocidad_angular/velocidad_angular_TextVectorw04RH.mesh" />
         <file relativePath="modelos/giroscopo_04/horario/rapido/velocidad_angular/velocidad_angular_TuboVectorOmega04RH.mesh" />
         <file relativePath="modelos/giroscopo_04/horario/rapido/velocidad_angular/velocidad_angular_TuboVectorw04RH.mesh" />
-        <file relativePath="notas/nota/nota.1.png" />
-        <file relativePath="notas/nota/nota.2.png" />
         <file relativePath="notas/nota/nota.material" />
         <file relativePath="notas/nota/nota.png" />
         <file relativePath="notas/nota/nota.scene" />

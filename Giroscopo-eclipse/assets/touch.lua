@@ -18,20 +18,11 @@ end
 
 repeat
 
-	local action = ''
-
-	isCommand, command = getComponentInterface():pullCommand()
-	
-	if isCommand then
-	
-		action = command["CommandName"]
-		
-	elseif (gtrackingStatus == 1) then			
+	if (gtrackingStatus == 1) then			
 		
 		local obj = nil
 		
 		if touchscreen then
-		
 			local touches = touchscreen:getTouches()
 			if (#touches > 0) then
 				if not touched then
@@ -54,37 +45,33 @@ repeat
 		end
 		
 		if obj and not obj:isNull() then
-			action = obj:getName()
+			if obj:getName() == 'boton_01' then
+				show_model(1)
+			elseif obj:getName() == 'boton_02' then
+				show_model(2)
+			elseif obj:getName() == 'boton_04' then
+				show_model(4)
+			elseif obj:getName() == 'boton_notas' then
+				show_notes()
+			elseif obj:getName() == 'boton_velocidadangular' then
+				toggle_vector_group('velocidad_angular')
+			elseif obj:getName() == 'boton_momentoangular' then
+				toggle_vector_group('momento_angular')
+			elseif obj:getName() == 'boton_torque' then
+				toggle_vector_group('torque')
+			elseif obj:getName() == 'boton_fuerzas' then
+				toggle_vector_group('fuerzas')
+			elseif obj:getName() == 'boton_vectores' then
+				toggle_vectors()
+			elseif obj:getName() == 'boton_animaciones' then
+				toggle_animations()
+			elseif obj:getName() == 'boton_direccion' then
+				toggle_animation_direction()
+			elseif obj:getName() == 'boton_precesion' then
+				toggle_precesion()
+			end
 		end
 		
-	end
-	
-	if not (action == '') then
-		if action == 'boton_01' then
-			show_model(1)
-		elseif action == 'boton_02' then
-			show_model(2)
-		elseif action == 'boton_04' then
-			show_model(4)
-		elseif action == 'boton_notas' then
-			show_notes()
-		elseif action == 'boton_velocidadangular' then
-			toggle_vector_group('velocidad_angular')
-		elseif action == 'boton_momentoangular' then
-			toggle_vector_group('momento_angular')
-		elseif action == 'boton_torque' then
-			toggle_vector_group('torque')
-		elseif action == 'boton_fuerzas' then
-			toggle_vector_group('fuerzas')
-		elseif action == 'boton_vectores' then
-			toggle_vectors()
-		elseif action == 'boton_animaciones' then
-			toggle_animations()
-		elseif action == 'boton_direccion' then
-			toggle_animation_direction()
-		elseif action == 'boton_precesion' then
-			toggle_precesion()
-		end
 	end
 
 until coroutine.yield()

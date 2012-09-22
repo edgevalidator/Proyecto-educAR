@@ -301,7 +301,7 @@ end
 
 --  NOTAS
 
-Notas = { length = 0, current = 0 }
+Notas = { length = 0 }
 
 function Notas:new(o)
 	o = o or {}
@@ -322,41 +322,12 @@ function Notas:setVisibility(visibility)
 	
 end
 
-function Notas:isVisible()
-
-	local model_name = self:getNameForModel()
-	local model = Scenette(getCurrentScene():getObjectByName(model_name))
-	return model:getVisible()
-	
-end
-
 function Notas:showPrevious()
 
 end
 
 function Notas:showNext()
 
-	if self.length > 0 then
-		self.current = self.current + 1
-		
-		if self.current > self.length then
-			self.current = 1
-		end
-		
-		self:changeMaterial(self.current)
-	end
-	
-end
-
-function Notas:changeMaterial(new)
-
-	local scene = getCurrentScene()
-	local texture = Texture(scene:createObject(CID_TEXTURE))
-	texture:setResource("notas/nota/nota." .. new .. ".png")
-	
-	local material = getMaterial("nota/Material25")
-	material:setTexture(texture)
-	
 end
 
 function Notas:loadModel()
@@ -372,10 +343,6 @@ function Notas:loadModel()
 	model:setOrientationEuler(90.0, 0.0, 0.0)
 	model:setScale(0.245)
 	
-	if self.length > 0 then
-		self:changeMaterial(self.current)
-	end
-	
 end
 
 
@@ -384,7 +351,7 @@ end
 local giroscopo_01 = Giroscopo:new{name="giroscopo_01", animated=false}
 local giroscopo_02 = Giroscopo:new{name="giroscopo_02", animated=true}
 local giroscopo_04 = Giroscopo:new{name="giroscopo_04", animated=true}
-local notas = Notas:new{length=2, current=1}
+local notas = Notas:new{length=0}
 
 giroscopo_01:loadModel()
 giroscopo_02:loadModel()
@@ -409,17 +376,10 @@ function show_model(option)
 end
 
 function show_notes()
-
 	giroscopo_01:setVisibility(false)
 	giroscopo_02:setVisibility(false)
 	giroscopo_04:setVisibility(false)
-	
-	if(notas:isVisible()) then
-		notas:showNext()	
-	else
-		notas:setVisibility(true)
-	end
-	
+	notas:setVisibility(true)
 end
 
 function toggle_animations()
