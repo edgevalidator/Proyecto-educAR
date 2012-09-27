@@ -47,10 +47,10 @@ class Nota extends CI_Controller {
 		redirect(site_url());	
 	}
 
-	function ultimasNotas($dia, $mes, $anio){
+	function ultimasNotas($dia, $mes, $anio, $hora, $minuto, $segundo){
 		$this->output->set_header('Content-Type: application/json; charset=utf-8');
 		$this->load->model('notas_model');
-		$data = $this->notas_model->getLast($dia, $mes, $anio);
+		$data = $this->notas_model->getLast($dia, $mes, $anio, $hora, $minuto, $segundo);
 		echo json_encode($data);
 	}
 

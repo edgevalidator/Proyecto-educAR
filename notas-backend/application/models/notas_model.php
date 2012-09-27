@@ -20,9 +20,9 @@ class Notas_model extends CI_Model{
 	}
 
 	//Retorna las notas con fecha de creación mayor a la pasada por parámetro
-	function getLast($dia, $mes, $anio){
+	function getLast($dia, $mes, $anio, $hora, $minuto, $segundo){
 		
-		$date_string = $anio . "-" . $mes . "-" . $dia;
+		$date_string = $anio . "-" . $mes . "-" . $dia . " " . $hora . ":" . $minuto . ":" . $segundo;
 		$date = new DateTime($date_string);
 
 		$this->db->select('nota_id, nota_texto, nota_fecha_creada');
