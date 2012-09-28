@@ -1,4 +1,4 @@
-<dfusion version="3.20.20164">
+<dfusion version="3.25.24177">
     <configurations>
         <configuration name="@Home|All Platforms" encryption="none" />
         <configuration name="@Home|windows" encryption="none" />
@@ -51,11 +51,6 @@
                 <configuration name="mobile|All Platforms" excludeFromBuild="true" />
             </file>
             <file relativePath=".\init.lua">
-                <configuration name="@Home|All Platforms" excludeFromBuild="true" />
-                <configuration name="@Home|windows" excludeFromBuild="true" />
-                <configuration name="mobile|All Platforms" excludeFromBuild="true" />
-            </file>
-            <file relativePath=".\modelos\giroscopo_01\Lakerem2.jpg">
                 <configuration name="@Home|All Platforms" excludeFromBuild="true" />
                 <configuration name="@Home|windows" excludeFromBuild="true" />
                 <configuration name="mobile|All Platforms" excludeFromBuild="true" />
@@ -2581,7 +2576,6 @@
         <file relativePath="modelos/giroscopo_01/giroscopo_01_Tube10.mesh" />
         <file relativePath="modelos/giroscopo_01/giroscopo_01_Tube12.mesh" />
         <file relativePath="modelos/giroscopo_01/giroscopo_01_Tube13.mesh" />
-        <file relativePath="modelos/giroscopo_01/Lakerem2.jpg" />
         <file relativePath="modelos/giroscopo_02/antihorario/lento/fuerzas/fuerzas.material" />
         <file relativePath="modelos/giroscopo_02/antihorario/lento/fuerzas/fuerzas.scene" />
         <file relativePath="modelos/giroscopo_02/antihorario/lento/fuerzas/fuerzas_ConoVectorFr02LA.mesh" />
