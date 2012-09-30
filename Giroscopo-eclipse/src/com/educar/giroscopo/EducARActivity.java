@@ -94,30 +94,31 @@ public class EducARActivity extends Activity {
 
 	@Override
 	public boolean onOptionsItemSelected(MenuItem item) {
+		String [] params = {};
 		switch (item.getItemId()) {
 			case R.id.boton_01:
-				_tiComponent.enqueueCommand("boton_01", null);
+				_tiComponent.enqueueCommand("boton_01", params);
 				return true;
 			case R.id.boton_02:
-				_tiComponent.enqueueCommand("boton_02", null);
+				_tiComponent.enqueueCommand("boton_02",params);
 				return true;
 			case R.id.boton_04:
-				_tiComponent.enqueueCommand("boton_04", null);
+				_tiComponent.enqueueCommand("boton_04", params);
 				return true;
 			case R.id.boton_notas:
-				_tiComponent.enqueueCommand("boton_notas", null);
+				_tiComponent.enqueueCommand("boton_notas",params);
 				return true;
 			case R.id.boton_vectores:
-				_tiComponent.enqueueCommand("boton_vectores", null);
+				_tiComponent.enqueueCommand("boton_vectores", params);
 				return true;
 			case R.id.boton_animaciones:
-				_tiComponent.enqueueCommand("boton_animaciones", null);
+				_tiComponent.enqueueCommand("boton_animaciones",params);
 				return true;
 			case R.id.boton_direccion:
-				_tiComponent.enqueueCommand("boton_direccion", null);
+				_tiComponent.enqueueCommand("boton_direccion", params);
 				return true;
 			case R.id.boton_precesion:
-				_tiComponent.enqueueCommand("boton_precesion", null);
+				_tiComponent.enqueueCommand("boton_precesion", params);
 				return true;
 			default:
 				return super.onOptionsItemSelected(item);
