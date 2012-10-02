@@ -69,10 +69,11 @@ class Nota extends CI_Controller {
 		redirect(site_url());
 	}
 
-	function _armarNota($texto_nota){
+	function armarNota($texto_nota){
 		
-		$nota = "imagenes/nota.jpg";
-		$rImg = imagecreatefromjpeg($nota);
+		$nota = "imagenes/nota.png";
+		//$rImg = imagecreatefromjpeg($nota);
+		$rImg = imagecreatefrompng($nota);
 
 		$color = imagecolorallocate($rImg, 0, 0, 0);		
 
@@ -140,9 +141,11 @@ class Nota extends CI_Controller {
 			$y = $y + 11;	
 		}
 
-		header('Content-type: image/jpeg');
+		//header('Content-type: image/jpeg');
+		header('Content-type: image/png');
 		header('Content-Disposition: attachment; filename="' . $nota . '"');
-		imagejpeg($rImg);
+		//imagejpeg($rImg);
+		imagepng($rImg);
 		readfile($rImg);
 
 	}
