@@ -1,3 +1,3 @@
 RewriteEngine on
 RewriteCond $1 !^(index\.php|imagenes|stylesheets|scripts|css|js|robots\.txt)
-RewriteRule ^(.*)$ /index.php/$1 [L]
+RewriteRule ^(.*)$ /notas-backend/index.php/$1 [L]

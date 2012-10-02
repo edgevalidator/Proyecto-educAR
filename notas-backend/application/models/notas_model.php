@@ -12,8 +12,12 @@ class Notas_model extends CI_Model{
 		$q = $this->db->get('nota');
 
 		if($q->num_rows() > 0){
+				
+			$data = [];
 			foreach ($q->result() as $row) {
-				$data[] = $row;
+				if($row->nota_eliminada == false){
+					$data[] = $row;	
+				}
 			}
 			return $data;
 		}
@@ -25,7 +29,7 @@ class Notas_model extends CI_Model{
 		$date_string = $anio . "-" . $mes . "-" . $dia . " " . $hora . ":" . $minuto . ":" . $segundo;
 		$date = new DateTime($date_string);
 
-		$this->db->select('nota_id, nota_texto, nota_fecha_creada');
+		$this->db->select('nota_id, nota_texto, nota_fecha_creada, nota_eliminada');
 		$this->db->from('nota');
 		
 		$q = $this->db->get();
@@ -33,12 +37,10 @@ class Notas_model extends CI_Model{
 		if($q->num_rows() > 0){
 			
 			foreach ($q->result() as $row) {
-				
 				$date_row = new DateTime($row->nota_fecha_creada);
 				if ($date_row > $date){
 					$data[] = $row;
 				}
-
 			}
 			return $data;
 		}
@@ -60,16 +62,19 @@ class Notas_model extends CI_Model{
 		}
 	}
 
-	function deleteNota($nota_id){
-		$this->db->delete('nota', array('nota_id' => $nota_id));
-
-	}
-
 	function editarNota($nota_id, $nota_texto, $nota_fecha){
 		$this->load->database();
 		$data = array('nota_texto'=>$nota_texto,
 						'nota_fecha_creada'=>$nota_fecha);
 
+		$this->db->where('nota_id',$nota_id);
+		$this->db->update('nota',$data);  
+	}
+
+	function eliminarNota($nota_id){
+		$this->load->database();
+		$fecha = $now = date("Y-m-d H:i:s");
+		$data = array('nota_eliminada' => 1, 'nota_fecha_creada' => $fecha);
 		$this->db->where('nota_id',$nota_id);
 		$this->db->update('nota',$data);  
 	}

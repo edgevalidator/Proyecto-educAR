@@ -68,9 +68,7 @@
 
 		
 		function addNota(){
-			var baseurl = "<?php echo base_url() ?>" + "index.php/nota/nueva";
-			//var baseurl = "<?php echo site_url('nota/nueva') ?>";
-			//alert("BASE URL => " + baseurl);
+			var baseurl = "<?php echo site_url('nota/nueva') ?>";
 			window.location.href = baseurl;
 		}
 
@@ -84,7 +82,7 @@
 					
 				var id_nota   = split_row[0];
 
-				var baseurl = "<?php echo base_url() ?>" + "index.php/nota/editarNota/" +  id_nota;
+				var baseurl = "<?php echo site_url('nota/editarNota'); ?>" + "/" + id_nota;
 				window.location.href = baseurl;
 			}
 		}
@@ -101,7 +99,7 @@
 					
 					var id_nota   = split_row[0];
 
-					var baseurl = "<?php echo base_url() ?>" + "index.php/nota/borrarNota/" +  id_nota;
+					var baseurl = "<?php echo site_url('nota/borrarNota'); ?>" + "/" + id_nota;
 					window.location.href = baseurl;
 					
 

@@ -65,7 +65,7 @@ class Nota extends CI_Controller {
 	function borrarNota($id_nota){
 		$this->load->helper('url');
 		$this->load->model('notas_model');
-		$this->notas_model->deleteNota($id_nota);
+		$this->notas_model->eliminarNota($id_nota);
 		redirect(site_url());
 	}
 
