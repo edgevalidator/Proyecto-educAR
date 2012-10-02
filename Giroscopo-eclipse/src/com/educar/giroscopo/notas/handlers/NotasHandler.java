@@ -24,37 +24,38 @@ public class NotasHandler {
 	}
 	
 	public File getAppDataPath(){
-		return cw.getDir("www", Context.MODE_PRIVATE);
+		return cw.getDir("www/notas/nota", Context.MODE_PRIVATE);
 	}
 	
 	public void downloadNotaFromURL(String downloadURL, String fileName){
 		
-		try{
-			URL url = new URL(downloadURL);
-			
-			URLConnection ucon = url.openConnection();
-			
-			InputStream is = ucon.getInputStream();
-			BufferedInputStream bis = new BufferedInputStream(is);
-
-			ByteArrayBuffer baf = new ByteArrayBuffer(5000);
-			
-			int current = 0;
-			while ((current = bis.read()) != -1) {
-				baf.append((byte) current);
-			}
-			
-			FileOutputStream fos = new FileOutputStream(new File(getAppDataPath(),fileName)); 
-			fos.write(baf.toByteArray());
-			fos.flush();
-			fos.close();
-			Log.i("NOTA_DOWNLOADED", "Downloaded => " + fileName);
+		Log.i("NOTAS_PATH","PATH => " + this.getAppDataPath());
+//		try{
+//			URL url = new URL(downloadURL);
+//			
+//			URLConnection ucon = url.openConnection();
+//			
+//			InputStream is = ucon.getInputStream();
+//			BufferedInputStream bis = new BufferedInputStream(is);
+//
+//			ByteArrayBuffer baf = new ByteArrayBuffer(5000);
+//			
+//			int current = 0;
+//			while ((current = bis.read()) != -1) {
+//				baf.append((byte) current);
+//			}
+//			
+//			FileOutputStream fos = new FileOutputStream(new File(getAppDataPath(),fileName)); 
+//			fos.write(baf.toByteArray());
+//			fos.flush();
+//			fos.close();
+//			Log.i("NOTA_DOWNLOADED", "Downloaded => " + fileName);
 		
-		}catch(MalformedURLException e){
-			e.printStackTrace();
-		}catch(IOException e){
-			e.printStackTrace();
-		}
+//		}catch(MalformedURLException e){
+//			e.printStackTrace();
+//		}catch(IOException e){
+//			e.printStackTrace();
+//		}
 		
 	}
 	

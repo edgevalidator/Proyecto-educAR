@@ -236,95 +236,87 @@ public class EducARActivity extends Activity {
 			
 			/**************************DOWNLOAD NOTAS*************************/
 			if(!error){
-				
-				new Thread(new Runnable() {
+		
+				Date ultimaNota = new Date(Long.MIN_VALUE);
 
-					public void run() {
+				SimpleDateFormat df = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
+				boolean ultimaNotaCambio = false;
 
-						Date ultimaNota = new Date(Long.MIN_VALUE);
+				Calendar c = Calendar.getInstance();
 
-						SimpleDateFormat df = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
-						boolean ultimaNotaCambio = false;
+				SharedPreferencesHandler preferences = new SharedPreferencesHandler(EducARActivity.this);
+				String ultimaFechaNota = preferences.getValue(NotasConstants.ULTIMA_NOTA_BAJADA);
 
-						Calendar c = Calendar.getInstance();
+				try {
+					int year     = 1;
+					int month    = 1;
+					int day      = 1;
+					int hora     = 1;
+					int minutos  = 1;
+					int segundos = 1;
 
-						SharedPreferencesHandler preferences = new SharedPreferencesHandler(EducARActivity.this);
+					if (ultimaFechaNota != null && ultimaFechaNota != "") {
+						c.setTime(df.parse(ultimaFechaNota));
 
-						String ultimaFechaNota = preferences.getValue(NotasConstants.ULTIMA_NOTA_BAJADA);
-
-						try {
-
-							int year = 1;
-							int month = 1;
-							int day = 1;
-							int hora = 1;
-							int minutos = 1;
-							int segundos = 1;
-
-							if (ultimaFechaNota != null && ultimaFechaNota != "") {
-								c.setTime(df.parse(ultimaFechaNota));
-
-								year = c.get(Calendar.YEAR);
-								month = c.get(Calendar.MONTH) + 1;
-								day = c.get(Calendar.DAY_OF_MONTH);
-								hora = c.get(Calendar.HOUR);
-								minutos = c.get(Calendar.MINUTE);
-								segundos = c.get(Calendar.SECOND);
-							}
-
-							String fechaParam = year + "/" + month + "/" + day + "/" + hora + "/" + minutos + "/" + segundos;
-							
-							Log.i("FECHA_PARAM", fechaParam);
-							
-							JSONArray ultimasNotas = HttpUtil.getRequest(NotasConstants.ULTIMAS_NOTAS_URL+ fechaParam);
-							
-							
-							if (ultimasNotas != null) {
-
-								for (int i = 0; i < ultimasNotas.length(); i++) {
-
-									JSONObject obj = ultimasNotas.getJSONObject(i);
-									int notaId            = obj.getInt("nota_id");
-									String fechaNota      = obj.getString("nota_fecha_creada");
-									int notaEliminada = obj.getInt("nota_eliminada");
-									
-									String fileName = "nota_" + notaId + ".jpg";
-									
-									Log.i("NOTA_", "Nota => " + fileName);
-									
-									//Busco si tengo la nota que se elimino para borrarla
-									if(notaEliminada == 1){
-										notasHandler.deleteNota(fileName);
-									}else{
-										Date fechaNotaBajada = df.parse(fechaNota);
-
-										if (fechaNotaBajada.after(ultimaNota)) {
-											ultimaNota = fechaNotaBajada;
-											ultimaNotaCambio = true;
-										}
-
-										String downloadUrl = NotasConstants.GET_NOTA_URL + notaId;
-
-										Log.i("D_URL", downloadUrl);
-
-										notasHandler.downloadNotaFromURL(downloadUrl, fileName);
-									}
-								}
-								
-								if (ultimaNotaCambio) {
-									String sUltimaNota = df.format(ultimaNota).toString();
-									preferences.setValue(NotasConstants.ULTIMA_NOTA_BAJADA, sUltimaNota);
-									Log.i("NOTA_CAMBIO", "CAMBIONOTA => " + sUltimaNota);
-								}
-
-							} else {
-								Toast.makeText(EducARActivity.this,"No hay nuevas notas para descargar", Toast.LENGTH_LONG).show();
-							}
-						} catch (Exception e) {
-							Log.e("Exception", e.getMessage());
-						}
+						year     = c.get(Calendar.YEAR);
+						month    = c.get(Calendar.MONTH) + 1;
+						day      = c.get(Calendar.DAY_OF_MONTH);
+						hora     = c.get(Calendar.HOUR);
+						minutos  = c.get(Calendar.MINUTE);
+						segundos = c.get(Calendar.SECOND);
 					}
-				}).run();
+
+					String fechaParam = year + "/" + month + "/" + day + "/" + hora + "/" + minutos + "/" + segundos;
+					
+					Log.i("FECHA_PARAM", fechaParam);
+					
+					JSONArray ultimasNotas = HttpUtil.getRequest(NotasConstants.ULTIMAS_NOTAS_URL+ fechaParam);
+					
+					
+					if (ultimasNotas != null) {
+
+						for (int i = 0; i < ultimasNotas.length(); i++) {
+
+							JSONObject obj = ultimasNotas.getJSONObject(i);
+							int notaId            = obj.getInt("nota_id");
+							String fechaNota      = obj.getString("nota_fecha_creada");
+							int notaEliminada = obj.getInt("nota_eliminada");
+							
+							String fileName = "nota_" + notaId + ".png";
+							
+							Log.i("NOTA_", "Nota => " + fileName);
+							
+							//Busco si tengo la nota que se elimino para borrarla
+							if(notaEliminada == 1){
+								notasHandler.deleteNota(fileName);
+							}else{
+								Date fechaNotaBajada = df.parse(fechaNota);
+
+								if (fechaNotaBajada.after(ultimaNota)) {
+									ultimaNota = fechaNotaBajada;
+									ultimaNotaCambio = true;
+								}
+
+								String downloadUrl = NotasConstants.GET_NOTA_URL + notaId;
+
+								Log.i("D_URL", downloadUrl);
+
+								notasHandler.downloadNotaFromURL(downloadUrl, fileName);
+							}
+						}
+						
+						if (ultimaNotaCambio) {
+							String sUltimaNota = df.format(ultimaNota).toString();
+							preferences.setValue(NotasConstants.ULTIMA_NOTA_BAJADA, sUltimaNota);
+							Log.i("NOTA_CAMBIO", "CAMBIONOTA => " + sUltimaNota);
+						}
+
+					} else {
+						Toast.makeText(EducARActivity.this,"No hay nuevas notas para descargar", Toast.LENGTH_LONG).show();
+					}
+				} catch (Exception e) {
+					Log.e("Exception", e.getMessage());
+				}
 				
 			}
 			/*************************************************************/
