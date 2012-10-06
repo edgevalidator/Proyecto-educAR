@@ -14,33 +14,188 @@
             <file relativePath=".\Giroscopo.dpd">
                 <configuration name="@Home|windows" excludeFromBuild="true" />
             </file>
-            <file relativePath=".\boton\boton.material">
-                <configuration name="@Home|All Platforms" excludeFromBuild="true" />
-                <configuration name="@Home|windows" excludeFromBuild="true" />
-                <configuration name="mobile|All Platforms" excludeFromBuild="true" />
-            </file>
-            <file relativePath=".\boton\boton.scene">
-                <configuration name="@Home|All Platforms" excludeFromBuild="true" />
-                <configuration name="@Home|windows" excludeFromBuild="true" />
-                <configuration name="mobile|All Platforms" excludeFromBuild="true" />
-            </file>
-            <file relativePath=".\boton\boton_Cylinder01_mesh.mesh">
-                <configuration name="@Home|All Platforms" excludeFromBuild="true" />
-                <configuration name="@Home|windows" excludeFromBuild="true" />
-                <configuration name="mobile|All Platforms" excludeFromBuild="true" />
-            </file>
             <file relativePath=".\boton\boton_Cylinder02_mesh.mesh">
                 <configuration name="@Home|All Platforms" excludeFromBuild="true" />
                 <configuration name="@Home|windows" excludeFromBuild="true" />
                 <configuration name="mobile|All Platforms" excludeFromBuild="true" />
                 <configuration name="mobile|android" excludeFromBuild="false" encryption="encrypted" />
             </file>
-            <file relativePath=".\boton\gris.png">
+            <file relativePath=".\ecuaciones\blanco.png">
                 <configuration name="@Home|All Platforms" excludeFromBuild="true" />
                 <configuration name="@Home|windows" excludeFromBuild="true" />
                 <configuration name="mobile|All Platforms" excludeFromBuild="true" />
             </file>
-            <file relativePath=".\boton\rojo.png">
+            <file relativePath=".\ecuaciones\ecuaciones.material">
+                <configuration name="@Home|All Platforms" excludeFromBuild="true" />
+                <configuration name="@Home|windows" excludeFromBuild="true" />
+                <configuration name="mobile|All Platforms" excludeFromBuild="true" />
+            </file>
+            <file relativePath=".\ecuaciones\ecuaciones.scene">
+                <configuration name="@Home|All Platforms" excludeFromBuild="true" />
+                <configuration name="@Home|windows" excludeFromBuild="true" />
+                <configuration name="mobile|All Platforms" excludeFromBuild="true" />
+            </file>
+            <file relativePath=".\ecuaciones\ecuaciones_Box01.mesh">
+                <configuration name="@Home|All Platforms" excludeFromBuild="true" />
+                <configuration name="@Home|windows" excludeFromBuild="true" />
+                <configuration name="mobile|All Platforms" excludeFromBuild="true" />
+            </file>
+            <file relativePath=".\ecuaciones\ecuaciones_Box02.mesh">
+                <configuration name="@Home|All Platforms" excludeFromBuild="true" />
+                <configuration name="@Home|windows" excludeFromBuild="true" />
+                <configuration name="mobile|All Platforms" excludeFromBuild="true" />
+            </file>
+            <file relativePath=".\ecuaciones\ecuaciones_Box03.mesh">
+                <configuration name="@Home|All Platforms" excludeFromBuild="true" />
+                <configuration name="@Home|windows" excludeFromBuild="true" />
+                <configuration name="mobile|All Platforms" excludeFromBuild="true" />
+            </file>
+            <file relativePath=".\ecuaciones\ecuaciones_Box04.mesh">
+                <configuration name="@Home|All Platforms" excludeFromBuild="true" />
+                <configuration name="@Home|windows" excludeFromBuild="true" />
+                <configuration name="mobile|All Platforms" excludeFromBuild="true" />
+            </file>
+            <file relativePath=".\ecuaciones\ecuaciones_Box05.mesh">
+                <configuration name="@Home|All Platforms" excludeFromBuild="true" />
+                <configuration name="@Home|windows" excludeFromBuild="true" />
+                <configuration name="mobile|All Platforms" excludeFromBuild="true" />
+            </file>
+            <file relativePath=".\ecuaciones\ecuaciones_Box06.mesh">
+                <configuration name="@Home|All Platforms" excludeFromBuild="true" />
+                <configuration name="@Home|windows" excludeFromBuild="true" />
+                <configuration name="mobile|All Platforms" excludeFromBuild="true" />
+            </file>
+            <file relativePath=".\ecuaciones\ecuaciones_Box07.mesh">
+                <configuration name="@Home|All Platforms" excludeFromBuild="true" />
+                <configuration name="@Home|windows" excludeFromBuild="true" />
+                <configuration name="mobile|All Platforms" excludeFromBuild="true" />
+            </file>
+            <file relativePath=".\ecuaciones\ecuaciones_Box08.mesh">
+                <configuration name="@Home|All Platforms" excludeFromBuild="true" />
+                <configuration name="@Home|windows" excludeFromBuild="true" />
+                <configuration name="mobile|All Platforms" excludeFromBuild="true" />
+            </file>
+            <file relativePath=".\ecuaciones\ecuaciones_Box09.mesh">
+                <configuration name="@Home|All Platforms" excludeFromBuild="true" />
+                <configuration name="@Home|windows" excludeFromBuild="true" />
+                <configuration name="mobile|All Platforms" excludeFromBuild="true" />
+            </file>
+            <file relativePath=".\ecuaciones\ecuaciones_Box10.mesh">
+                <configuration name="@Home|All Platforms" excludeFromBuild="true" />
+                <configuration name="@Home|windows" excludeFromBuild="true" />
+                <configuration name="mobile|All Platforms" excludeFromBuild="true" />
+            </file>
+            <file relativePath=".\ecuaciones\ecuaciones_Box11.mesh">
+                <configuration name="@Home|All Platforms" excludeFromBuild="true" />
+                <configuration name="@Home|windows" excludeFromBuild="true" />
+                <configuration name="mobile|All Platforms" excludeFromBuild="true" />
+            </file>
+            <file relativePath=".\ecuaciones\ecuaciones_Box12.mesh">
+                <configuration name="@Home|All Platforms" excludeFromBuild="true" />
+                <configuration name="@Home|windows" excludeFromBuild="true" />
+                <configuration name="mobile|All Platforms" excludeFromBuild="true" />
+            </file>
+            <file relativePath=".\ecuaciones\ecuaciones_Box13.mesh">
+                <configuration name="@Home|All Platforms" excludeFromBuild="true" />
+                <configuration name="@Home|windows" excludeFromBuild="true" />
+                <configuration name="mobile|All Platforms" excludeFromBuild="true" />
+            </file>
+            <file relativePath=".\ecuaciones\ecuaciones_Box14.mesh">
+                <configuration name="@Home|All Platforms" excludeFromBuild="true" />
+                <configuration name="@Home|windows" excludeFromBuild="true" />
+                <configuration name="mobile|All Platforms" excludeFromBuild="true" />
+            </file>
+            <file relativePath=".\ecuaciones\ecuaciones_Box15.mesh">
+                <configuration name="@Home|All Platforms" excludeFromBuild="true" />
+                <configuration name="@Home|windows" excludeFromBuild="true" />
+                <configuration name="mobile|All Platforms" excludeFromBuild="true" />
+            </file>
+            <file relativePath=".\ecuaciones\ecuaciones_Plane01.mesh">
+                <configuration name="@Home|All Platforms" excludeFromBuild="true" />
+                <configuration name="@Home|windows" excludeFromBuild="true" />
+                <configuration name="mobile|All Platforms" excludeFromBuild="true" />
+            </file>
+            <file relativePath=".\ecuaciones\ecuaciones_Text01.mesh">
+                <configuration name="@Home|All Platforms" excludeFromBuild="true" />
+                <configuration name="@Home|windows" excludeFromBuild="true" />
+                <configuration name="mobile|All Platforms" excludeFromBuild="true" />
+            </file>
+            <file relativePath=".\ecuaciones\ecuaciones_Text02.mesh">
+                <configuration name="@Home|All Platforms" excludeFromBuild="true" />
+                <configuration name="@Home|windows" excludeFromBuild="true" />
+                <configuration name="mobile|All Platforms" excludeFromBuild="true" />
+            </file>
+            <file relativePath=".\ecuaciones\ecuaciones_Text03.mesh">
+                <configuration name="@Home|All Platforms" excludeFromBuild="true" />
+                <configuration name="@Home|windows" excludeFromBuild="true" />
+                <configuration name="mobile|All Platforms" excludeFromBuild="true" />
+            </file>
+            <file relativePath=".\ecuaciones\ecuaciones_Text04.mesh">
+                <configuration name="@Home|All Platforms" excludeFromBuild="true" />
+                <configuration name="@Home|windows" excludeFromBuild="true" />
+                <configuration name="mobile|All Platforms" excludeFromBuild="true" />
+            </file>
+            <file relativePath=".\ecuaciones\ecuaciones_Text05.mesh">
+                <configuration name="@Home|All Platforms" excludeFromBuild="true" />
+                <configuration name="@Home|windows" excludeFromBuild="true" />
+                <configuration name="mobile|All Platforms" excludeFromBuild="true" />
+            </file>
+            <file relativePath=".\ecuaciones\ecuaciones_Text06.mesh">
+                <configuration name="@Home|All Platforms" excludeFromBuild="true" />
+                <configuration name="@Home|windows" excludeFromBuild="true" />
+                <configuration name="mobile|All Platforms" excludeFromBuild="true" />
+            </file>
+            <file relativePath=".\ecuaciones\ecuaciones_Text07.mesh">
+                <configuration name="@Home|All Platforms" excludeFromBuild="true" />
+                <configuration name="@Home|windows" excludeFromBuild="true" />
+                <configuration name="mobile|All Platforms" excludeFromBuild="true" />
+            </file>
+            <file relativePath=".\ecuaciones\ecuaciones_Text08.mesh">
+                <configuration name="@Home|All Platforms" excludeFromBuild="true" />
+                <configuration name="@Home|windows" excludeFromBuild="true" />
+                <configuration name="mobile|All Platforms" excludeFromBuild="true" />
+            </file>
+            <file relativePath=".\ecuaciones\ecuaciones_Text09.mesh">
+                <configuration name="@Home|All Platforms" excludeFromBuild="true" />
+                <configuration name="@Home|windows" excludeFromBuild="true" />
+                <configuration name="mobile|All Platforms" excludeFromBuild="true" />
+            </file>
+            <file relativePath=".\ecuaciones\ecuaciones_Text10.mesh">
+                <configuration name="@Home|All Platforms" excludeFromBuild="true" />
+                <configuration name="@Home|windows" excludeFromBuild="true" />
+                <configuration name="mobile|All Platforms" excludeFromBuild="true" />
+            </file>
+            <file relativePath=".\ecuaciones\ecuaciones_Text11.mesh">
+                <configuration name="@Home|All Platforms" excludeFromBuild="true" />
+                <configuration name="@Home|windows" excludeFromBuild="true" />
+                <configuration name="mobile|All Platforms" excludeFromBuild="true" />
+            </file>
+            <file relativePath=".\ecuaciones\ecuaciones_Text12.mesh">
+                <configuration name="@Home|All Platforms" excludeFromBuild="true" />
+                <configuration name="@Home|windows" excludeFromBuild="true" />
+                <configuration name="mobile|All Platforms" excludeFromBuild="true" />
+            </file>
+            <file relativePath=".\ecuaciones\ecuaciones_Text13.mesh">
+                <configuration name="@Home|All Platforms" excludeFromBuild="true" />
+                <configuration name="@Home|windows" excludeFromBuild="true" />
+                <configuration name="mobile|All Platforms" excludeFromBuild="true" />
+            </file>
+            <file relativePath=".\ecuaciones\ecuaciones_Text14.mesh">
+                <configuration name="@Home|All Platforms" excludeFromBuild="true" />
+                <configuration name="@Home|windows" excludeFromBuild="true" />
+                <configuration name="mobile|All Platforms" excludeFromBuild="true" />
+            </file>
+            <file relativePath=".\ecuaciones\ecuaciones_Text15.mesh">
+                <configuration name="@Home|All Platforms" excludeFromBuild="true" />
+                <configuration name="@Home|windows" excludeFromBuild="true" />
+                <configuration name="mobile|All Platforms" excludeFromBuild="true" />
+            </file>
+            <file relativePath=".\ecuaciones\ecuaciones_Text16.mesh">
+                <configuration name="@Home|All Platforms" excludeFromBuild="true" />
+                <configuration name="@Home|windows" excludeFromBuild="true" />
+                <configuration name="mobile|All Platforms" excludeFromBuild="true" />
+            </file>
+            <file relativePath=".\ecuaciones\gris_oscuro.png">
                 <configuration name="@Home|All Platforms" excludeFromBuild="true" />
                 <configuration name="@Home|windows" excludeFromBuild="true" />
                 <configuration name="mobile|All Platforms" excludeFromBuild="true" />
@@ -2548,12 +2703,6 @@
         </files>
     </resources>
     <userfilefilters>
-        <file relativePath="boton/boton.material" />
-        <file relativePath="boton/boton.scene" />
-        <file relativePath="boton/boton_Cylinder01_mesh.mesh" />
-        <file relativePath="boton/boton_Cylinder02_mesh.mesh" />
-        <file relativePath="boton/gris.png" />
-        <file relativePath="boton/rojo.png" />
         <file relativePath="Giroscopo.dfs" />
         <file relativePath="Giroscopo.dpd" />
         <file relativePath="giroscopo.lua" />
@@ -3056,6 +3205,222 @@
         <file relativePath="tracker/tracker.xml" />
         <file relativePath="tracker/videoConfig.xml" />
         <file relativePath="tracker/videoConfig_android_backcam_320x240_15fps.xml" />
+        <file relativePath="ecuaciones/blanco.png" />
+        <file relativePath="ecuaciones/ecuaciones.material" />
+        <file relativePath="ecuaciones/ecuaciones.scene" />
+        <file relativePath="ecuaciones/ecuaciones_Box01.mesh" />
+        <file relativePath="ecuaciones/ecuaciones_Box02.mesh" />
+        <file relativePath="ecuaciones/ecuaciones_Box03.mesh" />
+        <file relativePath="ecuaciones/ecuaciones_Box04.mesh" />
+        <file relativePath="ecuaciones/ecuaciones_Box05.mesh" />
+        <file relativePath="ecuaciones/ecuaciones_Box06.mesh" />
+        <file relativePath="ecuaciones/ecuaciones_Box07.mesh" />
+        <file relativePath="ecuaciones/ecuaciones_Box08.mesh" />
+        <file relativePath="ecuaciones/ecuaciones_Box09.mesh" />
+        <file relativePath="ecuaciones/ecuaciones_Box10.mesh" />
+        <file relativePath="ecuaciones/ecuaciones_Box11.mesh" />
+        <file relativePath="ecuaciones/ecuaciones_Box12.mesh" />
+        <file relativePath="ecuaciones/ecuaciones_Box13.mesh" />
+        <file relativePath="ecuaciones/ecuaciones_Box14.mesh" />
+        <file relativePath="ecuaciones/ecuaciones_Box15.mesh" />
+        <file relativePath="ecuaciones/ecuaciones_Plane01.mesh" />
+        <file relativePath="ecuaciones/ecuaciones_Text01.mesh" />
+        <file relativePath="ecuaciones/ecuaciones_Text02.mesh" />
+        <file relativePath="ecuaciones/ecuaciones_Text03.mesh" />
+        <file relativePath="ecuaciones/ecuaciones_Text04.mesh" />
+        <file relativePath="ecuaciones/ecuaciones_Text05.mesh" />
+        <file relativePath="ecuaciones/ecuaciones_Text06.mesh" />
+        <file relativePath="ecuaciones/ecuaciones_Text07.mesh" />
+        <file relativePath="ecuaciones/ecuaciones_Text08.mesh" />
+        <file relativePath="ecuaciones/ecuaciones_Text09.mesh" />
+        <file relativePath="ecuaciones/ecuaciones_Text10.mesh" />
+        <file relativePath="ecuaciones/ecuaciones_Text11.mesh" />
+        <file relativePath="ecuaciones/ecuaciones_Text12.mesh" />
+        <file relativePath="ecuaciones/ecuaciones_Text13.mesh" />
+        <file relativePath="ecuaciones/ecuaciones_Text14.mesh" />
+        <file relativePath="ecuaciones/ecuaciones_Text15.mesh" />
+        <file relativePath="ecuaciones/ecuaciones_Text16.mesh" />
+        <file relativePath="ecuaciones/gris_oscuro.png" />
+        <file relativePath="notas/nota/nota_1.png" />
+        <file relativePath="notas/nota/nota_2.png" />
+        <file relativePath="tablero/btn_Back/blanco.png" />
+        <file relativePath="tablero/btn_Back/btn_Back.material" />
+        <file relativePath="tablero/btn_Back/btn_Back.scene" />
+        <file relativePath="tablero/btn_Back/btn_Back_Box04.mesh" />
+        <file relativePath="tablero/btn_Back/btn_Back_btn_back.mesh" />
+        <file relativePath="tablero/btn_Back/btn_Back_Prism02.mesh" />
+        <file relativePath="tablero/btn_Back/btn_Back_Tube26.mesh" />
+        <file relativePath="tablero/btn_Back/gris.png" />
+        <file relativePath="tablero/btn_Back/rojo.png" />
+        <file relativePath="tablero/btn_e01/blanco.png" />
+        <file relativePath="tablero/btn_e01/btn_e01.material" />
+        <file relativePath="tablero/btn_e01/btn_e01.scene" />
+        <file relativePath="tablero/btn_e01/btn_e01_btn_e1.mesh" />
+        <file relativePath="tablero/btn_e01/btn_e01_luz_e01.mesh" />
+        <file relativePath="tablero/btn_e01/btn_e01_Text05.mesh" />
+        <file relativePath="tablero/btn_e01/btn_e01_Tube08.mesh" />
+        <file relativePath="tablero/btn_e01/gris.png" />
+        <file relativePath="tablero/btn_e01/rojo.png" />
+        <file relativePath="tablero/btn_e01/verde2.png" />
+        <file relativePath="tablero/btn_e02/blanco.png" />
+        <file relativePath="tablero/btn_e02/btn_e02.material" />
+        <file relativePath="tablero/btn_e02/btn_e02.scene" />
+        <file relativePath="tablero/btn_e02/btn_e02_btn_e02.mesh" />
+        <file relativePath="tablero/btn_e02/btn_e02_luz_e02.mesh" />
+        <file relativePath="tablero/btn_e02/btn_e02_Text06.mesh" />
+        <file relativePath="tablero/btn_e02/btn_e02_Tube09.mesh" />
+        <file relativePath="tablero/btn_e02/gris.png" />
+        <file relativePath="tablero/btn_e02/rojo.png" />
+        <file relativePath="tablero/btn_e02/verde2.png" />
+        <file relativePath="tablero/btn_Ecuaciones/amarillo.png" />
+        <file relativePath="tablero/btn_Ecuaciones/blanco.png" />
+        <file relativePath="tablero/btn_Ecuaciones/btn_Ecuaciones.material" />
+        <file relativePath="tablero/btn_Ecuaciones/btn_Ecuaciones.scene" />
+        <file relativePath="tablero/btn_Ecuaciones/btn_Ecuaciones_btn_Ecuaciones.mesh" />
+        <file relativePath="tablero/btn_Ecuaciones/btn_Ecuaciones_luz_Ecuaciones.mesh" />
+        <file relativePath="tablero/btn_Ecuaciones/btn_Ecuaciones_Tube16.mesh" />
+        <file relativePath="tablero/btn_Ecuaciones/btn_Ecuaciones_txtBtnEcuaciones.mesh" />
+        <file relativePath="tablero/btn_Ecuaciones/gris.png" />
+        <file relativePath="tablero/btn_Ecuaciones/rojo.png" />
+        <file relativePath="tablero/btn_g01/amarillo.png" />
+        <file relativePath="tablero/btn_g01/blanco.png" />
+        <file relativePath="tablero/btn_g01/btn_g01.material" />
+        <file relativePath="tablero/btn_g01/btn_g01.scene" />
+        <file relativePath="tablero/btn_g01/btn_g01_btn_g01.mesh" />
+        <file relativePath="tablero/btn_g01/btn_g01_luz_g01.mesh" />
+        <file relativePath="tablero/btn_g01/btn_g01_Tube03.mesh" />
+        <file relativePath="tablero/btn_g01/btn_g01_txtBtn_g01.mesh" />
+        <file relativePath="tablero/btn_g01/gris.png" />
+        <file relativePath="tablero/btn_g01/rojo.png" />
+        <file relativePath="tablero/btn_g02/amarillo.png" />
+        <file relativePath="tablero/btn_g02/blanco.png" />
+        <file relativePath="tablero/btn_g02/btn_g02.material" />
+        <file relativePath="tablero/btn_g02/btn_g02.scene" />
+        <file relativePath="tablero/btn_g02/btn_g02_btn_g02.mesh" />
+        <file relativePath="tablero/btn_g02/btn_g02_luz_g02.mesh" />
+        <file relativePath="tablero/btn_g02/btn_g02_Tube02.mesh" />
+        <file relativePath="tablero/btn_g02/btn_g02_txtBtn_g02.mesh" />
+        <file relativePath="tablero/btn_g02/gris.png" />
+        <file relativePath="tablero/btn_g02/rojo.png" />
+        <file relativePath="tablero/btn_g03/amarillo.png" />
+        <file relativePath="tablero/btn_g03/blanco.png" />
+        <file relativePath="tablero/btn_g03/btn_g03.material" />
+        <file relativePath="tablero/btn_g03/btn_g03.scene" />
+        <file relativePath="tablero/btn_g03/btn_g03_btn_g03.mesh" />
+        <file relativePath="tablero/btn_g03/btn_g03_luz_g03.mesh" />
+        <file relativePath="tablero/btn_g03/btn_g03_Tube01.mesh" />
+        <file relativePath="tablero/btn_g03/btn_g03_txtBtn_g03.mesh" />
+        <file relativePath="tablero/btn_g03/gris.png" />
+        <file relativePath="tablero/btn_g03/rojo.png" />
+        <file relativePath="tablero/btn_Next/blanco.png" />
+        <file relativePath="tablero/btn_Next/btn_Next.material" />
+        <file relativePath="tablero/btn_Next/btn_Next.scene" />
+        <file relativePath="tablero/btn_Next/btn_Next_Box03.mesh" />
+        <file relativePath="tablero/btn_Next/btn_Next_btn_next.mesh" />
+        <file relativePath="tablero/btn_Next/btn_Next_Prism01.mesh" />
+        <file relativePath="tablero/btn_Next/btn_Next_Tube25.mesh" />
+        <file relativePath="tablero/btn_Next/gris.png" />
+        <file relativePath="tablero/btn_Next/rojo.png" />
+        <file relativePath="tablero/btn_Notas/amarillo.png" />
+        <file relativePath="tablero/btn_Notas/blanco.png" />
+        <file relativePath="tablero/btn_Notas/btn_Notas.material" />
+        <file relativePath="tablero/btn_Notas/btn_Notas.scene" />
+        <file relativePath="tablero/btn_Notas/btn_Notas_btn_Notas.mesh" />
+        <file relativePath="tablero/btn_Notas/btn_Notas_luz_Notas.mesh" />
+        <file relativePath="tablero/btn_Notas/btn_Notas_Tube15.mesh" />
+        <file relativePath="tablero/btn_Notas/btn_Notas_txtBtnNotas.mesh" />
+        <file relativePath="tablero/btn_Notas/gris.png" />
+        <file relativePath="tablero/btn_Notas/rojo.png" />
+        <file relativePath="tablero/btn_PlayPause/blanco.png" />
+        <file relativePath="tablero/btn_PlayPause/btn_PlayPause.material" />
+        <file relativePath="tablero/btn_PlayPause/btn_PlayPause.scene" />
+        <file relativePath="tablero/btn_PlayPause/btn_PlayPause_btn_PlayPause.mesh" />
+        <file relativePath="tablero/btn_PlayPause/btn_PlayPause_Tube24.mesh" />
+        <file relativePath="tablero/btn_PlayPause/btn_PlayPause_txtBtn_PlayPause.mesh" />
+        <file relativePath="tablero/btn_PlayPause/gris.png" />
+        <file relativePath="tablero/btn_PlayPause/rojo.png" />
+        <file relativePath="tablero/btn_Sentido/blanco.png" />
+        <file relativePath="tablero/btn_Sentido/btn_Sentido.material" />
+        <file relativePath="tablero/btn_Sentido/btn_Sentido.scene" />
+        <file relativePath="tablero/btn_Sentido/btn_Sentido_btn_Sentido.mesh" />
+        <file relativePath="tablero/btn_Sentido/btn_Sentido_Tube22.mesh" />
+        <file relativePath="tablero/btn_Sentido/btn_Sentido_txtBtn_Sentido.mesh" />
+        <file relativePath="tablero/btn_Sentido/gris.png" />
+        <file relativePath="tablero/btn_Sentido/rojo.png" />
+        <file relativePath="tablero/btn_Velocidad/blanco.png" />
+        <file relativePath="tablero/btn_Velocidad/btn_Velocidad.material" />
+        <file relativePath="tablero/btn_Velocidad/btn_Velocidad.scene" />
+        <file relativePath="tablero/btn_Velocidad/btn_Velocidad_btn_Velocidad.mesh" />
+        <file relativePath="tablero/btn_Velocidad/btn_Velocidad_Tube10.mesh" />
+        <file relativePath="tablero/btn_Velocidad/btn_Velocidad_txtBtn_Velocidad.mesh" />
+        <file relativePath="tablero/btn_Velocidad/gris.png" />
+        <file relativePath="tablero/btn_Velocidad/rojo.png" />
+        <file relativePath="tablero/btn_Videos/amarillo.png" />
+        <file relativePath="tablero/btn_Videos/blanco.png" />
+        <file relativePath="tablero/btn_Videos/btn_Videos.material" />
+        <file relativePath="tablero/btn_Videos/btn_Videos.scene" />
+        <file relativePath="tablero/btn_Videos/btn_Videos_btn_Videos.mesh" />
+        <file relativePath="tablero/btn_Videos/btn_Videos_luz_videos.mesh" />
+        <file relativePath="tablero/btn_Videos/btn_Videos_Tube14.mesh" />
+        <file relativePath="tablero/btn_Videos/btn_Videos_txtBtnVideos.mesh" />
+        <file relativePath="tablero/btn_Videos/gris.png" />
+        <file relativePath="tablero/btn_Videos/rojo.png" />
+        <file relativePath="tablero/llave_Fuerzas/blanco.png" />
+        <file relativePath="tablero/llave_Fuerzas/gris_oscuro.png" />
+        <file relativePath="tablero/llave_Fuerzas/llave_Fuerzas.material" />
+        <file relativePath="tablero/llave_Fuerzas/llave_Fuerzas.scene" />
+        <file relativePath="tablero/llave_Fuerzas/llave_Fuerzas_llave_FuerzasI.mesh" />
+        <file relativePath="tablero/llave_Fuerzas/llave_Fuerzas_llave_FuerzasO.mesh" />
+        <file relativePath="tablero/llave_Fuerzas/llave_Fuerzas_Text15.mesh" />
+        <file relativePath="tablero/llave_Fuerzas/llave_Fuerzas_Text16.mesh" />
+        <file relativePath="tablero/llave_Momento/blanco.png" />
+        <file relativePath="tablero/llave_Momento/gris_oscuro.png" />
+        <file relativePath="tablero/llave_Momento/llave_Momento.material" />
+        <file relativePath="tablero/llave_Momento/llave_Momento.scene" />
+        <file relativePath="tablero/llave_Momento/llave_Momento_llave_MomentoI.mesh" />
+        <file relativePath="tablero/llave_Momento/llave_Momento_llave_MomentoO.mesh" />
+        <file relativePath="tablero/llave_Momento/llave_Momento_Text17.mesh" />
+        <file relativePath="tablero/llave_Momento/llave_Momento_Text18.mesh" />
+        <file relativePath="tablero/llave_Torque/blanco.png" />
+        <file relativePath="tablero/llave_Torque/gris_oscuro.png" />
+        <file relativePath="tablero/llave_Torque/llave_Torque.material" />
+        <file relativePath="tablero/llave_Torque/llave_Torque.scene" />
+        <file relativePath="tablero/llave_Torque/llave_Torque_llave_TorqueI.mesh" />
+        <file relativePath="tablero/llave_Torque/llave_Torque_llave_TorqueO.mesh" />
+        <file relativePath="tablero/llave_Torque/llave_Torque_Text23.mesh" />
+        <file relativePath="tablero/llave_Torque/llave_Torque_Text24.mesh" />
+        <file relativePath="tablero/llave_Vectores/blanco.png" />
+        <file relativePath="tablero/llave_Vectores/llave_Vectores.material" />
+        <file relativePath="tablero/llave_Vectores/llave_Vectores.scene" />
+        <file relativePath="tablero/llave_Vectores/llave_Vectores_llave_VectoresI.mesh" />
+        <file relativePath="tablero/llave_Vectores/llave_Vectores_llave_VectoresO.mesh" />
+        <file relativePath="tablero/llave_Vectores/llave_Vectores_Text13.mesh" />
+        <file relativePath="tablero/llave_Vectores/llave_Vectores_Text14.mesh" />
+        <file relativePath="tablero/llave_Vectores/rojo.png" />
+        <file relativePath="tablero/llave_Velocidad/blanco.png" />
+        <file relativePath="tablero/llave_Velocidad/gris_oscuro.png" />
+        <file relativePath="tablero/llave_Velocidad/llave_Velocidad.material" />
+        <file relativePath="tablero/llave_Velocidad/llave_Velocidad.scene" />
+        <file relativePath="tablero/llave_Velocidad/llave_Velocidad_llave_VelocidadI.mesh" />
+        <file relativePath="tablero/llave_Velocidad/llave_Velocidad_llave_VelocidadO.mesh" />
+        <file relativePath="tablero/llave_Velocidad/llave_Velocidad_Text19.mesh" />
+        <file relativePath="tablero/llave_Velocidad/llave_Velocidad_Text20.mesh" />
+        <file relativePath="tablero/tablero/blanco.png" />
+        <file relativePath="tablero/tablero/gris_oscuro.png" />
+        <file relativePath="tablero/tablero/tablero.material" />
+        <file relativePath="tablero/tablero/tablero.scene" />
+        <file relativePath="tablero/tablero/tablero_Box02.mesh" />
+        <file relativePath="tablero/tablero/tablero_Text01.mesh" />
+        <file relativePath="tablero/tablero/tablero_Text02.mesh" />
+        <file relativePath="tablero/tablero/tablero_Text03.mesh" />
+        <file relativePath="tablero/tablero/tablero_Text04.mesh" />
+        <file relativePath="tablero/tablero/tablero_Text07.mesh" />
+        <file relativePath="tablero/tablero/tablero_Text08.mesh" />
+        <file relativePath="tablero/tablero/tablero_Text09.mesh" />
+        <file relativePath="tablero/tablero/tablero_Text10.mesh" />
+        <file relativePath="tablero/tablero/tablero_Text11.mesh" />
+        <file relativePath="tablero/tablero/tablero_Text12.mesh" />
+        <file relativePath="tablero/tablero/tablero_Text25.mesh" />
     </userfilefilters>
     <scene name="scene_0" position="{0.000000, 0.000000, 0.000000}" orientation="{1.000000, 0.000000, 0.000000, 0.000000}" visible="true" rendergroup="50" scale="{1.000000, 1.000000, 1.000000}" visibilitymask="-1" ambient="{0.200000, 0.200000, 0.200000}" shadowtechnique="none">
         <timeline name="timeline" />
@@ -3074,20 +3439,7 @@
         <videotexture name="background" videocapture="vidCap" />
         <viewport name="viewport" dimensions="{0.000000, 0.000000, 1.000000, 1.000000}" background="background" visibilitymask="-1" bgvideorect="{0.000000, 0.000000, 1.000000, 1.000000}" backgroundcolor="{0.000000, 0.000000, 0.000000, 1.000000}" camera="camera" scheme="Default" />
         <light name="light" position="{0.000000, 0.000000, 0.000000}" orientation="{1.000000, 0.000000, 0.000000, 0.000000}" visible="true" rendergroup="50" scale="{1.000000, 1.000000, 1.000000}" visibilitymask="-1" type="point" enabled="true" diffuse="{1.000000, 1.000000, 1.000000}" specular="{0.000000, 0.000000, 0.000000}" powerscale="1.000000" attenuation="{1000.000000, 1.000000, 0.000000, 0.000000}" castshadows="true" shadowcamerasetup="default" />
-        <object3d name="ref" position="{0.000000, 0.000000, 0.000000}" orientation="{1.000000, 0.000000, 0.000000, 0.000000}" visible="true" rendergroup="50" scale="{1.000000, 1.000000, 1.000000}" visibilitymask="-1">
-            <scenette name="boton_01" file="boton\boton.scene" position="{-3.500000, -5.500000, -1.000000}" orientation="{0.763129, 0.640342, 0.056023, -0.066765}" visible="true" rendergroup="50" scale="{0.100000, 0.100000, 0.100000}" visibilitymask="-1" />
-            <scenette name="boton_02" file="boton\boton.scene" position="{-1.000000, -5.500000, -1.000000}" orientation="{0.763129, 0.640342, 0.056023, -0.066765}" visible="true" rendergroup="50" scale="{0.100000, 0.100000, 0.100000}" visibilitymask="-1" />
-            <scenette name="boton_04" file="boton\boton.scene" position="{1.500000, -5.500000, -1.000000}" orientation="{0.763129, 0.640342, 0.056023, -0.066765}" visible="true" rendergroup="50" scale="{0.100000, 0.100000, 0.100000}" visibilitymask="-1" />
-            <scenette name="boton_animaciones" file="boton\boton.scene" position="{-1.000000, -10.500000, -1.000000}" orientation="{0.763129, 0.640342, 0.056023, -0.066765}" visible="true" rendergroup="50" scale="{0.100000, 0.100000, 0.100000}" visibilitymask="-1" />
-            <scenette name="boton_velocidadangular" file="boton\boton.scene" position="{-3.500000, -8.000000, -1.000000}" orientation="{0.763129, 0.640342, 0.056023, -0.066765}" visible="true" rendergroup="50" scale="{0.100000, 0.100000, 0.100000}" visibilitymask="-1" />
-            <scenette name="boton_torque" file="boton\boton.scene" position="{-1.000000, -8.000000, -1.000000}" orientation="{0.763129, 0.640342, 0.056023, -0.066765}" visible="true" rendergroup="50" scale="{0.100000, 0.100000, 0.100000}" visibilitymask="-1" />
-            <scenette name="boton_momentoangular" file="boton\boton.scene" position="{1.500000, -8.000000, -1.000000}" orientation="{0.763129, 0.640342, 0.056023, -0.066765}" visible="true" rendergroup="50" scale="{0.100000, 0.100000, 0.100000}" visibilitymask="-1" />
-            <scenette name="boton_fuerzas" file="boton\boton.scene" position="{4.000000, -8.000000, -1.000000}" orientation="{0.763129, 0.640342, 0.056023, -0.066765}" visible="true" rendergroup="50" scale="{0.100000, 0.100000, 0.100000}" visibilitymask="-1" />
-            <scenette name="boton_vectores" file="boton\boton.scene" position="{-3.500000, -10.500000, -1.000000}" orientation="{0.763129, 0.640342, 0.056023, -0.066765}" visible="true" rendergroup="50" scale="{0.100000, 0.100000, 0.100000}" visibilitymask="-1" />
-            <scenette name="boton_direccion" file="boton\boton.scene" position="{1.500000, -10.500000, -1.000000}" orientation="{0.763129, 0.640342, 0.056023, -0.066765}" visible="true" rendergroup="50" scale="{0.100000, 0.100000, 0.100000}" visibilitymask="-1" />
-            <scenette name="boton_notas" file="boton\boton.scene" position="{4.000000, -5.500000, -1.000000}" orientation="{0.763129, 0.640342, 0.056023, -0.066765}" visible="true" rendergroup="50" scale="{0.100000, 0.100000, 0.100000}" visibilitymask="-1" />
-            <scenette name="boton_precesion" file="boton\boton.scene" position="{4.000000, -10.500000, -1.000000}" orientation="{0.763129, 0.640342, 0.056023, -0.066765}" visible="true" rendergroup="50" scale="{0.100000, 0.100000, 0.100000}" visibilitymask="-1" />
-        </object3d>
+        <object3d name="ref" position="{0.000000, 0.000000, 0.000000}" orientation="{1.000000, 0.000000, 0.000000, 0.000000}" visible="true" rendergroup="50" scale="{1.000000, 1.000000, 1.000000}" visibilitymask="-1" />
         <luascript name="init" file="init.lua" enabled="true" framerate="0.000000" priority="0" trigger="true" pause="false" />
         <luascript name="touch" file="touch.lua" enabled="true" framerate="0.000000" priority="0" trigger="true" pause="false" />
         <luascript name="giroscopo" file="giroscopo.lua" enabled="true" framerate="0.000000" priority="0" trigger="true" pause="false" />

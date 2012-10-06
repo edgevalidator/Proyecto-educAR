@@ -46,9 +46,8 @@ repeat
 		else
 		
 			if mouse:wasButtonReleased(TIMOUSE_RIGHTBUTTON) then
-				LOG("rel")
 				err, RWX, RWY = window:getLocalCursorCoordinates()
-				obj = viewport:pick(RWX, RWY)
+				obj = viewport:pick(RWX, RWY, false)
 			end
 			
 		end
@@ -68,6 +67,12 @@ repeat
 			show_model(4)
 		elseif action == 'boton_notas' then
 			show_notes()
+		elseif action == 'boton_ecuaciones' then
+			show_equations()
+		elseif action == 'boton_nota_siguiente' then
+			next_note()
+		elseif action == 'boton_nota_anterior' then
+			previous_note()
 		elseif action == 'boton_velocidadangular' then
 			toggle_vector_group('velocidad_angular')
 		elseif action == 'boton_momentoangular' then
@@ -84,6 +89,8 @@ repeat
 			toggle_animation_direction()
 		elseif action == 'boton_precesion' then
 			toggle_precesion()
+		else
+			LOG(action)
 		end
 	end
 

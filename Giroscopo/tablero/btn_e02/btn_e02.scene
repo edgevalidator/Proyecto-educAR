@@ -1,0 +1,107 @@
+<scene version="0.2">
+	<info source="C:\Users\Matias Cuadrado\Dropbox\Proyecto\modelos 3ds max\2012\tablero.max" profile="public" shared_geometry="false" build_edges="false" build_tangents="false" exporter="Exporter 3DSMax3.25.24177"/>
+	<settings>
+		<environment ambient="0 0 0" background="0 0 0" camera=""/>
+		<shadow color="0 0 0" distance="10000" self="false" setup="uniform" size="1024 1" technique="none"/>
+	</settings>
+	<animations>
+		<animation name="Timeline" loop="false" length="-1" priority="0">
+			<bind target="btn_e02_node" attribute="position" track="btn_e02_node_Timeline_positionTrack" loop="false" mode="absolute" reset="true" weight="1"/>
+			<bind target="btn_e02_node" attribute="orientation" track="btn_e02_node_Timeline_orientationTrack" loop="false" mode="absolute" reset="true" short="true" weight="1"/>
+			<bind target="luz_e02_node" attribute="position" track="luz_e02_node_Timeline_positionTrack" loop="false" mode="absolute" reset="true" weight="1"/>
+			<bind target="luz_e02_node" attribute="orientation" track="luz_e02_node_Timeline_orientationTrack" loop="false" mode="absolute" reset="true" short="true" weight="1"/>
+		</animation>
+	</animations>
+	<tracks>
+		<track name="btn_e02_node_Timeline_orientationTrack">
+			<key time="0" value="0 0 0 1"/>
+			<key time="1" value="0 0 0 1"/>
+		</track>
+		<track name="btn_e02_node_Timeline_positionTrack">
+			<key time="0" value="-10 0 1"/>
+			<key time="0.0333333" value="-10 0 0.996178"/>
+			<key time="0.0666667" value="-10 0 0.985422"/>
+			<key time="0.1" value="-10 0 0.9688"/>
+			<key time="0.133333" value="-10 0 0.947378"/>
+			<key time="0.166667" value="-10 0 0.922222"/>
+			<key time="0.2" value="-10 0 0.8944"/>
+			<key time="0.233333" value="-10 0 0.864978"/>
+			<key time="0.266667" value="-10 0 0.835022"/>
+			<key time="0.3" value="-10 0 0.8056"/>
+			<key time="0.333333" value="-10 0 0.777778"/>
+			<key time="0.366667" value="-10 0 0.752622"/>
+			<key time="0.4" value="-10 0 0.7312"/>
+			<key time="0.433333" value="-10 0 0.714578"/>
+			<key time="0.466667" value="-10 0 0.703822"/>
+			<key time="0.5" value="-10 0 0.7"/>
+			<key time="0.533333" value="-10 0 0.703822"/>
+			<key time="0.566667" value="-10 0 0.714578"/>
+			<key time="0.6" value="-10 0 0.7312"/>
+			<key time="0.633333" value="-10 0 0.752622"/>
+			<key time="0.666667" value="-10 0 0.777778"/>
+			<key time="0.7" value="-10 0 0.8056"/>
+			<key time="0.733333" value="-10 0 0.835022"/>
+			<key time="0.766667" value="-10 0 0.864978"/>
+			<key time="0.8" value="-10 0 0.8944"/>
+			<key time="0.833333" value="-10 0 0.922222"/>
+			<key time="0.866667" value="-10 0 0.947378"/>
+			<key time="0.9" value="-10 0 0.9688"/>
+			<key time="0.933333" value="-10 0 0.985422"/>
+			<key time="0.966667" value="-10 0 0.996178"/>
+			<key time="1" value="-10 0 1"/>
+		</track>
+		<track name="luz_e02_node_Timeline_orientationTrack">
+			<key time="0" value="0 0 0 1"/>
+			<key time="1" value="0 0 0 1"/>
+		</track>
+		<track name="luz_e02_node_Timeline_positionTrack">
+			<key time="0" value="-10 0 0.9"/>
+			<key time="0.0333333" value="-10 0 0.901911"/>
+			<key time="0.0666667" value="-10 0 0.907289"/>
+			<key time="0.1" value="-10 0 0.9156"/>
+			<key time="0.133333" value="-10 0 0.926311"/>
+			<key time="0.166667" value="-10 0 0.938889"/>
+			<key time="0.2" value="-10 0 0.9528"/>
+			<key time="0.233333" value="-10 0 0.967511"/>
+			<key time="0.266667" value="-10 0 0.982489"/>
+			<key time="0.3" value="-10 0 0.9972"/>
+			<key time="0.333333" value="-10 0 1.01111"/>
+			<key time="0.366667" value="-10 0 1.02369"/>
+			<key time="0.4" value="-10 0 1.0344"/>
+			<key time="0.433333" value="-10 0 1.04271"/>
+			<key time="0.466667" value="-10 0 1.04809"/>
+			<key time="0.5" value="-10 0 1.05"/>
+			<key time="0.533333" value="-10 0 1.04809"/>
+			<key time="0.566667" value="-10 0 1.04271"/>
+			<key time="0.6" value="-10 0 1.0344"/>
+			<key time="0.633333" value="-10 0 1.02369"/>
+			<key time="0.666667" value="-10 0 1.01111"/>
+			<key time="0.7" value="-10 0 0.9972"/>
+			<key time="0.733333" value="-10 0 0.982489"/>
+			<key time="0.766667" value="-10 0 0.967511"/>
+			<key time="0.8" value="-10 0 0.9528"/>
+			<key time="0.833333" value="-10 0 0.938889"/>
+			<key time="0.866667" value="-10 0 0.926311"/>
+			<key time="0.9" value="-10 0 0.9156"/>
+			<key time="0.933333" value="-10 0 0.907289"/>
+			<key time="0.966667" value="-10 0 0.901911"/>
+			<key time="1" value="-10 0 0.9"/>
+		</track>
+	</tracks>
+	<nodes>
+		<node name="fixUp" orientation="-0.707107 0 0 0.707107" position="0 0 0" priority="0" scale="1 1 1" show_box="false" visible="true">
+			<node name="Tube09_node" orientation="0 0 0 1" position="-10 0 1" priority="0" scale="1 1 1" show_box="false" visible="true">
+				<entity name="Tube09" aab="0 0 0 0 0 0" blend="average" mesh="btn_e02_Tube09.mesh" priority="0" shadow="false true" visible="true"/>
+			</node>
+			<node name="btn_e02_node" orientation="0 0 0 1" position="-10 0 1" priority="0" scale="1 1 1" show_box="false" visible="true">
+				<node name="Text06_node" orientation="0 0 0 1" position="0 0 0.9" priority="0" scale="1 1 1" show_box="false" visible="true">
+					<entity name="Text06" aab="0 0 0 0 0 0" blend="average" mesh="btn_e02_Text06.mesh" priority="0" shadow="false true" visible="true"/>
+				</node>
+				<entity name="btn_e02" aab="0 0 0 0 0 0" blend="average" mesh="btn_e02_btn_e02.mesh" priority="0" shadow="false true" visible="true"/>
+			</node>
+			<node name="luz_e02_node" orientation="0 0 0 1" position="-10 0 0.9" priority="0" scale="1 1 1" show_box="false" visible="true">
+				<entity name="luz_e02" aab="0 0 0 0 0 0" blend="average" mesh="btn_e02_luz_e02.mesh" priority="0" shadow="false true" visible="true"/>
+			</node>
+		</node>
+	</nodes>
+</scene>

@@ -1,0 +1,47 @@
+<scene version="0.2">
+	<info source="C:\Users\Matias Cuadrado\Dropbox\Proyecto\modelos 3ds max\2012\tablero.max" profile="public" shared_geometry="false" build_edges="false" build_tangents="false" exporter="Exporter 3DSMax3.25.24177"/>
+	<settings>
+		<environment ambient="0 0 0" background="0 0 0" camera=""/>
+		<shadow color="0 0 0" distance="10000" self="false" setup="uniform" size="1024 1" technique="none"/>
+	</settings>
+	<nodes>
+		<node name="fixUp" orientation="-0.707107 0 0 0.707107" position="0 0 0" priority="0" scale="1 1 1" show_box="false" visible="true">
+			<node name="Box02_node" orientation="0 0 0 1" position="0 0 0" priority="0" scale="1 1 1" show_box="false" visible="true">
+				<entity name="Box02" aab="0 0 0 0 0 0" blend="average" mesh="tablero_Box02.mesh" priority="0" shadow="false true" visible="true"/>
+			</node>
+			<node name="Text01_node" orientation="0 0 0 1" position="10 14.7712 1.03525" priority="0" scale="1 1 1" show_box="false" visible="true">
+				<entity name="Text01" aab="0 0 0 0 0 0" blend="average" mesh="tablero_Text01.mesh" priority="0" shadow="false true" visible="true"/>
+			</node>
+			<node name="Text02_node" orientation="0 0 0 1" position="15 14.7712 1.03525" priority="0" scale="1 1 1" show_box="false" visible="true">
+				<entity name="Text02" aab="0 0 0 0 0 0" blend="average" mesh="tablero_Text02.mesh" priority="0" shadow="false true" visible="true"/>
+			</node>
+			<node name="Text03_node" orientation="0 0 0 1" position="20 14.6781 1.03525" priority="0" scale="1 1 1" show_box="false" visible="true">
+				<entity name="Text03" aab="0 0 0 0 0 0" blend="average" mesh="tablero_Text03.mesh" priority="0" shadow="false true" visible="true"/>
+			</node>
+			<node name="Text04_node" orientation="0 0 0 1" position="-14.8049 -6.9421 1.03525" priority="0" scale="1 1 1" show_box="false" visible="true">
+				<entity name="Text04" aab="0 0 0 0 0 0" blend="average" mesh="tablero_Text04.mesh" priority="0" shadow="false true" visible="true"/>
+			</node>
+			<node name="Text07_node" orientation="0 0 0 1" position="25 14.678 1.03525" priority="0" scale="1 1 1" show_box="false" visible="true">
+				<entity name="Text07" aab="0 0 0 0 0 0" blend="average" mesh="tablero_Text07.mesh" priority="0" shadow="false true" visible="true"/>
+			</node>
+			<node name="Text08_node" orientation="0 0 0 1" position="15 4.91019 1.03525" priority="0" scale="1 1 1" show_box="false" visible="true">
+				<entity name="Text08" aab="0 0 0 0 0 0" blend="average" mesh="tablero_Text08.mesh" priority="0" shadow="false true" visible="true"/>
+			</node>
+			<node name="Text09_node" orientation="0 0 0 1" position="15 -6.942 1.03525" priority="0" scale="1 1 1" show_box="false" visible="true">
+				<entity name="Text09" aab="0 0 0 0 0 0" blend="average" mesh="tablero_Text09.mesh" priority="0" shadow="false true" visible="true"/>
+			</node>
+			<node name="Text10_node" orientation="0 0 0 1" position="-15 17 1.03525" priority="0" scale="1 1 1" show_box="false" visible="true">
+				<entity name="Text10" aab="0 0 0 0 0 0" blend="average" mesh="tablero_Text10.mesh" priority="0" shadow="false true" visible="true"/>
+			</node>
+			<node name="Text11_node" orientation="0 0 0 1" position="-14.8049 5.75129 1.03525" priority="0" scale="1 1 1" show_box="false" visible="true">
+				<entity name="Text11" aab="0 0 0 0 0 0" blend="average" mesh="tablero_Text11.mesh" priority="0" shadow="false true" visible="true"/>
+			</node>
+			<node name="Text12_node" orientation="0 0 0 1" position="15 17 1.03525" priority="0" scale="1 1 1" show_box="false" visible="true">
+				<entity name="Text12" aab="0 0 0 0 0 0" blend="average" mesh="tablero_Text12.mesh" priority="0" shadow="false true" visible="true"/>
+			</node>
+			<node name="Text25_node" orientation="0 0 0 1" position="5 14.7712 1.03525" priority="0" scale="1 1 1" show_box="false" visible="true">
+				<entity name="Text25" aab="0 0 0 0 0 0" blend="average" mesh="tablero_Text25.mesh" priority="0" shadow="false true" visible="true"/>
+			</node>
+		</node>
+	</nodes>
+</scene>
