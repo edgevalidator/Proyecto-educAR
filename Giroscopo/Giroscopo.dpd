@@ -2654,6 +2654,896 @@
                 <configuration name="@Home|windows" excludeFromBuild="true" />
                 <configuration name="mobile|All Platforms" excludeFromBuild="true" />
             </file>
+            <file relativePath=".\tablero\btn_Back\blanco.png">
+                <configuration name="@Home|All Platforms" excludeFromBuild="true" />
+                <configuration name="@Home|windows" excludeFromBuild="true" />
+                <configuration name="mobile|All Platforms" excludeFromBuild="true" />
+            </file>
+            <file relativePath=".\tablero\btn_Back\btn_Back.material">
+                <configuration name="@Home|All Platforms" excludeFromBuild="true" />
+                <configuration name="@Home|windows" excludeFromBuild="true" />
+                <configuration name="mobile|All Platforms" excludeFromBuild="true" />
+            </file>
+            <file relativePath=".\tablero\btn_Back\btn_Back.scene">
+                <configuration name="@Home|All Platforms" excludeFromBuild="true" />
+                <configuration name="@Home|windows" excludeFromBuild="true" />
+                <configuration name="mobile|All Platforms" excludeFromBuild="true" />
+            </file>
+            <file relativePath=".\tablero\btn_Back\btn_Back_Box04.mesh">
+                <configuration name="@Home|All Platforms" excludeFromBuild="true" />
+                <configuration name="@Home|windows" excludeFromBuild="true" />
+                <configuration name="mobile|All Platforms" excludeFromBuild="true" />
+            </file>
+            <file relativePath=".\tablero\btn_Back\btn_Back_Prism02.mesh">
+                <configuration name="@Home|All Platforms" excludeFromBuild="true" />
+                <configuration name="@Home|windows" excludeFromBuild="true" />
+                <configuration name="mobile|All Platforms" excludeFromBuild="true" />
+            </file>
+            <file relativePath=".\tablero\btn_Back\btn_Back_Tube26.mesh">
+                <configuration name="@Home|All Platforms" excludeFromBuild="true" />
+                <configuration name="@Home|windows" excludeFromBuild="true" />
+                <configuration name="mobile|All Platforms" excludeFromBuild="true" />
+            </file>
+            <file relativePath=".\tablero\btn_Back\btn_Back_btn_back.mesh">
+                <configuration name="@Home|All Platforms" excludeFromBuild="true" />
+                <configuration name="@Home|windows" excludeFromBuild="true" />
+                <configuration name="mobile|All Platforms" excludeFromBuild="true" />
+            </file>
+            <file relativePath=".\tablero\btn_Back\gris.png">
+                <configuration name="@Home|All Platforms" excludeFromBuild="true" />
+                <configuration name="@Home|windows" excludeFromBuild="true" />
+                <configuration name="mobile|All Platforms" excludeFromBuild="true" />
+            </file>
+            <file relativePath=".\tablero\btn_Back\rojo.png">
+                <configuration name="@Home|All Platforms" excludeFromBuild="true" />
+                <configuration name="@Home|windows" excludeFromBuild="true" />
+                <configuration name="mobile|All Platforms" excludeFromBuild="true" />
+            </file>
+            <file relativePath=".\tablero\btn_Ecuaciones\amarillo.png">
+                <configuration name="@Home|All Platforms" excludeFromBuild="true" />
+                <configuration name="@Home|windows" excludeFromBuild="true" />
+                <configuration name="mobile|All Platforms" excludeFromBuild="true" />
+            </file>
+            <file relativePath=".\tablero\btn_Ecuaciones\blanco.png">
+                <configuration name="@Home|All Platforms" excludeFromBuild="true" />
+                <configuration name="@Home|windows" excludeFromBuild="true" />
+                <configuration name="mobile|All Platforms" excludeFromBuild="true" />
+            </file>
+            <file relativePath=".\tablero\btn_Ecuaciones\btn_Ecuaciones.material">
+                <configuration name="@Home|All Platforms" excludeFromBuild="true" />
+                <configuration name="@Home|windows" excludeFromBuild="true" />
+                <configuration name="mobile|All Platforms" excludeFromBuild="true" />
+            </file>
+            <file relativePath=".\tablero\btn_Ecuaciones\btn_Ecuaciones.scene">
+                <configuration name="@Home|All Platforms" excludeFromBuild="true" />
+                <configuration name="@Home|windows" excludeFromBuild="true" />
+                <configuration name="mobile|All Platforms" excludeFromBuild="true" />
+            </file>
+            <file relativePath=".\tablero\btn_Ecuaciones\btn_Ecuaciones_Tube16.mesh">
+                <configuration name="@Home|All Platforms" excludeFromBuild="true" />
+                <configuration name="@Home|windows" excludeFromBuild="true" />
+                <configuration name="mobile|All Platforms" excludeFromBuild="true" />
+            </file>
+            <file relativePath=".\tablero\btn_Ecuaciones\btn_Ecuaciones_btn_Ecuaciones.mesh">
+                <configuration name="@Home|All Platforms" excludeFromBuild="true" />
+                <configuration name="@Home|windows" excludeFromBuild="true" />
+                <configuration name="mobile|All Platforms" excludeFromBuild="true" />
+            </file>
+            <file relativePath=".\tablero\btn_Ecuaciones\btn_Ecuaciones_luz_Ecuaciones.mesh">
+                <configuration name="@Home|All Platforms" excludeFromBuild="true" />
+                <configuration name="@Home|windows" excludeFromBuild="true" />
+                <configuration name="mobile|All Platforms" excludeFromBuild="true" />
+            </file>
+            <file relativePath=".\tablero\btn_Ecuaciones\btn_Ecuaciones_txtBtnEcuaciones.mesh">
+                <configuration name="@Home|All Platforms" excludeFromBuild="true" />
+                <configuration name="@Home|windows" excludeFromBuild="true" />
+                <configuration name="mobile|All Platforms" excludeFromBuild="true" />
+            </file>
+            <file relativePath=".\tablero\btn_Ecuaciones\gris.png">
+                <configuration name="@Home|All Platforms" excludeFromBuild="true" />
+                <configuration name="@Home|windows" excludeFromBuild="true" />
+                <configuration name="mobile|All Platforms" excludeFromBuild="true" />
+            </file>
+            <file relativePath=".\tablero\btn_Ecuaciones\rojo.png">
+                <configuration name="@Home|All Platforms" excludeFromBuild="true" />
+                <configuration name="@Home|windows" excludeFromBuild="true" />
+                <configuration name="mobile|All Platforms" excludeFromBuild="true" />
+            </file>
+            <file relativePath=".\tablero\btn_Next\blanco.png">
+                <configuration name="@Home|All Platforms" excludeFromBuild="true" />
+                <configuration name="@Home|windows" excludeFromBuild="true" />
+                <configuration name="mobile|All Platforms" excludeFromBuild="true" />
+            </file>
+            <file relativePath=".\tablero\btn_Next\btn_Next.material">
+                <configuration name="@Home|All Platforms" excludeFromBuild="true" />
+                <configuration name="@Home|windows" excludeFromBuild="true" />
+                <configuration name="mobile|All Platforms" excludeFromBuild="true" />
+            </file>
+            <file relativePath=".\tablero\btn_Next\btn_Next.scene">
+                <configuration name="@Home|All Platforms" excludeFromBuild="true" />
+                <configuration name="@Home|windows" excludeFromBuild="true" />
+                <configuration name="mobile|All Platforms" excludeFromBuild="true" />
+            </file>
+            <file relativePath=".\tablero\btn_Next\btn_Next_Box03.mesh">
+                <configuration name="@Home|All Platforms" excludeFromBuild="true" />
+                <configuration name="@Home|windows" excludeFromBuild="true" />
+                <configuration name="mobile|All Platforms" excludeFromBuild="true" />
+            </file>
+            <file relativePath=".\tablero\btn_Next\btn_Next_Prism01.mesh">
+                <configuration name="@Home|All Platforms" excludeFromBuild="true" />
+                <configuration name="@Home|windows" excludeFromBuild="true" />
+                <configuration name="mobile|All Platforms" excludeFromBuild="true" />
+            </file>
+            <file relativePath=".\tablero\btn_Next\btn_Next_Tube25.mesh">
+                <configuration name="@Home|All Platforms" excludeFromBuild="true" />
+                <configuration name="@Home|windows" excludeFromBuild="true" />
+                <configuration name="mobile|All Platforms" excludeFromBuild="true" />
+            </file>
+            <file relativePath=".\tablero\btn_Next\btn_Next_btn_next.mesh">
+                <configuration name="@Home|All Platforms" excludeFromBuild="true" />
+                <configuration name="@Home|windows" excludeFromBuild="true" />
+                <configuration name="mobile|All Platforms" excludeFromBuild="true" />
+            </file>
+            <file relativePath=".\tablero\btn_Next\gris.png">
+                <configuration name="@Home|All Platforms" excludeFromBuild="true" />
+                <configuration name="@Home|windows" excludeFromBuild="true" />
+                <configuration name="mobile|All Platforms" excludeFromBuild="true" />
+            </file>
+            <file relativePath=".\tablero\btn_Next\rojo.png">
+                <configuration name="@Home|All Platforms" excludeFromBuild="true" />
+                <configuration name="@Home|windows" excludeFromBuild="true" />
+                <configuration name="mobile|All Platforms" excludeFromBuild="true" />
+            </file>
+            <file relativePath=".\tablero\btn_Notas\amarillo.png">
+                <configuration name="@Home|All Platforms" excludeFromBuild="true" />
+                <configuration name="@Home|windows" excludeFromBuild="true" />
+                <configuration name="mobile|All Platforms" excludeFromBuild="true" />
+            </file>
+            <file relativePath=".\tablero\btn_Notas\blanco.png">
+                <configuration name="@Home|All Platforms" excludeFromBuild="true" />
+                <configuration name="@Home|windows" excludeFromBuild="true" />
+                <configuration name="mobile|All Platforms" excludeFromBuild="true" />
+            </file>
+            <file relativePath=".\tablero\btn_Notas\btn_Notas.material">
+                <configuration name="@Home|All Platforms" excludeFromBuild="true" />
+                <configuration name="@Home|windows" excludeFromBuild="true" />
+                <configuration name="mobile|All Platforms" excludeFromBuild="true" />
+            </file>
+            <file relativePath=".\tablero\btn_Notas\btn_Notas.scene">
+                <configuration name="@Home|All Platforms" excludeFromBuild="true" />
+                <configuration name="@Home|windows" excludeFromBuild="true" />
+                <configuration name="mobile|All Platforms" excludeFromBuild="true" />
+            </file>
+            <file relativePath=".\tablero\btn_Notas\btn_Notas_Tube15.mesh">
+                <configuration name="@Home|All Platforms" excludeFromBuild="true" />
+                <configuration name="@Home|windows" excludeFromBuild="true" />
+                <configuration name="mobile|All Platforms" excludeFromBuild="true" />
+            </file>
+            <file relativePath=".\tablero\btn_Notas\btn_Notas_btn_Notas.mesh">
+                <configuration name="@Home|All Platforms" excludeFromBuild="true" />
+                <configuration name="@Home|windows" excludeFromBuild="true" />
+                <configuration name="mobile|All Platforms" excludeFromBuild="true" />
+            </file>
+            <file relativePath=".\tablero\btn_Notas\btn_Notas_luz_Notas.mesh">
+                <configuration name="@Home|All Platforms" excludeFromBuild="true" />
+                <configuration name="@Home|windows" excludeFromBuild="true" />
+                <configuration name="mobile|All Platforms" excludeFromBuild="true" />
+            </file>
+            <file relativePath=".\tablero\btn_Notas\btn_Notas_txtBtnNotas.mesh">
+                <configuration name="@Home|All Platforms" excludeFromBuild="true" />
+                <configuration name="@Home|windows" excludeFromBuild="true" />
+                <configuration name="mobile|All Platforms" excludeFromBuild="true" />
+            </file>
+            <file relativePath=".\tablero\btn_Notas\gris.png">
+                <configuration name="@Home|All Platforms" excludeFromBuild="true" />
+                <configuration name="@Home|windows" excludeFromBuild="true" />
+                <configuration name="mobile|All Platforms" excludeFromBuild="true" />
+            </file>
+            <file relativePath=".\tablero\btn_Notas\rojo.png">
+                <configuration name="@Home|All Platforms" excludeFromBuild="true" />
+                <configuration name="@Home|windows" excludeFromBuild="true" />
+                <configuration name="mobile|All Platforms" excludeFromBuild="true" />
+            </file>
+            <file relativePath=".\tablero\btn_PlayPause\blanco.png">
+                <configuration name="@Home|All Platforms" excludeFromBuild="true" />
+                <configuration name="@Home|windows" excludeFromBuild="true" />
+                <configuration name="mobile|All Platforms" excludeFromBuild="true" />
+            </file>
+            <file relativePath=".\tablero\btn_PlayPause\btn_PlayPause.material">
+                <configuration name="@Home|All Platforms" excludeFromBuild="true" />
+                <configuration name="@Home|windows" excludeFromBuild="true" />
+                <configuration name="mobile|All Platforms" excludeFromBuild="true" />
+            </file>
+            <file relativePath=".\tablero\btn_PlayPause\btn_PlayPause.scene">
+                <configuration name="@Home|All Platforms" excludeFromBuild="true" />
+                <configuration name="@Home|windows" excludeFromBuild="true" />
+                <configuration name="mobile|All Platforms" excludeFromBuild="true" />
+            </file>
+            <file relativePath=".\tablero\btn_PlayPause\btn_PlayPause_Tube24.mesh">
+                <configuration name="@Home|All Platforms" excludeFromBuild="true" />
+                <configuration name="@Home|windows" excludeFromBuild="true" />
+                <configuration name="mobile|All Platforms" excludeFromBuild="true" />
+            </file>
+            <file relativePath=".\tablero\btn_PlayPause\btn_PlayPause_btn_PlayPause.mesh">
+                <configuration name="@Home|All Platforms" excludeFromBuild="true" />
+                <configuration name="@Home|windows" excludeFromBuild="true" />
+                <configuration name="mobile|All Platforms" excludeFromBuild="true" />
+            </file>
+            <file relativePath=".\tablero\btn_PlayPause\btn_PlayPause_txtBtn_PlayPause.mesh">
+                <configuration name="@Home|All Platforms" excludeFromBuild="true" />
+                <configuration name="@Home|windows" excludeFromBuild="true" />
+                <configuration name="mobile|All Platforms" excludeFromBuild="true" />
+            </file>
+            <file relativePath=".\tablero\btn_PlayPause\gris.png">
+                <configuration name="@Home|All Platforms" excludeFromBuild="true" />
+                <configuration name="@Home|windows" excludeFromBuild="true" />
+                <configuration name="mobile|All Platforms" excludeFromBuild="true" />
+            </file>
+            <file relativePath=".\tablero\btn_PlayPause\rojo.png">
+                <configuration name="@Home|All Platforms" excludeFromBuild="true" />
+                <configuration name="@Home|windows" excludeFromBuild="true" />
+                <configuration name="mobile|All Platforms" excludeFromBuild="true" />
+            </file>
+            <file relativePath=".\tablero\btn_Sentido\blanco.png">
+                <configuration name="@Home|All Platforms" excludeFromBuild="true" />
+                <configuration name="@Home|windows" excludeFromBuild="true" />
+                <configuration name="mobile|All Platforms" excludeFromBuild="true" />
+            </file>
+            <file relativePath=".\tablero\btn_Sentido\btn_Sentido.material">
+                <configuration name="@Home|All Platforms" excludeFromBuild="true" />
+                <configuration name="@Home|windows" excludeFromBuild="true" />
+                <configuration name="mobile|All Platforms" excludeFromBuild="true" />
+            </file>
+            <file relativePath=".\tablero\btn_Sentido\btn_Sentido.scene">
+                <configuration name="@Home|All Platforms" excludeFromBuild="true" />
+                <configuration name="@Home|windows" excludeFromBuild="true" />
+                <configuration name="mobile|All Platforms" excludeFromBuild="true" />
+            </file>
+            <file relativePath=".\tablero\btn_Sentido\btn_Sentido_Tube22.mesh">
+                <configuration name="@Home|All Platforms" excludeFromBuild="true" />
+                <configuration name="@Home|windows" excludeFromBuild="true" />
+                <configuration name="mobile|All Platforms" excludeFromBuild="true" />
+            </file>
+            <file relativePath=".\tablero\btn_Sentido\btn_Sentido_btn_Sentido.mesh">
+                <configuration name="@Home|All Platforms" excludeFromBuild="true" />
+                <configuration name="@Home|windows" excludeFromBuild="true" />
+                <configuration name="mobile|All Platforms" excludeFromBuild="true" />
+            </file>
+            <file relativePath=".\tablero\btn_Sentido\btn_Sentido_txtBtn_Sentido.mesh">
+                <configuration name="@Home|All Platforms" excludeFromBuild="true" />
+                <configuration name="@Home|windows" excludeFromBuild="true" />
+                <configuration name="mobile|All Platforms" excludeFromBuild="true" />
+            </file>
+            <file relativePath=".\tablero\btn_Sentido\gris.png">
+                <configuration name="@Home|All Platforms" excludeFromBuild="true" />
+                <configuration name="@Home|windows" excludeFromBuild="true" />
+                <configuration name="mobile|All Platforms" excludeFromBuild="true" />
+            </file>
+            <file relativePath=".\tablero\btn_Sentido\rojo.png">
+                <configuration name="@Home|All Platforms" excludeFromBuild="true" />
+                <configuration name="@Home|windows" excludeFromBuild="true" />
+                <configuration name="mobile|All Platforms" excludeFromBuild="true" />
+            </file>
+            <file relativePath=".\tablero\btn_Velocidad\blanco.png">
+                <configuration name="@Home|All Platforms" excludeFromBuild="true" />
+                <configuration name="@Home|windows" excludeFromBuild="true" />
+                <configuration name="mobile|All Platforms" excludeFromBuild="true" />
+            </file>
+            <file relativePath=".\tablero\btn_Velocidad\btn_Velocidad.material">
+                <configuration name="@Home|All Platforms" excludeFromBuild="true" />
+                <configuration name="@Home|windows" excludeFromBuild="true" />
+                <configuration name="mobile|All Platforms" excludeFromBuild="true" />
+            </file>
+            <file relativePath=".\tablero\btn_Velocidad\btn_Velocidad.scene">
+                <configuration name="@Home|All Platforms" excludeFromBuild="true" />
+                <configuration name="@Home|windows" excludeFromBuild="true" />
+                <configuration name="mobile|All Platforms" excludeFromBuild="true" />
+            </file>
+            <file relativePath=".\tablero\btn_Velocidad\btn_Velocidad_Tube10.mesh">
+                <configuration name="@Home|All Platforms" excludeFromBuild="true" />
+                <configuration name="@Home|windows" excludeFromBuild="true" />
+                <configuration name="mobile|All Platforms" excludeFromBuild="true" />
+            </file>
+            <file relativePath=".\tablero\btn_Velocidad\btn_Velocidad_btn_Velocidad.mesh">
+                <configuration name="@Home|All Platforms" excludeFromBuild="true" />
+                <configuration name="@Home|windows" excludeFromBuild="true" />
+                <configuration name="mobile|All Platforms" excludeFromBuild="true" />
+            </file>
+            <file relativePath=".\tablero\btn_Velocidad\btn_Velocidad_txtBtn_Velocidad.mesh">
+                <configuration name="@Home|All Platforms" excludeFromBuild="true" />
+                <configuration name="@Home|windows" excludeFromBuild="true" />
+                <configuration name="mobile|All Platforms" excludeFromBuild="true" />
+            </file>
+            <file relativePath=".\tablero\btn_Velocidad\gris.png">
+                <configuration name="@Home|All Platforms" excludeFromBuild="true" />
+                <configuration name="@Home|windows" excludeFromBuild="true" />
+                <configuration name="mobile|All Platforms" excludeFromBuild="true" />
+            </file>
+            <file relativePath=".\tablero\btn_Velocidad\rojo.png">
+                <configuration name="@Home|All Platforms" excludeFromBuild="true" />
+                <configuration name="@Home|windows" excludeFromBuild="true" />
+                <configuration name="mobile|All Platforms" excludeFromBuild="true" />
+            </file>
+            <file relativePath=".\tablero\btn_Videos\amarillo.png">
+                <configuration name="@Home|All Platforms" excludeFromBuild="true" />
+                <configuration name="@Home|windows" excludeFromBuild="true" />
+                <configuration name="mobile|All Platforms" excludeFromBuild="true" />
+            </file>
+            <file relativePath=".\tablero\btn_Videos\blanco.png">
+                <configuration name="@Home|All Platforms" excludeFromBuild="true" />
+                <configuration name="@Home|windows" excludeFromBuild="true" />
+                <configuration name="mobile|All Platforms" excludeFromBuild="true" />
+            </file>
+            <file relativePath=".\tablero\btn_Videos\btn_Videos.material">
+                <configuration name="@Home|All Platforms" excludeFromBuild="true" />
+                <configuration name="@Home|windows" excludeFromBuild="true" />
+                <configuration name="mobile|All Platforms" excludeFromBuild="true" />
+            </file>
+            <file relativePath=".\tablero\btn_Videos\btn_Videos.scene">
+                <configuration name="@Home|All Platforms" excludeFromBuild="true" />
+                <configuration name="@Home|windows" excludeFromBuild="true" />
+                <configuration name="mobile|All Platforms" excludeFromBuild="true" />
+            </file>
+            <file relativePath=".\tablero\btn_Videos\btn_Videos_Tube14.mesh">
+                <configuration name="@Home|All Platforms" excludeFromBuild="true" />
+                <configuration name="@Home|windows" excludeFromBuild="true" />
+                <configuration name="mobile|All Platforms" excludeFromBuild="true" />
+            </file>
+            <file relativePath=".\tablero\btn_Videos\btn_Videos_btn_Videos.mesh">
+                <configuration name="@Home|All Platforms" excludeFromBuild="true" />
+                <configuration name="@Home|windows" excludeFromBuild="true" />
+                <configuration name="mobile|All Platforms" excludeFromBuild="true" />
+            </file>
+            <file relativePath=".\tablero\btn_Videos\btn_Videos_luz_videos.mesh">
+                <configuration name="@Home|All Platforms" excludeFromBuild="true" />
+                <configuration name="@Home|windows" excludeFromBuild="true" />
+                <configuration name="mobile|All Platforms" excludeFromBuild="true" />
+            </file>
+            <file relativePath=".\tablero\btn_Videos\btn_Videos_txtBtnVideos.mesh">
+                <configuration name="@Home|All Platforms" excludeFromBuild="true" />
+                <configuration name="@Home|windows" excludeFromBuild="true" />
+                <configuration name="mobile|All Platforms" excludeFromBuild="true" />
+            </file>
+            <file relativePath=".\tablero\btn_Videos\gris.png">
+                <configuration name="@Home|All Platforms" excludeFromBuild="true" />
+                <configuration name="@Home|windows" excludeFromBuild="true" />
+                <configuration name="mobile|All Platforms" excludeFromBuild="true" />
+            </file>
+            <file relativePath=".\tablero\btn_Videos\rojo.png">
+                <configuration name="@Home|All Platforms" excludeFromBuild="true" />
+                <configuration name="@Home|windows" excludeFromBuild="true" />
+                <configuration name="mobile|All Platforms" excludeFromBuild="true" />
+            </file>
+            <file relativePath=".\tablero\btn_e01\blanco.png">
+                <configuration name="@Home|All Platforms" excludeFromBuild="true" />
+                <configuration name="@Home|windows" excludeFromBuild="true" />
+                <configuration name="mobile|All Platforms" excludeFromBuild="true" />
+            </file>
+            <file relativePath=".\tablero\btn_e01\btn_e01.material">
+                <configuration name="@Home|All Platforms" excludeFromBuild="true" />
+                <configuration name="@Home|windows" excludeFromBuild="true" />
+                <configuration name="mobile|All Platforms" excludeFromBuild="true" />
+            </file>
+            <file relativePath=".\tablero\btn_e01\btn_e01.scene">
+                <configuration name="@Home|All Platforms" excludeFromBuild="true" />
+                <configuration name="@Home|windows" excludeFromBuild="true" />
+                <configuration name="mobile|All Platforms" excludeFromBuild="true" />
+            </file>
+            <file relativePath=".\tablero\btn_e01\btn_e01_Text05.mesh">
+                <configuration name="@Home|All Platforms" excludeFromBuild="true" />
+                <configuration name="@Home|windows" excludeFromBuild="true" />
+                <configuration name="mobile|All Platforms" excludeFromBuild="true" />
+            </file>
+            <file relativePath=".\tablero\btn_e01\btn_e01_Tube08.mesh">
+                <configuration name="@Home|All Platforms" excludeFromBuild="true" />
+                <configuration name="@Home|windows" excludeFromBuild="true" />
+                <configuration name="mobile|All Platforms" excludeFromBuild="true" />
+            </file>
+            <file relativePath=".\tablero\btn_e01\btn_e01_btn_e1.mesh">
+                <configuration name="@Home|All Platforms" excludeFromBuild="true" />
+                <configuration name="@Home|windows" excludeFromBuild="true" />
+                <configuration name="mobile|All Platforms" excludeFromBuild="true" />
+            </file>
+            <file relativePath=".\tablero\btn_e01\btn_e01_luz_e01.mesh">
+                <configuration name="@Home|All Platforms" excludeFromBuild="true" />
+                <configuration name="@Home|windows" excludeFromBuild="true" />
+                <configuration name="mobile|All Platforms" excludeFromBuild="true" />
+            </file>
+            <file relativePath=".\tablero\btn_e01\gris.png">
+                <configuration name="@Home|All Platforms" excludeFromBuild="true" />
+                <configuration name="@Home|windows" excludeFromBuild="true" />
+                <configuration name="mobile|All Platforms" excludeFromBuild="true" />
+            </file>
+            <file relativePath=".\tablero\btn_e01\rojo.png">
+                <configuration name="@Home|All Platforms" excludeFromBuild="true" />
+                <configuration name="@Home|windows" excludeFromBuild="true" />
+                <configuration name="mobile|All Platforms" excludeFromBuild="true" />
+            </file>
+            <file relativePath=".\tablero\btn_e01\verde2.png">
+                <configuration name="@Home|All Platforms" excludeFromBuild="true" />
+                <configuration name="@Home|windows" excludeFromBuild="true" />
+                <configuration name="mobile|All Platforms" excludeFromBuild="true" />
+            </file>
+            <file relativePath=".\tablero\btn_e02\blanco.png">
+                <configuration name="@Home|All Platforms" excludeFromBuild="true" />
+                <configuration name="@Home|windows" excludeFromBuild="true" />
+                <configuration name="mobile|All Platforms" excludeFromBuild="true" />
+            </file>
+            <file relativePath=".\tablero\btn_e02\btn_e02.material">
+                <configuration name="@Home|All Platforms" excludeFromBuild="true" />
+                <configuration name="@Home|windows" excludeFromBuild="true" />
+                <configuration name="mobile|All Platforms" excludeFromBuild="true" />
+            </file>
+            <file relativePath=".\tablero\btn_e02\btn_e02.scene">
+                <configuration name="@Home|All Platforms" excludeFromBuild="true" />
+                <configuration name="@Home|windows" excludeFromBuild="true" />
+                <configuration name="mobile|All Platforms" excludeFromBuild="true" />
+            </file>
+            <file relativePath=".\tablero\btn_e02\btn_e02_Text06.mesh">
+                <configuration name="@Home|All Platforms" excludeFromBuild="true" />
+                <configuration name="@Home|windows" excludeFromBuild="true" />
+                <configuration name="mobile|All Platforms" excludeFromBuild="true" />
+            </file>
+            <file relativePath=".\tablero\btn_e02\btn_e02_Tube09.mesh">
+                <configuration name="@Home|All Platforms" excludeFromBuild="true" />
+                <configuration name="@Home|windows" excludeFromBuild="true" />
+                <configuration name="mobile|All Platforms" excludeFromBuild="true" />
+            </file>
+            <file relativePath=".\tablero\btn_e02\btn_e02_btn_e02.mesh">
+                <configuration name="@Home|All Platforms" excludeFromBuild="true" />
+                <configuration name="@Home|windows" excludeFromBuild="true" />
+                <configuration name="mobile|All Platforms" excludeFromBuild="true" />
+            </file>
+            <file relativePath=".\tablero\btn_e02\btn_e02_luz_e02.mesh">
+                <configuration name="@Home|All Platforms" excludeFromBuild="true" />
+                <configuration name="@Home|windows" excludeFromBuild="true" />
+                <configuration name="mobile|All Platforms" excludeFromBuild="true" />
+            </file>
+            <file relativePath=".\tablero\btn_e02\gris.png">
+                <configuration name="@Home|All Platforms" excludeFromBuild="true" />
+                <configuration name="@Home|windows" excludeFromBuild="true" />
+                <configuration name="mobile|All Platforms" excludeFromBuild="true" />
+            </file>
+            <file relativePath=".\tablero\btn_e02\rojo.png">
+                <configuration name="@Home|All Platforms" excludeFromBuild="true" />
+                <configuration name="@Home|windows" excludeFromBuild="true" />
+                <configuration name="mobile|All Platforms" excludeFromBuild="true" />
+            </file>
+            <file relativePath=".\tablero\btn_e02\verde2.png">
+                <configuration name="@Home|All Platforms" excludeFromBuild="true" />
+                <configuration name="@Home|windows" excludeFromBuild="true" />
+                <configuration name="mobile|All Platforms" excludeFromBuild="true" />
+            </file>
+            <file relativePath=".\tablero\btn_g01\amarillo.png">
+                <configuration name="@Home|All Platforms" excludeFromBuild="true" />
+                <configuration name="@Home|windows" excludeFromBuild="true" />
+                <configuration name="mobile|All Platforms" excludeFromBuild="true" />
+            </file>
+            <file relativePath=".\tablero\btn_g01\blanco.png">
+                <configuration name="@Home|All Platforms" excludeFromBuild="true" />
+                <configuration name="@Home|windows" excludeFromBuild="true" />
+                <configuration name="mobile|All Platforms" excludeFromBuild="true" />
+            </file>
+            <file relativePath=".\tablero\btn_g01\btn_g01.material">
+                <configuration name="@Home|All Platforms" excludeFromBuild="true" />
+                <configuration name="@Home|windows" excludeFromBuild="true" />
+                <configuration name="mobile|All Platforms" excludeFromBuild="true" />
+            </file>
+            <file relativePath=".\tablero\btn_g01\btn_g01.scene">
+                <configuration name="@Home|All Platforms" excludeFromBuild="true" />
+                <configuration name="@Home|windows" excludeFromBuild="true" />
+                <configuration name="mobile|All Platforms" excludeFromBuild="true" />
+            </file>
+            <file relativePath=".\tablero\btn_g01\btn_g01_Tube03.mesh">
+                <configuration name="@Home|All Platforms" excludeFromBuild="true" />
+                <configuration name="@Home|windows" excludeFromBuild="true" />
+                <configuration name="mobile|All Platforms" excludeFromBuild="true" />
+            </file>
+            <file relativePath=".\tablero\btn_g01\btn_g01_btn_g01.mesh">
+                <configuration name="@Home|All Platforms" excludeFromBuild="true" />
+                <configuration name="@Home|windows" excludeFromBuild="true" />
+                <configuration name="mobile|All Platforms" excludeFromBuild="true" />
+            </file>
+            <file relativePath=".\tablero\btn_g01\btn_g01_luz_g01.mesh">
+                <configuration name="@Home|All Platforms" excludeFromBuild="true" />
+                <configuration name="@Home|windows" excludeFromBuild="true" />
+                <configuration name="mobile|All Platforms" excludeFromBuild="true" />
+            </file>
+            <file relativePath=".\tablero\btn_g01\btn_g01_txtBtn_g01.mesh">
+                <configuration name="@Home|All Platforms" excludeFromBuild="true" />
+                <configuration name="@Home|windows" excludeFromBuild="true" />
+                <configuration name="mobile|All Platforms" excludeFromBuild="true" />
+            </file>
+            <file relativePath=".\tablero\btn_g01\gris.png">
+                <configuration name="@Home|All Platforms" excludeFromBuild="true" />
+                <configuration name="@Home|windows" excludeFromBuild="true" />
+                <configuration name="mobile|All Platforms" excludeFromBuild="true" />
+            </file>
+            <file relativePath=".\tablero\btn_g01\rojo.png">
+                <configuration name="@Home|All Platforms" excludeFromBuild="true" />
+                <configuration name="@Home|windows" excludeFromBuild="true" />
+                <configuration name="mobile|All Platforms" excludeFromBuild="true" />
+            </file>
+            <file relativePath=".\tablero\btn_g02\amarillo.png">
+                <configuration name="@Home|All Platforms" excludeFromBuild="true" />
+                <configuration name="@Home|windows" excludeFromBuild="true" />
+                <configuration name="mobile|All Platforms" excludeFromBuild="true" />
+            </file>
+            <file relativePath=".\tablero\btn_g02\blanco.png">
+                <configuration name="@Home|All Platforms" excludeFromBuild="true" />
+                <configuration name="@Home|windows" excludeFromBuild="true" />
+                <configuration name="mobile|All Platforms" excludeFromBuild="true" />
+            </file>
+            <file relativePath=".\tablero\btn_g02\btn_g02.material">
+                <configuration name="@Home|All Platforms" excludeFromBuild="true" />
+                <configuration name="@Home|windows" excludeFromBuild="true" />
+                <configuration name="mobile|All Platforms" excludeFromBuild="true" />
+            </file>
+            <file relativePath=".\tablero\btn_g02\btn_g02.scene">
+                <configuration name="@Home|All Platforms" excludeFromBuild="true" />
+                <configuration name="@Home|windows" excludeFromBuild="true" />
+                <configuration name="mobile|All Platforms" excludeFromBuild="true" />
+            </file>
+            <file relativePath=".\tablero\btn_g02\btn_g02_Tube02.mesh">
+                <configuration name="@Home|All Platforms" excludeFromBuild="true" />
+                <configuration name="@Home|windows" excludeFromBuild="true" />
+                <configuration name="mobile|All Platforms" excludeFromBuild="true" />
+            </file>
+            <file relativePath=".\tablero\btn_g02\btn_g02_btn_g02.mesh">
+                <configuration name="@Home|All Platforms" excludeFromBuild="true" />
+                <configuration name="@Home|windows" excludeFromBuild="true" />
+                <configuration name="mobile|All Platforms" excludeFromBuild="true" />
+            </file>
+            <file relativePath=".\tablero\btn_g02\btn_g02_luz_g02.mesh">
+                <configuration name="@Home|All Platforms" excludeFromBuild="true" />
+                <configuration name="@Home|windows" excludeFromBuild="true" />
+                <configuration name="mobile|All Platforms" excludeFromBuild="true" />
+            </file>
+            <file relativePath=".\tablero\btn_g02\btn_g02_txtBtn_g02.mesh">
+                <configuration name="@Home|All Platforms" excludeFromBuild="true" />
+                <configuration name="@Home|windows" excludeFromBuild="true" />
+                <configuration name="mobile|All Platforms" excludeFromBuild="true" />
+            </file>
+            <file relativePath=".\tablero\btn_g02\gris.png">
+                <configuration name="@Home|All Platforms" excludeFromBuild="true" />
+                <configuration name="@Home|windows" excludeFromBuild="true" />
+                <configuration name="mobile|All Platforms" excludeFromBuild="true" />
+            </file>
+            <file relativePath=".\tablero\btn_g02\rojo.png">
+                <configuration name="@Home|All Platforms" excludeFromBuild="true" />
+                <configuration name="@Home|windows" excludeFromBuild="true" />
+                <configuration name="mobile|All Platforms" excludeFromBuild="true" />
+            </file>
+            <file relativePath=".\tablero\btn_g03\amarillo.png">
+                <configuration name="@Home|All Platforms" excludeFromBuild="true" />
+                <configuration name="@Home|windows" excludeFromBuild="true" />
+                <configuration name="mobile|All Platforms" excludeFromBuild="true" />
+            </file>
+            <file relativePath=".\tablero\btn_g03\blanco.png">
+                <configuration name="@Home|All Platforms" excludeFromBuild="true" />
+                <configuration name="@Home|windows" excludeFromBuild="true" />
+                <configuration name="mobile|All Platforms" excludeFromBuild="true" />
+            </file>
+            <file relativePath=".\tablero\btn_g03\btn_g03.material">
+                <configuration name="@Home|All Platforms" excludeFromBuild="true" />
+                <configuration name="@Home|windows" excludeFromBuild="true" />
+                <configuration name="mobile|All Platforms" excludeFromBuild="true" />
+            </file>
+            <file relativePath=".\tablero\btn_g03\btn_g03.scene">
+                <configuration name="@Home|All Platforms" excludeFromBuild="true" />
+                <configuration name="@Home|windows" excludeFromBuild="true" />
+                <configuration name="mobile|All Platforms" excludeFromBuild="true" />
+            </file>
+            <file relativePath=".\tablero\btn_g03\btn_g03_Tube01.mesh">
+                <configuration name="@Home|All Platforms" excludeFromBuild="true" />
+                <configuration name="@Home|windows" excludeFromBuild="true" />
+                <configuration name="mobile|All Platforms" excludeFromBuild="true" />
+            </file>
+            <file relativePath=".\tablero\btn_g03\btn_g03_btn_g03.mesh">
+                <configuration name="@Home|All Platforms" excludeFromBuild="true" />
+                <configuration name="@Home|windows" excludeFromBuild="true" />
+                <configuration name="mobile|All Platforms" excludeFromBuild="true" />
+            </file>
+            <file relativePath=".\tablero\btn_g03\btn_g03_luz_g03.mesh">
+                <configuration name="@Home|All Platforms" excludeFromBuild="true" />
+                <configuration name="@Home|windows" excludeFromBuild="true" />
+                <configuration name="mobile|All Platforms" excludeFromBuild="true" />
+            </file>
+            <file relativePath=".\tablero\btn_g03\btn_g03_txtBtn_g03.mesh">
+                <configuration name="@Home|All Platforms" excludeFromBuild="true" />
+                <configuration name="@Home|windows" excludeFromBuild="true" />
+                <configuration name="mobile|All Platforms" excludeFromBuild="true" />
+            </file>
+            <file relativePath=".\tablero\btn_g03\gris.png">
+                <configuration name="@Home|All Platforms" excludeFromBuild="true" />
+                <configuration name="@Home|windows" excludeFromBuild="true" />
+                <configuration name="mobile|All Platforms" excludeFromBuild="true" />
+            </file>
+            <file relativePath=".\tablero\btn_g03\rojo.png">
+                <configuration name="@Home|All Platforms" excludeFromBuild="true" />
+                <configuration name="@Home|windows" excludeFromBuild="true" />
+                <configuration name="mobile|All Platforms" excludeFromBuild="true" />
+            </file>
+            <file relativePath=".\tablero\llave_Fuerzas\blanco.png">
+                <configuration name="@Home|All Platforms" excludeFromBuild="true" />
+                <configuration name="@Home|windows" excludeFromBuild="true" />
+                <configuration name="mobile|All Platforms" excludeFromBuild="true" />
+            </file>
+            <file relativePath=".\tablero\llave_Fuerzas\gris_oscuro.png">
+                <configuration name="@Home|All Platforms" excludeFromBuild="true" />
+                <configuration name="@Home|windows" excludeFromBuild="true" />
+                <configuration name="mobile|All Platforms" excludeFromBuild="true" />
+            </file>
+            <file relativePath=".\tablero\llave_Fuerzas\llave_Fuerzas.material">
+                <configuration name="@Home|All Platforms" excludeFromBuild="true" />
+                <configuration name="@Home|windows" excludeFromBuild="true" />
+                <configuration name="mobile|All Platforms" excludeFromBuild="true" />
+            </file>
+            <file relativePath=".\tablero\llave_Fuerzas\llave_Fuerzas.scene">
+                <configuration name="@Home|All Platforms" excludeFromBuild="true" />
+                <configuration name="@Home|windows" excludeFromBuild="true" />
+                <configuration name="mobile|All Platforms" excludeFromBuild="true" />
+            </file>
+            <file relativePath=".\tablero\llave_Fuerzas\llave_Fuerzas_Text15.mesh">
+                <configuration name="@Home|All Platforms" excludeFromBuild="true" />
+                <configuration name="@Home|windows" excludeFromBuild="true" />
+                <configuration name="mobile|All Platforms" excludeFromBuild="true" />
+            </file>
+            <file relativePath=".\tablero\llave_Fuerzas\llave_Fuerzas_Text16.mesh">
+                <configuration name="@Home|All Platforms" excludeFromBuild="true" />
+                <configuration name="@Home|windows" excludeFromBuild="true" />
+                <configuration name="mobile|All Platforms" excludeFromBuild="true" />
+            </file>
+            <file relativePath=".\tablero\llave_Fuerzas\llave_Fuerzas_llave_FuerzasI.mesh">
+                <configuration name="@Home|All Platforms" excludeFromBuild="true" />
+                <configuration name="@Home|windows" excludeFromBuild="true" />
+                <configuration name="mobile|All Platforms" excludeFromBuild="true" />
+            </file>
+            <file relativePath=".\tablero\llave_Fuerzas\llave_Fuerzas_llave_FuerzasO.mesh">
+                <configuration name="@Home|All Platforms" excludeFromBuild="true" />
+                <configuration name="@Home|windows" excludeFromBuild="true" />
+                <configuration name="mobile|All Platforms" excludeFromBuild="true" />
+            </file>
+            <file relativePath=".\tablero\llave_Momento\blanco.png">
+                <configuration name="@Home|All Platforms" excludeFromBuild="true" />
+                <configuration name="@Home|windows" excludeFromBuild="true" />
+                <configuration name="mobile|All Platforms" excludeFromBuild="true" />
+            </file>
+            <file relativePath=".\tablero\llave_Momento\gris_oscuro.png">
+                <configuration name="@Home|All Platforms" excludeFromBuild="true" />
+                <configuration name="@Home|windows" excludeFromBuild="true" />
+                <configuration name="mobile|All Platforms" excludeFromBuild="true" />
+            </file>
+            <file relativePath=".\tablero\llave_Momento\llave_Momento.material">
+                <configuration name="@Home|All Platforms" excludeFromBuild="true" />
+                <configuration name="@Home|windows" excludeFromBuild="true" />
+                <configuration name="mobile|All Platforms" excludeFromBuild="true" />
+            </file>
+            <file relativePath=".\tablero\llave_Momento\llave_Momento.scene">
+                <configuration name="@Home|All Platforms" excludeFromBuild="true" />
+                <configuration name="@Home|windows" excludeFromBuild="true" />
+                <configuration name="mobile|All Platforms" excludeFromBuild="true" />
+            </file>
+            <file relativePath=".\tablero\llave_Momento\llave_Momento_Text17.mesh">
+                <configuration name="@Home|All Platforms" excludeFromBuild="true" />
+                <configuration name="@Home|windows" excludeFromBuild="true" />
+                <configuration name="mobile|All Platforms" excludeFromBuild="true" />
+            </file>
+            <file relativePath=".\tablero\llave_Momento\llave_Momento_Text18.mesh">
+                <configuration name="@Home|All Platforms" excludeFromBuild="true" />
+                <configuration name="@Home|windows" excludeFromBuild="true" />
+                <configuration name="mobile|All Platforms" excludeFromBuild="true" />
+            </file>
+            <file relativePath=".\tablero\llave_Momento\llave_Momento_llave_MomentoI.mesh">
+                <configuration name="@Home|All Platforms" excludeFromBuild="true" />
+                <configuration name="@Home|windows" excludeFromBuild="true" />
+                <configuration name="mobile|All Platforms" excludeFromBuild="true" />
+            </file>
+            <file relativePath=".\tablero\llave_Momento\llave_Momento_llave_MomentoO.mesh">
+                <configuration name="@Home|All Platforms" excludeFromBuild="true" />
+                <configuration name="@Home|windows" excludeFromBuild="true" />
+                <configuration name="mobile|All Platforms" excludeFromBuild="true" />
+            </file>
+            <file relativePath=".\tablero\llave_Torque\blanco.png">
+                <configuration name="@Home|All Platforms" excludeFromBuild="true" />
+                <configuration name="@Home|windows" excludeFromBuild="true" />
+                <configuration name="mobile|All Platforms" excludeFromBuild="true" />
+            </file>
+            <file relativePath=".\tablero\llave_Torque\gris_oscuro.png">
+                <configuration name="@Home|All Platforms" excludeFromBuild="true" />
+                <configuration name="@Home|windows" excludeFromBuild="true" />
+                <configuration name="mobile|All Platforms" excludeFromBuild="true" />
+            </file>
+            <file relativePath=".\tablero\llave_Torque\llave_Torque.material">
+                <configuration name="@Home|All Platforms" excludeFromBuild="true" />
+                <configuration name="@Home|windows" excludeFromBuild="true" />
+                <configuration name="mobile|All Platforms" excludeFromBuild="true" />
+            </file>
+            <file relativePath=".\tablero\llave_Torque\llave_Torque.scene">
+                <configuration name="@Home|All Platforms" excludeFromBuild="true" />
+                <configuration name="@Home|windows" excludeFromBuild="true" />
+                <configuration name="mobile|All Platforms" excludeFromBuild="true" />
+            </file>
+            <file relativePath=".\tablero\llave_Torque\llave_Torque_Text23.mesh">
+                <configuration name="@Home|All Platforms" excludeFromBuild="true" />
+                <configuration name="@Home|windows" excludeFromBuild="true" />
+                <configuration name="mobile|All Platforms" excludeFromBuild="true" />
+            </file>
+            <file relativePath=".\tablero\llave_Torque\llave_Torque_Text24.mesh">
+                <configuration name="@Home|All Platforms" excludeFromBuild="true" />
+                <configuration name="@Home|windows" excludeFromBuild="true" />
+                <configuration name="mobile|All Platforms" excludeFromBuild="true" />
+            </file>
+            <file relativePath=".\tablero\llave_Torque\llave_Torque_llave_TorqueI.mesh">
+                <configuration name="@Home|All Platforms" excludeFromBuild="true" />
+                <configuration name="@Home|windows" excludeFromBuild="true" />
+                <configuration name="mobile|All Platforms" excludeFromBuild="true" />
+            </file>
+            <file relativePath=".\tablero\llave_Torque\llave_Torque_llave_TorqueO.mesh">
+                <configuration name="@Home|All Platforms" excludeFromBuild="true" />
+                <configuration name="@Home|windows" excludeFromBuild="true" />
+                <configuration name="mobile|All Platforms" excludeFromBuild="true" />
+            </file>
+            <file relativePath=".\tablero\llave_Vectores\blanco.png">
+                <configuration name="@Home|All Platforms" excludeFromBuild="true" />
+                <configuration name="@Home|windows" excludeFromBuild="true" />
+                <configuration name="mobile|All Platforms" excludeFromBuild="true" />
+            </file>
+            <file relativePath=".\tablero\llave_Vectores\llave_Vectores.material">
+                <configuration name="@Home|All Platforms" excludeFromBuild="true" />
+                <configuration name="@Home|windows" excludeFromBuild="true" />
+                <configuration name="mobile|All Platforms" excludeFromBuild="true" />
+            </file>
+            <file relativePath=".\tablero\llave_Vectores\llave_Vectores.scene">
+                <configuration name="@Home|All Platforms" excludeFromBuild="true" />
+                <configuration name="@Home|windows" excludeFromBuild="true" />
+                <configuration name="mobile|All Platforms" excludeFromBuild="true" />
+            </file>
+            <file relativePath=".\tablero\llave_Vectores\llave_Vectores_Text13.mesh">
+                <configuration name="@Home|All Platforms" excludeFromBuild="true" />
+                <configuration name="@Home|windows" excludeFromBuild="true" />
+                <configuration name="mobile|All Platforms" excludeFromBuild="true" />
+            </file>
+            <file relativePath=".\tablero\llave_Vectores\llave_Vectores_Text14.mesh">
+                <configuration name="@Home|All Platforms" excludeFromBuild="true" />
+                <configuration name="@Home|windows" excludeFromBuild="true" />
+                <configuration name="mobile|All Platforms" excludeFromBuild="true" />
+            </file>
+            <file relativePath=".\tablero\llave_Vectores\llave_Vectores_llave_VectoresI.mesh">
+                <configuration name="@Home|All Platforms" excludeFromBuild="true" />
+                <configuration name="@Home|windows" excludeFromBuild="true" />
+                <configuration name="mobile|All Platforms" excludeFromBuild="true" />
+            </file>
+            <file relativePath=".\tablero\llave_Vectores\llave_Vectores_llave_VectoresO.mesh">
+                <configuration name="@Home|All Platforms" excludeFromBuild="true" />
+                <configuration name="@Home|windows" excludeFromBuild="true" />
+                <configuration name="mobile|All Platforms" excludeFromBuild="true" />
+            </file>
+            <file relativePath=".\tablero\llave_Vectores\rojo.png">
+                <configuration name="@Home|All Platforms" excludeFromBuild="true" />
+                <configuration name="@Home|windows" excludeFromBuild="true" />
+                <configuration name="mobile|All Platforms" excludeFromBuild="true" />
+            </file>
+            <file relativePath=".\tablero\llave_Velocidad\blanco.png">
+                <configuration name="@Home|All Platforms" excludeFromBuild="true" />
+                <configuration name="@Home|windows" excludeFromBuild="true" />
+                <configuration name="mobile|All Platforms" excludeFromBuild="true" />
+            </file>
+            <file relativePath=".\tablero\llave_Velocidad\gris_oscuro.png">
+                <configuration name="@Home|All Platforms" excludeFromBuild="true" />
+                <configuration name="@Home|windows" excludeFromBuild="true" />
+                <configuration name="mobile|All Platforms" excludeFromBuild="true" />
+            </file>
+            <file relativePath=".\tablero\llave_Velocidad\llave_Velocidad.material">
+                <configuration name="@Home|All Platforms" excludeFromBuild="true" />
+                <configuration name="@Home|windows" excludeFromBuild="true" />
+                <configuration name="mobile|All Platforms" excludeFromBuild="true" />
+            </file>
+            <file relativePath=".\tablero\llave_Velocidad\llave_Velocidad.scene">
+                <configuration name="@Home|All Platforms" excludeFromBuild="true" />
+                <configuration name="@Home|windows" excludeFromBuild="true" />
+                <configuration name="mobile|All Platforms" excludeFromBuild="true" />
+            </file>
+            <file relativePath=".\tablero\llave_Velocidad\llave_Velocidad_Text19.mesh">
+                <configuration name="@Home|All Platforms" excludeFromBuild="true" />
+                <configuration name="@Home|windows" excludeFromBuild="true" />
+                <configuration name="mobile|All Platforms" excludeFromBuild="true" />
+            </file>
+            <file relativePath=".\tablero\llave_Velocidad\llave_Velocidad_Text20.mesh">
+                <configuration name="@Home|All Platforms" excludeFromBuild="true" />
+                <configuration name="@Home|windows" excludeFromBuild="true" />
+                <configuration name="mobile|All Platforms" excludeFromBuild="true" />
+            </file>
+            <file relativePath=".\tablero\llave_Velocidad\llave_Velocidad_llave_VelocidadI.mesh">
+                <configuration name="@Home|All Platforms" excludeFromBuild="true" />
+                <configuration name="@Home|windows" excludeFromBuild="true" />
+                <configuration name="mobile|All Platforms" excludeFromBuild="true" />
+            </file>
+            <file relativePath=".\tablero\llave_Velocidad\llave_Velocidad_llave_VelocidadO.mesh">
+                <configuration name="@Home|All Platforms" excludeFromBuild="true" />
+                <configuration name="@Home|windows" excludeFromBuild="true" />
+                <configuration name="mobile|All Platforms" excludeFromBuild="true" />
+            </file>
+            <file relativePath=".\tablero\tablero\blanco.png">
+                <configuration name="@Home|All Platforms" excludeFromBuild="true" />
+                <configuration name="@Home|windows" excludeFromBuild="true" />
+                <configuration name="mobile|All Platforms" excludeFromBuild="true" />
+            </file>
+            <file relativePath=".\tablero\tablero\gris_oscuro.png">
+                <configuration name="@Home|All Platforms" excludeFromBuild="true" />
+                <configuration name="@Home|windows" excludeFromBuild="true" />
+                <configuration name="mobile|All Platforms" excludeFromBuild="true" />
+            </file>
+            <file relativePath=".\tablero\tablero\tablero.material">
+                <configuration name="@Home|All Platforms" excludeFromBuild="true" />
+                <configuration name="@Home|windows" excludeFromBuild="true" />
+                <configuration name="mobile|All Platforms" excludeFromBuild="true" />
+            </file>
+            <file relativePath=".\tablero\tablero\tablero.scene">
+                <configuration name="@Home|All Platforms" excludeFromBuild="true" />
+                <configuration name="@Home|windows" excludeFromBuild="true" />
+                <configuration name="mobile|All Platforms" excludeFromBuild="true" />
+            </file>
+            <file relativePath=".\tablero\tablero\tablero_Box02.mesh">
+                <configuration name="@Home|All Platforms" excludeFromBuild="true" />
+                <configuration name="@Home|windows" excludeFromBuild="true" />
+                <configuration name="mobile|All Platforms" excludeFromBuild="true" />
+            </file>
+            <file relativePath=".\tablero\tablero\tablero_Text01.mesh">
+                <configuration name="@Home|All Platforms" excludeFromBuild="true" />
+                <configuration name="@Home|windows" excludeFromBuild="true" />
+                <configuration name="mobile|All Platforms" excludeFromBuild="true" />
+            </file>
+            <file relativePath=".\tablero\tablero\tablero_Text02.mesh">
+                <configuration name="@Home|All Platforms" excludeFromBuild="true" />
+                <configuration name="@Home|windows" excludeFromBuild="true" />
+                <configuration name="mobile|All Platforms" excludeFromBuild="true" />
+            </file>
+            <file relativePath=".\tablero\tablero\tablero_Text03.mesh">
+                <configuration name="@Home|All Platforms" excludeFromBuild="true" />
+                <configuration name="@Home|windows" excludeFromBuild="true" />
+                <configuration name="mobile|All Platforms" excludeFromBuild="true" />
+            </file>
+            <file relativePath=".\tablero\tablero\tablero_Text04.mesh">
+                <configuration name="@Home|All Platforms" excludeFromBuild="true" />
+                <configuration name="@Home|windows" excludeFromBuild="true" />
+                <configuration name="mobile|All Platforms" excludeFromBuild="true" />
+            </file>
+            <file relativePath=".\tablero\tablero\tablero_Text07.mesh">
+                <configuration name="@Home|All Platforms" excludeFromBuild="true" />
+                <configuration name="@Home|windows" excludeFromBuild="true" />
+                <configuration name="mobile|All Platforms" excludeFromBuild="true" />
+            </file>
+            <file relativePath=".\tablero\tablero\tablero_Text08.mesh">
+                <configuration name="@Home|All Platforms" excludeFromBuild="true" />
+                <configuration name="@Home|windows" excludeFromBuild="true" />
+                <configuration name="mobile|All Platforms" excludeFromBuild="true" />
+            </file>
+            <file relativePath=".\tablero\tablero\tablero_Text09.mesh">
+                <configuration name="@Home|All Platforms" excludeFromBuild="true" />
+                <configuration name="@Home|windows" excludeFromBuild="true" />
+                <configuration name="mobile|All Platforms" excludeFromBuild="true" />
+            </file>
+            <file relativePath=".\tablero\tablero\tablero_Text10.mesh">
+                <configuration name="@Home|All Platforms" excludeFromBuild="true" />
+                <configuration name="@Home|windows" excludeFromBuild="true" />
+                <configuration name="mobile|All Platforms" excludeFromBuild="true" />
+            </file>
+            <file relativePath=".\tablero\tablero\tablero_Text11.mesh">
+                <configuration name="@Home|All Platforms" excludeFromBuild="true" />
+                <configuration name="@Home|windows" excludeFromBuild="true" />
+                <configuration name="mobile|All Platforms" excludeFromBuild="true" />
+            </file>
+            <file relativePath=".\tablero\tablero\tablero_Text12.mesh">
+                <configuration name="@Home|All Platforms" excludeFromBuild="true" />
+                <configuration name="@Home|windows" excludeFromBuild="true" />
+                <configuration name="mobile|All Platforms" excludeFromBuild="true" />
+            </file>
+            <file relativePath=".\tablero\tablero\tablero_Text25.mesh">
+                <configuration name="@Home|All Platforms" excludeFromBuild="true" />
+                <configuration name="@Home|windows" excludeFromBuild="true" />
+                <configuration name="mobile|All Platforms" excludeFromBuild="true" />
+            </file>
             <file relativePath=".\touch.lua">
                 <configuration name="@Home|All Platforms" excludeFromBuild="true" />
                 <configuration name="@Home|windows" excludeFromBuild="true" />
@@ -3226,8 +4116,6 @@
         <file relativePath="notas/nota/nota.material" />
         <file relativePath="notas/nota/nota.png" />
         <file relativePath="notas/nota/nota.scene" />
-        <file relativePath="notas/nota/nota_1.png" />
-        <file relativePath="notas/nota/nota_2.png" />
         <file relativePath="notas/nota/nota_Plane01.mesh" />
         <file relativePath="tablero/btn_Back/blanco.png" />
         <file relativePath="tablero/btn_Back/btn_Back.material" />

@@ -36,7 +36,7 @@ repeat
 			if (#touches > 0) then
 				if not touched then
 					local t = touches[1]
-					obj = viewport:pick(t.position.x, t.position.y)
+					obj = viewport:pick(t.position.x, t.position.y, false)
 				end
 				touched = true
 			else
@@ -90,7 +90,7 @@ repeat
 		elseif action == 'boton_precesion' then
 			toggle_precesion()
 		else
-			LOG(action)
+			load_notes(action)
 		end
 	end
 

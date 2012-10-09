@@ -411,6 +411,24 @@ function Notas:changeMaterial(i)
 
 end
 
+function Notas:loadNotes(ids)
+
+  local pos,arr = 0,{}
+  
+  -- for each divider found
+  for st,sp in function() return string.find(ids,'-',pos,true) end do
+    table.insert(arr,string.sub(ids,pos,st-1))
+    pos = sp + 1
+  end
+  
+  table.insert(arr,string.sub(ids,pos))
+  
+  self.length = #arr
+  
+  self:showNext()
+  
+end
+
 function Notas:loadModel()
 
 	local scene = getCurrentScene()
@@ -495,15 +513,6 @@ function Boton:loadModel()
 end
 
 -- CONTROL
-UScenette = {}
-
-function UScenette:new(o)
-	o = o or {}
-	setmetatable(o, self)
-	self.__index = self
-	return o
-end
-
 function loadTablero()
 	local scene = getCurrentScene()
 	local ref = Object3D(scene:getObjectByName("ref"))
@@ -647,4 +656,8 @@ function toggle_precesion()
 	boton_precesion:switchAnimation()
 	giroscopo_02:switchPrecesion()
 	giroscopo_04:switchPrecesion()
+end
+
+function load_notes(ids)
+	notas:loadNotes(ids)
 end
