@@ -7,9 +7,16 @@ import java.io.FileOutputStream;
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.OutputStream;
+import java.text.SimpleDateFormat;
+import java.util.Calendar;
+import java.util.Date;
 import java.util.zip.ZipEntry;
 import java.util.zip.ZipInputStream;
 
+import org.json.JSONArray;
+import org.json.JSONObject;
+
+import ti.dfusionmobile.tiComponent;
 import android.app.Activity;
 import android.app.AlertDialog;
 import android.app.ProgressDialog;
@@ -22,12 +29,17 @@ import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.widget.FrameLayout;
-import ti.dfusionmobile.tiComponent;
+import android.widget.Toast;
+
+import com.educar.giroscopo.notas.constants.NotasConstants;
+import com.educar.giroscopo.notas.handlers.NotasHandler;
+import com.educar.giroscopo.notas.handlers.SharedPreferencesHandler;
+import com.educar.giroscopo.utils.HttpUtil;
 
 public class EducARActivity extends Activity {
     
 	private FrameLayout _frameLayout;
-	private tiComponent _tiComponent;
+	private tiComponent _tiComponent; 
 	
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -46,16 +58,8 @@ public class EducARActivity extends Activity {
 	    
 	    super.onStart();
 	    
-	    File file = getProjectFile();
-        if(!file.exists()){
-        	UnzipProjectTask task = new UnzipProjectTask();
-        	task.execute();
-        } else {
-        	_tiComponent.loadScenario(getProjectFile().getPath());
-    	    _tiComponent.playScenario();	
-        }
-	    
-	    
+	    UnzipProjectTask task = new UnzipProjectTask();
+	    task.execute();
     }
     
     @Override
@@ -94,30 +98,31 @@ public class EducARActivity extends Activity {
 
 	@Override
 	public boolean onOptionsItemSelected(MenuItem item) {
+		String [] params = {};
 		switch (item.getItemId()) {
 			case R.id.boton_01:
-				_tiComponent.enqueueCommand("boton_01", null);
+				_tiComponent.enqueueCommand("boton_01", params);
 				return true;
 			case R.id.boton_02:
-				_tiComponent.enqueueCommand("boton_02", null);
+				_tiComponent.enqueueCommand("boton_02",params);
 				return true;
 			case R.id.boton_04:
-				_tiComponent.enqueueCommand("boton_04", null);
+				_tiComponent.enqueueCommand("boton_04", params);
 				return true;
 			case R.id.boton_notas:
-				_tiComponent.enqueueCommand("boton_notas", null);
+				_tiComponent.enqueueCommand("boton_notas",params);
 				return true;
 			case R.id.boton_vectores:
-				_tiComponent.enqueueCommand("boton_vectores", null);
+				_tiComponent.enqueueCommand("boton_vectores", params);
 				return true;
 			case R.id.boton_animaciones:
-				_tiComponent.enqueueCommand("boton_animaciones", null);
+				_tiComponent.enqueueCommand("boton_animaciones",params);
 				return true;
 			case R.id.boton_direccion:
-				_tiComponent.enqueueCommand("boton_direccion", null);
+				_tiComponent.enqueueCommand("boton_direccion", params);
 				return true;
 			case R.id.boton_precesion:
-				_tiComponent.enqueueCommand("boton_precesion", null);
+				_tiComponent.enqueueCommand("boton_precesion", params);
 				return true;
 			default:
 				return super.onOptionsItemSelected(item);
@@ -153,65 +158,157 @@ public class EducARActivity extends Activity {
 		
 		@Override
 		protected Void doInBackground(Void... params) {
-			File dir = getUnzipDir();
 			
-			InputStream in = null;
-			try {
-				in = getAssets().open(getZipFilename(), Context.MODE_PRIVATE);
+			File projectFile = getProjectFile();
+			
+			if(!projectFile.exists()){
 				
-				ZipInputStream zis = null;
+				File dir = getUnzipDir();
+				InputStream in = null;
 				try {
-					zis = new ZipInputStream(new BufferedInputStream(in));
+					in = getAssets().open(getZipFilename(), Context.MODE_PRIVATE);
 					
-					ZipEntry ze;
-					while ((ze = zis.getNextEntry()) != null) {
-						if(ze.isDirectory()){
-							File file = new File(dir, ze.getName());
-							file.mkdirs();
-						} else {
-							File file = new File(dir, ze.getName());
-							
-							OutputStream out = null;
-							try {
-								out = new BufferedOutputStream(new FileOutputStream(file), 1024);
-								byte[] buffer = new byte[1024];
-								int count;
-								while ((count = zis.read(buffer)) != -1) {
-									out.write(buffer, 0, count);
-								}
-							} catch (IOException e){
-								Log.d("EducARActivity", e.getMessage());
-								error = true;
-							} finally {
-								if(out != null){
-									try {
-										out.flush();
-										out.close();
-									} catch (IOException e){ }
+					ZipInputStream zis = null;
+					try {
+						zis = new ZipInputStream(new BufferedInputStream(in));
+						
+						ZipEntry ze;
+						while ((ze = zis.getNextEntry()) != null) {
+							if(ze.isDirectory()){
+								File file = new File(dir, ze.getName());
+								file.mkdirs();
+							} else {
+								File file = new File(dir, ze.getName());
+								
+								OutputStream out = null;
+								try {
+									out = new BufferedOutputStream(new FileOutputStream(file), 1024);
+									byte[] buffer = new byte[1024];
+									int count;
+									while ((count = zis.read(buffer)) != -1) {
+										out.write(buffer, 0, count);
+									}
+								} catch (IOException e){
+									Log.d("EducARActivity", e.getMessage());
+									error = true;
+								} finally {
+									if(out != null){
+										try {
+											out.flush();
+											out.close();
+										} catch (IOException e){ }
+									}
 								}
 							}
 						}
+					} catch (IOException e){
+						Log.d("EducARActivity", e.getMessage());
+						error = true;
+					} finally {
+						if(zis != null){
+							try {
+								zis.close();
+							} catch (IOException e) { }
+						}
 					}
-				} catch (IOException e){
+				} catch (IOException e) {
 					Log.d("EducARActivity", e.getMessage());
 					error = true;
 				} finally {
-					if(zis != null){
+					if(in != null){
 						try {
-							zis.close();
-						} catch (IOException e) { }
+							in.close();
+						} catch (IOException e){ }
 					}
 				}
-			} catch (IOException e) {
-				Log.d("EducARActivity", e.getMessage());
-				error = true;
-			} finally {
-				if(in != null){
-					try {
-						in.close();
-					} catch (IOException e){ }
-				}
 			}
+			
+			/*
+			if(!error){
+		
+				Date ultimaNota = new Date(Long.MIN_VALUE);
+
+				SimpleDateFormat df = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
+				boolean ultimaNotaCambio = false;
+
+				Calendar c = Calendar.getInstance();
+
+				SharedPreferencesHandler preferences = new SharedPreferencesHandler(EducARActivity.this);
+				String ultimaFechaNota = preferences.getValue(NotasConstants.ULTIMA_NOTA_BAJADA);
+
+				try {
+					int year     = 1;
+					int month    = 1;
+					int day      = 1;
+					int hora     = 1;
+					int minutos  = 1;
+					int segundos = 1;
+
+					if (ultimaFechaNota != null && ultimaFechaNota != "") {
+						c.setTime(df.parse(ultimaFechaNota));
+
+						year     = c.get(Calendar.YEAR);
+						month    = c.get(Calendar.MONTH) + 1;
+						day      = c.get(Calendar.DAY_OF_MONTH);
+						hora     = c.get(Calendar.HOUR);
+						minutos  = c.get(Calendar.MINUTE);
+						segundos = c.get(Calendar.SECOND);
+					}
+
+					String fechaParam = year + "/" + month + "/" + day + "/" + hora + "/" + minutos + "/" + segundos;
+					
+					Log.i("FECHA_PARAM", fechaParam);
+					
+					JSONArray ultimasNotas = HttpUtil.getRequest(NotasConstants.ULTIMAS_NOTAS_URL+ fechaParam);
+					
+					
+					if (ultimasNotas != null) {
+
+						for (int i = 0; i < ultimasNotas.length(); i++) {
+
+							JSONObject obj = ultimasNotas.getJSONObject(i);
+							int notaId            = obj.getInt("nota_id");
+							String fechaNota      = obj.getString("nota_fecha_creada");
+							int notaEliminada = obj.getInt("nota_eliminada");
+							
+							String fileName = "nota_" + notaId + ".png";
+							
+							Log.i("NOTA_", "Nota => " + fileName);
+							
+							//Busco si tengo la nota que se elimino para borrarla
+							if(notaEliminada == 1){
+								notasHandler.deleteNota(fileName);
+							}else{
+								Date fechaNotaBajada = df.parse(fechaNota);
+
+								if (fechaNotaBajada.after(ultimaNota)) {
+									ultimaNota = fechaNotaBajada;
+									ultimaNotaCambio = true;
+								}
+
+								String downloadUrl = NotasConstants.GET_NOTA_URL + notaId;
+
+								Log.i("D_URL", downloadUrl);
+
+								notasHandler.downloadNotaFromURL(downloadUrl, fileName);
+							}
+						}
+						
+						if (ultimaNotaCambio) {
+							String sUltimaNota = df.format(ultimaNota).toString();
+							preferences.setValue(NotasConstants.ULTIMA_NOTA_BAJADA, sUltimaNota);
+							Log.i("NOTA_CAMBIO", "CAMBIONOTA => " + sUltimaNota);
+						}
+
+					} else {
+						Toast.makeText(EducARActivity.this,"No hay nuevas notas para descargar", Toast.LENGTH_LONG).show();
+					}
+				} catch (Exception e) {
+					Log.e("Exception", e.getMessage());
+				}
+				
+			}
+			*/
 			return null;
 		}
 

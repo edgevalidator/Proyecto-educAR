@@ -1,0 +1,56 @@
+<scene version="0.2">
+	<info source="C:\Users\Matias Cuadrado\Dropbox\Proyecto\modelos 3ds max\2012\giroscopo_01.max" profile="public" shared_geometry="false" build_edges="false" build_tangents="false" exporter="Exporter 3DSMax3.25.24177"/>
+	<settings>
+		<environment ambient="0 0 0" background="0 0 0" camera=""/>
+		<shadow color="0 0 0" distance="10000" self="false" setup="uniform" size="1024 1" technique="none"/>
+	</settings>
+	<nodes>
+		<node name="fixUp" orientation="-0.707107 0 0 0.707107" position="0 0 0" priority="0" scale="1 1 1" show_box="false" visible="true">
+			<node name="Torus01_node" orientation="0 5.81294e-005 0 1" position="0.0181758 -2.4066e-005 9.95674" priority="0" scale="0.134212 0.134212 0.134212" show_box="false" visible="true">
+				<entity name="Torus01" aab="0 0 0 0 0 0" blend="average" mesh="giroscopo_01_Torus01.mesh" priority="0" shadow="false true" visible="true"/>
+			</node>
+			<node name="Torus02_node" orientation="0.707107 4.11037e-005 -4.11037e-005 0.707107" position="0.0181758 -2.4066e-005 9.95674" priority="0" scale="0.134212 0.134212 0.134212" show_box="false" visible="true">
+				<entity name="Torus02" aab="0 0 0 0 0 0" blend="average" mesh="giroscopo_01_Torus02.mesh" priority="0" shadow="false true" visible="true"/>
+			</node>
+			<node name="Tube01_node" orientation="4.12821e-005 0.707107 0.707107 -4.08832e-005" position="0.0181751 -2.4066e-005 9.94921" priority="0" scale="0.440131 0.440131 0.440131" show_box="false" visible="true">
+				<entity name="Tube01" aab="0 0 0 0 0 0" blend="average" mesh="giroscopo_01_Tube01.mesh" priority="0" shadow="false true" visible="true"/>
+			</node>
+			<node name="Tube02_node" orientation="0.500407 -0.499534 -0.499592 0.500465" position="0.0181751 -2.4066e-005 9.94921" priority="0" scale="0.440131 0.440131 0.440131" show_box="false" visible="true">
+				<node name="Cylinder02_node" orientation="-0.50044 0.499559 0.499568 0.500432" position="0 20.7056 -3.8147e-006" priority="0" scale="0.747035 0.747035 0.747035" show_box="false" visible="true">
+					<entity name="Cylinder02" aab="0 0 0 0 0 0" blend="average" mesh="giroscopo_01_Cylinder02.mesh" priority="0" shadow="false true" visible="true"/>
+				</node>
+				<node name="Torus03_node" orientation="-0.707107 -0.000617111 -0.000617112 0.707106" position="7.55042e-005 -0.0631256 -6.27525e-005" priority="0" scale="0.253852 0.253852 0.253852" show_box="false" visible="true">
+					<entity name="Torus03" aab="0 0 0 0 0 0" blend="average" mesh="giroscopo_01_Torus03.mesh" priority="0" shadow="false true" visible="true"/>
+				</node>
+				<entity name="Tube02" aab="0 0 0 0 0 0" blend="average" mesh="giroscopo_01_Tube02.mesh" priority="0" shadow="false true" visible="true"/>
+			</node>
+			<node name="Tube03_node" orientation="-0.27056 0.653266 0.653297 -0.270636" position="0.0181751 -2.4066e-005 9.94921" priority="0" scale="0.440131 0.440131 0.440131" show_box="false" visible="true">
+				<entity name="Tube03" aab="0 0 0 0 0 0" blend="average" mesh="giroscopo_01_Tube03.mesh" priority="0" shadow="false true" visible="true"/>
+			</node>
+			<node name="Tube04_node" orientation="0.263266 0.656301 0.656271 0.263189" position="0.0181751 -2.4066e-005 9.94921" priority="0" scale="0.440131 0.440131 0.440131" show_box="false" visible="true">
+				<entity name="Tube04" aab="0 0 0 0 0 0" blend="average" mesh="giroscopo_01_Tube04.mesh" priority="0" shadow="false true" visible="true"/>
+			</node>
+			<node name="Tube05_node" orientation="0 5.81294e-005 0 1" position="0.0173783 -2.4066e-005 0.935508" priority="0" scale="0.328793 0.328793 0.328793" show_box="false" visible="true">
+				<entity name="Tube05" aab="0 0 0 0 0 0" blend="average" mesh="giroscopo_01_Tube05.mesh" priority="0" shadow="false true" visible="true"/>
+			</node>
+			<node name="Tube06_node" orientation="0 5.81294e-005 0 1" position="0.0188286 -2.4066e-005 15.7823" priority="0" scale="0.328793 0.328793 0.328793" show_box="false" visible="true">
+				<entity name="Tube06" aab="0 0 0 0 0 0" blend="average" mesh="giroscopo_01_Tube06.mesh" priority="0" shadow="false true" visible="true"/>
+			</node>
+			<node name="Tube08_node" orientation="0 5.81294e-005 0 1" position="0.0275173 -2.40654e-005 9.3304" priority="0" scale="0.328793 0.328793 0.328793" show_box="false" visible="true">
+				<entity name="Tube08" aab="0 0 0 0 0 0" blend="average" mesh="giroscopo_01_Tube08.mesh" priority="0" shadow="false true" visible="true"/>
+			</node>
+			<node name="Tube09_node" orientation="0 5.81294e-005 0 1" position="0.019082 -2.40654e-005 17.5677" priority="0" scale="0.328793 0.328793 0.328793" show_box="false" visible="true">
+				<entity name="Tube09" aab="0 0 0 0 0 0" blend="average" mesh="giroscopo_01_Tube09.mesh" priority="0" shadow="false true" visible="true"/>
+			</node>
+			<node name="Tube10_node" orientation="0 5.81294e-005 0 1" position="0.0191776 -2.40654e-005 18.5787" priority="0" scale="0.328793 0.328793 0.328793" show_box="false" visible="true">
+				<entity name="Tube10" aab="0 0 0 0 0 0" blend="average" mesh="giroscopo_01_Tube10.mesh" priority="0" shadow="false true" visible="true"/>
+			</node>
+			<node name="Tube12_node" orientation="0 5.81294e-005 0 1" position="0.0171184 -2.40654e-005 1.91737" priority="0" scale="0.328793 0.328793 0.328793" show_box="false" visible="true">
+				<entity name="Tube12" aab="0 0 0 0 0 0" blend="average" mesh="giroscopo_01_Tube12.mesh" priority="0" shadow="false true" visible="true"/>
+			</node>
+			<node name="Tube13_node" orientation="0 5.81294e-005 0 1" position="0.0170226 -2.40654e-005 0.934184" priority="0" scale="0.328793 0.328793 0.328793" show_box="false" visible="true">
+				<entity name="Tube13" aab="0 0 0 0 0 0" blend="average" mesh="giroscopo_01_Tube13.mesh" priority="0" shadow="false true" visible="true"/>
+			</node>
+		</node>
+	</nodes>
+</scene>

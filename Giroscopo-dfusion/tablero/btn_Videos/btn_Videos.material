@@ -1,0 +1,76 @@
+material btn_Videos/Material25
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.588 0.588 0.588
+			diffuse 0.588 0.588 0.588 1
+			specular 0 0 0 12.8
+			emissive 0 0 0
+
+
+			texture_unit
+			{
+				texture rojo.png
+			}
+		}
+	}
+}
+material btn_Videos/Material26
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.588 0.588 0.588
+			diffuse 0.588 0.588 0.588 1
+			specular 0 0 0 12.8
+			emissive 0 0 0
+
+
+			texture_unit
+			{
+				texture gris.png
+			}
+		}
+	}
+}
+material btn_Videos/Material29
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.588 0.588 0.588
+			diffuse 0.588 0.588 0.588 1
+			specular 0 0 0 12.8
+			emissive 0 0 0
+
+
+			texture_unit
+			{
+				texture amarillo.png
+			}
+		}
+	}
+}
+material btn_Videos/Material31
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.588 0.588 0.588
+			diffuse 0.588 0.588 0.588 1
+			specular 0 0 0 12.8
+			emissive 0 0 0
+
+
+			texture_unit
+			{
+				texture blanco.png
+			}
+		}
+	}
+}

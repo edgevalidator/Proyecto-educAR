@@ -1,0 +1,17 @@
+<dfusion version="3.25.24177">
+    <configurations>
+        <configuration name="@Home|All Platforms" exportFolder="" />
+        <configuration name="@Home|windows" exportFolder="" />
+        <configuration name="mobile|All Platforms" exportFolder="" />
+        <configuration name="mobile|android" exportFolder="C:\Users\Matias Cuadrado\Desktop\asset" />
+    </configurations>
+    <LuaEditor>
+        <files>
+            <file absolutePath="C:\Users\duter\Documents\GitHub\Proyecto-educAR\Giroscopo\giroscopo.lua" />
+            <file absolutePath="C:\Users\duter\Documents\GitHub\Proyecto-educAR\Giroscopo\touch.lua" />
+        </files>
+        <watch />
+    </LuaEditor>
+    <macros />
+    <commands />
+</dfusion>
