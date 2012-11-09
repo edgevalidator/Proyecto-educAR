@@ -39,9 +39,7 @@ import com.educar.giroscopo.utils.HttpUtil;
 public class EducARActivity extends Activity {
     
 	private FrameLayout _frameLayout;
-	private tiComponent _tiComponent;
-	
-	private NotasHandler notasHandler; 
+	private tiComponent _tiComponent; 
 	
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -58,15 +56,10 @@ public class EducARActivity extends Activity {
 	    
 	    setContentView(_frameLayout);
 	    
-	    notasHandler = new NotasHandler(EducARActivity.this);
-	    
 	    super.onStart();
-	    
 	    
 	    UnzipProjectTask task = new UnzipProjectTask();
 	    task.execute();
-	    
-	    
     }
     
     @Override
@@ -228,13 +221,9 @@ public class EducARActivity extends Activity {
 						} catch (IOException e){ }
 					}
 				}
-			}else{
-	        	_tiComponent.loadScenario(getProjectFile().getPath());
-	    	    _tiComponent.playScenario();	
 			}
 			
-			
-			/**************************DOWNLOAD NOTAS*************************/
+			/*
 			if(!error){
 		
 				Date ultimaNota = new Date(Long.MIN_VALUE);
@@ -319,8 +308,7 @@ public class EducARActivity extends Activity {
 				}
 				
 			}
-			/*************************************************************/
-			
+			*/
 			return null;
 		}
 

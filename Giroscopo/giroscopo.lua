@@ -341,7 +341,7 @@ end
 
 --  NOTAS
 
-Notas = { length = 0, current = 0 }
+Notas = { length = 0, current = 1 }
 
 function Notas:new(o)
 	o = o or {}
@@ -409,24 +409,6 @@ function Notas:changeMaterial(i)
 	local material = getMaterial("nota/Material26")
 	material:setTexture(texture)
 
-end
-
-function Notas:loadNotes(ids)
-
-  local pos,arr = 0,{}
-  
-  -- for each divider found
-  for st,sp in function() return string.find(ids,'-',pos,true) end do
-    table.insert(arr,string.sub(ids,pos,st-1))
-    pos = sp + 1
-  end
-  
-  table.insert(arr,string.sub(ids,pos))
-  
-  self.length = #arr
-  
-  self:showNext()
-  
 end
 
 function Notas:loadModel()
@@ -513,6 +495,15 @@ function Boton:loadModel()
 end
 
 -- CONTROL
+UScenette = {}
+
+function UScenette:new(o)
+	o = o or {}
+	setmetatable(o, self)
+	self.__index = self
+	return o
+end
+
 function loadTablero()
 	local scene = getCurrentScene()
 	local ref = Object3D(scene:getObjectByName("ref"))
@@ -656,8 +647,4 @@ function toggle_precesion()
 	boton_precesion:switchAnimation()
 	giroscopo_02:switchPrecesion()
 	giroscopo_04:switchPrecesion()
-end
-
-function load_notes(ids)
-	notas:loadNotes(ids)
 end

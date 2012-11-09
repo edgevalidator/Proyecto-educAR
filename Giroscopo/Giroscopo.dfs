@@ -3,7 +3,7 @@
         <configuration name="@Home|All Platforms" exportFolder="" />
         <configuration name="@Home|windows" exportFolder="" />
         <configuration name="mobile|All Platforms" exportFolder="" />
-        <configuration name="mobile|android" exportFolder="C:\Users\duter\Desktop\trulala" />
+        <configuration name="mobile|android" exportFolder="C:\Users\Matias Cuadrado\Desktop\asset" />
     </configurations>
     <LuaEditor>
         <files>
@@ -13,7 +13,5 @@
         <watch />
     </LuaEditor>
     <macros />
-    <commands>
-        <command name="1-2-3" type="component" />
-    </commands>
+    <commands />
 </dfusion>

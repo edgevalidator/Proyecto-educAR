@@ -90,7 +90,7 @@ repeat
 		elseif action == 'boton_precesion' then
 			toggle_precesion()
 		else
-			load_notes(action)
+			LOG(action)
 		end
 	end
 
