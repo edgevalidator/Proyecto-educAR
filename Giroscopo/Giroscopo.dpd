@@ -3584,6 +3584,36 @@
                 <configuration name="@Home|windows" excludeFromBuild="true" />
                 <configuration name="mobile|All Platforms" excludeFromBuild="true" />
             </file>
+            <file relativePath=".\videos\video\nota.png">
+                <configuration name="@Home|All Platforms" excludeFromBuild="true" />
+                <configuration name="@Home|windows" excludeFromBuild="true" />
+                <configuration name="mobile|All Platforms" excludeFromBuild="true" />
+            </file>
+            <file relativePath=".\videos\video\video.material">
+                <configuration name="@Home|All Platforms" excludeFromBuild="true" />
+                <configuration name="@Home|windows" excludeFromBuild="true" />
+                <configuration name="mobile|All Platforms" excludeFromBuild="true" />
+            </file>
+            <file relativePath=".\videos\video\video.scene">
+                <configuration name="@Home|All Platforms" excludeFromBuild="true" />
+                <configuration name="@Home|windows" excludeFromBuild="true" />
+                <configuration name="mobile|All Platforms" excludeFromBuild="true" />
+            </file>
+            <file relativePath=".\videos\video\video_1.wmv">
+                <configuration name="@Home|All Platforms" excludeFromBuild="true" />
+                <configuration name="@Home|windows" excludeFromBuild="true" />
+                <configuration name="mobile|All Platforms" excludeFromBuild="true" />
+            </file>
+            <file relativePath=".\videos\video\video_1.xml">
+                <configuration name="@Home|All Platforms" excludeFromBuild="true" />
+                <configuration name="@Home|windows" excludeFromBuild="true" />
+                <configuration name="mobile|All Platforms" excludeFromBuild="true" />
+            </file>
+            <file relativePath=".\videos\video\video_Plane01.mesh">
+                <configuration name="@Home|All Platforms" excludeFromBuild="true" />
+                <configuration name="@Home|windows" excludeFromBuild="true" />
+                <configuration name="mobile|All Platforms" excludeFromBuild="true" />
+            </file>
         </files>
     </resources>
     <userfilefilters>
@@ -4303,6 +4333,12 @@
         <file relativePath="tracker/tracker.xml" />
         <file relativePath="tracker/videoConfig.xml" />
         <file relativePath="tracker/videoConfig_android_backcam_320x240_15fps.xml" />
+        <file relativePath="videos/video/nota.png" />
+        <file relativePath="videos/video/video.material" />
+        <file relativePath="videos/video/video.scene" />
+        <file relativePath="videos/video/video_1.wmv" />
+        <file relativePath="videos/video/video_1.xml" />
+        <file relativePath="videos/video/video_Plane01.mesh" />
     </userfilefilters>
     <scene name="scene_0" position="{0.000000, 0.000000, 0.000000}" orientation="{1.000000, 0.000000, 0.000000, 0.000000}" visible="true" rendergroup="50" scale="{1.000000, 1.000000, 1.000000}" visibilitymask="-1" ambient="{0.200000, 0.200000, 0.200000}" shadowtechnique="none">
         <timeline name="timeline" />

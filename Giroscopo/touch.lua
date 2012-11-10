@@ -89,6 +89,8 @@ repeat
 			toggle_animation_direction()
 		elseif action == 'boton_precesion' then
 			toggle_precesion()
+		elseif action == 'boton_videos' then
+			show_videos()
 		else
 			LOG(action)
 		end

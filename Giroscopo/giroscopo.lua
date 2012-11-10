@@ -494,15 +494,102 @@ function Boton:loadModel()
 	model:setScale(0.300)
 end
 
--- CONTROL
-UScenette = {}
+-- VIDEOS
 
-function UScenette:new(o)
+Videos = { length = 1, current = 1 }
+
+function Videos:new(o)
 	o = o or {}
 	setmetatable(o, self)
 	self.__index = self
+	o:loadModel()
 	return o
 end
+
+function Videos:getNameForModel()
+	return "videos"
+end
+
+function Videos:setVisibility(visibility)
+
+	local model_name = self:getNameForModel()
+	local model = Scenette(getCurrentScene():getObjectByName(model_name))
+	model:setVisible(visibility)
+	
+end
+
+function Videos:isVisible()
+
+	local model_name = self:getNameForModel()
+	local model = Scenette(getCurrentScene():getObjectByName(model_name))
+	return model:getVisible()
+
+end
+
+function Videos:showPrevious()
+
+	if self.length > 0 then
+		self.current = self.current - 1
+	end
+	
+	if self.current < 1 then
+		self.current = self.length
+	end
+
+	self:changeMaterial(self.current)
+	
+end
+
+function Videos:showNext()
+
+	if self.length > 0 then
+		self.current = self.current + 1
+	end
+	
+	if self.current > self.length then
+		self.current = 1
+	end
+	
+	self:changeMaterial(self.current)
+
+end
+
+function Videos:changeMaterial(i)
+
+	local scene = getCurrentScene()
+	
+	local video_capture = VideoCapture(scene:createObject(CID_VIDEOCAPTURE))
+	video_capture:setResource("videos/video/video_" .. i .. ".xml")
+	
+	local video_texture = VideoTexture(scene:createObject(CID_VIDEOTEXTURE))
+	video_texture:setVideoCapture(video_capture)
+
+	local material = getMaterial("video/Material27")
+	material:setTexture(video_texture)
+
+	video_capture:play()
+	
+end
+
+function Videos:loadModel()
+	local scene = getCurrentScene()
+	local ref = Object3D(scene:getObjectByName("ref"))
+	
+	local model = Scenette(scene:createObject(CID_SCENETTE))
+	ref:addChild(model)
+	model:setName(self:getNameForModel())
+	model:setResource("videos/video/video.scene")
+	model:setVisible(false)
+	model:setOrientationEuler(90.0, 0.0, 0.0)
+	model:setScale(0.245)
+	
+	if self.length > 0 then
+		self:changeMaterial(self.current)
+	end
+	
+end
+
+-- CONTROL
 
 function loadTablero()
 	local scene = getCurrentScene()
@@ -524,6 +611,7 @@ local giroscopo_01 = Giroscopo:new{name="giroscopo_01", animated=false}
 local giroscopo_02 = Giroscopo:new{name="giroscopo_02", animated=true}
 local giroscopo_04 = Giroscopo:new{name="giroscopo_04", animated=true}
 local notas = Notas:new{}
+local videos = Videos:new{}
 local ecuaciones = Ecuaciones:new{}
 
 local boton_01 = Boton:new{id="boton_01", filename="btn_g01" }
@@ -586,6 +674,22 @@ function show_notes()
 	giroscopo_04:setVisibility(false)
 	ecuaciones:setVisibility(false)
 	notas:setVisibility(true)
+	videos:setVisibility(false)
+end
+
+function show_videos()
+	boton_01:playAnimation("off")
+	boton_02:playAnimation("off")
+	boton_04:playAnimation("off")
+	boton_notas:playAnimation("off")
+	boton_videos:playAnimation("on")
+	boton_ecuaciones:playAnimation("off")
+	giroscopo_01:setVisibility(false)
+	giroscopo_02:setVisibility(false)
+	giroscopo_04:setVisibility(false)
+	ecuaciones:setVisibility(false)
+	notas:setVisibility(false)
+	videos:setVisibility(true)
 end
 
 function show_equations()
@@ -604,11 +708,13 @@ end
 function next_note()
 	boton_nota_siguiente:playAnimation()
 	notas:showNext()
+	videos:showNext()
 end
 
 function previous_note()
 	boton_nota_anterior:playAnimation()
 	notas:showPrevious()
+	videos:showPrevious()
 end
 
 function toggle_animations()
