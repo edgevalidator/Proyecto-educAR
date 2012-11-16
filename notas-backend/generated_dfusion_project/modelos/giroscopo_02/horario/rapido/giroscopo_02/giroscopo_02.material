@@ -1,0 +1,41 @@
+material giroscopo_02/Material0
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.588 0.588 0.588
+			diffuse 0.588 0.588 0.588 1
+			specular 0 0 0 12.8
+			emissive 0 0 0
+
+
+			texture_unit
+			{
+				texture naranja.png
+			}
+		}
+	}
+}
+material giroscopo_02/Metal_ChromeFast
+{
+	technique
+	{
+		pass
+		{
+			ambient 0 0 0
+			diffuse 0.439216 0.439216 0.439216 1
+			specular 0.9 0.9 0.9 25.6
+			emissive 0 0 0
+
+
+			texture_unit
+			{
+				texture factory_reflection_bw1.jpg
+				env_map spherical
+				tex_address_mode mirror
+				colour_op_ex blend_manual src_texture src_current 1
+			}
+		}
+	}
+}

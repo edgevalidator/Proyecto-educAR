@@ -1,0 +1,49 @@
+<scene version="0.2">
+	<info source="C:\Users\Matias Cuadrado\Dropbox\Proyecto\modelos 3ds max\2012\tablero.max" profile="public" shared_geometry="false" build_edges="false" build_tangents="false" exporter="Exporter 3DSMax3.25.24177"/>
+	<settings>
+		<environment ambient="0 0 0" background="0 0 0" camera=""/>
+		<shadow color="0 0 0" distance="10000" self="false" setup="uniform" size="1024 1" technique="none"/>
+	</settings>
+	<animations>
+		<animation name="Timeline" loop="false" length="-1" priority="0">
+			<bind target="btn_PlayPause_node" attribute="position" track="btn_PlayPause_node_Timeline_positionTrack" loop="false" mode="absolute" reset="true" weight="1"/>
+			<bind target="btn_PlayPause_node" attribute="orientation" track="btn_PlayPause_node_Timeline_orientationTrack" loop="false" mode="absolute" reset="true" short="true" weight="1"/>
+		</animation>
+	</animations>
+	<tracks>
+		<track name="btn_PlayPause_node_Timeline_orientationTrack">
+			<key time="0" value="0 0 0 1"/>
+			<key time="0.5" value="0 0 0 1"/>
+		</track>
+		<track name="btn_PlayPause_node_Timeline_positionTrack">
+			<key time="0" value="8 -0.000383652 1.13602"/>
+			<key time="0.0333333" value="8 -0.000383652 1.12463"/>
+			<key time="0.0666667" value="8 -0.000383652 1.09461"/>
+			<key time="0.1" value="8 -0.000383652 1.05217"/>
+			<key time="0.166667" value="8 -0.000383652 0.954855"/>
+			<key time="0.2" value="8 -0.000383652 0.91241"/>
+			<key time="0.233333" value="8 -0.000383652 0.882388"/>
+			<key time="0.266667" value="8 -0.000383652 0.871"/>
+			<key time="0.3" value="8 -0.000383652 0.885679"/>
+			<key time="0.333333" value="8 -0.000383652 0.923536"/>
+			<key time="0.366667" value="8 -0.000383652 0.9753"/>
+			<key time="0.4" value="8 -0.000383652 1.0317"/>
+			<key time="0.433333" value="8 -0.000383652 1.08346"/>
+			<key time="0.466667" value="8 -0.000383652 1.12132"/>
+			<key time="0.5" value="8 -0.000383652 1.136"/>
+		</track>
+	</tracks>
+	<nodes>
+		<node name="fixUp" orientation="-0.707107 0 0 0.707107" position="0 0 0" priority="0" scale="1 1 1" show_box="false" visible="true">
+			<node name="Tube24_node" orientation="0 0 0 1" position="8 -0.000383652 1.13602" priority="0" scale="0.720981 0.720981 0.720981" show_box="false" visible="true">
+				<entity name="Tube24" aab="0 0 0 0 0 0" blend="average" mesh="btn_PlayPause_Tube24.mesh" priority="0" shadow="false true" visible="true"/>
+			</node>
+			<node name="btn_PlayPause_node" orientation="0 0 0 1" position="8 -0.000383652 1.13602" priority="0" scale="0.720981 0.720981 0.720981" show_box="false" visible="true">
+				<node name="txtBtn_PlayPause_node" orientation="0 0 0 1" position="9.53674e-007 0.000532125 0.9" priority="0" scale="1 1 1" show_box="false" visible="true">
+					<entity name="txtBtn_PlayPause" aab="0 0 0 0 0 0" blend="average" mesh="btn_PlayPause_txtBtn_PlayPause.mesh" priority="0" shadow="false true" visible="true"/>
+				</node>
+				<entity name="btn_PlayPause" aab="0 0 0 0 0 0" blend="average" mesh="btn_PlayPause_btn_PlayPause.mesh" priority="0" shadow="false true" visible="true"/>
+			</node>
+		</node>
+	</nodes>
+</scene>

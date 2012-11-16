@@ -79,5 +79,9 @@ class Notas_model extends CI_Model{
 		$this->db->update('nota',$data);  
 	}
 
+	function notesCount(){
+		return $this->db->count_all_results('nota');
+	}
+
 }
 
