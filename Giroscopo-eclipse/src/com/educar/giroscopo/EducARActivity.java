@@ -29,6 +29,7 @@ import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.widget.FrameLayout;
+import android.widget.LinearLayout;
 import android.widget.Toast;
 
 import com.educar.giroscopo.notas.constants.NotasConstants;
@@ -51,6 +52,7 @@ public class EducARActivity extends Activity {
     public void onStart() {
 	    _frameLayout = new FrameLayout(this);
 	    _frameLayout.setKeepScreenOn(true);
+	    
 	    _tiComponent.initialize(_frameLayout);
 	    _tiComponent.activateAutoFocusOnDownEvent(true);
 	    
@@ -60,6 +62,27 @@ public class EducARActivity extends Activity {
 	    
 	    UnzipProjectTask task = new UnzipProjectTask();
 	    task.execute();
+	    
+	    /*
+	    _linearLayout = new LinearLayout(this);
+    	_linearLayout.setBackgroundColor(Color.YELLOW);
+    	
+	    _frameLayout = new FrameLayout(this);
+	    _frameLayout.setKeepScreenOn(true);
+	    _frameLayout.setBackgroundColor(Color.GREEN);
+	    
+	    int width = getWindowManager().getDefaultDisplay().getWidth();
+	    int height = width * (3/4);
+	    
+	    LinearLayout.LayoutParams params = new LinearLayout.LayoutParams(width, height);
+	    params.gravity = Gravity.CENTER;
+	    
+	    _linearLayout.addView(_frameLayout, params);
+	    
+	    setContentView(_linearLayout);
+	    
+	    super.onStart();
+	    */
     }
     
     @Override

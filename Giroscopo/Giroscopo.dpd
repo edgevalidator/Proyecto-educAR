@@ -4356,7 +4356,7 @@
         </platform>
         <videotexture name="background" videocapture="vidCap" />
         <viewport name="viewport" dimensions="{0.000000, 0.000000, 1.000000, 1.000000}" background="background" visibilitymask="-1" bgvideorect="{0.000000, 0.000000, 1.000000, 1.000000}" backgroundcolor="{0.000000, 0.000000, 0.000000, 1.000000}" camera="camera" scheme="Default" />
-        <light name="light" position="{0.000000, 0.000000, 0.000000}" orientation="{1.000000, 0.000000, 0.000000, 0.000000}" visible="true" rendergroup="50" scale="{1.000000, 1.000000, 1.000000}" visibilitymask="-1" type="point" enabled="true" diffuse="{1.000000, 1.000000, 1.000000}" specular="{0.000000, 0.000000, 0.000000}" powerscale="1.000000" attenuation="{1000.000000, 1.000000, 0.000000, 0.000000}" castshadows="true" shadowcamerasetup="default" />
+        <light name="light" position="{0.000000, 0.000000, 0.000000}" orientation="{1.000000, 0.000000, 0.000000, 0.000000}" visible="true" rendergroup="50" scale="{1.000000, 1.000000, 1.000000}" visibilitymask="-1" type="point" enabled="true" diffuse="{1.000000, 1.000000, 1.000000}" specular="{0.000000, 0.000000, 0.000000}" powerscale="1.000000" attenuation="{100000.000000, 1.000000, 0.000000, 0.000000}" castshadows="false" shadowcamerasetup="default" />
         <object3d name="ref" position="{0.000000, 0.000000, 0.000000}" orientation="{1.000000, 0.000000, 0.000000, 0.000000}" visible="true" rendergroup="50" scale="{1.000000, 1.000000, 1.000000}" visibilitymask="-1" />
         <luascript name="init" file="init.lua" enabled="true" framerate="0.000000" priority="0" trigger="true" pause="false" />
         <luascript name="touch" file="touch.lua" enabled="true" framerate="0.000000" priority="0" trigger="true" pause="false" />

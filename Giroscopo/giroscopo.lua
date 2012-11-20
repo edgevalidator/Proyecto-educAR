@@ -507,15 +507,25 @@ function Videos:new(o)
 end
 
 function Videos:getNameForModel()
-	return "videos"
+	return "video"
+end
+
+function Videos:getNameForVideoCapture()
+	return "video-capture"
 end
 
 function Videos:setVisibility(visibility)
 
 	local model_name = self:getNameForModel()
 	local model = Scenette(getCurrentScene():getObjectByName(model_name))
+	local oldState = model:getVisible()
 	model:setVisible(visibility)
 	
+	if visibility and not oldState then
+		self:play()
+	else
+		self:stop()
+	end
 end
 
 function Videos:isVisible()
@@ -555,20 +565,34 @@ function Videos:showNext()
 end
 
 function Videos:changeMaterial(i)
+	local osType = getOSType()
+	
+	if not osTypz == TI_OS_ANDROID then
+		local scene = getCurrentScene()
+		
+		local video_capture = VideoCapture(scene:createObject(CID_VIDEOCAPTURE))
+		video_capture:setName(self:getNameForVideoCapture())
+		video_capture:setResource("videos/video/video_" .. i .. ".xml")
+		video_capture:open()
+		
+		local video_texture = VideoTexture(scene:createObject(CID_VIDEOTEXTURE))
+		video_texture:setVideoCapture(video_capture)
+	
+		local material = getMaterial("video/Material27")
+		material:setTexture(video_texture)
+	end
+end
 
+function Videos:play()
 	local scene = getCurrentScene()
-	
-	local video_capture = VideoCapture(scene:createObject(CID_VIDEOCAPTURE))
-	video_capture:setResource("videos/video/video_" .. i .. ".xml")
-	
-	local video_texture = VideoTexture(scene:createObject(CID_VIDEOTEXTURE))
-	video_texture:setVideoCapture(video_capture)
+	local video_capture = VideoCapture(scene:getObjectByName(self:getNameForVideoCapture()))
+	video_capture:play(0)
+end
 
-	local material = getMaterial("video/Material27")
-	material:setTexture(video_texture)
-
-	video_capture:play()
-	
+function Videos:stop()
+	local scene = getCurrentScene()
+	local video_capture = VideoCapture(scene:getObjectByName(self:getNameForVideoCapture()))
+	video_capture:pause()
 end
 
 function Videos:loadModel()
@@ -668,6 +692,7 @@ function show_notes()
 	boton_02:playAnimation("off")
 	boton_04:playAnimation("off")
 	boton_notas:playAnimation("on")
+	boton_videos:playAnimation("off")
 	boton_ecuaciones:playAnimation("off")
 	giroscopo_01:setVisibility(false)
 	giroscopo_02:setVisibility(false)
@@ -697,12 +722,14 @@ function show_equations()
 	boton_02:playAnimation("off")
 	boton_04:playAnimation("off")
 	boton_notas:playAnimation("off")
+	boton_videos:playAnimation("off")
 	boton_ecuaciones:playAnimation("on")
 	giroscopo_01:setVisibility(false)
 	giroscopo_02:setVisibility(false)
 	giroscopo_04:setVisibility(false)
 	ecuaciones:setVisibility(true)
 	notas:setVisibility(false)
+	videos:setVisibility(false)
 end
 
 function next_note()
