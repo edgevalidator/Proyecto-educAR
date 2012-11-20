@@ -46,12 +46,27 @@
 	</tracks>
 	<nodes>
 		<node name="fixUp" orientation="-0.707107 0 0 0.707107" position="0 0 0" priority="0" scale="1 1 1" show_box="false" visible="true">
-			<node name="llave_VectoresO_node" orientation="0 0 0 1" position="5 10.6522 1" priority="0" scale="0.596214 0.596214 0.596214" show_box="false" visible="true">
+			<node name="Text25_node" orientation="0 0 0 1" position="5 18.1333 1.03525" priority="0" scale="1 1 1" show_box="false" visible="true">
+				<node name="Box28_node" orientation="0 0 0 1" position="1.55649 -4.1192 0.0647504" priority="0" scale="1 1 1" show_box="false" visible="true">
+					<node name="Box25_node" orientation="0 0 -0.707107 0.707107" position="-1.56924 -2.462 0" priority="0" scale="1 1 1" show_box="false" visible="true">
+						<entity name="Box25" aab="0 0 0 0 0 0" blend="average" mesh="llave_Vectores_Box25.mesh" priority="0" shadow="false true" visible="true"/>
+					</node>
+					<node name="Box26_node" orientation="0 0 0 1" position="-3.12113 0 0" priority="0" scale="1 1 1" show_box="false" visible="true">
+						<entity name="Box26" aab="0 0 0 0 0 0" blend="average" mesh="llave_Vectores_Box26.mesh" priority="0" shadow="false true" visible="true"/>
+					</node>
+					<node name="Box27_node" orientation="0 0 -0.707107 0.707107" position="-1.56924 2.463 0" priority="0" scale="1 1 1" show_box="false" visible="true">
+						<entity name="Box27" aab="0 0 0 0 0 0" blend="average" mesh="llave_Vectores_Box27.mesh" priority="0" shadow="false true" visible="true"/>
+					</node>
+					<entity name="Box28" aab="0 0 0 0 0 0" blend="average" mesh="llave_Vectores_Box28.mesh" priority="0" shadow="false true" visible="true"/>
+				</node>
+				<entity name="Text25" aab="0 0 0 0 0 0" blend="average" mesh="llave_Vectores_Text25.mesh" priority="0" shadow="false true" visible="true"/>
+			</node>
+			<node name="llave_VectoresO_node" orientation="0 0 0 1" position="5 14 1" priority="0" scale="0.596214 0.596214 0.596214" show_box="false" visible="true">
 				<node name="Text13_node" orientation="0 0 0 1" position="0 2.68387 0.5" priority="0" scale="1 1 1" show_box="false" visible="true">
 					<entity name="Text13" aab="0 0 0 0 0 0" blend="average" mesh="llave_Vectores_Text13.mesh" priority="0" shadow="false true" visible="true"/>
 				</node>
 				<node name="llave_VectoresI_node" orientation="-0.125104 0 0 0.992144" position="0 0 0" priority="0" scale="1 1 1" show_box="false" visible="true">
-					<node name="Text14_node" orientation="4.05312e-006 0 0 1" position="0 -2.70605 0.524334" priority="0" scale="1 1 1" show_box="false" visible="true">
+					<node name="Text14_node" orientation="4.05312e-006 0 0 1" position="0 -2.70605 0.524333" priority="0" scale="1 1 1" show_box="false" visible="true">
 						<entity name="Text14" aab="0 0 0 0 0 0" blend="average" mesh="llave_Vectores_Text14.mesh" priority="0" shadow="false true" visible="true"/>
 					</node>
 					<entity name="llave_VectoresI" aab="0 0 0 0 0 0" blend="average" mesh="llave_Vectores_llave_VectoresI.mesh" priority="0" shadow="false true" visible="true"/>

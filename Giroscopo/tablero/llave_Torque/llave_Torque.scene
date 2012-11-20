@@ -46,12 +46,27 @@
 	</tracks>
 	<nodes>
 		<node name="fixUp" orientation="-0.707107 0 0 0.707107" position="0 0 0" priority="0" scale="1 1 1" show_box="false" visible="true">
-			<node name="llave_TorqueO_node" orientation="0 0 0 1" position="15 10.6522 1" priority="0" scale="0.596214 0.596214 0.596214" show_box="false" visible="true">
+			<node name="Text02_node" orientation="0 0 0 1" position="15 18.1333 1.03525" priority="0" scale="1 1 1" show_box="false" visible="true">
+				<node name="Box20_node" orientation="0 0 0 1" position="1.56116 -4.1192 0.0647504" priority="0" scale="1 1 1" show_box="false" visible="true">
+					<node name="Box17_node" orientation="0 0 -0.707107 0.707107" position="-1.56924 -2.462 0" priority="0" scale="1 1 1" show_box="false" visible="true">
+						<entity name="Box17" aab="0 0 0 0 0 0" blend="average" mesh="llave_Torque_Box17.mesh" priority="0" shadow="false true" visible="true"/>
+					</node>
+					<node name="Box18_node" orientation="0 0 0 1" position="-3.12113 0 0" priority="0" scale="1 1 1" show_box="false" visible="true">
+						<entity name="Box18" aab="0 0 0 0 0 0" blend="average" mesh="llave_Torque_Box18.mesh" priority="0" shadow="false true" visible="true"/>
+					</node>
+					<node name="Box19_node" orientation="0 0 -0.707107 0.707107" position="-1.56924 2.463 0" priority="0" scale="1 1 1" show_box="false" visible="true">
+						<entity name="Box19" aab="0 0 0 0 0 0" blend="average" mesh="llave_Torque_Box19.mesh" priority="0" shadow="false true" visible="true"/>
+					</node>
+					<entity name="Box20" aab="0 0 0 0 0 0" blend="average" mesh="llave_Torque_Box20.mesh" priority="0" shadow="false true" visible="true"/>
+				</node>
+				<entity name="Text02" aab="0 0 0 0 0 0" blend="average" mesh="llave_Torque_Text02.mesh" priority="0" shadow="false true" visible="true"/>
+			</node>
+			<node name="llave_TorqueO_node" orientation="0 0 0 1" position="15 14 1" priority="0" scale="0.596214 0.596214 0.596214" show_box="false" visible="true">
 				<node name="Text24_node" orientation="0 0 0 1" position="0 2.68387 0.5" priority="0" scale="1 1 1" show_box="false" visible="true">
 					<entity name="Text24" aab="0 0 0 0 0 0" blend="average" mesh="llave_Torque_Text24.mesh" priority="0" shadow="false true" visible="true"/>
 				</node>
 				<node name="llave_TorqueI_node" orientation="-0.125104 0 0 0.992144" position="0 0 0" priority="0" scale="1 1 1" show_box="false" visible="true">
-					<node name="Text23_node" orientation="4.05312e-006 0 0 1" position="0 -2.70605 0.524334" priority="0" scale="1 1 1" show_box="false" visible="true">
+					<node name="Text23_node" orientation="4.05312e-006 0 0 1" position="0 -2.70605 0.524333" priority="0" scale="1 1 1" show_box="false" visible="true">
 						<entity name="Text23" aab="0 0 0 0 0 0" blend="average" mesh="llave_Torque_Text23.mesh" priority="0" shadow="false true" visible="true"/>
 					</node>
 					<entity name="llave_TorqueI" aab="0 0 0 0 0 0" blend="average" mesh="llave_Torque_llave_TorqueI.mesh" priority="0" shadow="false true" visible="true"/>

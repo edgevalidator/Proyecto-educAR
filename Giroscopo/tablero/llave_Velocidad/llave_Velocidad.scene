@@ -46,12 +46,27 @@
 	</tracks>
 	<nodes>
 		<node name="fixUp" orientation="-0.707107 0 0 0.707107" position="0 0 0" priority="0" scale="1 1 1" show_box="false" visible="true">
-			<node name="llave_VelocidadO_node" orientation="0 0 0 1" position="25 10.6522 1" priority="0" scale="0.596214 0.596214 0.596214" show_box="false" visible="true">
+			<node name="Text07_node" orientation="0 0 0 1" position="25 18.1333 1.03525" priority="0" scale="1 1 1" show_box="false" visible="true">
+				<node name="Box09_node" orientation="0 0 0 1" position="1.56924 -4.026 0.0647504" priority="0" scale="1 1 1" show_box="false" visible="true">
+					<node name="Box11_node" orientation="0 0 0 1" position="-3.12113 0 0" priority="0" scale="1 1 1" show_box="false" visible="true">
+						<node name="Box10_node" orientation="0 0 -0.707107 0.707107" position="1.55189 -2.462 0" priority="0" scale="1 1 1" show_box="false" visible="true">
+							<entity name="Box10" aab="0 0 0 0 0 0" blend="average" mesh="llave_Velocidad_Box10.mesh" priority="0" shadow="false true" visible="true"/>
+						</node>
+						<entity name="Box11" aab="0 0 0 0 0 0" blend="average" mesh="llave_Velocidad_Box11.mesh" priority="0" shadow="false true" visible="true"/>
+					</node>
+					<node name="Box12_node" orientation="0 0 -0.707107 0.707107" position="-1.56924 2.463 0" priority="0" scale="1 1 1" show_box="false" visible="true">
+						<entity name="Box12" aab="0 0 0 0 0 0" blend="average" mesh="llave_Velocidad_Box12.mesh" priority="0" shadow="false true" visible="true"/>
+					</node>
+					<entity name="Box09" aab="0 0 0 0 0 0" blend="average" mesh="llave_Velocidad_Box09.mesh" priority="0" shadow="false true" visible="true"/>
+				</node>
+				<entity name="Text07" aab="0 0 0 0 0 0" blend="average" mesh="llave_Velocidad_Text07.mesh" priority="0" shadow="false true" visible="true"/>
+			</node>
+			<node name="llave_VelocidadO_node" orientation="0 0 0 1" position="25 14 1" priority="0" scale="0.596214 0.596214 0.596214" show_box="false" visible="true">
 				<node name="Text20_node" orientation="0 0 0 1" position="0 2.68387 0.5" priority="0" scale="1 1 1" show_box="false" visible="true">
 					<entity name="Text20" aab="0 0 0 0 0 0" blend="average" mesh="llave_Velocidad_Text20.mesh" priority="0" shadow="false true" visible="true"/>
 				</node>
 				<node name="llave_VelocidadI_node" orientation="-0.125104 0 0 0.992144" position="0 0 0" priority="0" scale="1 1 1" show_box="false" visible="true">
-					<node name="Text19_node" orientation="4.05312e-006 0 0 1" position="0 -2.70605 0.524334" priority="0" scale="1 1 1" show_box="false" visible="true">
+					<node name="Text19_node" orientation="4.05312e-006 0 0 1" position="0 -2.70605 0.524333" priority="0" scale="1 1 1" show_box="false" visible="true">
 						<entity name="Text19" aab="0 0 0 0 0 0" blend="average" mesh="llave_Velocidad_Text19.mesh" priority="0" shadow="false true" visible="true"/>
 					</node>
 					<entity name="llave_VelocidadI" aab="0 0 0 0 0 0" blend="average" mesh="llave_Velocidad_llave_VelocidadI.mesh" priority="0" shadow="false true" visible="true"/>

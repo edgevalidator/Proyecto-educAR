@@ -1,4 +1,4 @@
-material btn_Next/Material25
+material btn_next/Material25
 {
 	technique
 	{
@@ -17,7 +17,7 @@ material btn_Next/Material25
 		}
 	}
 }
-material btn_Next/Material26
+material btn_next/Material26
 {
 	technique
 	{
@@ -36,7 +36,7 @@ material btn_Next/Material26
 		}
 	}
 }
-material btn_Next/Material31
+material btn_next/Material31
 {
 	technique
 	{
