@@ -447,6 +447,25 @@ function Boton:getNameForModel()
 	return self.id
 end
 
+function Boton:isAnimationInState(state)
+	
+	local obj = Scenette(getCurrentScene():getObjectByName(self:getNameForModel()))
+	local animation = obj:getAnimation(0)
+	if not animation:isNull() then
+		if ((state == "on") and not(animation:getTimePosition() == 0 or animation:getTimePosition() == 1)) then
+			return true
+		elseif ((state == "off") and not(animation:getTimePosition() == 0.5)) then
+			return true
+		elseif (not state == "on" and not state == "off") then
+			-- Esto se da en botones que bajan y suben en seguida
+			return true
+		else
+			return false
+		end
+	end
+		
+end
+
 function Boton:playAnimation(state)
 	
 	local obj = Scenette(getCurrentScene():getObjectByName(self:getNameForModel()))
@@ -586,13 +605,17 @@ end
 function Videos:play()
 	local scene = getCurrentScene()
 	local video_capture = VideoCapture(scene:getObjectByName(self:getNameForVideoCapture()))
-	video_capture:play(0)
+	if not video_capture == null then
+		video_capture:play(0)
+	end
 end
 
 function Videos:stop()
 	local scene = getCurrentScene()
 	local video_capture = VideoCapture(scene:getObjectByName(self:getNameForVideoCapture()))
-	video_capture:pause()
+	if not video_capture == null then
+		video_capture:pause()
+	end
 end
 
 function Videos:loadModel()
@@ -611,6 +634,88 @@ function Videos:loadModel()
 		self:changeMaterial(self.current)
 	end
 	
+end
+
+-- BOTONES
+
+Display = { current = 0, length = 9 }
+
+function Display:new(o)
+	o = o or {}
+	setmetatable(o, self)
+	self.__index = self
+	o:loadModel()
+	return o
+end
+
+function Display:getNameForModel()
+	return "display"
+end
+
+function Display:changePosition(number)
+	local obj = Scenette(getCurrentScene():getObjectByName(self:getNameForModel()))
+	local animation = obj:getAnimation(0)
+	
+	LOG(number)
+	if not animation:isNull() then
+		animation:setLoop(false)
+		animation:play()
+		LOG(number / 30)
+		animation:setTimePosition(number * 2 / 30)
+		animation:pause()
+	end
+end
+
+function Display:reset()
+	self.current = 0
+	self:changePosition(self.current)
+end
+
+function Display:showPrevious()
+
+	LOG("previous")
+
+	if self.length > 0 then
+		self.current = self.current - 1
+	end
+	
+	if self.current < 1 then
+		self.current = self.length
+	end
+
+	self:changePosition(self.current)
+	
+end
+
+function Display:showNext()
+
+	LOG("next")
+
+	if self.length > 0 then
+		self.current = self.current + 1
+	end
+	
+	if self.current > self.length then
+		self.current = 1
+	end
+	
+	self:changePosition(self.current)
+
+end
+
+function Display:loadModel()
+
+	local scene = getCurrentScene()
+	local ref = Object3D(scene:getObjectByName("ref"))
+	
+	local model = Scenette(scene:createObject(CID_SCENETTE))
+	ref:addChild(model)
+	model:setName(self:getNameForModel())
+	model:setResource("tablero/display/display.scene")	
+	model:setVisible(true)
+	model:setOrientationEuler(90.0, 0.0, 0.0)
+	model:setPosition(0.0, -10.0, 0.0)
+	model:setScale(0.300)
 end
 
 -- CONTROL
@@ -641,14 +746,12 @@ local ecuaciones = Ecuaciones:new{}
 local boton_01 = Boton:new{id="boton_01", filename="btn_g01" }
 local boton_02 = Boton:new{id="boton_02", filename="btn_g02" }
 local boton_04 = Boton:new{id="boton_04", filename="btn_g03" }
-local boton_e01 = Boton:new{id="boton_ej1", filename="btn_e01" }
-local boton_e02 = Boton:new{id="boton_ej2", filename="btn_e02" }
 local boton_vectores = Boton:new{id="boton_vectores", filename="llave_Vectores" }
 local boton_notas = Boton:new{id="boton_notas", filename="btn_Notas" }
 local boton_videos = Boton:new{id="boton_videos", filename="btn_Videos" }
 local boton_nota_siguiente = Boton:new{id="boton_nota_siguiente", filename="btn_Next" }
 local boton_nota_anterior = Boton:new{id="boton_nota_anterior", filename="btn_Back"}
-local boton_animaciones = Boton:new{id="boton_animaciones", filename="btn_PlayPause" }
+local boton_animaciones = Boton:new{id="boton_animaciones", filename="btn_PlayPause_Animacion" }
 local boton_ecuaciones = Boton:new{id="boton_ecuaciones", filename="btn_Ecuaciones" }
 local boton_precesion = Boton:new{id="boton_precesion", filename="btn_Velocidad" }
 local boton_direccion = Boton:new{id="boton_direccion", filename="btn_Sentido" }
@@ -657,6 +760,13 @@ local boton_momentoangular = Boton:new{id="boton_momentoangular", filename="llav
 local boton_torque = Boton:new{id="boton_torque", filename="llave_Torque"}
 local boton_fuerzas = Boton:new{id="boton_fuerzas", filename="llave_Fuerzas"}
 
+local boton_ejercicios = Boton:new{id="boton_ejercicios", filename="btn_ej_comenzar" }
+local boton_solucion = Boton:new{id="boton_solucion", filename="btn_ej_solucion" }
+local boton_ej_anterior = Boton:new{id="boton_ej_anterior", filename="btn_back_ejercicio"}
+local boton_ej_siguiente = Boton:new{id="boton_ej_siguiente", filename="btn_next_ejercicio"}
+local boton_videos_pp = Boton:new{id="boton_videos_pp", filename="btn_play_pause_videos"}
+
+local display = Display:new{}
 
 function show_model(option)
 	if option == 1 then
@@ -681,38 +791,95 @@ function show_model(option)
 		giroscopo_02:setVisibility(false)
 		giroscopo_04:setVisibility(true)
 	end
-	boton_notas:playAnimation("off")
+	boton_ejercicios:playAnimation("off")
+	
+	boton_videos:playAnimation("off")
 	boton_ecuaciones:playAnimation("off")
+	boton_notas:playAnimation("off")
+
+	ecuaciones:setVisibility(true)
 	notas:setVisibility(false)
-	ecuaciones:setVisibility(false)
+	videos:setVisibility(false)
+end
+
+function show_excercises()
+	if boton_ejercicios:isAnimationInState("off") then
+		boton_01:playAnimation("off")
+		boton_02:playAnimation("off")
+		boton_04:playAnimation("off")
+		boton_ejercicios:playAnimation("on")
+		
+		boton_videos:playAnimation("off")
+		boton_ecuaciones:playAnimation("off")
+		--boton_notas:playAnimation("off")
+
+		giroscopo_01:setVisibility(false)
+		giroscopo_02:setVisibility(false)
+		giroscopo_04:setVisibility(true)				
+		ecuaciones:setVisibility(true)
+		--notas:setVisibility(false)
+		videos:setVisibility(false)
+	end
 end
 
 function show_notes()
-	boton_01:playAnimation("off")
-	boton_02:playAnimation("off")
-	boton_04:playAnimation("off")
-	boton_notas:playAnimation("on")
-	boton_videos:playAnimation("off")
-	boton_ecuaciones:playAnimation("off")
-	giroscopo_01:setVisibility(false)
-	giroscopo_02:setVisibility(false)
-	giroscopo_04:setVisibility(false)
-	ecuaciones:setVisibility(false)
-	notas:setVisibility(true)
-	videos:setVisibility(false)
+	if boton_ejercicios:isAnimationInState("on") then
+		boton_01:playAnimation("off")
+		boton_02:playAnimation("off")
+		boton_04:playAnimation("off")
+		boton_notas:playAnimation("on")
+		if boton_solucion:isAnimationInState("on") then
+			boton_solucion:playAnimation("off")
+		end
+		boton_videos:playAnimation("off")
+		boton_ecuaciones:playAnimation("off")
+		
+		giroscopo_01:setVisibility(false)
+		giroscopo_02:setVisibility(false)
+		giroscopo_04:setVisibility(false)
+		ecuaciones:setVisibility(false)
+		notas:setVisibility(true)
+		videos:setVisibility(false)
+	end
+end
+
+function show_solution()
+	if boton_ejercicios:isAnimationInState("on") then
+		boton_01:playAnimation("off")
+		boton_02:playAnimation("off")
+		boton_04:playAnimation("off")
+		if boton_notas:isAnimationInState("on") then
+			boton_notas:playAnimation("off")
+		end
+		boton_solucion:playAnimation("on")
+		boton_videos:playAnimation("off")
+		boton_ecuaciones:playAnimation("off")
+		
+		giroscopo_01:setVisibility(false)
+		giroscopo_02:setVisibility(false)
+		giroscopo_04:setVisibility(false)
+		ecuaciones:setVisibility(false)
+		notas:setVisibility(true)
+		videos:setVisibility(false)
+	end
 end
 
 function show_videos()
 	boton_01:playAnimation("off")
 	boton_02:playAnimation("off")
 	boton_04:playAnimation("off")
+	boton_ejercicios:playAnimation("off")
+	
 	boton_notas:playAnimation("off")
+	boton_solucion:playAnimation("off")
+	
 	boton_videos:playAnimation("on")
 	boton_ecuaciones:playAnimation("off")
+	
 	giroscopo_01:setVisibility(false)
 	giroscopo_02:setVisibility(false)
 	giroscopo_04:setVisibility(false)
-	ecuaciones:setVisibility(false)
+	ecuaciones:setVisibility(true)
 	notas:setVisibility(false)
 	videos:setVisibility(true)
 end
@@ -721,9 +888,14 @@ function show_equations()
 	boton_01:playAnimation("off")
 	boton_02:playAnimation("off")
 	boton_04:playAnimation("off")
+	boton_ejercicios:playAnimation("off")
+	
 	boton_notas:playAnimation("off")
+	boton_solucion:playAnimation("off")
+	
 	boton_videos:playAnimation("off")
 	boton_ecuaciones:playAnimation("on")
+	
 	giroscopo_01:setVisibility(false)
 	giroscopo_02:setVisibility(false)
 	giroscopo_04:setVisibility(false)
@@ -734,14 +906,36 @@ end
 
 function next_note()
 	boton_nota_siguiente:playAnimation()
-	notas:showNext()
-	videos:showNext()
+	if boton_notas:isAnimationInState("on") then
+		notas:showNext()
+	end
+	if boton_videos:isAnimationInState("on") then
+		videos:showNext()
+	end
 end
 
 function previous_note()
 	boton_nota_anterior:playAnimation()
-	notas:showPrevious()
-	videos:showPrevious()
+	if boton_notas:isAnimationInState("on") then
+		notas:showPrevious()
+	end
+	if boton_videos:isAnimationInState("on") then
+		videos:showPrevious()
+	end
+end
+
+function next_excercise()
+	boton_ej_siguiente:playAnimation()
+	if boton_ejercicios:isAnimationInState("on") then
+		display:showNext()
+	end
+end
+
+function previous_excercise()
+	boton_ej_anterior:playAnimation()
+	if boton_ejercicios:isAnimationInState("on") then
+		display:showPrevious()
+	end
 end
 
 function toggle_animations()

@@ -91,6 +91,14 @@ repeat
 			toggle_precesion()
 		elseif action == 'boton_videos' then
 			show_videos()
+		elseif action == 'boton_solucion' then
+			show_solution()
+		elseif action == 'boton_ejercicios' then
+			show_excercises()
+		elseif action == 'boton_ej_anterior' then
+			previous_excercise()
+		elseif action == 'boton_ej_siguiente' then
+			next_excercise()
 		else
 			LOG(action)
 		end
