@@ -23,13 +23,13 @@
 			</div>						
 				<ul >
 					<li id="li_1" >
-						<label class="description" for="element_1">Nota </label>
+						<label class="description" for="element_1">Nota</label>
 						<div>
 							<textarea id="texto_nota" name="nota_texto" class="element textarea medium"><?php echo $nota->nota_texto; ?></textarea> 
 						</div> 
 					</li>		
 					<li id="li_2" >
-						<label class="description" for="element_2">Ejercicio </label>
+						<label class="description" for="element_2">Ejercicio</label>
 						<div>
 							<select class="element select medium" id="element_2" name="element_2"> 
 								<option value="1"  selected="selected" >Giroscopo</option>

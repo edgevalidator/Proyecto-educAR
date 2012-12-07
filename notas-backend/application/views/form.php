@@ -29,7 +29,7 @@
 						</div> 
 					</li>		
 					<li id="li_2" >
-						<label class="description" for="element_2">Ejercicio </label>
+						<label class="description" for="element_2">Parte_Ñ</label>
 						<div>
 							<select class="element select medium" id="element_2" name="element_2"> 
 								<option value="1"  selected="selected" >Giroscopo</option>

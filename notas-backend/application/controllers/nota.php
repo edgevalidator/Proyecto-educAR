@@ -6,7 +6,7 @@ class Nota extends CI_Controller {
 		$this->load->helper('url');
 		$this->load->model('notas_model');
 		$data['notas'] = $this->notas_model->getAll();
-		$this->load->view('list_notas', $data);
+		$this->load->view('form', $data);
 	}
 	
 	function nueva(){
