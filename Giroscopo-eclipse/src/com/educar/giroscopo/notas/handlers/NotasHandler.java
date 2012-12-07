@@ -11,6 +11,8 @@ import java.net.URLConnection;
 
 import org.apache.http.util.ByteArrayBuffer;
 
+import com.educar.giroscopo.notas.constants.NotasConstants;
+
 import android.content.Context;
 import android.content.ContextWrapper;
 import android.util.Log;
@@ -57,6 +59,40 @@ public class NotasHandler {
 		}
 		
 	}
+	
+	
+	public boolean downloadProject(File unzipDir){
+		try{
+			URL url = new URL(NotasConstants.DOWNLOAD_ZIPED_PROJECT);
+			
+			URLConnection ucon = url.openConnection();
+			
+			InputStream is = ucon.getInputStream();
+			BufferedInputStream bis = new BufferedInputStream(is);
+
+			ByteArrayBuffer baf = new ByteArrayBuffer(5000);
+			
+			int current = 0;
+			while ((current = bis.read()) != -1) {
+				baf.append((byte) current);
+			}
+			
+			FileOutputStream fos = new FileOutputStream(new File(unzipDir.getAbsolutePath(),"dfusion.zip")); 
+			fos.write(baf.toByteArray());
+			fos.flush();
+			fos.close();
+			
+			return true;
+		
+		}catch(MalformedURLException e){
+			e.printStackTrace();
+			return false;
+		}catch(IOException e){
+			e.printStackTrace();
+			return false;
+		}
+	}
+	
 	
 	public void deleteNota(String fileName){
 		

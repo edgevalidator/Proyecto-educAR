@@ -8,13 +8,11 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.io.OutputStream;
 import java.text.SimpleDateFormat;
-import java.util.Calendar;
 import java.util.Date;
 import java.util.zip.ZipEntry;
 import java.util.zip.ZipInputStream;
 
 import org.json.JSONArray;
-import org.json.JSONObject;
 
 import ti.dfusionmobile.tiComponent;
 import android.app.Activity;
@@ -29,8 +27,6 @@ import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.widget.FrameLayout;
-import android.widget.LinearLayout;
-import android.widget.Toast;
 
 import com.educar.giroscopo.notas.constants.NotasConstants;
 import com.educar.giroscopo.notas.handlers.NotasHandler;
@@ -40,7 +36,7 @@ import com.educar.giroscopo.utils.HttpUtil;
 public class EducARActivity extends Activity {
     
 	private FrameLayout _frameLayout;
-	private tiComponent _tiComponent; 
+	private tiComponent _tiComponent;
 	
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -52,7 +48,6 @@ public class EducARActivity extends Activity {
     public void onStart() {
 	    _frameLayout = new FrameLayout(this);
 	    _frameLayout.setKeepScreenOn(true);
-	    
 	    _tiComponent.initialize(_frameLayout);
 	    _tiComponent.activateAutoFocusOnDownEvent(true);
 	    
@@ -62,27 +57,6 @@ public class EducARActivity extends Activity {
 	    
 	    UnzipProjectTask task = new UnzipProjectTask();
 	    task.execute();
-	    
-	    /*
-	    _linearLayout = new LinearLayout(this);
-    	_linearLayout.setBackgroundColor(Color.YELLOW);
-    	
-	    _frameLayout = new FrameLayout(this);
-	    _frameLayout.setKeepScreenOn(true);
-	    _frameLayout.setBackgroundColor(Color.GREEN);
-	    
-	    int width = getWindowManager().getDefaultDisplay().getWidth();
-	    int height = width * (3/4);
-	    
-	    LinearLayout.LayoutParams params = new LinearLayout.LayoutParams(width, height);
-	    params.gravity = Gravity.CENTER;
-	    
-	    _linearLayout.addView(_frameLayout, params);
-	    
-	    setContentView(_linearLayout);
-	    
-	    super.onStart();
-	    */
     }
     
     @Override
@@ -153,7 +127,8 @@ public class EducARActivity extends Activity {
 	}
 	
 	private String getZipFilename(){
-		return "content.zip";
+		//return "content.zip";
+		return "dfusion.zip";
 	}
 	
 	private File getUnzipDir(){
@@ -181,6 +156,8 @@ public class EducARActivity extends Activity {
 		
 		@Override
 		protected Void doInBackground(Void... params) {
+			
+			downloadProject();
 			
 			File projectFile = getProjectFile();
 			
@@ -245,96 +222,45 @@ public class EducARActivity extends Activity {
 					}
 				}
 			}
-			
-			/*
-			if(!error){
-		
-				Date ultimaNota = new Date(Long.MIN_VALUE);
-
-				SimpleDateFormat df = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
-				boolean ultimaNotaCambio = false;
-
-				Calendar c = Calendar.getInstance();
-
-				SharedPreferencesHandler preferences = new SharedPreferencesHandler(EducARActivity.this);
-				String ultimaFechaNota = preferences.getValue(NotasConstants.ULTIMA_NOTA_BAJADA);
-
-				try {
-					int year     = 1;
-					int month    = 1;
-					int day      = 1;
-					int hora     = 1;
-					int minutos  = 1;
-					int segundos = 1;
-
-					if (ultimaFechaNota != null && ultimaFechaNota != "") {
-						c.setTime(df.parse(ultimaFechaNota));
-
-						year     = c.get(Calendar.YEAR);
-						month    = c.get(Calendar.MONTH) + 1;
-						day      = c.get(Calendar.DAY_OF_MONTH);
-						hora     = c.get(Calendar.HOUR);
-						minutos  = c.get(Calendar.MINUTE);
-						segundos = c.get(Calendar.SECOND);
-					}
-
-					String fechaParam = year + "/" + month + "/" + day + "/" + hora + "/" + minutos + "/" + segundos;
-					
-					Log.i("FECHA_PARAM", fechaParam);
-					
-					JSONArray ultimasNotas = HttpUtil.getRequest(NotasConstants.ULTIMAS_NOTAS_URL+ fechaParam);
-					
-					
-					if (ultimasNotas != null) {
-
-						for (int i = 0; i < ultimasNotas.length(); i++) {
-
-							JSONObject obj = ultimasNotas.getJSONObject(i);
-							int notaId            = obj.getInt("nota_id");
-							String fechaNota      = obj.getString("nota_fecha_creada");
-							int notaEliminada = obj.getInt("nota_eliminada");
-							
-							String fileName = "nota_" + notaId + ".png";
-							
-							Log.i("NOTA_", "Nota => " + fileName);
-							
-							//Busco si tengo la nota que se elimino para borrarla
-							if(notaEliminada == 1){
-								notasHandler.deleteNota(fileName);
-							}else{
-								Date fechaNotaBajada = df.parse(fechaNota);
-
-								if (fechaNotaBajada.after(ultimaNota)) {
-									ultimaNota = fechaNotaBajada;
-									ultimaNotaCambio = true;
-								}
-
-								String downloadUrl = NotasConstants.GET_NOTA_URL + notaId;
-
-								Log.i("D_URL", downloadUrl);
-
-								notasHandler.downloadNotaFromURL(downloadUrl, fileName);
-							}
-						}
-						
-						if (ultimaNotaCambio) {
-							String sUltimaNota = df.format(ultimaNota).toString();
-							preferences.setValue(NotasConstants.ULTIMA_NOTA_BAJADA, sUltimaNota);
-							Log.i("NOTA_CAMBIO", "CAMBIONOTA => " + sUltimaNota);
-						}
-
-					} else {
-						Toast.makeText(EducARActivity.this,"No hay nuevas notas para descargar", Toast.LENGTH_LONG).show();
-					}
-				} catch (Exception e) {
-					Log.e("Exception", e.getMessage());
-				}
-				
-			}
-			*/
 			return null;
 		}
+		
+		private boolean downloadProject(){
+			
+			SharedPreferencesHandler preferences = new SharedPreferencesHandler(EducARActivity.this);
+			String lastDateDownloaded = preferences.getValue(NotasConstants.ULTIMA_NOTA_BAJADA);
+			NotasHandler notasHandler = new NotasHandler(EducARActivity.this);
+			
+			if(lastDateDownloaded == null || lastDateDownloaded.equals("")){
+				return notasHandler.downloadProject(getUnzipDir());
+				
+				//Falta setear en las shared preferences la fecha de actualizacion
+				
+				
+			}else{
+				JSONArray projectLastModified = HttpUtil.getRequest(NotasConstants.PROJECT_LAST_MODIFIED);
+					
+				try{
+					String sProjectLastModified = projectLastModified.getJSONObject(0).getString("last_modified_date");
+					
+					SimpleDateFormat df = new SimpleDateFormat("dd-MM-yyyy HH:mm:ss");
+					Date oProjectLastModified = df.parse(sProjectLastModified);
+					Date oLastDateDownloaded = df.parse(lastDateDownloaded);
+					
+					if(oProjectLastModified.after(oLastDateDownloaded)){
+						return notasHandler.downloadProject(getUnzipDir());
+					}
+					
+					
+				}catch(Exception e){
+					return false;
+				}
+			}
+			return false;
+		}
 
+		
+	
 		@Override
 		protected void onPostExecute(Void result) {
 			Log.d("EducARActivity", "ended");
