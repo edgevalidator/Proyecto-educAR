@@ -341,7 +341,7 @@ end
 
 --  NOTAS
 
-Notas = { length = 0, current = 1 }
+Notas = { length = {2, 2, 2, 2, 2, 1, 3, 0, 4}, current = 0, excercise = 0}
 
 function Notas:new(o)
 	o = o or {}
@@ -353,6 +353,17 @@ end
 
 function Notas:getNameForModel()
 	return "notes"
+end
+
+function Notas:setExcercise(e)
+	self.excercise = e
+	if self.length[e] == 0 then
+		self.current = 0
+	else
+		self.current = 1		
+	end
+	
+	self:changeMaterial(self.excercise, self.current)
 end
 
 function Notas:setVisibility(visibility)
@@ -373,38 +384,55 @@ end
 
 function Notas:showPrevious()
 
-	if self.length > 0 then
+	if self.length[self.excercise] > 0 then
 		self.current = self.current - 1
 	end
 	
-	if self.current < 1 then
+	if self.length[self.excercise] < 1 then
 		self.current = self.length
 	end
 
-	self:changeMaterial(self.current)
+	if not self.length[self.excercise] == 0 then
+		self:changeMaterial(self.excercise, self.current)
+	end
 	
 end
 
 function Notas:showNext()
-
-	if self.length > 0 then
+	if self.length[self.excercise] > 0 then
 		self.current = self.current + 1
 	end
 	
-	if self.current > self.length then
+	if self.current > self.length[self.excercise] then
 		self.current = 1
 	end
+
+	LOG("Length is " .. self.length[self.excercise])
 	
-	self:changeMaterial(self.current)
+	if self.length[self.excercise] == 0 then
+		LOG("Length is 0")
+	else
+		LOG("Length is not 0")
+	end
+	
+	if not (self.length[self.excercise] == 0) then
+		self:changeMaterial(self.excercise, self.current)
+	else
+		LOG("Setting current to 0")
+		self.current = 0
+	end
 
 end
 
-function Notas:changeMaterial(i)
-
+function Notas:changeMaterial(e, i)
 	local scene = getCurrentScene()
 	
 	local texture = Texture(scene:createObject(CID_TEXTURE))
-	texture:setResource("notas/nota/nota_" .. i .. ".png")
+	if i == 0 or e == 0 then
+		texture:setResource("notas/nota/nota.png")
+	else
+		texture:setResource("notas/" .. e .. "/nota_" .. i .. ".png")
+	end
 	
 	local material = getMaterial("nota/Material26")
 	material:setTexture(texture)
@@ -423,10 +451,6 @@ function Notas:loadModel()
 	model:setVisible(false)
 	model:setOrientationEuler(90.0, 0.0, 0.0)
 	model:setScale(0.245)
-	
-	if self.length > 0 then
-		self:changeMaterial(self.current)
-	end
 	
 end
 
@@ -509,13 +533,13 @@ function Boton:loadModel()
 	model:setResource("tablero/" .. self.filename .. "/" .. self.filename .. ".scene")	
 	model:setVisible(true)
 	model:setOrientationEuler(90.0, 0.0, 0.0)
-	model:setPosition(0.0, -10.0, 0.0)
+	model:setPosition(0.0, -12.0, 0.0)
 	model:setScale(0.300)
 end
 
 -- VIDEOS
 
-Videos = { length = 1, current = 1 }
+Videos = { length = 0, current = 1 }
 
 function Videos:new(o)
 	o = o or {}
@@ -586,7 +610,7 @@ end
 function Videos:changeMaterial(i)
 	local osType = getOSType()
 	
-	if not osTypz == TI_OS_ANDROID then
+	if not osType == TI_OS_ANDROID then
 		local scene = getCurrentScene()
 		
 		local video_capture = VideoCapture(scene:createObject(CID_VIDEOCAPTURE))
@@ -666,6 +690,10 @@ function Display:changePosition(number)
 	end
 end
 
+function Display:getCurrent()
+	return self.current
+end
+
 function Display:reset()
 	self.current = 0
 	self:changePosition(self.current)
@@ -714,7 +742,7 @@ function Display:loadModel()
 	model:setResource("tablero/display/display.scene")	
 	model:setVisible(true)
 	model:setOrientationEuler(90.0, 0.0, 0.0)
-	model:setPosition(0.0, -10.0, 0.0)
+	model:setPosition(0.0, -12.0, 0.0)
 	model:setScale(0.300)
 end
 
@@ -730,7 +758,7 @@ function loadTablero()
 	model:setResource("tablero/tablero/tablero.scene")	
 	model:setVisible(true)
 	model:setOrientationEuler(90.0, 0.0, 0.0)
-	model:setPosition(0.0, -10.0, 0.0)
+	model:setPosition(0.0, -12.0, 0.0)
 	model:setScale(0.300)
 end
 
@@ -759,6 +787,10 @@ local boton_velocidadangular = Boton:new{id="boton_velocidadangular", filename="
 local boton_momentoangular = Boton:new{id="boton_momentoangular", filename="llave_Momento"}
 local boton_torque = Boton:new{id="boton_torque", filename="llave_Torque"}
 local boton_fuerzas = Boton:new{id="boton_fuerzas", filename="llave_Fuerzas"}
+boton_velocidadangular:playAnimation("on")
+boton_momentoangular:playAnimation("on")
+boton_torque:playAnimation("on")
+boton_fuerzas:playAnimation("on")
 
 local boton_ejercicios = Boton:new{id="boton_ejercicios", filename="btn_ej_comenzar" }
 local boton_solucion = Boton:new{id="boton_solucion", filename="btn_ej_solucion" }
@@ -796,10 +828,13 @@ function show_model(option)
 	boton_videos:playAnimation("off")
 	boton_ecuaciones:playAnimation("off")
 	boton_notas:playAnimation("off")
-
-	ecuaciones:setVisibility(true)
+	
+	ecuaciones:setVisibility(false)
 	notas:setVisibility(false)
 	videos:setVisibility(false)
+	
+	display:reset()
+	notas:setExcercise(display:getCurrent())
 end
 
 function show_excercises()
@@ -816,9 +851,12 @@ function show_excercises()
 		giroscopo_01:setVisibility(false)
 		giroscopo_02:setVisibility(false)
 		giroscopo_04:setVisibility(true)				
-		ecuaciones:setVisibility(true)
+		ecuaciones:setVisibility(false)
 		--notas:setVisibility(false)
 		videos:setVisibility(false)
+		
+		display:showNext()
+		notas:setExcercise(display:getCurrent())
 	end
 end
 
@@ -827,7 +865,13 @@ function show_notes()
 		boton_01:playAnimation("off")
 		boton_02:playAnimation("off")
 		boton_04:playAnimation("off")
-		boton_notas:playAnimation("on")
+		if boton_notas:isAnimationInState("on") then
+			boton_notas:playAnimation("off")
+			notas:setVisibility(false)
+		else
+			boton_notas:playAnimation("on")
+			notas:setVisibility(true)
+		end
 		if boton_solucion:isAnimationInState("on") then
 			boton_solucion:playAnimation("off")
 		end
@@ -836,9 +880,9 @@ function show_notes()
 		
 		giroscopo_01:setVisibility(false)
 		giroscopo_02:setVisibility(false)
-		giroscopo_04:setVisibility(false)
+		giroscopo_04:setVisibility(true)
 		ecuaciones:setVisibility(false)
-		notas:setVisibility(true)
+
 		videos:setVisibility(false)
 	end
 end
@@ -851,15 +895,19 @@ function show_solution()
 		if boton_notas:isAnimationInState("on") then
 			boton_notas:playAnimation("off")
 		end
-		boton_solucion:playAnimation("on")
+		if boton_solucion:isAnimationInState("on") then
+			boton_solucion:playAnimation("off")
+		else
+			boton_solucion:playAnimation("on")
+		end
 		boton_videos:playAnimation("off")
 		boton_ecuaciones:playAnimation("off")
 		
 		giroscopo_01:setVisibility(false)
 		giroscopo_02:setVisibility(false)
-		giroscopo_04:setVisibility(false)
+		giroscopo_04:setVisibility(true)
 		ecuaciones:setVisibility(false)
-		notas:setVisibility(true)
+		notas:setVisibility(false)
 		videos:setVisibility(false)
 	end
 end
@@ -879,9 +927,12 @@ function show_videos()
 	giroscopo_01:setVisibility(false)
 	giroscopo_02:setVisibility(false)
 	giroscopo_04:setVisibility(false)
-	ecuaciones:setVisibility(true)
+	ecuaciones:setVisibility(false)
 	notas:setVisibility(false)
 	videos:setVisibility(true)
+	
+	display:reset()
+	notas:setExcercise(display:getCurrent())
 end
 
 function show_equations()
@@ -902,6 +953,9 @@ function show_equations()
 	ecuaciones:setVisibility(true)
 	notas:setVisibility(false)
 	videos:setVisibility(false)
+
+	display:reset()
+	notas:setExcercise(display:getCurrent())
 end
 
 function next_note()
@@ -928,6 +982,7 @@ function next_excercise()
 	boton_ej_siguiente:playAnimation()
 	if boton_ejercicios:isAnimationInState("on") then
 		display:showNext()
+		notas:setExcercise(display:getCurrent())
 	end
 end
 
@@ -935,6 +990,7 @@ function previous_excercise()
 	boton_ej_anterior:playAnimation()
 	if boton_ejercicios:isAnimationInState("on") then
 		display:showPrevious()
+		notas:setExcercise(display:getCurrent())
 	end
 end
 
