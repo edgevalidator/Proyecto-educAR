@@ -777,8 +777,8 @@ local boton_04 = Boton:new{id="boton_04", filename="btn_g03" }
 local boton_vectores = Boton:new{id="boton_vectores", filename="llave_Vectores" }
 local boton_notas = Boton:new{id="boton_notas", filename="btn_Notas" }
 local boton_videos = Boton:new{id="boton_videos", filename="btn_Videos" }
-local boton_nota_siguiente = Boton:new{id="boton_nota_siguiente", filename="btn_Next" }
-local boton_nota_anterior = Boton:new{id="boton_nota_anterior", filename="btn_Back"}
+local boton_nota_siguiente = Boton:new{id="boton_nota_siguiente", filename="btn_next_nota_video" }
+local boton_nota_anterior = Boton:new{id="boton_nota_anterior", filename="btn_back_nota_video"}
 local boton_animaciones = Boton:new{id="boton_animaciones", filename="btn_PlayPause_Animacion" }
 local boton_ecuaciones = Boton:new{id="boton_ecuaciones", filename="btn_Ecuaciones" }
 local boton_precesion = Boton:new{id="boton_precesion", filename="btn_Velocidad" }
@@ -972,6 +972,7 @@ function previous_note()
 	boton_nota_anterior:playAnimation()
 	if boton_notas:isAnimationInState("on") then
 		notas:showPrevious()
+		
 	end
 	if boton_videos:isAnimationInState("on") then
 		videos:showPrevious()
