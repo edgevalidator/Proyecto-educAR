@@ -1,4 +1,4 @@
-material torque/Material3
+material torque/azul
 {
 	technique
 	{
@@ -12,12 +12,12 @@ material torque/Material3
 
 			texture_unit
 			{
-				texture verde.png
+				texture azul.png
 			}
 		}
 	}
 }
-material torque/Material4
+material torque/rojo
 {
 	technique
 	{
@@ -36,7 +36,7 @@ material torque/Material4
 		}
 	}
 }
-material torque/Material5
+material torque/verde
 {
 	technique
 	{
@@ -50,7 +50,7 @@ material torque/Material5
 
 			texture_unit
 			{
-				texture azul.png
+				texture verde.png
 			}
 		}
 	}
