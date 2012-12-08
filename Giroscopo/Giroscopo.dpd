@@ -2744,6 +2744,71 @@
                 <configuration name="@Home|windows" excludeFromBuild="true" />
                 <configuration name="mobile|All Platforms" excludeFromBuild="true" />
             </file>
+            <file relativePath=".\soluciones\solucion\solucion.material">
+                <configuration name="@Home|All Platforms" excludeFromBuild="true" />
+                <configuration name="@Home|windows" excludeFromBuild="true" />
+                <configuration name="mobile|All Platforms" excludeFromBuild="true" />
+            </file>
+            <file relativePath=".\soluciones\solucion\solucion.png">
+                <configuration name="@Home|All Platforms" excludeFromBuild="true" />
+                <configuration name="@Home|windows" excludeFromBuild="true" />
+                <configuration name="mobile|All Platforms" excludeFromBuild="true" />
+            </file>
+            <file relativePath=".\soluciones\solucion\solucion.scene">
+                <configuration name="@Home|All Platforms" excludeFromBuild="true" />
+                <configuration name="@Home|windows" excludeFromBuild="true" />
+                <configuration name="mobile|All Platforms" excludeFromBuild="true" />
+            </file>
+            <file relativePath=".\soluciones\solucion\solucion_Plane01.mesh">
+                <configuration name="@Home|All Platforms" excludeFromBuild="true" />
+                <configuration name="@Home|windows" excludeFromBuild="true" />
+                <configuration name="mobile|All Platforms" excludeFromBuild="true" />
+            </file>
+            <file relativePath=".\soluciones\solucion_1.png">
+                <configuration name="@Home|All Platforms" excludeFromBuild="true" />
+                <configuration name="@Home|windows" excludeFromBuild="true" />
+                <configuration name="mobile|All Platforms" excludeFromBuild="true" />
+            </file>
+            <file relativePath=".\soluciones\solucion_2.png">
+                <configuration name="@Home|All Platforms" excludeFromBuild="true" />
+                <configuration name="@Home|windows" excludeFromBuild="true" />
+                <configuration name="mobile|All Platforms" excludeFromBuild="true" />
+            </file>
+            <file relativePath=".\soluciones\solucion_3.png">
+                <configuration name="@Home|All Platforms" excludeFromBuild="true" />
+                <configuration name="@Home|windows" excludeFromBuild="true" />
+                <configuration name="mobile|All Platforms" excludeFromBuild="true" />
+            </file>
+            <file relativePath=".\soluciones\solucion_4.png">
+                <configuration name="@Home|All Platforms" excludeFromBuild="true" />
+                <configuration name="@Home|windows" excludeFromBuild="true" />
+                <configuration name="mobile|All Platforms" excludeFromBuild="true" />
+            </file>
+            <file relativePath=".\soluciones\solucion_5.png">
+                <configuration name="@Home|All Platforms" excludeFromBuild="true" />
+                <configuration name="@Home|windows" excludeFromBuild="true" />
+                <configuration name="mobile|All Platforms" excludeFromBuild="true" />
+            </file>
+            <file relativePath=".\soluciones\solucion_6.png">
+                <configuration name="@Home|All Platforms" excludeFromBuild="true" />
+                <configuration name="@Home|windows" excludeFromBuild="true" />
+                <configuration name="mobile|All Platforms" excludeFromBuild="true" />
+            </file>
+            <file relativePath=".\soluciones\solucion_7.png">
+                <configuration name="@Home|All Platforms" excludeFromBuild="true" />
+                <configuration name="@Home|windows" excludeFromBuild="true" />
+                <configuration name="mobile|All Platforms" excludeFromBuild="true" />
+            </file>
+            <file relativePath=".\soluciones\solucion_8.png">
+                <configuration name="@Home|All Platforms" excludeFromBuild="true" />
+                <configuration name="@Home|windows" excludeFromBuild="true" />
+                <configuration name="mobile|All Platforms" excludeFromBuild="true" />
+            </file>
+            <file relativePath=".\soluciones\solucion_9.png">
+                <configuration name="@Home|All Platforms" excludeFromBuild="true" />
+                <configuration name="@Home|windows" excludeFromBuild="true" />
+                <configuration name="mobile|All Platforms" excludeFromBuild="true" />
+            </file>
             <file relativePath=".\tablero\btn_Ecuaciones\amarillo.png">
                 <configuration name="@Home|All Platforms" excludeFromBuild="true" />
                 <configuration name="@Home|windows" excludeFromBuild="true" />
@@ -4805,6 +4870,19 @@
         <file relativePath="notas/nota/nota.png" />
         <file relativePath="notas/nota/nota.scene" />
         <file relativePath="notas/nota/nota_Plane01.mesh" />
+        <file relativePath="soluciones/solucion/solucion.material" />
+        <file relativePath="soluciones/solucion/solucion.png" />
+        <file relativePath="soluciones/solucion/solucion.scene" />
+        <file relativePath="soluciones/solucion/solucion_Plane01.mesh" />
+        <file relativePath="soluciones/solucion_1.png" />
+        <file relativePath="soluciones/solucion_2.png" />
+        <file relativePath="soluciones/solucion_3.png" />
+        <file relativePath="soluciones/solucion_4.png" />
+        <file relativePath="soluciones/solucion_5.png" />
+        <file relativePath="soluciones/solucion_6.png" />
+        <file relativePath="soluciones/solucion_7.png" />
+        <file relativePath="soluciones/solucion_8.png" />
+        <file relativePath="soluciones/solucion_9.png" />
         <file relativePath="tablero/btn_back_ejercicio/blanco.png" />
         <file relativePath="tablero/btn_back_ejercicio/btn_back_ejercicio.material" />
         <file relativePath="tablero/btn_back_ejercicio/btn_back_ejercicio.scene" />

@@ -455,6 +455,78 @@ function Notas:loadModel()
 end
 
 
+--  Soluciones
+
+Soluciones = { excercise = 0 }
+
+function Soluciones:new(o)
+	o = o or {}
+	setmetatable(o, self)
+	self.__index = self
+	o:loadModel()
+	return o
+end
+
+function Soluciones:getNameForModel()
+	return "solutions"
+end
+
+function Soluciones:setExcercise(e)
+	self.excercise = e
+	
+	self:changeMaterial(self.excercise, false)
+end
+
+function Soluciones:disclose()
+	self:changeMaterial(self.excercise, true)
+end
+
+function Soluciones:setVisibility(visibility)
+
+	local model_name = self:getNameForModel()
+	local model = Scenette(getCurrentScene():getObjectByName(model_name))
+	model:setVisible(visibility)
+	
+end
+
+function Soluciones:isVisible()
+
+	local model_name = self:getNameForModel()
+	local model = Scenette(getCurrentScene():getObjectByName(model_name))
+	return model:getVisible()
+
+end
+
+function Soluciones:changeMaterial(e, show)
+	local scene = getCurrentScene()
+	
+	local texture = Texture(scene:createObject(CID_TEXTURE))
+	if e == 0 or not show then
+		texture:setResource("soluciones/solucion/solucion.png")
+	else
+		texture:setResource("soluciones/solucion_" .. e .. ".png")
+	end
+	
+	local material = getMaterial("solucion/solucion")
+	material:setTexture(texture)
+
+end
+
+function Soluciones:loadModel()
+
+	local scene = getCurrentScene()
+	local ref = Object3D(scene:getObjectByName("ref"))
+	
+	local model = Scenette(scene:createObject(CID_SCENETTE))
+	ref:addChild(model)
+	model:setName(self:getNameForModel())
+	model:setResource("soluciones/solucion/solucion.scene")	
+	model:setVisible(false)
+	model:setOrientationEuler(90.0, 0.0, 0.0)
+	model:setScale(0.245)
+	
+end
+
 -- BOTONES
 
 Boton = { id = "", filename = "" }
@@ -495,14 +567,17 @@ function Boton:playAnimation(state)
 	local obj = Scenette(getCurrentScene():getObjectByName(self:getNameForModel()))
 	local animation = obj:getAnimation(0)
 	if not animation:isNull() then
+		LOG("Tiene animacion")
 		if ((state == "on") and (animation:getTimePosition() == 0 or animation:getTimePosition() == 1)) then
 			animation:play(0,0.5)			
 		elseif ((state == "off") and (animation:getTimePosition() == 0.5)) then
 			animation:play(0.5,1)
-		elseif (not state == "on" and not state == "off") then
-			-- Esto se da en botones que bajan y suben en seguida
+		elseif (not (state == "on") and not (state == "off")) then
+			LOG("Esto se da en botones que bajan y suben en seguida")
 			animation:play(0,0.5)
 		end
+	else
+		LOG("No tiene animacion")
 	end
 		
 end
@@ -539,7 +614,7 @@ end
 
 -- VIDEOS
 
-Videos = { length = 0, current = 1 }
+Videos = { length = 4, current = 1 }
 
 function Videos:new(o)
 	o = o or {}
@@ -553,8 +628,8 @@ function Videos:getNameForModel()
 	return "video"
 end
 
-function Videos:getNameForVideoCapture()
-	return "video-capture"
+function Videos:getNameForVideoCapture(i)
+	return "video-capture-" .. i
 end
 
 function Videos:setVisibility(visibility)
@@ -581,6 +656,10 @@ end
 
 function Videos:showPrevious()
 
+	if (self.length > 0) then
+		self:close()
+	end
+	
 	if self.length > 0 then
 		self.current = self.current - 1
 	end
@@ -589,12 +668,18 @@ function Videos:showPrevious()
 		self.current = self.length
 	end
 
-	self:changeMaterial(self.current)
+	if (self.length > 0) then
+		self:changeMaterial(self.current)
+	end
 	
 end
 
 function Videos:showNext()
 
+	if (self.length > 0) then
+		self:close()
+	end
+	
 	if self.length > 0 then
 		self.current = self.current + 1
 	end
@@ -603,21 +688,33 @@ function Videos:showNext()
 		self.current = 1
 	end
 	
-	self:changeMaterial(self.current)
+	if (self.length > 0) then
+		self:changeMaterial(self.current)
+	end
 
+end
+
+function Videos:close()
+	LOG(self.current)
+	local scene = getCurrentScene()
+	local video_capture = VideoCapture(scene:getObjectByName(self:getNameForVideoCapture(self.current)))
+	if not (video_capture == nil) then
+		video_capture:pause()
+		video_capture:close()
+	end
 end
 
 function Videos:changeMaterial(i)
 	local osType = getOSType()
 	
-	if not osType == TI_OS_ANDROID then
+	if not (osType == TI_OS_ANDROID) then
 		local scene = getCurrentScene()
+
+		LOG(self.current)
 		
-		local video_capture = VideoCapture(scene:createObject(CID_VIDEOCAPTURE))
-		video_capture:setName(self:getNameForVideoCapture())
-		video_capture:setResource("videos/video/video_" .. i .. ".xml")
+		local video_capture = VideoCapture(scene:getObjectByName(self:getNameForVideoCapture(self.current)))
 		video_capture:open()
-		
+					
 		local video_texture = VideoTexture(scene:createObject(CID_VIDEOTEXTURE))
 		video_texture:setVideoCapture(video_capture)
 	
@@ -628,17 +725,29 @@ end
 
 function Videos:play()
 	local scene = getCurrentScene()
-	local video_capture = VideoCapture(scene:getObjectByName(self:getNameForVideoCapture()))
-	if not video_capture == null then
+	local video_capture = VideoCapture(scene:getObjectByName(self:getNameForVideoCapture(self.current)))
+	if not (video_capture == nil) then
 		video_capture:play(0)
 	end
 end
 
 function Videos:stop()
 	local scene = getCurrentScene()
-	local video_capture = VideoCapture(scene:getObjectByName(self:getNameForVideoCapture()))
-	if not video_capture == null then
+	local video_capture = VideoCapture(scene:getObjectByName(self:getNameForVideoCapture(self.current)))
+	if not (video_capture == nil) then
 		video_capture:pause()
+	end
+end
+
+function Videos:switchPlayingState()
+	local scene = getCurrentScene()
+	local video_capture = VideoCapture(scene:getObjectByName(self:getNameForVideoCapture(self.current)))
+	if not (video_capture == nil) then
+		if video_capture:isPaused() then
+			video_capture:play()
+		else
+			video_capture:pause()
+		end
 	end
 end
 
@@ -655,6 +764,11 @@ function Videos:loadModel()
 	model:setScale(0.245)
 	
 	if self.length > 0 then
+		for i = 1, self.length do
+			local video_capture = VideoCapture(scene:createObject(CID_VIDEOCAPTURE))
+			video_capture:setName(self:getNameForVideoCapture(i))
+			video_capture:setResource("videos/video/video_" .. i .. ".xml")
+		end
 		self:changeMaterial(self.current)
 	end
 	
@@ -680,11 +794,9 @@ function Display:changePosition(number)
 	local obj = Scenette(getCurrentScene():getObjectByName(self:getNameForModel()))
 	local animation = obj:getAnimation(0)
 	
-	LOG(number)
 	if not animation:isNull() then
 		animation:setLoop(false)
 		animation:play()
-		LOG(number / 30)
 		animation:setTimePosition(number * 2 / 30)
 		animation:pause()
 	end
@@ -701,8 +813,6 @@ end
 
 function Display:showPrevious()
 
-	LOG("previous")
-
 	if self.length > 0 then
 		self.current = self.current - 1
 	end
@@ -716,8 +826,6 @@ function Display:showPrevious()
 end
 
 function Display:showNext()
-
-	LOG("next")
 
 	if self.length > 0 then
 		self.current = self.current + 1
@@ -768,6 +876,7 @@ local giroscopo_01 = Giroscopo:new{name="giroscopo_01", animated=false}
 local giroscopo_02 = Giroscopo:new{name="giroscopo_02", animated=true}
 local giroscopo_04 = Giroscopo:new{name="giroscopo_04", animated=true}
 local notas = Notas:new{}
+local soluciones = Soluciones:new{}
 local videos = Videos:new{}
 local ecuaciones = Ecuaciones:new{}
 
@@ -831,10 +940,12 @@ function show_model(option)
 	
 	ecuaciones:setVisibility(false)
 	notas:setVisibility(false)
+	soluciones:setVisibility(false)
 	videos:setVisibility(false)
 	
 	display:reset()
 	notas:setExcercise(display:getCurrent())
+	soluciones:setExcercise(display:getCurrent())
 end
 
 function show_excercises()
@@ -853,10 +964,12 @@ function show_excercises()
 		giroscopo_04:setVisibility(true)				
 		ecuaciones:setVisibility(false)
 		--notas:setVisibility(false)
+		--soluciones:setVisibility(false)
 		videos:setVisibility(false)
 		
 		display:showNext()
 		notas:setExcercise(display:getCurrent())
+		soluciones:setExcercise(display:getCurrent())
 	end
 end
 
@@ -865,12 +978,13 @@ function show_notes()
 		boton_01:playAnimation("off")
 		boton_02:playAnimation("off")
 		boton_04:playAnimation("off")
-		if boton_notas:isAnimationInState("on") then
+		if notas:isVisible() then
 			boton_notas:playAnimation("off")
 			notas:setVisibility(false)
 		else
 			boton_notas:playAnimation("on")
 			notas:setVisibility(true)
+			LOG("Mostrando notas")
 		end
 		if boton_solucion:isAnimationInState("on") then
 			boton_solucion:playAnimation("off")
@@ -882,6 +996,7 @@ function show_notes()
 		giroscopo_02:setVisibility(false)
 		giroscopo_04:setVisibility(true)
 		ecuaciones:setVisibility(false)
+		soluciones:setVisibility(false)
 
 		videos:setVisibility(false)
 	end
@@ -897,8 +1012,11 @@ function show_solution()
 		end
 		if boton_solucion:isAnimationInState("on") then
 			boton_solucion:playAnimation("off")
+			soluciones:setVisibility(false)
+			soluciones:setExcercise(display:getCurrent())
 		else
 			boton_solucion:playAnimation("on")
+			soluciones:setVisibility(true)
 		end
 		boton_videos:playAnimation("off")
 		boton_ecuaciones:playAnimation("off")
@@ -929,10 +1047,13 @@ function show_videos()
 	giroscopo_04:setVisibility(false)
 	ecuaciones:setVisibility(false)
 	notas:setVisibility(false)
+	soluciones:setVisibility(false)
 	videos:setVisibility(true)
 	
 	display:reset()
 	notas:setExcercise(display:getCurrent())
+	soluciones:setExcercise(display:getCurrent())
+	videos:play()
 end
 
 function show_equations()
@@ -952,10 +1073,12 @@ function show_equations()
 	giroscopo_04:setVisibility(false)
 	ecuaciones:setVisibility(true)
 	notas:setVisibility(false)
+	soluciones:setVisibility(false)
 	videos:setVisibility(false)
 
 	display:reset()
 	notas:setExcercise(display:getCurrent())
+	soluciones:setExcercise(display:getCurrent())
 end
 
 function next_note()
@@ -965,6 +1088,7 @@ function next_note()
 	end
 	if boton_videos:isAnimationInState("on") then
 		videos:showNext()
+		videos:play()
 	end
 end
 
@@ -976,6 +1100,7 @@ function previous_note()
 	end
 	if boton_videos:isAnimationInState("on") then
 		videos:showPrevious()
+		videos:play()
 	end
 end
 
@@ -984,6 +1109,7 @@ function next_excercise()
 	if boton_ejercicios:isAnimationInState("on") then
 		display:showNext()
 		notas:setExcercise(display:getCurrent())
+		soluciones:setExcercise(display:getCurrent())
 	end
 end
 
@@ -992,11 +1118,12 @@ function previous_excercise()
 	if boton_ejercicios:isAnimationInState("on") then
 		display:showPrevious()
 		notas:setExcercise(display:getCurrent())
+		soluciones:setExcercise(display:getCurrent())
 	end
 end
 
 function toggle_animations()
-	boton_animaciones:switchAnimation()
+	boton_animaciones:playAnimation()
 	giroscopo_02:switchAnimationState()
 	giroscopo_04:switchAnimationState()
 end
@@ -1022,13 +1149,22 @@ function toggle_vector_group(group)
 end
 
 function toggle_animation_direction()
-	boton_direccion:switchAnimation()
+	boton_direccion:playAnimation()
 	giroscopo_02:switchAnimationDirection()
 	giroscopo_04:switchAnimationDirection()
 end
 
 function toggle_precesion()
-	boton_precesion:switchAnimation()
+	boton_precesion:playAnimation()
 	giroscopo_02:switchPrecesion()
 	giroscopo_04:switchPrecesion()
+end
+
+function toggle_video_state()
+	boton_videos_pp:playAnimation()
+	videos:switchPlayingState()
+end
+
+function disclose_solution()
+	soluciones:disclose()
 end

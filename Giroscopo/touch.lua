@@ -99,6 +99,10 @@ repeat
 			previous_excercise()
 		elseif action == 'boton_ej_siguiente' then
 			next_excercise()
+		elseif action == 'boton_videos_pp' then
+			toggle_video_state()
+		elseif action == 'solutions' then
+			disclose_solution()
 		else
 			LOG(action)
 		end
