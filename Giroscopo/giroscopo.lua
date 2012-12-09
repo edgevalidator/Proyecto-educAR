@@ -42,6 +42,14 @@ function Giroscopo:getNameForModel()
 	return "model-" .. self:getName()
 end
 
+function Giroscopo:getScaleForModel()
+	if (getOSType() == TI_OS_ANDROID) then
+		return 1.000
+	else
+		return 0.500
+	end
+end
+
 function Giroscopo:getNameForStaticModel()
 	return "static-" .. self:getName()
 end
@@ -141,13 +149,10 @@ function Giroscopo:switchAnimationState()
 		local animation = obj:getAnimation(0)
 		if not animation:isNull() then
 			if animation:isPaused() then
-				LOG("paused")
 				animation:resume()
 			elseif animation:isPlaying() then
-				LOG("playing")
 				animation:pause()
 			else
-				LOG("stopped")
 				animation:play()
 				animation:setLoop(true)
 			end
@@ -231,6 +236,7 @@ function Giroscopo:loadModel()
 	model:setName(self:getNameForModel())
 	model:setVisible(false)
 	model:setOrientationEuler(90.0, 0.0, 0.0)
+	model:setScale(self:getScaleForModel())
 	
 	local fLoadStaticModel = function(model)
 		local static_model = Scenette(scene:createObject(CID_SCENETTE))	
@@ -265,6 +271,7 @@ function Giroscopo:loadModel()
 		vectors:setName(self:getNameForVectors(clockwise, quick))
 		vectors:setVisible(false)
 		vectors:setOrientationEuler(90.0, 0.0, 0.0)
+		vectors:setScale(self:getScaleForModel())
 		
 		-- Load vector groups
 		local aux = { "momento_angular", "velocidad_angular", "fuerzas", "torque" }
@@ -316,6 +323,10 @@ function Ecuaciones:getNameForModel()
 	return "equations"
 end
 
+function Ecuaciones:getScaleForModel()
+	return 0.245
+end
+
 function Ecuaciones:setVisibility(visibility)
 
 	local model_name = self:getNameForModel()
@@ -335,13 +346,13 @@ function Ecuaciones:loadModel()
 	model:setResource("ecuaciones/ecuaciones.scene")	
 	model:setVisible(false)
 	model:setOrientationEuler(90.0, 0.0, 0.0)
-	model:setScale(0.245)
+	model:setScale(self:getScaleForModel())
 	
 end
 
 --  NOTAS
 
-Notas = { length = {2, 2, 2, 2, 2, 1, 3, 0, 4}, current = 0, excercise = 0}
+Notas = { length = {0, 2, 3, 1, 2, 1, 2, 0, 0}, current = 0, excercise = 0}
 
 function Notas:new(o)
 	o = o or {}
@@ -353,6 +364,10 @@ end
 
 function Notas:getNameForModel()
 	return "notes"
+end
+
+function Notas:getScaleForModel()
+	return 0.245
 end
 
 function Notas:setExcercise(e)
@@ -406,19 +421,10 @@ function Notas:showNext()
 	if self.current > self.length[self.excercise] then
 		self.current = 1
 	end
-
-	LOG("Length is " .. self.length[self.excercise])
-	
-	if self.length[self.excercise] == 0 then
-		LOG("Length is 0")
-	else
-		LOG("Length is not 0")
-	end
 	
 	if not (self.length[self.excercise] == 0) then
 		self:changeMaterial(self.excercise, self.current)
 	else
-		LOG("Setting current to 0")
 		self.current = 0
 	end
 
@@ -450,7 +456,7 @@ function Notas:loadModel()
 	model:setResource("notas/nota/nota.scene")	
 	model:setVisible(false)
 	model:setOrientationEuler(90.0, 0.0, 0.0)
-	model:setScale(0.245)
+	model:setScale(self:getScaleForModel())
 	
 end
 
@@ -469,6 +475,10 @@ end
 
 function Soluciones:getNameForModel()
 	return "solutions"
+end
+
+function Soluciones:getScaleForModel()
+	return 0.245
 end
 
 function Soluciones:setExcercise(e)
@@ -523,98 +533,17 @@ function Soluciones:loadModel()
 	model:setResource("soluciones/solucion/solucion.scene")	
 	model:setVisible(false)
 	model:setOrientationEuler(90.0, 0.0, 0.0)
-	model:setScale(0.245)
+	model:setScale(self:getScaleForModel())
 	
-end
-
--- BOTONES
-
-Boton = { id = "", filename = "" }
-
-function Boton:new(o)
-	o = o or {}
-	setmetatable(o, self)
-	self.__index = self
-	o:loadModel()
-	return o
-end
-
-function Boton:getNameForModel()
-	return self.id
-end
-
-function Boton:isAnimationInState(state)
-	
-	local obj = Scenette(getCurrentScene():getObjectByName(self:getNameForModel()))
-	local animation = obj:getAnimation(0)
-	if not animation:isNull() then
-		if ((state == "on") and not(animation:getTimePosition() == 0 or animation:getTimePosition() == 1)) then
-			return true
-		elseif ((state == "off") and not(animation:getTimePosition() == 0.5)) then
-			return true
-		elseif (not state == "on" and not state == "off") then
-			-- Esto se da en botones que bajan y suben en seguida
-			return true
-		else
-			return false
-		end
-	end
-		
-end
-
-function Boton:playAnimation(state)
-	
-	local obj = Scenette(getCurrentScene():getObjectByName(self:getNameForModel()))
-	local animation = obj:getAnimation(0)
-	if not animation:isNull() then
-		LOG("Tiene animacion")
-		if ((state == "on") and (animation:getTimePosition() == 0 or animation:getTimePosition() == 1)) then
-			animation:play(0,0.5)			
-		elseif ((state == "off") and (animation:getTimePosition() == 0.5)) then
-			animation:play(0.5,1)
-		elseif (not (state == "on") and not (state == "off")) then
-			LOG("Esto se da en botones que bajan y suben en seguida")
-			animation:play(0,0.5)
-		end
-	else
-		LOG("No tiene animacion")
-	end
-		
-end
-
-function Boton:switchAnimation()
-
-	local obj = Scenette(getCurrentScene():getObjectByName(self:getNameForModel()))
-	local animation = obj:getAnimation(0)
-	
-	if not animation:isNull() then
-		if animation:getTimePosition() == 0 or animation:getTimePosition() == 1 then
-			animation:play(0,0.5)			
-		else
-			animation:play(0.5,1)
-		end
-	end
-	
-end
-
-function Boton:loadModel()
-
-	local scene = getCurrentScene()
-	local ref = Object3D(scene:getObjectByName("ref"))
-	
-	local model = Scenette(scene:createObject(CID_SCENETTE))
-	ref:addChild(model)
-	model:setName(self:getNameForModel())
-	model:setResource("tablero/" .. self.filename .. "/" .. self.filename .. ".scene")	
-	model:setVisible(true)
-	model:setOrientationEuler(90.0, 0.0, 0.0)
-	model:setPosition(0.0, -12.0, 0.0)
-	model:setScale(0.300)
 end
 
 -- VIDEOS
 
-Videos = { length = 4, current = 1 }
+if (getOSType() == TI_OS_ANDROID) then
+	Videos = { length = 0, current = 0 }
+else
+	Videos = { length = 3, current = 1 }
+end
 
 function Videos:new(o)
 	o = o or {}
@@ -630,6 +559,10 @@ end
 
 function Videos:getNameForVideoCapture(i)
 	return "video-capture-" .. i
+end
+
+function Videos:getScaleForModel()
+	return 0.245
 end
 
 function Videos:setVisibility(visibility)
@@ -695,7 +628,6 @@ function Videos:showNext()
 end
 
 function Videos:close()
-	LOG(self.current)
 	local scene = getCurrentScene()
 	local video_capture = VideoCapture(scene:getObjectByName(self:getNameForVideoCapture(self.current)))
 	if not (video_capture == nil) then
@@ -704,23 +636,17 @@ function Videos:close()
 	end
 end
 
-function Videos:changeMaterial(i)
-	local osType = getOSType()
+function Videos:changeMaterial(i)	
+	local scene = getCurrentScene()
 	
-	if not (osType == TI_OS_ANDROID) then
-		local scene = getCurrentScene()
+	local video_capture = VideoCapture(scene:getObjectByName(self:getNameForVideoCapture(self.current)))
+	video_capture:open()
+				
+	local video_texture = VideoTexture(scene:createObject(CID_VIDEOTEXTURE))
+	video_texture:setVideoCapture(video_capture)
 
-		LOG(self.current)
-		
-		local video_capture = VideoCapture(scene:getObjectByName(self:getNameForVideoCapture(self.current)))
-		video_capture:open()
-					
-		local video_texture = VideoTexture(scene:createObject(CID_VIDEOTEXTURE))
-		video_texture:setVideoCapture(video_capture)
-	
-		local material = getMaterial("video/Material27")
-		material:setTexture(video_texture)
-	end
+	local material = getMaterial("video/Material27")
+	material:setTexture(video_texture)
 end
 
 function Videos:play()
@@ -761,20 +687,118 @@ function Videos:loadModel()
 	model:setResource("videos/video/video.scene")
 	model:setVisible(false)
 	model:setOrientationEuler(90.0, 0.0, 0.0)
-	model:setScale(0.245)
+	model:setScale(self:getScaleForModel())
 	
 	if self.length > 0 then
 		for i = 1, self.length do
 			local video_capture = VideoCapture(scene:createObject(CID_VIDEOCAPTURE))
 			video_capture:setName(self:getNameForVideoCapture(i))
-			video_capture:setResource("videos/video/video_" .. i .. ".xml")
+			video_capture:setResource("videos/video_" .. i .. ".xml")
 		end
 		self:changeMaterial(self.current)
 	end
 	
 end
 
+
 -- BOTONES
+
+Boton = { id = "", filename = "" }
+
+function Boton:new(o)
+	o = o or {}
+	setmetatable(o, self)
+	self.__index = self
+	o:loadModel()
+	return o
+end
+
+function Boton:getNameForModel()
+	return self.id
+end
+
+function Boton:getScaleForModel()
+	if (getOSType() == TI_OS_ANDROID) then
+		return 0.300
+	else
+		return 0.150
+	end
+end
+
+function Boton:getVerticalOffsetForModel()
+	if (getOSType() == TI_OS_ANDROID) then
+		return -12.0
+	else
+		return -8.1
+	end
+end
+
+function Boton:isAnimationInState(state)
+	
+	local obj = Scenette(getCurrentScene():getObjectByName(self:getNameForModel()))
+	local animation = obj:getAnimation(0)
+	if not animation:isNull() then
+		if ((state == "on") and not(animation:getTimePosition() == 0 or animation:getTimePosition() == 1)) then
+			return true
+		elseif ((state == "off") and not(animation:getTimePosition() == 0.5)) then
+			return true
+		elseif (not state == "on" and not state == "off") then
+			-- Esto se da en botones que bajan y suben en seguida
+			return true
+		else
+			return false
+		end
+	end
+		
+end
+
+function Boton:playAnimation(state)
+	
+	local obj = Scenette(getCurrentScene():getObjectByName(self:getNameForModel()))
+	local animation = obj:getAnimation(0)
+	if not animation:isNull() then
+		if ((state == "on") and (animation:getTimePosition() == 0 or animation:getTimePosition() == 1)) then
+			animation:play(0,0.5)			
+		elseif ((state == "off") and (animation:getTimePosition() == 0.5)) then
+			animation:play(0.5,1)
+		elseif (not (state == "on") and not (state == "off")) then
+			animation:play(0,0.5)
+		end
+	end
+		
+end
+
+function Boton:switchAnimation()
+
+	local obj = Scenette(getCurrentScene():getObjectByName(self:getNameForModel()))
+	local animation = obj:getAnimation(0)
+	
+	if not animation:isNull() then
+		if animation:getTimePosition() == 0 or animation:getTimePosition() == 1 then
+			animation:play(0,0.5)			
+		else
+			animation:play(0.5,1)
+		end
+	end
+	
+end
+
+function Boton:loadModel()
+
+	local scene = getCurrentScene()
+	local ref = Object3D(scene:getObjectByName("ref"))
+	
+	local model = Scenette(scene:createObject(CID_SCENETTE))
+	ref:addChild(model)
+	model:setName(self:getNameForModel())
+	model:setResource("tablero/" .. self.filename .. "/" .. self.filename .. ".scene")	
+	model:setVisible(true)
+	model:setOrientationEuler(90.0, 0.0, 0.0)
+	model:setPosition(0.0, self:getVerticalOffsetForModel(), 0.0)
+	model:setScale(self:getScaleForModel())
+end
+
+-- DISPLAY
 
 Display = { current = 0, length = 9 }
 
@@ -788,6 +812,22 @@ end
 
 function Display:getNameForModel()
 	return "display"
+end
+
+function Display:getScaleForModel()
+	if (getOSType() == TI_OS_ANDROID) then
+		return 0.300
+	else
+		return 0.150
+	end
+end
+
+function Display:getVerticalOffsetForModel()
+	if (getOSType() == TI_OS_ANDROID) then
+		return -12.0
+	else
+		return -8.1
+	end
 end
 
 function Display:changePosition(number)
@@ -850,11 +890,11 @@ function Display:loadModel()
 	model:setResource("tablero/display/display.scene")	
 	model:setVisible(true)
 	model:setOrientationEuler(90.0, 0.0, 0.0)
-	model:setPosition(0.0, -12.0, 0.0)
-	model:setScale(0.300)
+	model:setPosition(0.0, self:getVerticalOffsetForModel(), 0.0)
+	model:setScale(self:getScaleForModel())
 end
 
--- CONTROL
+-- TABLERO
 
 function loadTablero()
 	local scene = getCurrentScene()
@@ -866,8 +906,16 @@ function loadTablero()
 	model:setResource("tablero/tablero/tablero.scene")	
 	model:setVisible(true)
 	model:setOrientationEuler(90.0, 0.0, 0.0)
-	model:setPosition(0.0, -12.0, 0.0)
-	model:setScale(0.300)
+	if (getOSType() == TI_OS_ANDROID) then
+		model:setPosition(0.0, -12.0, 0.0)
+	else
+		model:setPosition(0.0, -8.1, 0.0)
+	end
+	if (getOSType() == TI_OS_ANDROID) then
+		model:setScale(0.300)
+	else
+		model:setScale(0.150)
+	end
 end
 
 loadTablero()
