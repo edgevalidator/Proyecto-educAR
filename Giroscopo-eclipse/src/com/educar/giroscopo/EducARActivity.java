@@ -141,7 +141,7 @@ public class EducARActivity extends Activity {
 	private File getUnzipDir(){
 		return getDir("www", Context.MODE_PRIVATE);
 	}
-	
+	  
 	private String getProjectFilename(){
 		return "Giroscopo.dpd";
 	}
@@ -165,7 +165,7 @@ public class EducARActivity extends Activity {
 		
 		@Override
 		protected void onPreExecute(){
-			dialog.setMessage("Loading...");
+			dialog.setMessage("Descargando contenido...");
 	        dialog.show();
 		}
 		
@@ -177,9 +177,9 @@ public class EducARActivity extends Activity {
 			if(!projectFile.exists() || shouldDownloadProject(date)){
 				InputStream in = null;
 				try {
-					// in = getAssets().open(getZipFilename(), Context.MODE_PRIVATE);
+					in = getAssets().open(getZipFilename(), Context.MODE_PRIVATE);
 					File file = new File(getDownloadDir(), getZipFilename());  
-					in = downloadProject(file, date);
+					//in = downloadProject(file, date);
 					
 					Log.d("EducARActivity", "Emptying " + getUnzipDir().getPath());
 					emptyDirectory(getUnzipDir());
@@ -233,7 +233,7 @@ public class EducARActivity extends Activity {
 		
 		public InputStream downloadProject(File dir, Date date) throws IOException {
 			URL url = new URL(NotasConstants.DOWNLOAD_ZIPED_PROJECT);
-			Log.e("NotasHandler", "Downloading zip from " + url.toString());
+			Log.e("EducARActivity", "Downloading zip from " + url.toString());
 			
 			URLConnection ucon = url.openConnection();
 			InputStream is = ucon.getInputStream();
@@ -245,7 +245,7 @@ public class EducARActivity extends Activity {
 			}
 			
 			File file = new File(dir, "dfusion.zip");
-			Log.e("NotasHandler", "Writing downloaded zip to " + file.getAbsolutePath());
+			Log.e("EducARActivity", "Writing downloaded zip to " + file.getAbsolutePath());
 			
 			FileOutputStream fos = new FileOutputStream(file); 
 			fos.write(baf.toByteArray());
@@ -253,7 +253,7 @@ public class EducARActivity extends Activity {
 			fos.close();
 			
 			String dateString = getDateFormat().format(date);			
-			Log.e("NotasHandler", "Setting lastDownload key to " + dateString);
+			Log.e("EducARActivity", "Setting lastDownload key to " + dateString);
 			
 			getSharedPreferences().edit().putString(NotasConstants.ULTIMA_NOTA_BAJADA, dateString).commit();
 			
