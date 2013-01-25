@@ -1,0 +1,57 @@
+material display/Material26
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.588 0.588 0.588
+			diffuse 0.588 0.588 0.588 1
+			specular 0 0 0 12.8
+			emissive 0 0 0
+
+
+			texture_unit
+			{
+				texture gris.png
+			}
+		}
+	}
+}
+material display/Material27
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.588 0.588 0.588
+			diffuse 0.588 0.588 0.588 1
+			specular 0 0 0 12.8
+			emissive 0 0 0
+
+
+			texture_unit
+			{
+				texture negro.png
+			}
+		}
+	}
+}
+material display/Material34
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.588 0.588 0.588
+			diffuse 0.588 0.588 0.588 1
+			specular 0 0 0 12.8
+			emissive 0 0 0
+
+
+			texture_unit
+			{
+				texture verde3.png
+			}
+		}
+	}
+}
