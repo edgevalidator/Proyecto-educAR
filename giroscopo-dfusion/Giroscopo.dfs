@@ -7,8 +7,7 @@
     </configurations>
     <LuaEditor>
         <files>
-            <file absolutePath="C:\Users\duter\Documents\GitHub\Proyecto-educAR\Giroscopo\giroscopo.lua" />
-            <file absolutePath="C:\Users\duter\Documents\GitHub\Proyecto-educAR\Giroscopo\touch.lua" />
+            <file absolutePath="C:\Users\duter\Documents\GitHub\Proyecto-educAR\giroscopo-dfusion\giroscopo.lua" />
         </files>
         <watch />
     </LuaEditor>
