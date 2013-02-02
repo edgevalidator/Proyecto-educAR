@@ -1,5 +1,3 @@
--- giroscopo.lua
-
 Giroscopo = { name = '' , animated = false, direction = 'counterclockwise', precesion = 'quick' }
 
 function Giroscopo:new(o)
@@ -271,7 +269,6 @@ function Giroscopo:loadModel()
 		vectors:setName(self:getNameForVectors(clockwise, quick))
 		vectors:setVisible(false)
 		vectors:setOrientationEuler(90.0, 0.0, 0.0)
-		vectors:setScale(self:getScaleForModel())
 		
 		-- Load vector groups
 		local aux = { "momento_angular", "velocidad_angular", "fuerzas", "torque" }
@@ -628,9 +625,9 @@ function Videos:showNext()
 end
 
 function Videos:close()
-	local scene = getCurrentScene()
-	local video_capture = VideoCapture(scene:getObjectByName(self:getNameForVideoCapture(self.current)))
-	if not (video_capture == nil) then
+	if (self.length > 0) then
+		local scene = getCurrentScene()
+		local video_capture = VideoCapture(scene:getObjectByName(self:getNameForVideoCapture(self.current)))
 		video_capture:pause()
 		video_capture:close()
 	end
@@ -650,17 +647,19 @@ function Videos:changeMaterial(i)
 end
 
 function Videos:play()
-	local scene = getCurrentScene()
-	local video_capture = VideoCapture(scene:getObjectByName(self:getNameForVideoCapture(self.current)))
-	if not (video_capture == nil) then
+	if (self.length > 0) then
+		local scene = getCurrentScene()
+		local video_capture = VideoCapture(scene:getObjectByName(self:getNameForVideoCapture(self.current)))
+
 		video_capture:play(0)
 	end
 end
 
 function Videos:stop()
-	local scene = getCurrentScene()
-	local video_capture = VideoCapture(scene:getObjectByName(self:getNameForVideoCapture(self.current)))
-	if not (video_capture == nil) then
+	if (self.length > 0) then
+		local scene = getCurrentScene()
+		local video_capture = VideoCapture(scene:getObjectByName(self:getNameForVideoCapture(self.current)))
+
 		video_capture:pause()
 	end
 end
@@ -668,7 +667,7 @@ end
 function Videos:switchPlayingState()
 	local scene = getCurrentScene()
 	local video_capture = VideoCapture(scene:getObjectByName(self:getNameForVideoCapture(self.current)))
-	if not (video_capture == nil) then
+	if (self.length > 0) then
 		if video_capture:isPaused() then
 			video_capture:play()
 		else
