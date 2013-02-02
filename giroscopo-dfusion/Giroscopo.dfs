@@ -3,7 +3,7 @@
         <configuration name="@Home|All Platforms" exportFolder="" />
         <configuration name="@Home|windows" exportFolder="" />
         <configuration name="mobile|All Platforms" exportFolder="" />
-        <configuration name="mobile|android" exportFolder="C:\Users\duter\Desktop\qsd" />
+        <configuration name="mobile|android" exportFolder="C:\Users\duter\Desktop\export_1" />
     </configurations>
     <LuaEditor>
         <files>
