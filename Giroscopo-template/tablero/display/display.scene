@@ -1,0 +1,257 @@
+<scene version="0.2">
+	<info source="C:\Users\Matias Cuadrado\Dropbox\Proyecto\modelos 3ds max\2012\tablero.max" profile="public" shared_geometry="false" build_edges="false" build_tangents="false" exporter="Exporter 3DSMax3.25.24177"/>
+	<settings>
+		<environment ambient="0 0 0" background="0 0 0" camera=""/>
+		<shadow color="0 0 0" distance="10000" self="false" setup="uniform" size="1024 1" technique="none"/>
+	</settings>
+	<animations>
+		<animation name="Timeline" loop="false" length="-1" priority="0">
+			<bind target="Box44_node" attribute="position" track="Box44_node_Timeline_positionTrack" loop="false" mode="absolute" reset="true" weight="1"/>
+			<bind target="Box44_node" attribute="orientation" track="Box44_node_Timeline_orientationTrack" loop="false" mode="absolute" reset="true" short="true" weight="1"/>
+			<bind target="Box45_node" attribute="position" track="Box45_node_Timeline_positionTrack" loop="false" mode="absolute" reset="true" weight="1"/>
+			<bind target="Box45_node" attribute="orientation" track="Box45_node_Timeline_orientationTrack" loop="false" mode="absolute" reset="true" short="true" weight="1"/>
+			<bind target="Box47_node" attribute="position" track="Box47_node_Timeline_positionTrack" loop="false" mode="absolute" reset="true" weight="1"/>
+			<bind target="Box47_node" attribute="orientation" track="Box47_node_Timeline_orientationTrack" loop="false" mode="absolute" reset="true" short="true" weight="1"/>
+			<bind target="Box46_node" attribute="position" track="Box46_node_Timeline_positionTrack" loop="false" mode="absolute" reset="true" weight="1"/>
+			<bind target="Box46_node" attribute="orientation" track="Box46_node_Timeline_orientationTrack" loop="false" mode="absolute" reset="true" short="true" weight="1"/>
+			<bind target="Box39_node" attribute="position" track="Box39_node_Timeline_positionTrack" loop="false" mode="absolute" reset="true" weight="1"/>
+			<bind target="Box39_node" attribute="orientation" track="Box39_node_Timeline_orientationTrack" loop="false" mode="absolute" reset="true" short="true" weight="1"/>
+			<bind target="Box49_node" attribute="position" track="Box49_node_Timeline_positionTrack" loop="false" mode="absolute" reset="true" weight="1"/>
+			<bind target="Box49_node" attribute="orientation" track="Box49_node_Timeline_orientationTrack" loop="false" mode="absolute" reset="true" short="true" weight="1"/>
+			<bind target="Box50_node" attribute="position" track="Box50_node_Timeline_positionTrack" loop="false" mode="absolute" reset="true" weight="1"/>
+			<bind target="Box50_node" attribute="orientation" track="Box50_node_Timeline_orientationTrack" loop="false" mode="absolute" reset="true" short="true" weight="1"/>
+		</animation>
+	</animations>
+	<tracks>
+		<track name="Box39_node_Timeline_orientationTrack">
+			<key time="0" value="0 0 -0.707107 0.707107"/>
+			<key time="0.6" value="0 0 -0.707107 0.707107"/>
+		</track>
+		<track name="Box39_node_Timeline_positionTrack">
+			<key time="0" value="16.7813 -7.62439 1.16"/>
+			<key time="0.0666667" value="16.7813 -7.62439 1"/>
+			<key time="0.133333" value="16.7813 -7.62439 1.16"/>
+			<key time="0.2" value="16.7813 -7.62439 1.16"/>
+			<key time="0.266667" value="16.7813 -7.62439 1"/>
+			<key time="0.333333" value="16.7813 -7.62439 1.16"/>
+			<key time="0.4" value="16.7813 -7.62439 1.16"/>
+			<key time="0.466667" value="16.7813 -7.62439 1"/>
+			<key time="0.533333" value="16.7813 -7.62439 1.16"/>
+			<key time="0.6" value="16.7813 -7.62439 1.16"/>
+		</track>
+		<track name="Box44_node_Timeline_orientationTrack">
+			<key time="0" value="0 0 -0.707107 0.707107"/>
+			<key time="0.6" value="0 0 -0.707107 0.707107"/>
+		</track>
+		<track name="Box44_node_Timeline_positionTrack">
+			<key time="0" value="16.7813 -5.00957 1"/>
+			<key time="0.0666667" value="16.7813 -5.00957 1"/>
+			<key time="0.133333" value="16.7813 -5.00957 1.16"/>
+			<key time="0.4" value="16.7813 -5.00957 1.16"/>
+			<key time="0.466667" value="16.7813 -5.00957 1"/>
+			<key time="0.533333" value="16.7813 -5.00957 1.16"/>
+			<key time="0.6" value="16.7813 -5.00957 1.16"/>
+		</track>
+		<track name="Box45_node_Timeline_orientationTrack">
+			<key time="0" value="0 0 1 4.37114e-008"/>
+			<key time="0.6" value="0 0 1 4.37114e-008"/>
+		</track>
+		<track name="Box45_node_Timeline_positionTrack">
+			<key time="0" value="15.4789 -3.70677 1.16"/>
+			<key time="0.0666667" value="15.4789 -3.70677 1"/>
+			<key time="0.2" value="15.4789 -3.70677 1"/>
+			<key time="0.266667" value="15.4789 -3.70677 1.16"/>
+			<key time="0.4" value="15.4789 -3.70677 1.16"/>
+			<key time="0.466667" value="15.4789 -3.70677 1"/>
+			<key time="0.533333" value="15.4789 -3.70677 1.16"/>
+			<key time="0.6" value="15.4789 -3.70677 1.16"/>
+		</track>
+		<track name="Box46_node_Timeline_orientationTrack">
+			<key time="0" value="0 0 -0.707107 0.707107"/>
+			<key time="0.6" value="0 0 -0.707107 0.707107"/>
+		</track>
+		<track name="Box46_node_Timeline_positionTrack">
+			<key time="0" value="16.7813 -2.40863 1.16"/>
+			<key time="0.0666667" value="16.7813 -2.40863 1"/>
+			<key time="0.133333" value="16.7813 -2.40863 1.16"/>
+			<key time="0.2" value="16.7813 -2.40863 1.16"/>
+			<key time="0.266667" value="16.7813 -2.40863 1"/>
+			<key time="0.333333" value="16.7813 -2.40863 1.16"/>
+			<key time="0.6" value="16.7813 -2.40863 1.16"/>
+		</track>
+		<track name="Box47_node_Timeline_orientationTrack">
+			<key time="0" value="0 0 1 4.37114e-008"/>
+			<key time="0.6" value="0 0 1 4.37114e-008"/>
+		</track>
+		<track name="Box47_node_Timeline_positionTrack">
+			<key time="0" value="18.0832 -3.70677 1.16"/>
+			<key time="0.266667" value="18.0832 -3.70677 1.16"/>
+			<key time="0.333333" value="18.0832 -3.70677 1"/>
+			<key time="0.4" value="18.0832 -3.70677 1"/>
+			<key time="0.466667" value="18.0832 -3.70677 1.16"/>
+			<key time="0.6" value="18.0832 -3.70677 1.16"/>
+		</track>
+		<track name="Box49_node_Timeline_orientationTrack">
+			<key time="0" value="0 0 1 4.37114e-008"/>
+			<key time="0.6" value="0 0 1 4.37114e-008"/>
+		</track>
+		<track name="Box49_node_Timeline_positionTrack">
+			<key time="0" value="15.4789 -6.32159 1.16"/>
+			<key time="0.0666667" value="15.4789 -6.32159 1"/>
+			<key time="0.133333" value="15.4789 -6.32159 1.16"/>
+			<key time="0.2" value="15.4789 -6.32159 1"/>
+			<key time="0.333333" value="15.4789 -6.32159 1"/>
+			<key time="0.4" value="15.4789 -6.32159 1.16"/>
+			<key time="0.466667" value="15.4789 -6.32159 1"/>
+			<key time="0.533333" value="15.4789 -6.32159 1.16"/>
+			<key time="0.6" value="15.4789 -6.32159 1"/>
+		</track>
+		<track name="Box50_node_Timeline_orientationTrack">
+			<key time="0" value="0 0 1 4.37114e-008"/>
+			<key time="0.6" value="0 0 1 4.37114e-008"/>
+		</track>
+		<track name="Box50_node_Timeline_positionTrack">
+			<key time="0" value="18.0832 -6.32159 1.16"/>
+			<key time="0.0666667" value="18.0832 -6.32159 1.16"/>
+			<key time="0.133333" value="18.0832 -6.32159 1"/>
+			<key time="0.2" value="18.0832 -6.32159 1.16"/>
+			<key time="0.6" value="18.0832 -6.32159 1.16"/>
+		</track>
+	</tracks>
+	<nodes>
+		<node name="fixUp" orientation="-0.707107 0 0 0.707107" position="0 0 0" priority="0" scale="1 1 1" show_box="false" visible="true">
+			<node name="Box34_node" orientation="0 0 0 1" position="14.9619 -5.00485 1.1" priority="0" scale="1 1 1" show_box="false" visible="true">
+				<entity name="Box34" aab="0 0 0 0 0 0" blend="average" mesh="display_Box34.mesh" priority="0" shadow="false true" visible="true"/>
+			</node>
+			<node name="Box35_node" orientation="0 0 1 4.37114e-008" position="14.4395 -3.70677 1.16" priority="0" scale="0.840517 0.840517 1" show_box="false" visible="true">
+				<node name="Prism38_node" orientation="0 0 1 -7.54979e-008" position="0.000459671 -1.37398 0" priority="0" scale="1 1 1" show_box="false" visible="true">
+					<entity name="Prism38" aab="0 0 0 0 0 0" blend="average" mesh="display_Prism38.mesh" priority="0" shadow="false true" visible="true"/>
+				</node>
+				<node name="Prism49_node" orientation="0 0 3.55271e-015 1" position="0 1.37398 0" priority="0" scale="1 1 1" show_box="false" visible="true">
+					<entity name="Prism49" aab="0 0 0 0 0 0" blend="average" mesh="display_Prism49.mesh" priority="0" shadow="false true" visible="true"/>
+				</node>
+				<entity name="Box35" aab="0 0 0 0 0 0" blend="average" mesh="display_Box35.mesh" priority="0" shadow="false true" visible="true"/>
+			</node>
+			<node name="Box36_node" orientation="0 0 0 1" position="18.9119 -5.00863 1.1" priority="0" scale="1 1 1" show_box="false" visible="true">
+				<entity name="Box36" aab="0 0 0 0 0 0" blend="average" mesh="display_Box36.mesh" priority="0" shadow="false true" visible="true"/>
+			</node>
+			<node name="Box37_node" orientation="0 0 0.707107 0.707107" position="14.9619 -8.95863 1.1" priority="0" scale="1 1 1" show_box="false" visible="true">
+				<entity name="Box37" aab="0 0 0 0 0 0" blend="average" mesh="display_Box37.mesh" priority="0" shadow="false true" visible="true"/>
+			</node>
+			<node name="Box38_node" orientation="0 0 0.707107 0.707107" position="14.9619 -1.05863 1.1" priority="0" scale="1 1 1" show_box="false" visible="true">
+				<entity name="Box38" aab="0 0 0 0 0 0" blend="average" mesh="display_Box38.mesh" priority="0" shadow="false true" visible="true"/>
+			</node>
+			<node name="Box39_node" orientation="0 0 -0.707107 0.707107" position="16.7813 -7.62439 1.16" priority="0" scale="0.840517 0.840517 1" show_box="false" visible="true">
+				<node name="Prism32_node" orientation="0 0 1.77636e-015 1" position="-0.000137329 1.37398 0" priority="0" scale="1 1 1" show_box="false" visible="true">
+					<entity name="Prism32" aab="0 0 0 0 0 0" blend="average" mesh="display_Prism32.mesh" priority="0" shadow="false true" visible="true"/>
+				</node>
+				<node name="Prism33_node" orientation="0 0 1 -7.54979e-008" position="0 -1.37416 0" priority="0" scale="1 1 1" show_box="false" visible="true">
+					<entity name="Prism33" aab="0 0 0 0 0 0" blend="average" mesh="display_Prism33.mesh" priority="0" shadow="false true" visible="true"/>
+				</node>
+				<entity name="Box39" aab="0 0 0 0 0 0" blend="average" mesh="display_Box39.mesh" priority="0" shadow="false true" visible="true"/>
+			</node>
+			<node name="Box40_node" orientation="0 0 1 -4.37114e-008" position="11.0119 -5.00863 1.1" priority="0" scale="1 1 1" show_box="false" visible="true">
+				<entity name="Box40" aab="0 0 0 0 0 0" blend="average" mesh="display_Box40.mesh" priority="0" shadow="false true" visible="true"/>
+			</node>
+			<node name="Box44_node" orientation="0 0 -0.707107 0.707107" position="16.7813 -5.00957 1" priority="0" scale="0.840517 0.840517 1" show_box="false" visible="true">
+				<node name="Prism22_node" orientation="0 0 1.77636e-015 1" position="-0.000138283 1.37398 0" priority="0" scale="1 1 1" show_box="false" visible="true">
+					<entity name="Prism22" aab="0 0 0 0 0 0" blend="average" mesh="display_Prism22.mesh" priority="0" shadow="false true" visible="true"/>
+				</node>
+				<node name="Prism23_node" orientation="0 0 1 -7.54979e-008" position="0 -1.37416 0" priority="0" scale="1 1 1" show_box="false" visible="true">
+					<entity name="Prism23" aab="0 0 0 0 0 0" blend="average" mesh="display_Prism23.mesh" priority="0" shadow="false true" visible="true"/>
+				</node>
+				<entity name="Box44" aab="0 0 0 0 0 0" blend="average" mesh="display_Box44.mesh" priority="0" shadow="false true" visible="true"/>
+			</node>
+			<node name="Box45_node" orientation="0 0 1 4.37114e-008" position="15.4789 -3.70677 1.16" priority="0" scale="0.840517 0.840517 1" show_box="false" visible="true">
+				<node name="Prism24_node" orientation="0 0 3.55271e-015 1" position="0 1.37398 0" priority="0" scale="1 1 1" show_box="false" visible="true">
+					<entity name="Prism24" aab="0 0 0 0 0 0" blend="average" mesh="display_Prism24.mesh" priority="0" shadow="false true" visible="true"/>
+				</node>
+				<node name="Prism25_node" orientation="0 0 1 -7.54979e-008" position="0 -1.37398 0" priority="0" scale="1 1 1" show_box="false" visible="true">
+					<entity name="Prism25" aab="0 0 0 0 0 0" blend="average" mesh="display_Prism25.mesh" priority="0" shadow="false true" visible="true"/>
+				</node>
+				<entity name="Box45" aab="0 0 0 0 0 0" blend="average" mesh="display_Box45.mesh" priority="0" shadow="false true" visible="true"/>
+			</node>
+			<node name="Box46_node" orientation="0 0 -0.707107 0.707107" position="16.7813 -2.40863 1.16" priority="0" scale="0.840517 0.840517 1" show_box="false" visible="true">
+				<node name="Prism30_node" orientation="0 0 1.77636e-015 1" position="-0.000137568 1.37398 0" priority="0" scale="1 1 1" show_box="false" visible="true">
+					<entity name="Prism30" aab="0 0 0 0 0 0" blend="average" mesh="display_Prism30.mesh" priority="0" shadow="false true" visible="true"/>
+				</node>
+				<node name="Prism31_node" orientation="0 0 1 -7.54979e-008" position="2.38419e-007 -1.37416 0" priority="0" scale="1 1 1" show_box="false" visible="true">
+					<entity name="Prism31" aab="0 0 0 0 0 0" blend="average" mesh="display_Prism31.mesh" priority="0" shadow="false true" visible="true"/>
+				</node>
+				<entity name="Box46" aab="0 0 0 0 0 0" blend="average" mesh="display_Box46.mesh" priority="0" shadow="false true" visible="true"/>
+			</node>
+			<node name="Box47_node" orientation="0 0 1 4.37114e-008" position="18.0832 -3.70677 1.16" priority="0" scale="0.840517 0.840517 1" show_box="false" visible="true">
+				<node name="Prism28_node" orientation="0 0 3.55271e-015 1" position="0 1.37398 0" priority="0" scale="1 1 1" show_box="false" visible="true">
+					<entity name="Prism28" aab="0 0 0 0 0 0" blend="average" mesh="display_Prism28.mesh" priority="0" shadow="false true" visible="true"/>
+				</node>
+				<node name="Prism29_node" orientation="0 0 1 -7.54979e-008" position="0.000459671 -1.37398 0" priority="0" scale="1 1 1" show_box="false" visible="true">
+					<entity name="Prism29" aab="0 0 0 0 0 0" blend="average" mesh="display_Prism29.mesh" priority="0" shadow="false true" visible="true"/>
+				</node>
+				<entity name="Box47" aab="0 0 0 0 0 0" blend="average" mesh="display_Box47.mesh" priority="0" shadow="false true" visible="true"/>
+			</node>
+			<node name="Box49_node" orientation="0 0 1 4.37114e-008" position="15.4789 -6.32159 1.16" priority="0" scale="0.840517 0.840517 1" show_box="false" visible="true">
+				<node name="Prism34_node" orientation="0 0 3.55271e-015 1" position="0 1.37398 0" priority="0" scale="1 1 1" show_box="false" visible="true">
+					<entity name="Prism34" aab="0 0 0 0 0 0" blend="average" mesh="display_Prism34.mesh" priority="0" shadow="false true" visible="true"/>
+				</node>
+				<node name="Prism37_node" orientation="0 0 1 -7.54979e-008" position="0 -1.37398 0" priority="0" scale="1 1 1" show_box="false" visible="true">
+					<entity name="Prism37" aab="0 0 0 0 0 0" blend="average" mesh="display_Prism37.mesh" priority="0" shadow="false true" visible="true"/>
+				</node>
+				<entity name="Box49" aab="0 0 0 0 0 0" blend="average" mesh="display_Box49.mesh" priority="0" shadow="false true" visible="true"/>
+			</node>
+			<node name="Box50_node" orientation="0 0 1 4.37114e-008" position="18.0832 -6.32159 1.16" priority="0" scale="0.840517 0.840517 1" show_box="false" visible="true">
+				<node name="Prism35_node" orientation="0 0 3.55271e-015 1" position="0 1.37398 0" priority="0" scale="1 1 1" show_box="false" visible="true">
+					<entity name="Prism35" aab="0 0 0 0 0 0" blend="average" mesh="display_Prism35.mesh" priority="0" shadow="false true" visible="true"/>
+				</node>
+				<node name="Prism36_node" orientation="0 0 1 -7.54979e-008" position="0.000459671 -1.37398 0" priority="0" scale="1 1 1" show_box="false" visible="true">
+					<entity name="Prism36" aab="0 0 0 0 0 0" blend="average" mesh="display_Prism36.mesh" priority="0" shadow="false true" visible="true"/>
+				</node>
+				<entity name="Box50" aab="0 0 0 0 0 0" blend="average" mesh="display_Box50.mesh" priority="0" shadow="false true" visible="true"/>
+			</node>
+			<node name="Box52_node" orientation="0 0 -0.707107 0.707107" position="13.1376 -2.40863 1.16" priority="0" scale="0.840517 0.840517 1" show_box="false" visible="true">
+				<node name="Prism39_node" orientation="0 0 1.77636e-015 1" position="-0.000137568 1.37398 0" priority="0" scale="1 1 1" show_box="false" visible="true">
+					<entity name="Prism39" aab="0 0 0 0 0 0" blend="average" mesh="display_Prism39.mesh" priority="0" shadow="false true" visible="true"/>
+				</node>
+				<node name="Prism40_node" orientation="0 0 1 -7.54979e-008" position="0 -1.37416 0" priority="0" scale="1 1 1" show_box="false" visible="true">
+					<entity name="Prism40" aab="0 0 0 0 0 0" blend="average" mesh="display_Prism40.mesh" priority="0" shadow="false true" visible="true"/>
+				</node>
+				<entity name="Box52" aab="0 0 0 0 0 0" blend="average" mesh="display_Box52.mesh" priority="0" shadow="false true" visible="true"/>
+			</node>
+			<node name="Box53_node" orientation="0 0 1 4.37114e-008" position="11.8352 -3.70677 1.16" priority="0" scale="0.840517 0.840517 1" show_box="false" visible="true">
+				<node name="Prism41_node" orientation="0 0 1 -7.54979e-008" position="0 -1.37398 0" priority="0" scale="1 1 1" show_box="false" visible="true">
+					<entity name="Prism41" aab="0 0 0 0 0 0" blend="average" mesh="display_Prism41.mesh" priority="0" shadow="false true" visible="true"/>
+				</node>
+				<node name="Prism42_node" orientation="0 0 3.55271e-015 1" position="-9.53674e-007 1.37398 0" priority="0" scale="1 1 1" show_box="false" visible="true">
+					<entity name="Prism42" aab="0 0 0 0 0 0" blend="average" mesh="display_Prism42.mesh" priority="0" shadow="false true" visible="true"/>
+				</node>
+				<entity name="Box53" aab="0 0 0 0 0 0" blend="average" mesh="display_Box53.mesh" priority="0" shadow="false true" visible="true"/>
+			</node>
+			<node name="Box54_node" orientation="0 0 1 4.37114e-008" position="11.8352 -6.32159 1.16" priority="0" scale="0.840517 0.840517 1" show_box="false" visible="true">
+				<node name="Prism43_node" orientation="0 0 1 -7.54979e-008" position="0 -1.37398 0" priority="0" scale="1 1 1" show_box="false" visible="true">
+					<entity name="Prism43" aab="0 0 0 0 0 0" blend="average" mesh="display_Prism43.mesh" priority="0" shadow="false true" visible="true"/>
+				</node>
+				<node name="Prism44_node" orientation="0 0 3.55271e-015 1" position="0 1.37398 0" priority="0" scale="1 1 1" show_box="false" visible="true">
+					<entity name="Prism44" aab="0 0 0 0 0 0" blend="average" mesh="display_Prism44.mesh" priority="0" shadow="false true" visible="true"/>
+				</node>
+				<entity name="Box54" aab="0 0 0 0 0 0" blend="average" mesh="display_Box54.mesh" priority="0" shadow="false true" visible="true"/>
+			</node>
+			<node name="Box55_node" orientation="0 0 -0.707107 0.707107" position="13.1376 -7.62439 1.16" priority="0" scale="0.840517 0.840517 1" show_box="false" visible="true">
+				<node name="Prism45_node" orientation="0 0 1 -7.54979e-008" position="0 -1.37416 0" priority="0" scale="1 1 1" show_box="false" visible="true">
+					<entity name="Prism45" aab="0 0 0 0 0 0" blend="average" mesh="display_Prism45.mesh" priority="0" shadow="false true" visible="true"/>
+				</node>
+				<node name="Prism46_node" orientation="0 0 1.77636e-015 1" position="-0.000137329 1.37398 0" priority="0" scale="1 1 1" show_box="false" visible="true">
+					<entity name="Prism46" aab="0 0 0 0 0 0" blend="average" mesh="display_Prism46.mesh" priority="0" shadow="false true" visible="true"/>
+				</node>
+				<entity name="Box55" aab="0 0 0 0 0 0" blend="average" mesh="display_Box55.mesh" priority="0" shadow="false true" visible="true"/>
+			</node>
+			<node name="Box56_node" orientation="0 0 1 4.37114e-008" position="14.4395 -6.32159 1.16" priority="0" scale="0.840517 0.840517 1" show_box="false" visible="true">
+				<node name="Prism47_node" orientation="0 0 3.55271e-015 1" position="0 1.37398 0" priority="0" scale="1 1 1" show_box="false" visible="true">
+					<entity name="Prism47" aab="0 0 0 0 0 0" blend="average" mesh="display_Prism47.mesh" priority="0" shadow="false true" visible="true"/>
+				</node>
+				<node name="Prism48_node" orientation="0 0 1 -7.54979e-008" position="0.000459671 -1.37398 0" priority="0" scale="1 1 1" show_box="false" visible="true">
+					<entity name="Prism48" aab="0 0 0 0 0 0" blend="average" mesh="display_Prism48.mesh" priority="0" shadow="false true" visible="true"/>
+				</node>
+				<entity name="Box56" aab="0 0 0 0 0 0" blend="average" mesh="display_Box56.mesh" priority="0" shadow="false true" visible="true"/>
+			</node>
+		</node>
+	</nodes>
+</scene>
