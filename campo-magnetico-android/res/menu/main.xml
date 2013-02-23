@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    
+	<item android:id="@+id/boton_01"
+          android:icon="@android:drawable/ic_menu_help"
+          android:title="@string/boton_01" />    
+          
+	<item android:id="@+id/boton_02"
+          android:icon="@android:drawable/ic_menu_help"
+          android:title="@string/boton_02" />
+	
+	<item android:id="@+id/boton_04"
+          android:icon="@android:drawable/ic_menu_help"
+          android:title="@string/boton_04" />
+		
+	<item android:id="@+id/boton_vectores"
+          android:icon="@android:drawable/ic_menu_help"
+          android:title="@string/boton_vectores" />
+	
+	<item android:id="@+id/boton_ecuaciones"
+          android:icon="@android:drawable/ic_menu_help"
+          android:title="@string/boton_ecuaciones" />
+
+</menu>

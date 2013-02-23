@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Campo</string>
+    
+    <string name="boton_01">Recto inf</string>
+    <string name="boton_02">Toroide</string>
+    <string name="boton_04">Espira</string>
+    <string name="boton_vectores">Lineas</string>
+	<string name="boton_ecuaciones">Ecuaciones</string>
+
+    <string name="alert_unzip_error">An error ocurred. Application will exit.</string>
+    <string name="alert_unzip_error_exit">Exit</string>
+    
+</resources>
