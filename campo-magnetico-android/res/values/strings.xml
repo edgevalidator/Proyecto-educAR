@@ -4,8 +4,8 @@
     <string name="app_name">Campo</string>
     
     <string name="boton_01">Recto inf</string>
-    <string name="boton_02">Toroide</string>
-    <string name="boton_04">Espira</string>
+    <string name="boton_02">Espira</string>
+    <string name="boton_04">Toroide</string>
     <string name="boton_vectores">Lineas</string>
 	<string name="boton_ecuaciones">Ecuaciones</string>
 

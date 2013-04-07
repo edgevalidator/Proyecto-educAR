@@ -1,4 +1,4 @@
-<dfusion version="3.25.24177">
+<dfusion version="3.26.25708">
     <configurations>
         <configuration name="@Home|All Platforms" encryption="none" />
         <configuration name="@Home|windows" active="true" encryption="none" />
@@ -775,8 +775,20 @@
             <file relativePath=".\tablero\llave_Fuerzas\llave_Fuerzas_Text01.mesh" />
             <file relativePath=".\tablero\llave_Fuerzas\llave_Fuerzas_Text15.mesh" />
             <file relativePath=".\tablero\llave_Fuerzas\llave_Fuerzas_Text16.mesh" />
+            <file relativePath=".\tablero\llave_Fuerzas\llave_Fuerzas_Tube07.mesh">
+                <configuration name="mobile|All Platforms" excludeFromBuild="true" />
+            </file>
             <file relativePath=".\tablero\llave_Fuerzas\llave_Fuerzas_llave_FuerzasI.mesh" />
             <file relativePath=".\tablero\llave_Fuerzas\llave_Fuerzas_llave_FuerzasO.mesh" />
+            <file relativePath=".\tablero\llave_Fuerzas\llave_Fuerzas_luz_04_off.mesh">
+                <configuration name="mobile|All Platforms" excludeFromBuild="true" />
+            </file>
+            <file relativePath=".\tablero\llave_Fuerzas\llave_Fuerzas_luz_04_on.mesh">
+                <configuration name="mobile|All Platforms" excludeFromBuild="true" />
+            </file>
+            <file relativePath=".\tablero\llave_Fuerzas\verde2.png">
+                <configuration name="mobile|All Platforms" excludeFromBuild="true" />
+            </file>
             <file relativePath=".\tablero\llave_Momento\blanco.png" />
             <file relativePath=".\tablero\llave_Momento\gris.png" />
             <file relativePath=".\tablero\llave_Momento\gris_oscuro.png" />
@@ -789,8 +801,20 @@
             <file relativePath=".\tablero\llave_Momento\llave_Momento_Text03.mesh" />
             <file relativePath=".\tablero\llave_Momento\llave_Momento_Text17.mesh" />
             <file relativePath=".\tablero\llave_Momento\llave_Momento_Text18.mesh" />
+            <file relativePath=".\tablero\llave_Momento\llave_Momento_Tube06.mesh">
+                <configuration name="mobile|All Platforms" excludeFromBuild="true" />
+            </file>
             <file relativePath=".\tablero\llave_Momento\llave_Momento_llave_MomentoI.mesh" />
             <file relativePath=".\tablero\llave_Momento\llave_Momento_llave_MomentoO.mesh" />
+            <file relativePath=".\tablero\llave_Momento\llave_Momento_luz_03_off.mesh">
+                <configuration name="mobile|All Platforms" excludeFromBuild="true" />
+            </file>
+            <file relativePath=".\tablero\llave_Momento\llave_Momento_luz_03_on.mesh">
+                <configuration name="mobile|All Platforms" excludeFromBuild="true" />
+            </file>
+            <file relativePath=".\tablero\llave_Momento\verde2.png">
+                <configuration name="mobile|All Platforms" excludeFromBuild="true" />
+            </file>
             <file relativePath=".\tablero\llave_Torque\blanco.png" />
             <file relativePath=".\tablero\llave_Torque\gris.png" />
             <file relativePath=".\tablero\llave_Torque\gris_oscuro.png" />
@@ -803,10 +827,25 @@
             <file relativePath=".\tablero\llave_Torque\llave_Torque_Text02.mesh" />
             <file relativePath=".\tablero\llave_Torque\llave_Torque_Text23.mesh" />
             <file relativePath=".\tablero\llave_Torque\llave_Torque_Text24.mesh" />
+            <file relativePath=".\tablero\llave_Torque\llave_Torque_Tube05.mesh">
+                <configuration name="mobile|All Platforms" excludeFromBuild="true" />
+            </file>
             <file relativePath=".\tablero\llave_Torque\llave_Torque_llave_TorqueI.mesh" />
             <file relativePath=".\tablero\llave_Torque\llave_Torque_llave_TorqueO.mesh" />
+            <file relativePath=".\tablero\llave_Torque\llave_Torque_luz_02_off.mesh">
+                <configuration name="mobile|All Platforms" excludeFromBuild="true" />
+            </file>
+            <file relativePath=".\tablero\llave_Torque\llave_Torque_luz_02_on.mesh">
+                <configuration name="mobile|All Platforms" excludeFromBuild="true" />
+            </file>
+            <file relativePath=".\tablero\llave_Torque\verde2.png">
+                <configuration name="mobile|All Platforms" excludeFromBuild="true" />
+            </file>
             <file relativePath=".\tablero\llave_Vectores\blanco.png" />
             <file relativePath=".\tablero\llave_Vectores\gris.png" />
+            <file relativePath=".\tablero\llave_Vectores\gris_oscuro.png">
+                <configuration name="mobile|All Platforms" excludeFromBuild="true" />
+            </file>
             <file relativePath=".\tablero\llave_Vectores\llave_Vectores.material" />
             <file relativePath=".\tablero\llave_Vectores\llave_Vectores.scene" />
             <file relativePath=".\tablero\llave_Vectores\llave_Vectores_Box25.mesh" />
@@ -816,9 +855,21 @@
             <file relativePath=".\tablero\llave_Vectores\llave_Vectores_Text13.mesh" />
             <file relativePath=".\tablero\llave_Vectores\llave_Vectores_Text14.mesh" />
             <file relativePath=".\tablero\llave_Vectores\llave_Vectores_Text25.mesh" />
+            <file relativePath=".\tablero\llave_Vectores\llave_Vectores_Tube04.mesh">
+                <configuration name="mobile|All Platforms" excludeFromBuild="true" />
+            </file>
             <file relativePath=".\tablero\llave_Vectores\llave_Vectores_llave_VectoresI.mesh" />
             <file relativePath=".\tablero\llave_Vectores\llave_Vectores_llave_VectoresO.mesh" />
+            <file relativePath=".\tablero\llave_Vectores\llave_Vectores_luz_01_off.mesh">
+                <configuration name="mobile|All Platforms" excludeFromBuild="true" />
+            </file>
+            <file relativePath=".\tablero\llave_Vectores\llave_Vectores_luz_01_on.mesh">
+                <configuration name="mobile|All Platforms" excludeFromBuild="true" />
+            </file>
             <file relativePath=".\tablero\llave_Vectores\rojo.png" />
+            <file relativePath=".\tablero\llave_Vectores\verde2.png">
+                <configuration name="mobile|All Platforms" excludeFromBuild="true" />
+            </file>
             <file relativePath=".\tablero\llave_Velocidad\blanco.png" />
             <file relativePath=".\tablero\llave_Velocidad\gris.png" />
             <file relativePath=".\tablero\llave_Velocidad\gris_oscuro.png" />
@@ -831,8 +882,20 @@
             <file relativePath=".\tablero\llave_Velocidad\llave_Velocidad_Text07.mesh" />
             <file relativePath=".\tablero\llave_Velocidad\llave_Velocidad_Text19.mesh" />
             <file relativePath=".\tablero\llave_Velocidad\llave_Velocidad_Text20.mesh" />
+            <file relativePath=".\tablero\llave_Velocidad\llave_Velocidad_Tube11.mesh">
+                <configuration name="mobile|All Platforms" excludeFromBuild="true" />
+            </file>
             <file relativePath=".\tablero\llave_Velocidad\llave_Velocidad_llave_VelocidadI.mesh" />
             <file relativePath=".\tablero\llave_Velocidad\llave_Velocidad_llave_VelocidadO.mesh" />
+            <file relativePath=".\tablero\llave_Velocidad\llave_Velocidad_luz_05_off.mesh">
+                <configuration name="mobile|All Platforms" excludeFromBuild="true" />
+            </file>
+            <file relativePath=".\tablero\llave_Velocidad\llave_Velocidad_luz_05_on.mesh">
+                <configuration name="mobile|All Platforms" excludeFromBuild="true" />
+            </file>
+            <file relativePath=".\tablero\llave_Velocidad\verde2.png">
+                <configuration name="mobile|All Platforms" excludeFromBuild="true" />
+            </file>
             <file relativePath=".\tablero\tablero\blanco.png" />
             <file relativePath=".\tablero\tablero\gris.png" />
             <file relativePath=".\tablero\tablero\gris_oscuro.png" />
@@ -1657,9 +1720,13 @@
         <file relativePath="tablero/llave_Fuerzas/llave_Fuerzas_Box24.mesh" />
         <file relativePath="tablero/llave_Fuerzas/llave_Fuerzas_llave_FuerzasI.mesh" />
         <file relativePath="tablero/llave_Fuerzas/llave_Fuerzas_llave_FuerzasO.mesh" />
+        <file relativePath="tablero/llave_Fuerzas/llave_Fuerzas_luz_04_off.mesh" />
+        <file relativePath="tablero/llave_Fuerzas/llave_Fuerzas_luz_04_on.mesh" />
         <file relativePath="tablero/llave_Fuerzas/llave_Fuerzas_Text01.mesh" />
         <file relativePath="tablero/llave_Fuerzas/llave_Fuerzas_Text15.mesh" />
         <file relativePath="tablero/llave_Fuerzas/llave_Fuerzas_Text16.mesh" />
+        <file relativePath="tablero/llave_Fuerzas/llave_Fuerzas_Tube07.mesh" />
+        <file relativePath="tablero/llave_Fuerzas/verde2.png" />
         <file relativePath="tablero/llave_Momento/blanco.png" />
         <file relativePath="tablero/llave_Momento/gris.png" />
         <file relativePath="tablero/llave_Momento/gris_oscuro.png" />
@@ -1671,9 +1738,13 @@
         <file relativePath="tablero/llave_Momento/llave_Momento_Box16.mesh" />
         <file relativePath="tablero/llave_Momento/llave_Momento_llave_MomentoI.mesh" />
         <file relativePath="tablero/llave_Momento/llave_Momento_llave_MomentoO.mesh" />
+        <file relativePath="tablero/llave_Momento/llave_Momento_luz_03_off.mesh" />
+        <file relativePath="tablero/llave_Momento/llave_Momento_luz_03_on.mesh" />
         <file relativePath="tablero/llave_Momento/llave_Momento_Text03.mesh" />
         <file relativePath="tablero/llave_Momento/llave_Momento_Text17.mesh" />
         <file relativePath="tablero/llave_Momento/llave_Momento_Text18.mesh" />
+        <file relativePath="tablero/llave_Momento/llave_Momento_Tube06.mesh" />
+        <file relativePath="tablero/llave_Momento/verde2.png" />
         <file relativePath="tablero/llave_Torque/blanco.png" />
         <file relativePath="tablero/llave_Torque/gris.png" />
         <file relativePath="tablero/llave_Torque/gris_oscuro.png" />
@@ -1685,11 +1756,16 @@
         <file relativePath="tablero/llave_Torque/llave_Torque_Box20.mesh" />
         <file relativePath="tablero/llave_Torque/llave_Torque_llave_TorqueI.mesh" />
         <file relativePath="tablero/llave_Torque/llave_Torque_llave_TorqueO.mesh" />
+        <file relativePath="tablero/llave_Torque/llave_Torque_luz_02_off.mesh" />
+        <file relativePath="tablero/llave_Torque/llave_Torque_luz_02_on.mesh" />
         <file relativePath="tablero/llave_Torque/llave_Torque_Text02.mesh" />
         <file relativePath="tablero/llave_Torque/llave_Torque_Text23.mesh" />
         <file relativePath="tablero/llave_Torque/llave_Torque_Text24.mesh" />
+        <file relativePath="tablero/llave_Torque/llave_Torque_Tube05.mesh" />
+        <file relativePath="tablero/llave_Torque/verde2.png" />
         <file relativePath="tablero/llave_Vectores/blanco.png" />
         <file relativePath="tablero/llave_Vectores/gris.png" />
+        <file relativePath="tablero/llave_Vectores/gris_oscuro.png" />
         <file relativePath="tablero/llave_Vectores/llave_Vectores.material" />
         <file relativePath="tablero/llave_Vectores/llave_Vectores.scene" />
         <file relativePath="tablero/llave_Vectores/llave_Vectores_Box25.mesh" />
@@ -1698,10 +1774,14 @@
         <file relativePath="tablero/llave_Vectores/llave_Vectores_Box28.mesh" />
         <file relativePath="tablero/llave_Vectores/llave_Vectores_llave_VectoresI.mesh" />
         <file relativePath="tablero/llave_Vectores/llave_Vectores_llave_VectoresO.mesh" />
+        <file relativePath="tablero/llave_Vectores/llave_Vectores_luz_01_off.mesh" />
+        <file relativePath="tablero/llave_Vectores/llave_Vectores_luz_01_on.mesh" />
         <file relativePath="tablero/llave_Vectores/llave_Vectores_Text13.mesh" />
         <file relativePath="tablero/llave_Vectores/llave_Vectores_Text14.mesh" />
         <file relativePath="tablero/llave_Vectores/llave_Vectores_Text25.mesh" />
+        <file relativePath="tablero/llave_Vectores/llave_Vectores_Tube04.mesh" />
         <file relativePath="tablero/llave_Vectores/rojo.png" />
+        <file relativePath="tablero/llave_Vectores/verde2.png" />
         <file relativePath="tablero/llave_Velocidad/blanco.png" />
         <file relativePath="tablero/llave_Velocidad/gris.png" />
         <file relativePath="tablero/llave_Velocidad/gris_oscuro.png" />
@@ -1713,9 +1793,13 @@
         <file relativePath="tablero/llave_Velocidad/llave_Velocidad_Box12.mesh" />
         <file relativePath="tablero/llave_Velocidad/llave_Velocidad_llave_VelocidadI.mesh" />
         <file relativePath="tablero/llave_Velocidad/llave_Velocidad_llave_VelocidadO.mesh" />
+        <file relativePath="tablero/llave_Velocidad/llave_Velocidad_luz_05_off.mesh" />
+        <file relativePath="tablero/llave_Velocidad/llave_Velocidad_luz_05_on.mesh" />
         <file relativePath="tablero/llave_Velocidad/llave_Velocidad_Text07.mesh" />
         <file relativePath="tablero/llave_Velocidad/llave_Velocidad_Text19.mesh" />
         <file relativePath="tablero/llave_Velocidad/llave_Velocidad_Text20.mesh" />
+        <file relativePath="tablero/llave_Velocidad/llave_Velocidad_Tube11.mesh" />
+        <file relativePath="tablero/llave_Velocidad/verde2.png" />
         <file relativePath="tablero/tablero/blanco.png" />
         <file relativePath="tablero/tablero/gris.png" />
         <file relativePath="tablero/tablero/gris_oscuro.png" />

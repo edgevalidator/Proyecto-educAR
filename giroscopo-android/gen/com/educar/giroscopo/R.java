@@ -11,32 +11,45 @@ public final class R {
     public static final class attr {
     }
     public static final class drawable {
-        public static final int ic_launcher=0x7f020000;
+        public static final int equation=0x7f020000;
+        public static final int giroscopo=0x7f020001;
+        public static final int giroscopo_45=0x7f020002;
+        public static final int giroscopo_90=0x7f020003;
+        public static final int ic_launcher=0x7f020004;
+        public static final int launcher=0x7f020005;
+        public static final int next=0x7f020006;
+        public static final int notas=0x7f020007;
+        public static final int playpause=0x7f020008;
+        public static final int playpause_ldpi=0x7f020009;
+        public static final int previous=0x7f02000a;
+        public static final int vector=0x7f02000b;
     }
     public static final class id {
         public static final int boton_01=0x7f050000;
         public static final int boton_02=0x7f050001;
         public static final int boton_04=0x7f050002;
-        public static final int boton_animaciones=0x7f050005;
-        public static final int boton_direccion=0x7f050006;
+        public static final int boton_animaciones=0x7f050006;
+        public static final int boton_direccion=0x7f050007;
+        public static final int boton_ecuaciones=0x7f050005;
         public static final int boton_notas=0x7f050003;
-        public static final int boton_precesion=0x7f050007;
+        public static final int boton_precesion=0x7f050008;
         public static final int boton_vectores=0x7f050004;
     }
     public static final class menu {
         public static final int main=0x7f040000;
     }
     public static final class string {
-        public static final int alert_unzip_error=0x7f030009;
-        public static final int alert_unzip_error_exit=0x7f03000a;
+        public static final int alert_unzip_error=0x7f03000a;
+        public static final int alert_unzip_error_exit=0x7f03000b;
         public static final int app_name=0x7f030000;
         public static final int boton_01=0x7f030001;
         public static final int boton_02=0x7f030002;
         public static final int boton_04=0x7f030003;
-        public static final int boton_animaciones=0x7f030006;
-        public static final int boton_direccion=0x7f030007;
+        public static final int boton_animaciones=0x7f030007;
+        public static final int boton_direccion=0x7f030008;
+        public static final int boton_ecuaciones=0x7f030006;
         public static final int boton_notas=0x7f030004;
-        public static final int boton_precesion=0x7f030008;
+        public static final int boton_precesion=0x7f030009;
         public static final int boton_vectores=0x7f030005;
     }
 }

@@ -1,14 +1,12 @@
-<dfusion version="3.25.24177">
+<dfusion version="3.26.25708">
     <configurations>
         <configuration name="@Home|All Platforms" exportFolder="" />
-        <configuration name="@Home|windows" exportFolder="" />
+        <configuration name="@Home|windows" exportFolder="C:\Users\Matias Cuadrado\Desktop\exp giroscopo desktop" />
         <configuration name="mobile|All Platforms" exportFolder="" />
-        <configuration name="mobile|android" exportFolder="C:\Users\duter\Desktop\export_1" />
+        <configuration name="mobile|android" exportFolder="C:\Users\Matias Cuadrado\Desktop\exportados giroscopo 06-04-13" />
     </configurations>
     <LuaEditor>
-        <files>
-            <file absolutePath="C:\Users\duter\Documents\GitHub\Proyecto-educAR\giroscopo-dfusion\giroscopo.lua" />
-        </files>
+        <files />
         <watch />
     </LuaEditor>
     <macros />

@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <string name="app_name">Giroscopo</string>
+    <string name="app_name">Giróscopo</string>
     
-    <string name="boton_01">Giroscopo</string>
-    <string name="boton_02">Giroscopo 30</string>
-    <string name="boton_04">Giroscopo 90</string>
+    <string name="boton_01">Giróscopo</string>
+    <string name="boton_02">Giróscopo 30</string>
+    <string name="boton_04">Giróscopo 90</string>
     <string name="boton_notas">Notas</string>
     <string name="boton_vectores">Vectores</string>
-    <string name="boton_animaciones">Anmacion</string>
-    <string name="boton_direccion">Direccion</string>
-    <string name="boton_precesion">Precesion</string>
+    <string name="boton_ecuaciones">Ecuaciones</string>
+    <string name="boton_animaciones">Anmación</string>
+    <string name="boton_direccion">Dirección</string>
+    <string name="boton_precesion">Precesión</string>
 
     <string name="alert_unzip_error">An error ocurred. Application will exit.</string>
     <string name="alert_unzip_error_exit">Exit</string>

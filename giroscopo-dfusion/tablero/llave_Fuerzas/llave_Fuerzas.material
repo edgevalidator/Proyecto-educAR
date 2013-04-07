@@ -55,3 +55,24 @@ material llave_Fuerzas/Material31
 		}
 	}
 }
+material llave_Fuerzas/Material32
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.588 0.588 0.588
+			diffuse 0.588 0.588 0.588 0.8
+			specular 0 0 0 12.8
+			emissive 0 0 0
+			scene_blend alpha_blend
+			depth_write off
+
+
+			texture_unit
+			{
+				texture verde2.png
+			}
+		}
+	}
+}

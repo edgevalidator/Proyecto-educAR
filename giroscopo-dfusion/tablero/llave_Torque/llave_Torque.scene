@@ -1,5 +1,5 @@
 <scene version="0.2">
-	<info source="C:\Users\Matias Cuadrado\Dropbox\Proyecto\modelos 3ds max\2012\tablero.max" profile="public" shared_geometry="false" build_edges="false" build_tangents="false" exporter="Exporter 3DSMax3.25.24177"/>
+	<info source="C:\Users\Matias Cuadrado\Desktop\tablero.max" profile="public" shared_geometry="false" build_edges="false" build_tangents="false" exporter="Exporter 3DSMax3.25.24177"/>
 	<settings>
 		<environment ambient="0 0 0" background="0 0 0" camera=""/>
 		<shadow color="0 0 0" distance="10000" self="false" setup="uniform" size="1024 1" technique="none"/>
@@ -7,6 +7,10 @@
 	<animations>
 		<animation name="Timeline" loop="false" length="-1" priority="0">
 			<bind target="llave_TorqueO_node" attribute="orientation" track="llave_TorqueO_node_Timeline_orientationTrack" loop="false" mode="absolute" reset="true" short="true" weight="1"/>
+			<bind target="luz_02_on_node" attribute="position" track="luz_02_on_node_Timeline_positionTrack" loop="false" mode="absolute" reset="true" weight="1"/>
+			<bind target="luz_02_on_node" attribute="orientation" track="luz_02_on_node_Timeline_orientationTrack" loop="false" mode="absolute" reset="true" short="true" weight="1"/>
+			<bind target="luz_02_off_node" attribute="position" track="luz_02_off_node_Timeline_positionTrack" loop="false" mode="absolute" reset="true" weight="1"/>
+			<bind target="luz_02_off_node" attribute="orientation" track="luz_02_off_node_Timeline_orientationTrack" loop="false" mode="absolute" reset="true" short="true" weight="1"/>
 		</animation>
 	</animations>
 	<tracks>
@@ -43,6 +47,54 @@
 			<key time="0.966667" value="0.00166776 0 0 0.999999"/>
 			<key time="1" value="0 0 0 1"/>
 		</track>
+		<track name="luz_02_off_node_Timeline_orientationTrack">
+			<key time="0" value="0 0 0 1"/>
+			<key time="1" value="0 0 0 1"/>
+		</track>
+		<track name="luz_02_off_node_Timeline_positionTrack">
+			<key time="0" value="1.90735e-006 9.53674e-007 -0.0498968"/>
+			<key time="0.433333" value="1.90735e-006 9.53674e-007 -0.0498968"/>
+			<key time="0.5" value="1.90735e-006 9.53674e-007 -0.149897"/>
+			<key time="0.566667" value="1.90735e-006 9.53674e-007 -0.0498968"/>
+			<key time="1" value="1.90735e-006 9.53674e-007 -0.0498968"/>
+		</track>
+		<track name="luz_02_on_node_Timeline_orientationTrack">
+			<key time="0" value="0 0 0 1"/>
+			<key time="1" value="0 0 0 1"/>
+		</track>
+		<track name="luz_02_on_node_Timeline_positionTrack">
+			<key time="0" value="1.90735e-006 9.53674e-007 -0.0599053"/>
+			<key time="0.0333333" value="1.90735e-006 9.53674e-007 -0.0597782"/>
+			<key time="0.0666667" value="1.90735e-006 9.53674e-007 -0.0594205"/>
+			<key time="0.1" value="1.90735e-006 9.53674e-007 -0.0588676"/>
+			<key time="0.133333" value="1.90735e-006 9.53674e-007 -0.0581551"/>
+			<key time="0.166667" value="1.90735e-006 9.53674e-007 -0.0573184"/>
+			<key time="0.2" value="1.90735e-006 9.53674e-007 -0.056393"/>
+			<key time="0.233333" value="1.90735e-006 9.53674e-007 -0.0554144"/>
+			<key time="0.266667" value="1.90735e-006 9.53674e-007 -0.0544182"/>
+			<key time="0.3" value="1.90735e-006 9.53674e-007 -0.0534396"/>
+			<key time="0.333333" value="1.90735e-006 9.53674e-007 -0.0525142"/>
+			<key time="0.366667" value="1.90735e-006 9.53674e-007 -0.0516775"/>
+			<key time="0.4" value="1.90735e-006 9.53674e-007 -0.050965"/>
+			<key time="0.433333" value="1.90735e-006 9.53674e-007 -0.0504122"/>
+			<key time="0.466667" value="1.90735e-006 9.53674e-007 -0.0500544"/>
+			<key time="0.5" value="1.90735e-006 9.53674e-007 -0.0499272"/>
+			<key time="0.533333" value="1.90735e-006 9.53674e-007 -0.0500544"/>
+			<key time="0.566667" value="1.90735e-006 9.53674e-007 -0.0504122"/>
+			<key time="0.6" value="1.90735e-006 9.53674e-007 -0.050965"/>
+			<key time="0.633333" value="1.90735e-006 9.53674e-007 -0.0516775"/>
+			<key time="0.666667" value="1.90735e-006 9.53674e-007 -0.0525142"/>
+			<key time="0.7" value="1.90735e-006 9.53674e-007 -0.0534396"/>
+			<key time="0.733333" value="1.90735e-006 9.53674e-007 -0.0544182"/>
+			<key time="0.766667" value="1.90735e-006 9.53674e-007 -0.0554144"/>
+			<key time="0.8" value="1.90735e-006 9.53674e-007 -0.056393"/>
+			<key time="0.833333" value="1.90735e-006 9.53674e-007 -0.0573184"/>
+			<key time="0.866667" value="1.90735e-006 9.53674e-007 -0.0581551"/>
+			<key time="0.9" value="1.90735e-006 9.53674e-007 -0.0588676"/>
+			<key time="0.933333" value="1.90735e-006 9.53674e-007 -0.0594205"/>
+			<key time="0.966667" value="1.90735e-006 9.53674e-007 -0.0597782"/>
+			<key time="1" value="1.90735e-006 9.53674e-007 -0.0599053"/>
+		</track>
 	</tracks>
 	<nodes>
 		<node name="fixUp" orientation="-0.707107 0 0 0.707107" position="0 0 0" priority="0" scale="1 1 1" show_box="false" visible="true">
@@ -60,6 +112,15 @@
 					<entity name="Box20" aab="0 0 0 0 0 0" blend="average" mesh="llave_Torque_Box20.mesh" priority="0" shadow="false true" visible="true"/>
 				</node>
 				<entity name="Text02" aab="0 0 0 0 0 0" blend="average" mesh="llave_Torque_Text02.mesh" priority="0" shadow="false true" visible="true"/>
+			</node>
+			<node name="Tube05_node" orientation="0 0 0 1" position="15 10.8 1.03597" priority="0" scale="0.720981 0.720981 0.720981" show_box="false" visible="true">
+				<node name="luz_02_off_node" orientation="0 0 0 1" position="0 0 -0.0498968" priority="0" scale="1 1 1" show_box="false" visible="true">
+					<entity name="luz_02_off" aab="0 0 0 0 0 0" blend="average" mesh="llave_Torque_luz_02_off.mesh" priority="0" shadow="false true" visible="true"/>
+				</node>
+				<node name="luz_02_on_node" orientation="0 0 0 1" position="0 0 -0.0599053" priority="0" scale="1 1 1" show_box="false" visible="true">
+					<entity name="luz_02_on" aab="0 0 0 0 0 0" blend="average" mesh="llave_Torque_luz_02_on.mesh" priority="0" shadow="false true" visible="true"/>
+				</node>
+				<entity name="Tube05" aab="0 0 0 0 0 0" blend="average" mesh="llave_Torque_Tube05.mesh" priority="0" shadow="false true" visible="true"/>
 			</node>
 			<node name="llave_TorqueO_node" orientation="0 0 0 1" position="15 14 1" priority="0" scale="0.596214 0.596214 0.596214" show_box="false" visible="true">
 				<node name="Text24_node" orientation="0 0 0 1" position="0 2.68387 0.5" priority="0" scale="1 1 1" show_box="false" visible="true">

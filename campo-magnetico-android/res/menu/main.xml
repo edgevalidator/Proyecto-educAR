@@ -2,23 +2,23 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android" >
     
 	<item android:id="@+id/boton_01"
-          android:icon="@android:drawable/ic_menu_help"
+          android:icon="@drawable/linea"
           android:title="@string/boton_01" />    
           
 	<item android:id="@+id/boton_02"
-          android:icon="@android:drawable/ic_menu_help"
+          android:icon="@drawable/espira"
           android:title="@string/boton_02" />
 	
 	<item android:id="@+id/boton_04"
-          android:icon="@android:drawable/ic_menu_help"
+          android:icon="@drawable/toroide"
           android:title="@string/boton_04" />
 		
 	<item android:id="@+id/boton_vectores"
-          android:icon="@android:drawable/ic_menu_help"
+          android:icon="@drawable/vector"
           android:title="@string/boton_vectores" />
 	
 	<item android:id="@+id/boton_ecuaciones"
-          android:icon="@android:drawable/ic_menu_help"
+          android:icon="@drawable/equation"
           android:title="@string/boton_ecuaciones" />
 
 </menu>

@@ -116,6 +116,9 @@ public class EducARActivity extends Activity {
 			case R.id.boton_vectores:
 				_tiComponent.enqueueCommand("boton_vectores", params);
 				return true;
+			case R.id.boton_ecuaciones:
+				_tiComponent.enqueueCommand("boton_ecuaciones", params);
+				return true;
 			case R.id.boton_animaciones:
 				_tiComponent.enqueueCommand("boton_animaciones",params);
 				return true;

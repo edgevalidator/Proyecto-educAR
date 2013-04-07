@@ -2,35 +2,39 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android" >
     
 	<item android:id="@+id/boton_01"
-          android:icon="@android:drawable/ic_menu_help"
+          android:icon="@drawable/giroscopo"
           android:title="@string/boton_01" />    
           
 	<item android:id="@+id/boton_02"
-          android:icon="@android:drawable/ic_menu_help"
+          android:icon="@drawable/giroscopo_45"
           android:title="@string/boton_02" />
 	
 	<item android:id="@+id/boton_04"
-          android:icon="@android:drawable/ic_menu_help"
+          android:icon="@drawable/giroscopo_90"
           android:title="@string/boton_04" />
 	
 	<item android:id="@+id/boton_notas"
-          android:icon="@android:drawable/ic_menu_help"
+          android:icon="@drawable/notas"
           android:title="@string/boton_notas" />
 	
 	<item android:id="@+id/boton_vectores"
-          android:icon="@android:drawable/ic_menu_help"
+          android:icon="@drawable/vector"
           android:title="@string/boton_vectores" />
 	
+	<item android:id="@+id/boton_ecuaciones"
+          android:icon="@drawable/equation"
+          android:title="@string/boton_ecuaciones" />
+	
 	<item android:id="@+id/boton_animaciones"
-          android:icon="@android:drawable/ic_menu_help"
+          android:icon="@drawable/playpause"
           android:title="@string/boton_animaciones" />
 	
 	<item android:id="@+id/boton_direccion"
-          android:icon="@android:drawable/ic_menu_help"
+          android:icon="@drawable/previous"
           android:title="@string/boton_direccion" />
 	
 	<item android:id="@+id/boton_precesion"
-          android:icon="@android:drawable/ic_menu_help"
+          android:icon="@drawable/next"
           android:title="@string/boton_precesion" />
 
 </menu>
